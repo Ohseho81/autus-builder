@@ -46,8 +46,15 @@ function toYmd(s) {
   const m = String(s || '').match(/(\d{4})[.\-/]?(\d{2})[.\-/]?(\d{2})/);
   return m ? `${m[1]}-${m[2]}-${m[3]}` : '';
 }
+function decodeEnt(s) {
+  return String(s == null ? '' : s)
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&nbsp;/g, ' ');
+}
 function clip(s, n) {
-  s = String(s == null ? '' : s).replace(/<[^>]+>/g, '').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();
+  s = decodeEnt(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
   return s.length > n ? s.slice(0, n) + '…' : s;
 }
 function pick(o, keys) { for (const k of keys) if (o[k] != null && String(o[k]).trim() !== '') return o[k]; return ''; }
@@ -55,7 +62,7 @@ function pick(o, keys) { for (const k of keys) if (o[k] != null && String(o[k]).
 // ---------- 정규화 (K-Startup 공고 → 표준 스키마) ----------
 // 필드명은 알려진 K-Startup 표준 + 방어적 폴백. 첫 실호출 로그로 검증/보정.
 function normalize(it, i) {
-  const title   = pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'pbanc_nm', 'title']);
+  const title   = decodeEnt(pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'pbanc_nm', 'title'])).replace(/\s+/g, ' ').trim();
   const agency  = pick(it, ['pbanc_ntrp_nm', 'excutInsttNm', 'spnsr_organ_nm']) || '창업진흥원';
   const category= pick(it, ['supt_biz_clsfc', 'biz_clsfc', 'pld_clsfc']) || '창업지원';
   const target  = pick(it, ['aply_trgt_ctnt', 'aply_trgt', 'supt_trgt']);
