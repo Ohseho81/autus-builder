@@ -107,6 +107,7 @@ function normalize(it, i, src) {
     docs: ['사업계획서(PSST)', '사업자등록증(해당시)', '대표자 신분증'],
     url, status: 'open',
     note: clip(note0, 80),
+    region: clip(region, 24) || '전국',   // 지역 조건(없으면 전국=무관)
     star: c.group === 'A' || c.group === 'D',
     source: src || '공고',
     fit: fits(it),
