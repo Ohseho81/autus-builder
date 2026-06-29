@@ -1,6 +1,6 @@
 /* AUTUS Builder — Service Worker (offline + 업데이트 프롬프트) */
 /* VERSION은 배포 시 pre-commit 훅이 자동으로 갱신 → 변경 감지 트리거 */
-const VERSION = '20260629-223453';
+const VERSION = '20260629-224452';
 const CACHE = 'autus-builder-' + VERSION;
 const ASSETS = [
   './',

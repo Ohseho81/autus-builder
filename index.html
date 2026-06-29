@@ -750,6 +750,9 @@ function relevance(o, p){
   if(o.elig.hire===true && !p.hire) s -= 8;            // 고용요건: 1인이면 감점(제외X)
   if(o.deadline!=='상시'){ s += (dday(o.deadline).cls==='soon' ? 18 : 8); } // 행동가능한 dated 우선
   if(o.star) s += 6;
+  // 빌더 업종 일치 → '우리 것' 맨 위로(떨구지 않고 가산)
+  const f=(bizProfile.field||'').trim();
+  if(f.length>=2 && (o.title+' '+o.category+' '+o.note).includes(f)) s += 16;
   return Math.max(30, Math.min(99, Math.round(s)));
 }
 function scoreColor(s){ return s>=80?'var(--ok)':s>=65?'var(--brand)':'var(--ink3)'; }
