@@ -1,9 +1,9 @@
 name: Refresh grants (opps.json)
 
-# 실공고 데이터 자동 갱신: 매일 06:00 KST + 수동 실행
+# 실공고 데이터 자동 갱신: 주 1회 월요일 06:00 KST + 수동 실행
 on:
   schedule:
-    - cron: '0 21 * * *'   # UTC 21:00 = KST 06:00
+    - cron: '0 21 * * 0'   # 매주 일요일 21:00 UTC = 월요일 06:00 KST (주 1회)
   workflow_dispatch:
 
 jobs:

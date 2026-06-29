@@ -100,13 +100,22 @@ function isOpen(o) {
 
 // ---------- 실데이터 (다중소스: 같은 키로 공고 + 통합공고) ----------
 const GW = 'https://apis.data.go.kr/B552735/kisedKstartupService01';
+// 최대 coverage: 모든 페이지를 끝까지 수집(상한 30p = 6,000건 안전장치)
 async function fetchOp(op, perPage = 200) {
-  const url = `${GW}/${op}?serviceKey=${encodeURIComponent(KEY)}&page=1&perPage=${perPage}&returnType=json`;
-  const res = await fetch(url, { headers: { Accept: 'application/json' } });
-  const text = await res.text();
-  let json;
-  try { json = JSON.parse(text); } catch { throw new Error(op + ' JSON 파싱 실패: ' + text.slice(0, 140)); }
-  return json.data || json.items || [];
+  const all = [];
+  for (let page = 1; page <= 30; page++) {
+    const url = `${GW}/${op}?serviceKey=${encodeURIComponent(KEY)}&page=${page}&perPage=${perPage}&returnType=json`;
+    const res = await fetch(url, { headers: { Accept: 'application/json' } });
+    const text = await res.text();
+    let json;
+    try { json = JSON.parse(text); }
+    catch { if (page === 1) throw new Error(op + ' JSON 파싱 실패: ' + text.slice(0, 140)); break; }
+    const arr = json.data || json.items || [];
+    all.push(...arr);
+    const total = json.totalCount || json.matchCount || 0;
+    if (arr.length < perPage || (total && all.length >= total)) break;
+  }
+  return all;
 }
 async function fetchLive() {
   // 1차 소스 — 개별 지원사업 공고 (필수)
