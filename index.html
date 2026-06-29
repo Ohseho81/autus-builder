@@ -693,13 +693,11 @@ function dday(deadline){
   if(diff===0)return {txt:'D-DAY',cls:'soon'};
   return {txt:'D-'+diff,cls:diff<=30?'soon':''};
 }
-// [2] Eligibility — 자격 판정
+// [2] Eligibility — 최대 coverage: '사업 단계'만 하드 필터(명백한 불일치만 제외).
+// 연령·고용은 제외하지 않고 적합도 점수에만 반영 → 받을 수 있는 걸 놓치지 않게.
 function eligible(o,p){
-  const reasons=[];
-  const stageOk=o.elig.stage.includes(p.stage); if(!stageOk)reasons.push('사업 단계');
-  const ageOk=o.elig.age==='any'||(o.elig.age==='young'&&p.young); if(!ageOk)reasons.push('청년(만39세↓)');
-  let hireOk=true; if(o.elig.hire===true){hireOk=p.hire; if(!hireOk)reasons.push('직원 고용');}
-  return {ok:stageOk&&ageOk&&hireOk, reasons};
+  const stageOk=o.elig.stage.includes(p.stage);
+  return {ok:stageOk, reasons: stageOk?[]:['사업 단계']};
 }
 
 function renderGrants(){
@@ -729,12 +727,13 @@ function setProfile(k,v){gProfile[k]=v;oppShowAll=false;renderEligControls();ren
 
 // 적합도 점수(LLM 없이 규칙 기반): 내 단계에 특정·연령타깃·마감임박·추천일수록 ↑
 function relevance(o, p){
-  let s = 45;
+  let s = 50;
   if(o.elig.stage.includes(p.stage)) s += (3 - o.elig.stage.length) * 12; // 특정할수록↑
-  if(o.elig.age==='young' && p.young) s += 12;
+  if(o.elig.age==='young') s += (p.young ? 12 : -10);  // 청년 타깃: 일치 가산, 불일치 감점(제외X)
+  if(o.elig.hire===true && !p.hire) s -= 8;            // 고용요건: 1인이면 감점(제외X)
   if(o.deadline!=='상시'){ s += (dday(o.deadline).cls==='soon' ? 18 : 8); } // 행동가능한 dated 우선
   if(o.star) s += 6;
-  return Math.max(35, Math.min(99, Math.round(s)));
+  return Math.max(30, Math.min(99, Math.round(s)));
 }
 function scoreColor(s){ return s>=80?'var(--ok)':s>=65?'var(--brand)':'var(--ink3)'; }
 
