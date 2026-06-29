@@ -227,6 +227,10 @@
   .opp-amt{font-size:13px;font-weight:700;color:var(--ok)}
   .opp-go{font-size:11.5px;color:var(--brand);font-weight:700}
   .opp-status{font-size:11.5px;color:var(--warn);font-weight:700}
+  .opp-score{font-size:11px;font-weight:800;margin-left:auto;margin-right:8px}
+  .opp-more{display:block;width:100%;text-align:center;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px;margin-top:4px;font-size:13px;font-weight:700;color:var(--brand)}
+  .biz-in{flex:1;min-width:0;font-size:13px;padding:8px 10px;border-radius:8px;background:var(--line2);border:1px solid transparent;color:var(--ink);font-family:inherit}
+  .biz-in:focus{outline:none;border-color:var(--brand);background:var(--card)}
 
   /* 상세 시트 공통 */
   .grab{width:40px;height:4px;border-radius:3px;background:var(--line);margin:2px auto 16px}
@@ -386,6 +390,10 @@
           <div class="elig-row"><div class="elig-label">사업 단계</div><div class="elig-opts" id="elig-stage"></div></div>
           <div class="elig-row"><div class="elig-label">연령</div><div class="elig-opts" id="elig-age"></div></div>
           <div class="elig-row"><div class="elig-label">고용</div><div class="elig-opts" id="elig-hire"></div></div>
+          <div class="elig-row"><div class="elig-label">내 사업</div><div class="elig-opts" style="gap:6px">
+            <input class="biz-in" id="biz-name" placeholder="상호(선택)" oninput="setBiz('name',this.value)">
+            <input class="biz-in" id="biz-field" placeholder="업종(선택)" oninput="setBiz('field',this.value)">
+          </div></div>
         </div>
 
         <!-- ② 발굴 (Discovery) -->
@@ -584,6 +592,9 @@ const STRATEGY=[
 ];
 // 빌더 자격 프로필 (Eligibility 입력값)
 let gProfile={stage:'예비',young:true,hire:false};
+// 내 사업자 프로필 (마이데이터 대신 1회 입력 → PSST 자동채움). localStorage 영속.
+let bizProfile=(()=>{try{return JSON.parse(localStorage.getItem('autus_biz')||'{}')}catch(e){return{}}})();
+function setBiz(k,v){bizProfile[k]=(v||'').trim();localStorage.setItem('autus_biz',JSON.stringify(bizProfile));}
 // 실공고 데이터 연동 — opps.json(기업마당 자동수집) 우선, 없거나 실패 시 위 내장 샘플 사용
 let OPPS_META={source:'',updated:''};
 async function loadOpps(){
@@ -700,6 +711,8 @@ function renderGrants(){
     `<div class="lc-step ${i<3?'on':''}"><span class="lc-n">${i+1}</span><span class="lc-k">${s.k}</span><span class="lc-d">${s.d}</span></div>`
     +(i<LIFECYCLE.length-1?'<span class="lc-ar">›</span>':'')).join('');
   renderEligControls();
+  const bn=document.getElementById('biz-name'), bf=document.getElementById('biz-field');
+  if(bn) bn.value=bizProfile.name||''; if(bf) bf.value=bizProfile.field||'';
   renderOppList();
   document.getElementById('grants-strategy').innerHTML=STRATEGY.map(s=>`<div class="strat-item">${s}</div>`).join('');
   updateTrackLink();
@@ -712,31 +725,57 @@ function renderEligControls(){
   document.getElementById('elig-hire').innerHTML=[[true,'직원 있음/예정'],[false,'1인']]
     .map(h=>`<button class="echip ${gProfile.hire===h[0]?'on':''}" onclick="setProfile('hire',${h[0]})">${h[1]}</button>`).join('');
 }
-function setProfile(k,v){gProfile[k]=v;renderEligControls();renderOppList();}
+function setProfile(k,v){gProfile[k]=v;oppShowAll=false;renderEligControls();renderOppList();}
 
-// [1] Discovery — 자격 충족분만 발굴
+// 적합도 점수(LLM 없이 규칙 기반): 내 단계에 특정·연령타깃·마감임박·추천일수록 ↑
+function relevance(o, p){
+  let s = 45;
+  if(o.elig.stage.includes(p.stage)) s += (3 - o.elig.stage.length) * 12; // 특정할수록↑
+  if(o.elig.age==='young' && p.young) s += 12;
+  if(o.deadline!=='상시'){ s += (dday(o.deadline).cls==='soon' ? 18 : 8); } // 행동가능한 dated 우선
+  if(o.star) s += 6;
+  return Math.max(35, Math.min(99, Math.round(s)));
+}
+function scoreColor(s){ return s>=80?'var(--ok)':s>=65?'var(--brand)':'var(--ink3)'; }
+
+// [1] Discovery — 자격 충족분만 발굴 + 적합도순 + 상위 큐레이션
+let oppShowAll=false;
+const OPP_LIMIT=20;
 function renderOppList(){
-  const matched=OPPS.map(o=>({o,e:eligible(o,gProfile)})).filter(x=>x.e.ok);
+  const matched=OPPS.map(o=>({o,e:eligible(o,gProfile)})).filter(x=>x.e.ok)
+    .map(x=>({o:x.o, score:relevance(x.o,gProfile)}));
+  matched.sort((a,b)=> b.score-a.score
+    || (a.o.deadline==='상시'?'9999':a.o.deadline).localeCompare(b.o.deadline==='상시'?'9999':b.o.deadline));
   document.getElementById('opp-count').textContent='('+matched.length+'건)';
   const track=loadTrack();
   if(!matched.length){document.getElementById('opp-list').innerHTML='<div style="text-align:center;color:var(--ink3);padding:28px 0;font-size:13px">조건에 맞는 지원이 없어요. 자격을 바꿔보세요.</div>';return;}
-  matched.sort((a,b)=>{const da=a.o.deadline==='상시'?'9999':a.o.deadline,db=b.o.deadline==='상시'?'9999':b.o.deadline;return da<db?-1:1;});
-  document.getElementById('opp-list').innerHTML=matched.map(({o})=>{
+  const show = oppShowAll ? matched : matched.slice(0, OPP_LIMIT);
+  let html = show.map(({o,score})=>{
     const dd=dday(o.deadline); const tr=track[o.id];
     return `<button class="opp-card ${o.star?'hl':''}" onclick="openGrant('${o.id}')">
-      <div class="opp-top"><span class="gtag" style="background:${groupColor(o.group)}">${o.gtag}</span><span class="opp-dday ${dd.cls}">${dd.txt}</span></div>
+      <div class="opp-top">
+        <span class="gtag" style="background:${groupColor(o.group)}">${o.gtag}</span>
+        <span class="opp-score" style="color:${scoreColor(score)}">적합 ${score}</span>
+        <span class="opp-dday ${dd.cls}">${dd.txt}</span></div>
       <div class="opp-title">${o.title} ${o.star?'⭐':''}</div>
       <div class="opp-agency">${o.agency}</div>
       <div class="opp-foot"><span class="opp-amt">${o.amount}</span>
         ${tr?`<span class="opp-status">📌 ${tr.status}</span>`:'<span class="opp-go">자격 충족 · 서류 →</span>'}</div>
     </button>`;
   }).join('');
+  if(!oppShowAll && matched.length>OPP_LIMIT){
+    html += `<button class="opp-more" onclick="oppShowAll=true;renderOppList()">+ 전체 ${matched.length}건 보기 (적합도순)</button>`;
+  }
+  document.getElementById('opp-list').innerHTML=html;
 }
 
 // [3] Application — 상세 + PSST 서류 생성
 let curOpp=null;
 function openGrant(id){curOpp=OPPS.find(o=>o.id===id);if(!curOpp)return;renderGrantSheet();document.getElementById('grantsheet').classList.add('show');}
 function closeGrantSheet(){document.getElementById('grantsheet').classList.remove('show');}
+function loadDocChk(){try{return JSON.parse(localStorage.getItem('autus_doccheck')||'{}')}catch(e){return{}}}
+function toggleDoc(id,i){const m=loadDocChk();m[id]=m[id]||{};m[id][i]=!m[id][i];localStorage.setItem('autus_doccheck',JSON.stringify(m));renderGrantSheet();}
+function docChecklist(o){const chk=loadDocChk()[o.id]||{};return o.docs.map((d,i)=>`<div class="doc-row" onclick="toggleDoc('${o.id}',${i})"><span class="doc-ck">${chk[i]?'✅':'⬜'}</span>${d}</div>`).join('');}
 function renderGrantSheet(){
   const o=curOpp; const dd=dday(o.deadline); const tr=loadTrack()[o.id];
   document.getElementById('grant-card-body').innerHTML=`
@@ -751,11 +790,11 @@ function renderGrantSheet(){
       <div class="opp-kpi"><div class="opp-kpi-l">마감</div><div class="opp-kpi-v">${o.deadline} <span class="opp-dday ${dd.cls}">${dd.txt}</span></div></div>
     </div>
     <div class="callout2" style="margin-top:0">💡 ${o.note}</div>
-    <div class="sec-h">필요 서류</div>
-    ${o.docs.map(d=>`<div class="doc-row"><span class="doc-ck">📄</span>${d}</div>`).join('')}
+    <div class="sec-h">필요 서류 <span style="font-weight:600;color:var(--ink3);font-size:11px;text-transform:none;letter-spacing:0">· 탭하면 체크</span></div>
+    ${docChecklist(o)}
     <div id="docgen-area"><button class="btn-primary" style="margin-top:16px" onclick="genDoc()">★ AUTUS로 사업계획서(PSST) 초안 만들기</button></div>
     <div style="display:flex;gap:8px;margin-top:8px">
-      <button class="btn-ghost" style="margin-top:0;flex:1" onclick="window.open('${o.url}','_blank')">공고 보기 ↗</button>
+      <button class="btn-ghost" style="margin-top:0;flex:1" onclick="window.open('${o.url}','_blank')">📝 신청하러 가기 ↗</button>
       <button class="btn-ghost" style="margin-top:0;flex:1;${tr?'opacity:.55':''}" onclick="applyGrant('${o.id}')">${tr?'담김 ✓':'＋ 신청목록 담기'}</button>
     </div>`;
 }
@@ -763,10 +802,13 @@ function genDoc(){
   document.getElementById('docgen-area').innerHTML=`<div class="spinner"></div><div style="text-align:center;font-size:13px;color:var(--ink3)">${curOpp.title} 양식 인식 → 초안 생성 중…</div>`;
   setTimeout(injectDraft,1300);
 }
-function PSST(o){return [
-  {k:'P',t:'문제 · 필요성',b:`1인 운영 사업장(학원·소상공인)은 출결·청구·정산·알림을 수기로 처리해 누락과 분쟁이 반복됩니다. ${o.category} 영역의 디지털 전환 수요는 크지만 비용·기술 장벽으로 도입이 지연되고 있습니다.`},
-  {k:'S',t:'해결방안 · 사업화',b:`AUTUS 표준 운영체계를 현장에 맞춰 적용합니다(개발 없이 표준+차이만 구성). Builder가 진단→구축→운영까지 무인 자동화로 제공해 도입 장벽을 제거합니다.`},
-  {k:'S',t:'성장전략 · Scale-up',b:`고객 1곳당 초기 구축(50~100만)+월 운영(5~15만)의 반복 매출 구조. ${o.gtag} 단계 지원으로 초기 자금을 확보하고, 검증된 표준을 업종·지역으로 복제 확장합니다.`},
+function PSST(o){
+  const me = bizProfile.name ? `${bizProfile.name}` : '본 사업';
+  const field = bizProfile.field || o.category;
+  return [
+  {k:'P',t:'문제 · 필요성',b:`${field} 분야 1인 운영 사업장(학원·소상공인)은 출결·청구·정산·알림을 수기로 처리해 누락과 분쟁이 반복됩니다. 디지털 전환 수요는 크지만 비용·기술 장벽으로 도입이 지연되고 있습니다.`},
+  {k:'S',t:'해결방안 · 사업화',b:`${me}은(는) AUTUS 표준 운영체계를 현장에 맞춰 적용합니다(개발 없이 표준+차이만 구성). 진단→구축→운영까지 무인 자동화로 제공해 도입 장벽을 제거합니다.`},
+  {k:'S',t:'성장전략 · Scale-up',b:`고객 1곳당 초기 구축(50~100만)+월 운영(5~15만)의 반복 매출 구조. ${o.gtag} 단계 지원으로 초기 자금을 확보하고, 검증된 표준을 ${field}·인접 업종으로 복제 확장합니다.`},
   {k:'T',t:'팀 · 역량',b:`Builder 네트워크 + AUTUS 플랫폼(표준 라이브러리·자동화 엔진). 비개발 인력도 표준을 적용해 즉시 현장 투입 가능한 교육·운영 체계를 보유합니다.`},
 ];}
 function injectDraft(){
