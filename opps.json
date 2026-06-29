@@ -1,7 +1,7 @@
 {
  "schema": "schema.org/MonetaryGrant",
  "source": "K-Startup",
- "updated": "2026-06-29T13:35:53.532Z",
+ "updated": "2026-06-29T13:53:33.947Z",
  "count": 737,
  "opps": [
   {
@@ -29,6 +29,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178300",
    "status": "open",
    "note": "도내 (예비)창업자 및 7년 이내 중소기업 30명 내외",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -57,6 +58,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178297",
    "status": "open",
    "note": "(공통) 7년 이내 청년창업기업(대표자 만 39세 이하) 아래의 요건 중 1개 이상 해당하는 기업 1. 대구시 중구 거주자 2. 대구시 중구 소…",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -86,6 +88,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178296",
    "status": "open",
    "note": "○ 유사사업 수행실적이 있는 전문 제작업체 ○ 과제 수행에 필요한 전문인력과 조직 보유",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -114,6 +117,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178295",
    "status": "open",
    "note": "소방장비ㆍ용품 제조ㆍ공급 업체 중 아래 조건 충족업체 - 공공조달 시장 진입에 어려움을 겪고 있거나 우수한 기술력을 바탕으로 판로 개척을 희망하…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -142,6 +146,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178293",
    "status": "open",
    "note": "(예비) 스타트업 및 스타트업 투자자, 실무자 및 의료기기 전반 및 조직수복용생체지료 강의 아이템에 관심 있으신 분 신청 가능(대학생 포함)",
+   "region": "충북",
    "star": true,
    "source": "공고"
   },
@@ -171,6 +176,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178292",
    "status": "open",
    "note": "AI 기술 도입을 추진하는 기업의 최고 경영자 및 임원, 본부장 해외사업 ·수출 총괄 기획 임원 및 본부장",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -199,6 +205,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178291",
    "status": "open",
    "note": "예비(청년)창업자 및 창업에 관심있는 시민",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -226,6 +233,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178290",
    "status": "open",
    "note": "기업 대표자 기준, 아래 조건 충족 - 코워킹 오피스 : 예비창업자 또는 1년 미만의 초기창업자(※ 사업자등록증 기준 2025. 6. 26 이후…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -253,6 +261,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178288",
    "status": "open",
    "note": "게임 개발 기초역량을 보유하고 실무 프로젝트 참여가 가능한 도내 대학생, 취업준비생, 예비창업자, 일반인 등",
+   "region": "전북",
    "star": true,
    "source": "공고"
   },
@@ -280,6 +289,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178287",
    "status": "open",
    "note": "대구 지역 캐릭터 분야 예비창업자 및 3년 이내 콘텐츠 기업",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -307,6 +317,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178286",
    "status": "open",
    "note": "▶ 대상 : 패션, 뷰티, 주얼리 디자인 이커머스 분야로 취창업을 희망하는 미취업 구직여성 및 예비 창업자 (교육에 적극적으로 참여하고, 취업의…",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -336,6 +347,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178285",
    "status": "open",
    "note": "가. 공고일 기준 사업장 소재지가 대전 내에 위치한 법인 또는 개인사업자 나. 기획안(스토리분석을 통한 콘티 초안 포함) 및 포트폴리오 제출 가…",
+   "region": "대전",
    "star": true,
    "source": "공고"
   },
@@ -364,6 +376,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178283",
    "status": "open",
    "note": "전국 만 7년 이내 창업기업(개인, 법인)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -392,6 +405,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178282",
    "status": "open",
    "note": "글로벌(북미) 시장 진출 희망 대전시 소재 기업 - 대전에 본사, 지사, 또는 기업부설연구소가 소재한 기업 - 대전시 공공 기술 연계 사회문제해…",
+   "region": "대전",
    "star": false,
    "source": "공고"
   },
@@ -420,6 +434,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178281",
    "status": "open",
    "note": "※지원 자격 - Seed ~ Series A 단계 - 바이오·헬스케어 분야(신약개발, 바이오 소재·플랫폼, 의료기기·진단, 디지털 헬스케어·디지…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -447,6 +462,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178280",
    "status": "open",
    "note": "제안할 혁신기술·솔루션을 보유하고 있는 김해시 소재 및 이전 예정 관외 창업 7년(또는 10년*)이내 (예비)창업기업 * 「중소기업 창업 지원법…",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -475,6 +491,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178279",
    "status": "open",
    "note": "경기 동남부 7개 지역(성남, 용인, 평택, 안성, 이천, 광주, 여주) 내 본사가 소재한 업력 7년 이내 기업",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -503,6 +520,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178278",
    "status": "open",
    "note": "'전국 AI 기술기반' 스마트선박, 디지털항만, 해상물류 데이터 등 스마트해운물류 분야 7년 이내 기업 ※ 부·울·경 소재 기업(사업자등록증 주…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -532,6 +550,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178277",
    "status": "open",
    "note": "인도 진출에 관심있는 '서울 소재 중소기업'",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -560,6 +579,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178276",
    "status": "open",
    "note": "◦ 업력 7년 이내 창업기업 (공고일 기준) ◦ 사업장 주소 : 구미소재 기업 및 구미(본사)로 이전 계획 기업 - 타 지역 창업기업의 경우 선…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -587,6 +607,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178275",
    "status": "open",
    "note": "혁신적인 창업아이템을 보유한 (예비)창업자 및 창업기업 - 아이디어 분야: 공고일 기준 사업자등록이 없는 예비창업자 - 사업화 분야: 공고일 기…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -616,6 +637,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178273",
    "status": "open",
    "note": "서울대학교 재학중인 대학원생(연구생 등록 수료생 포함) 개인 혹은 팀 (팀으로 지원하는 경우 서울대 대학원생(재학생) 1명 이상 포함 시 학부생…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -643,6 +665,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178271",
    "status": "open",
    "note": "- 충남 신성장동력산업 분야(첨부 사업분야 참고) - 예비창업자(3개월 이내 충남 소재 법인설립자) - 창업 업력 3년 이내 충남 소재 법인기업",
+   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -670,6 +693,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178270",
    "status": "open",
    "note": "경력과 기술을 보유한 만 40세 이상 예비창업자 또는 공고일 기준 창업 3년 이내 기업이며, 창업 7년 이내 일반 창업기업도 전체 입주기업의 2…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -699,6 +723,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178269",
    "status": "open",
    "note": "국제공동연구를 통한 해외진출 의지ㆍ역량 보유하고 AI 기반 제품ㆍ서비스ㆍ솔루션을 보유한 경기도 내 AI관련 중소기업ㆍ스타트업 (1) (필수) 경…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -727,6 +752,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178268",
    "status": "open",
    "note": "□ 신청대상 - ｢중소기업창업지원법｣ 제2조에 따른 창업기업으로 ‘사업을 개시한 날’로부터 7년 이내 창업기업으로, 대구에 본사, 지점, 연구소…",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -754,6 +780,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178266",
    "status": "open",
    "note": "[창업기획 ·사업화 분야] 1. 내용 : 창업 아이템 및 비즈니스 모델(BM) 분석, 사업 타당성 검토 및 시장성 분석, 사업계획서 작성 및 고…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -782,6 +809,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178265",
    "status": "open",
    "note": "해외 시장에 적합한 기술력과 사업성을 갖춘 글로벌 자본유치 유망 기업으로서 아래 1~3을 모두 충족하는 기업 1. 서울 소재 기업 ※ 본사 또는…",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -810,6 +838,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178263",
    "status": "open",
    "note": "창업 7년 이내 중소기업 또는 창업·벤처기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -838,6 +867,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178262",
    "status": "open",
    "note": "서울 소재 소셜벤처기업 ※ 자유치 SeriesA 이상 진행 중인 서울 소재 소셜벤처기업 ※ 기술보증기금 소셜벤처스퀘어에서 소셜벤처로 판별을 받은…",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -867,6 +897,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178261",
    "status": "open",
    "note": "예비 및 초기 청년(만 19세~39세) 창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -896,6 +927,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178260",
    "status": "open",
    "note": "예비 및 초기 청년(만 19세~39세) 창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -923,6 +955,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178258",
    "status": "open",
    "note": "- 지역창업기업 : 춘천 지역 사업자등록 예정 예비창업자 또는 창업기업 (업력 7년 이내 창업기업) ※ 예비창업자의 경우 협약 후 6개월 이내 …",
+   "region": "강원",
    "star": true,
    "source": "공고"
   },
@@ -952,6 +985,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178256",
    "status": "open",
    "note": "ㅇ 4대 과기원 관할 권역 내 소재기업 또는 공모 마감일 기준 대표자가 4대 과기원 재학생/동문/교직원인 기업 ㅇ 초기 투자(Seed) 유치 이…",
+   "region": "대전",
    "star": false,
    "source": "공고"
   },
@@ -981,6 +1015,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178255",
    "status": "open",
    "note": "(예비)창업자, 창업에 관심 있는 자, 세종에 창업 예정인 자",
+   "region": "세종",
    "star": true,
    "source": "공고"
   },
@@ -1010,6 +1045,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178254",
    "status": "open",
    "note": "- 포스트팁스를 기 수행했거나 수행 중인 기업 - 포스트팁스를 향후 수행 희망하는 기업 - 기타 포스트팁스 및 오픈이노베이션에 관심 있는 기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1038,6 +1074,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178253",
    "status": "open",
    "note": "모집공고일 기준 창업 7년이내 창업기업 ※ 상세내용은 공고문 내 '신청 자격' 확인",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1066,6 +1103,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178252",
    "status": "open",
    "note": "투자유치를 희망하는 예비·초기창업기업, AC/VC 전문투자자, 창업에 관심 있는 누구나",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -1094,6 +1132,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178251",
    "status": "open",
    "note": "- 경기도 내 G7 분야 창업기업 *G7 분야 : 반도체, AI·빅데이터, 첨단모빌리티, 신재생에너지, 바이오, 양자, 디지털전환 등 - 사업자…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -1123,6 +1162,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178249",
    "status": "open",
    "note": "[지원대상] : 패션 분야 해외 팝업을 희망하는 서울 소재 중소기업 · 신청일 기준 서울 소재 사업장, 연구소, 지사 등을 보유하고 있는 기업(…",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -1152,6 +1192,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178248",
    "status": "open",
    "note": "부산 지역 섬유·패션·봉제·신발 관련 기업",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -1179,6 +1220,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178247",
    "status": "open",
    "note": "대전 소재 예비창업자 및 창업기업 20개사 내외",
+   "region": "대전",
    "star": true,
    "source": "공고"
   },
@@ -1208,6 +1250,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178246",
    "status": "open",
    "note": "군포 창업기업 및 경기지역 BI 센터 입주기업 등",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -1235,6 +1278,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178245",
    "status": "open",
    "note": "전국(수도권 제외한 전 지역, 디지털 혁신거점 포함) 디지털 기술 기반 창업 아이템·아이디어 보유한 예비창업자 및 설립 7년 미만의 창업기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1263,6 +1307,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178244",
    "status": "open",
    "note": "울산 소재 창업 7년 이내 기업, 신기술 분야 창업 10년 이내 기업 ※ 공고일 기준 울산지역에 본사를 둔 창업 7년 이내 기업 ※ 4. 글로벌…",
+   "region": "울산",
    "star": false,
    "source": "공고"
   },
@@ -1290,6 +1335,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178241",
    "status": "open",
    "note": "예비창업자 및 창업 후, 5년 이내의 창업기업 대표",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1318,6 +1364,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178240",
    "status": "open",
    "note": "공공데이터를 통해 지역사회 현안의 해결방안을 함께 만들어 갈 수 있는 기업(데이터·사회적 기업, 1인기업 등) 및 단체(협동조합, 비영리단체, …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1345,6 +1392,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178239",
    "status": "open",
    "note": "○ 모집업종 -『해양수산발전기본법』제3조 2의2(해양과학기술) -『해양수산발전기본법』제3조의 3호(해양수산업)에 따른 산업 ○ 모집대상 - 예비…",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -1372,6 +1420,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178238",
    "status": "open",
    "note": "창업 후 3년 이내 혁신창업기업(예비창업자 포함)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1399,6 +1448,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178237",
    "status": "open",
    "note": "공고일 기준, 예비창업자* 및 업력 7년 이내의 창업기업** * 예비창업자의 경우, 중소벤처기업부(창업진흥원)에서 지원하는 ①2026년 예비창업…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1428,6 +1478,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178236",
    "status": "open",
    "note": "초격차/챌린지 역대 선정기업 및 전남 광주 기반 10년이내 스타트업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1455,6 +1506,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178235",
    "status": "open",
    "note": "▪️ Red Bio에 관심있는 투자 심사역, 제약사 직원 ▪️ 신약개발 및 기술기반 관련 제약·바이오 스타트업 관계자, 예비창업자 ▪️ 바이오 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1483,6 +1535,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178232",
    "status": "open",
    "note": "- 농심 : 포장용기, 포장재, 식품소재 - 유한킴벌리 : Planet, Health, Life - 하이트진로 : Food-Tech, AI/빅데…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1510,6 +1563,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178230",
    "status": "open",
    "note": "고양시에 거주하는 예비창업자, 초기창업자 또는 고양시 소재 기업이나 학교에 다니는 창업에 관심 있는 직장인 및 대학생",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -1539,6 +1593,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178229",
    "status": "open",
    "note": "브라질 및 중남미 시장 진출을 희망하는 미래자동차, 모빌리티, 스마트물류, 전장, 충전, EV 관련 솔루션 분야 중소기업 - 「중소기업기본법」 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1566,6 +1621,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178228",
    "status": "open",
    "note": "- 기술 기반의 예비창업자 또는 7년 이내의 창업기업 * 연구소기업 및 대구 5대 신산업 분야 기술 우대 * 접수일 기준 사업장 소재지 대구연구…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1595,6 +1651,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178227",
    "status": "open",
    "note": "창업기업과 협업을 희망하는 군 및 방산 분야 수요기업 - 군(육‧해‧공군‧해병대), 방산 분야 수요기업(대‧중견기업·공공기관 등)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1622,6 +1679,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178226",
    "status": "open",
    "note": "지원대상 : 예비창업자(팀) *공고일 기준 신청자 명의의 사업자등록 또는 법인 설립 등기가 없는 자들로 구성된 예비 창업팀(1명 이상) ※ 예비…",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -1651,6 +1709,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178224",
    "status": "open",
    "note": "AI 도입 및 디지털 전환을 추진하는 실무자 및 중간 관리자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1679,6 +1738,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178223",
    "status": "open",
    "note": "청년 예비 및 초기창업자(1987년 이후 출생자)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1707,6 +1767,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178222",
    "status": "open",
    "note": "청년 예비 및 초기창업자(1987년 이후 출생자)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1736,6 +1797,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178221",
    "status": "open",
    "note": "ICT기업 재직자, ICT기업 경력 보유자, ICT기업 컨설팅 경력 보유자 *퇴직자, 재취업 예정자도 신청가능 (단, 경력증명서 제출)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1765,6 +1827,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178220",
    "status": "open",
    "note": "AI 기술 도입을 추진하는 기업의 최고 경영자 및 임원, 본부장 해외사업 ·수출 총괄 기획 임원 및 본부장",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -1793,6 +1856,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178219",
    "status": "open",
    "note": "* 정부 지원(마케팅지원사업 등)을 통해 중소기업 제품의 판매실적이 증가하는 등 판로 성과가 우수한 중소기업 임·직원 ** 중소기업 국내·외 판…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -1821,6 +1885,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178217",
    "status": "open",
    "note": "경남 동부권(양산, 밀양, 김해) 소재 업력 7년 이내 창업기업 ※ 타 지역지원자 등 상세 신청자격은 동 공고 (2page) “2. 신청자격 및…",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -1850,6 +1915,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178216",
    "status": "open",
    "note": "경남도민, 경남지역 학교 재학생, 경남지역 창업 예정자",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -1877,6 +1943,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178214",
    "status": "open",
    "note": "예비창업자 또는 창업3년 미만의 개인, 법인",
+   "region": "인천",
    "star": true,
    "source": "공고"
   },
@@ -1906,6 +1973,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178213",
    "status": "open",
    "note": "해당 주제에 관심 있는 (예비)창업가 누구나 신청 가능",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1935,6 +2003,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178212",
    "status": "open",
    "note": "KT와의 사업화 연계를 희망하는 스타트업 및 중소기업 ※공고일('26.6.22.) 기준 업력 10년 내 법인 사업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1962,6 +2031,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178211",
    "status": "open",
    "note": "부산에서 사회서비스 분야(복지·보건·교육·고용·주거 등) 창업을 희망하는 청년 예비창업팀 ① 청년 예비창업자 (사업자등록 전 단계) - 만 18…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -1991,6 +2061,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178210",
    "status": "open",
    "note": "인천 공공기관과 실증과제 추진이 가능한 창업기업 또는 중소기업 ※선정기업이 인천 관외 기업인 경우, 협약기간 종료일로부터 1개월 전까지 본점·지…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2018,6 +2089,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178209",
    "status": "open",
    "note": "인공지능, 전자정보, 첨단장비, 바이오/헬스케어, 신소재, 신에너지, 기타 등 총 7개 분야 ① 향후 2년 내 중국 강소성에 법인 설립 예정인 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2047,6 +2119,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178207",
    "status": "open",
    "note": "자체 콘텐츠 기획 및 제작이 가능한 도내 콘텐츠 기업 ※ 자세한 내용은 공고문 및 사업 안내서 참조",
+   "region": "전북",
    "star": true,
    "source": "공고"
   },
@@ -2075,6 +2148,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178205",
    "status": "open",
    "note": "◦ (모집규모) 창업기업(Eureka Park) 20개사 내외 ◦ (모집대상) *Eureka Park관: 창업 5년 이내 기업 - 대전 전략산업…",
+   "region": "대전",
    "star": false,
    "source": "공고"
   },
@@ -2104,6 +2178,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178204",
    "status": "open",
    "note": "모집분야에서 시제품(혹은 시작품)을 보유하고 있으면서, 해외시장 진출을 목표로 하는 설립 10년 미만 창업기업",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -2131,6 +2206,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178201",
    "status": "open",
    "note": "- 지원 자격: 공고일(2026. 6. 11.) 기준 아래 요건을 모두 충족하는 기업 ① 창업 이력 요건: 대표자 연령 39세 이하의 업력 7년…",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -2158,6 +2234,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178199",
    "status": "open",
    "note": "아래 두가지 요건을 모두 충족하는 (예비)창업자 및 기업 1) 중앙대학교 교원, 중앙대학교 교원 및 학생 창업기업, 중앙대학교 산학협력단 가족회…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2186,6 +2263,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178198",
    "status": "open",
    "note": "신산업 창업 분야의 창업 10년 이내 창업기업으로, 과학기술원( 광주과학기술원, 대구경북과학기술원, 울산과학기술원, 한국과학기술원) 소속(졸업 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2214,6 +2292,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178196",
    "status": "open",
    "note": "'26년 초기창업패키지 선정기업",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -2241,6 +2320,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178195",
    "status": "open",
    "note": "- 초기창업기업(창업 3년 이내, 예비창업자 포함) : 8개社 내외 - 성장창업기업(창업 3년 이상 ∼ 7년 미만) : 7개社 내외",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2269,6 +2349,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178194",
    "status": "open",
    "note": "창업도시 내 소재하거나 이전을 희망하는 업력 10년 이내 창업기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2298,6 +2379,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178193",
    "status": "open",
    "note": "은평창업지원센터 입주기업, 은평구민 또는 은평구 소재 스타트업 및 서울시 스타트업 (팀은 3인 이내로 제한)",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -2325,6 +2407,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178192",
    "status": "open",
    "note": "출연(연) 및 대학에 재직 중이며, 본인이 개발한 기술의 사업화를 희망하는 연구자 대덕특구 내 연구소기업 희망 연구자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2353,6 +2436,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178189",
    "status": "open",
    "note": "우리금융 그룹사 금융 AX 과제 수행 가능 스타트업 ※ 공고 마감일 기준 업력 7년 이내 창업기업 (개인사업자 제외) ※ 기존 디노랩 기업 지원…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2380,6 +2464,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178188",
    "status": "open",
    "note": "예비창업자 및 기창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2409,6 +2494,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178187",
    "status": "open",
    "note": "태국 온라인 플랫폼(쇼피, 라자다 등)을 통해 자사 브랜드 제품을 판매 중인 서울 소재 중소기업",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -2436,6 +2522,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178186",
    "status": "open",
    "note": "공고일(26.6.4.) 기준 대한민국 국적으로, 전통문화산업 분야 창업을 희망하는 예비창업자로서, 만 39세 이하인 자 - 예비창업자는 개인 또…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2464,6 +2551,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178183",
    "status": "open",
    "note": "ㅇ 지원대상 : 본사가 충청남도에 소재한 콘텐츠 기업 (Pre-TIPS / TIPS 중 택1 신청) [Pre-TIPS 추천 트랙] - 공고일 기…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -2492,6 +2580,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178181",
    "status": "open",
    "note": "참여 기간 내(협약 시점 이후 ~ 12.31.) 신규 채용 1명 이상 및 최소 3개월 이상고용 유지가 가능한 기업, 기업 규모 제한 없음 자세한…",
+   "region": "충남",
    "star": false,
    "source": "공고"
   },
@@ -2520,6 +2609,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178180",
    "status": "open",
    "note": "기업의 성장을 고민하는 여성CEO",
+   "region": "강원",
    "star": false,
    "source": "공고"
   },
@@ -2549,6 +2639,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178179",
    "status": "open",
    "note": "동대문구 거주 청년 동대문구 활동 청년(학업, 직장 및 기타)",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -2576,6 +2667,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178176",
    "status": "open",
    "note": "극초기 창업팀(예비창업가 또는 법인 3년 이내)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2604,6 +2696,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178175",
    "status": "open",
    "note": "- 설립 5년 미만 소비자 기술을 보유한 혁신기업으로, 전시 기술은 자사 브랜드명으로 출시되는 프로토타입, 제품 또는 서비스여야 함 - 기존 유…",
+   "region": "인천",
    "star": false,
    "source": "공고"
   },
@@ -2633,6 +2726,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178174",
    "status": "open",
    "note": "XR 기술을 보유한 서울소재 기업 (서울소재: 본사, 지점, 연구소 등 상관 없음)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2661,6 +2755,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178172",
    "status": "open",
    "note": "자립준비청년",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -2688,6 +2783,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178170",
    "status": "open",
    "note": "창의적인 시제품 아이디어를 가진 학생팀, 예비창업팀, 7년 미만의 스타트업 대상",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -2717,6 +2813,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178169",
    "status": "open",
    "note": "여성 (예비)창업자 및 초기 스타트업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2745,6 +2842,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178166",
    "status": "open",
    "note": "신청일 기준 인천 본사 혹은 1년 이내 인천 본사 이전 가능한 기업",
+   "region": "인천",
    "star": true,
    "source": "공고"
   },
@@ -2773,6 +2871,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178164",
    "status": "open",
    "note": "※지원자의 신청 자격(나이, 경제활동, 영업경력 등)의 판단기준일은 모집공고일(2026년 6월 11일 수요일)입니다. [공공지원형1] ● 청년 …",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -2802,6 +2901,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178161",
    "status": "open",
    "note": "글로벌 진출을 희망하는 스타트업 총 30개사 (미국, 일본, 중국, 유럽, 싱가포르, 인도 각 5개사 선발)",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -2829,6 +2929,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178158",
    "status": "open",
    "note": "네트워킹을 희망하는 핀테크 분야 스타트업 및 예비창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2857,6 +2958,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178157",
    "status": "open",
    "note": "창업의지가 강한 39세 이하 (예비)청년 창업자 또는 7년 미만 청년창업기업",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -2884,6 +2986,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178156",
    "status": "open",
    "note": "예비창업자 또는 초기 창업기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2912,6 +3015,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178153",
    "status": "open",
    "note": "지식재산 교육이 필요한 단체, 기업, 학교 또는 기관",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -2939,6 +3043,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178151",
    "status": "open",
    "note": "[ 예비창업자] ￭ 잠재력 높은 기술의 개발 단계에 있는 창업 준비자 ￭ 기술적 아이디어를 바탕으로 구체적 사업화 목적이 있는 자 ￭ 입주 후 …",
+   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -2966,6 +3071,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178150",
    "status": "open",
    "note": "창업에 관심 있는 예비창업자, 7년 미만 창업기업 등",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -2995,6 +3101,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178147",
    "status": "open",
    "note": "스타트업 대표 및 임직원, (예비)창업자 및 창업에 관심이 있는 학생 등",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -3023,6 +3130,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178141",
    "status": "open",
    "note": "도내 예비·초기창업자, 창업기업 재직자, 대학(원)생, 유관기관 등",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -3052,6 +3160,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178140",
    "status": "open",
    "note": "공고일('26.06.16) 기준 Seed 투자 유치 완료 이상 삼천리 그룹과 협업(PoC/사업적용/파트너십/투자)을 희망하는 스타트업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3080,6 +3189,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178139",
    "status": "open",
    "note": "❍ 국내 특허출원·등록 비용 지원 희망 스타트업/중소기업 ❍ 특허증 1건 이상의 지적재산권 보유 희망 기업(법인 또는 개인) * 본 특허출원·등…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3108,6 +3218,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178137",
    "status": "open",
    "note": "모집공고일 기준 창업 후 업력 7년 이내 창업기업 * 신산업 창업 분야에 해당하는 경우 업력 10년 이내까지 신청 가능",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3135,6 +3246,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178135",
    "status": "open",
    "note": "AI·디지털 기술 기반 ICT 예비창업자 및 7년 이내 창업기업 - 예비창업자: 창업에 대한 명확하고 뚜렷한 의지가 있으며 1년 이내 창업을 목…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3162,6 +3274,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178129",
    "status": "open",
    "note": "예비창업자 및 업력 7년 이내 국토교통 분야 기업",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -3191,6 +3304,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178127",
    "status": "open",
    "note": "미국 시장 진출을 준비하는 스타트업 해외 고객 확보 및 사업 확장을 추진 중인 중소·벤처기업 미국 현지 파트너 발굴 및 PoC 기회를 모색하는 …",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3218,6 +3332,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178126",
    "status": "open",
    "note": "- 새로이 기업을 설립하고자 하는 예비 여성창업자 - 입주 신청일 현재 창업 후 7년이 경과 되지 아니한 여성기업 ※ 입주 후 3개월 이내 사업…",
+   "region": "광주",
    "star": true,
    "source": "공고"
   },
@@ -3247,6 +3362,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178123",
    "status": "open",
    "note": "글로벌 실증이 가능한 기술 아이템을 보유하고 해외 기업 및 기관과 협력이 가능한 창업 10년 이내(신청을 기준) 연구개발특구 소재 기업 *연구소…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3276,6 +3392,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178117",
    "status": "open",
    "note": "〇 전시 및 투자유치를 희망하는 로봇 분야 스타트업 및 중소기업(자사 제품 보유 시 우대) - 로봇 관련 기술을 보유하고 있거나 로봇 아이템을 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3303,6 +3420,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178116",
    "status": "open",
    "note": "1. 예비창업 또는 창업 후 7년 이내 창업 기업 2. 사업장 주소 : 구미소재 기업 및 구미(본사)로 이전 계획 기업 - 선정 후 60일 이내…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3331,6 +3449,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178115",
    "status": "open",
    "note": "최근 3년 내 누적 투자유치 실적(10억원 이상)을 보유한 7년 이내 창업기업(단, 신산업창업분야 해당시 업력 10년 이내) * 최근 3년 : …",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3360,6 +3479,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178113",
    "status": "open",
    "note": "투자유치에 관심있는 스타트업 누구나 (업력/분야제한 無)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3388,6 +3508,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178112",
    "status": "open",
    "note": "① 공고일 기준 국내에 소재지를 둔 초기 • 성장 단계 유망 분야 법인 기업 ② 누적 투자액 약 10억원 내외 또는 투자 수준에 상응하는 기술력…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3416,6 +3537,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178109",
    "status": "open",
    "note": "- 출산・육아로 인한 휴직자 또는 단축근무자의 대체인력 신규 채용 기관 - 육아기 연구자의 유연근무를 위한 추가 연구 인력 신규 채용 기관",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3444,6 +3566,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178108",
    "status": "open",
    "note": "경복대학교, 대진대학교, 차의과학대학교 재학생, 경기 북동부에 거주하는 일반 참여자 혹은 경기 북동부 사업자등록 의사가 있는 일반 참여자 (가평…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -3471,6 +3594,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178106",
    "status": "open",
    "note": "(성동구 관내 법인 기업) 예비창업자 및 창업기업 정부지원사업 참여를 준비 중인 기업 정부 R&D 및 사업화 과제를 준비 중인 기업 투자유치 및…",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -3498,6 +3622,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178103",
    "status": "open",
    "note": "신청대상 항공, 우주 기술에 관심있고, 관련 사업모델을 구상하고 있는 누구나[대학(원)생, 직장인, 일반인 등] *단, 사업자등록이 되어 있지 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3527,6 +3652,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178100",
    "status": "open",
    "note": "1) 수요처 : AI 보안 제품·서비스 도입 및 비즈니스 협력이 필요한 기업·기관 (대·중견기업, 공기업, 공공기관 등) ※ 중소기업은 매출 1…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3556,6 +3682,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178097",
    "status": "open",
    "note": "의류, 섬유, 소재, 신발, 디지털, AI콘텐츠, 친환경, 리빙, 액세서리 등 섬유패션 관련 기업 ※지역제한 없음",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3585,6 +3712,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178096",
    "status": "open",
    "note": "모집공고일 기준 바이오 분야 해당 창업 10년 이내인 창업기업 ※ 상세내용은 공고문 내 '신청 자격' 확인",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3612,6 +3740,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178095",
    "status": "open",
    "note": "전 국민, 예비창업자, 7년이내 창업기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3639,6 +3768,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178084",
    "status": "open",
    "note": "1. 예비창업자 2. 창업 7년 이내 초기 기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3666,6 +3796,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178081",
    "status": "open",
    "note": "- 충청남도 내 창업 예정인 청년 예비창업자 또는 - 충청남도 소재 사업장을 운영 중인 청년 기창업자(업종제한 없음) *(청년) 19세 이상 3…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3695,6 +3826,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178080",
    "status": "open",
    "note": "생성형 AI 및 디지털 전환에 관심있는 누구나",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3724,6 +3856,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178078",
    "status": "open",
    "note": "※모집 조건 - 투자 단계 : Series A ~ preIPO - 모집 대상 : 뷰티·코스메틱 접목 가능한 바이오·피부과학 기술 기업 - 모집 …",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3753,6 +3886,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178077",
    "status": "open",
    "note": "※모집 조건 - 투자 단계: Pre-Seed ~ Pre-A - AI, 푸드테크, 라이프스타일, 콘텐츠·미디어",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3782,6 +3916,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178075",
    "status": "open",
    "note": "대한민국 국적의 성인 또는 고졸 이상 학력자라면 전공 및 경력과 무관하게 누구나 지원 가능합니다.",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -3809,6 +3944,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178073",
    "status": "open",
    "note": "□ 모집부문 ❶ AI 및 공공데이터 활용 제품 및 서비스 개발 ❷ AI 기술 활용 국민 서비스 개선 아이디어 □ 참가대상 (모집부문❶) 예비창업…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3836,6 +3972,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178069",
    "status": "open",
    "note": "예비창업자, 3년미만 창업기업",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -3863,6 +4000,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178051",
    "status": "open",
    "note": "- 예비창업자(팀) 또는 업력 3년 이내 스타트업 ※ 대학(원)생, 연구원 및 유관기관 재직자, 기술 기반 예비창업자 및 스타트업 등 참여 가능…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3891,6 +4029,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178049",
    "status": "open",
    "note": "킥스타터, 인디고고, 마쿠아케, 캠프파이어, 와디즈 등 크라우드펀딩 플랫폼 진출을 준비 중인 국내 기업 해외 시장 진출을 위한 미국 감성의 제품…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -3918,6 +4057,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178040",
    "status": "open",
    "note": "공공기술 및 대학 보유 기술을 활용하거나 이를 통해 사업모델 고도화를 희망하는 예비창업자 및 창업 7년 이내 스타트업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3946,6 +4086,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178032",
    "status": "open",
    "note": "1. 5년 이상 중·장기복무 제대(예정) 군인 2. 의무복무 제대군인 중 전역 후 3년 이내의 취업맞춤특기병, 저소득·모범장병, 등급미달 경상이…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -3973,6 +4114,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178030",
    "status": "open",
    "note": "1. 예비/극초기 : 예비창업자 ~ 모집 공고일 기준 사업을 개시한 날로부터 1년 미만 기업 2. 초기/성장 : 모집 공고일 기준 사업을 개시한…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4001,6 +4143,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178023",
    "status": "open",
    "note": "중소기업인재키움프리미엄 훈련에 관심 있는 스타트업 대표 및 관계자 누구나",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4030,6 +4173,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178017",
    "status": "open",
    "note": "특강, 교육, 세미나, 워크숍, 네트워킹 등 스타트업 지원 관련 프로그램을 기획·운영할 수 있는 기업, 전문기관, 협회·단체 등",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -4058,6 +4202,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178016",
    "status": "open",
    "note": "창업 아이디어를 보유한 예비 여성창업자 창업 7년 미만 여성기업",
+   "region": "울산",
    "star": true,
    "source": "공고"
   },
@@ -4085,6 +4230,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178008",
    "status": "open",
    "note": "경기도 거주 예비 창업가 및 경기도 소재 7년 이내(신산업 분야 10년 이내) 창업자",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -4112,6 +4258,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178006",
    "status": "open",
    "note": "- 창업 3년 이내 스타트업(공고마감일 기준) - 예비창업자 지원 가능",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4139,6 +4286,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178004",
    "status": "open",
    "note": "□ 참가대상 : 공고일 기준 아래 중 하나에 해당하는 여성 창업자(예비창업자 포함) ○ 충청남도 내 본점을 둔 창업 7년 미만 여성기업 ○ 충청…",
+   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -4166,6 +4314,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177978",
    "status": "open",
    "note": "공공기술 활용 및 도입을 희망하는 전국 중소·중견기업 및 예비창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4194,6 +4343,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177976",
    "status": "open",
    "note": "서울시 소재 창업 7년 미만의 AI 스타트업",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -4222,6 +4372,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177974",
    "status": "open",
    "note": "연구소기업 / 첨단기술기업 / 규제특례기업 /공공기술기반 딥테크 기업 등 12대 국가전략기술 등 딥테크분야 기업(상세 조건은 공고문 참조)",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4249,6 +4400,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177970",
    "status": "open",
    "note": "-건축물을 실제 사용하고자 하는 개인 또는 법인 ● 창업형[예비창업자, 초기창업자, 초기재창업자(임대조건의 50% )] : 「중소기업창업지원법」…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -4278,6 +4430,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177963",
    "status": "open",
    "note": "자산관리 및 로보어드바이저 분야 스타트업, 기업 및 관계자 누구나",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4307,6 +4460,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177958",
    "status": "open",
    "note": "인슈어테크 분야 스타트업, 기업 및 관계자 누구나",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4336,6 +4490,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177957",
    "status": "open",
    "note": "-건축물을 실제 사용하고자 하는 개인 또는 법인 -금회 공급되는 상가의 경우 「건축법」에 규정된 제1종 또는 제2종 근린생활시설에 해당하는 업종…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -4363,6 +4518,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177953",
    "status": "open",
    "note": "물산업 기술을 연구, 개발하고자 하는 국내 사업자, 단체 또는 기관 *다만 제1호의 경우 창업보육실에 본사가 아닌 연구소, 지사 등만 입주하려는…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4391,6 +4547,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177947",
    "status": "open",
    "note": "창업 후 업력 7년(또는 10년 이내) 창업기업 *세부 내용 공고 본문 참고",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -4420,6 +4577,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177944",
    "status": "open",
    "note": "금회 공급하는 업무지원시설은 입주자모집공고일 현재 아래 업종 및 기관에 한하여 공급합니다. - 금융(은행, 보증기금등), 창업·경영컨설팅, 특허…",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -4447,6 +4605,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177938",
    "status": "open",
    "note": "해외 진출 및 글로벌 시장 검증을 준비하는 중소기업 크라우드펀딩을 통한 제품 런칭을 검토 중인 스타트업 글로벌 마케팅, 해외 소비자 반응 검증,…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4474,6 +4633,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177937",
    "status": "open",
    "note": "학생부 및 일반부 개인 또는 팀 단위 신청 가능 ① 공통요건: 국방기술거래장터에서 선택한 국방과학기술을 활용하여 사업화를 추진하고자 하는 개인 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4503,6 +4663,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177930",
    "status": "open",
    "note": "국내 중소기업 및 스타트업 기업 재외동포기업",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -4530,6 +4691,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177928",
    "status": "open",
    "note": "◦ 공고일('26. 6. 1)기준 전국의 여성 예비창업자 또는 초기창업자(창업 후 1년 이내인자) ※ 개인 또는 팀(최대 3명)으로 지원 가능.…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4558,6 +4720,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177921",
    "status": "open",
    "note": "- 자문 최초 신청일 기준 창업일이 10년 미만인 보건의료분야 창업기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4586,6 +4749,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177916",
    "status": "open",
    "note": "- 본사 or 연구소 or 지점사업자 or 창업보육센터 졸업기업 입주 가능 - (창업자) 창업 후 7년이 경과 되지 않은 기업(창업일자기준) -…",
+   "region": "충북",
    "star": false,
    "source": "공고"
   },
@@ -4614,6 +4778,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177909",
    "status": "open",
    "note": "- 중소기업 - 벤처기업 인증을 준비 중이거나, 재도전이 필요한 기업 (신규 신청, 탈락 후 재신청, 유형 변경 등 포함) - 투자유치, 정책자…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4642,6 +4807,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177908",
    "status": "open",
    "note": "지역의 농특산물, 문화‧관광‧역사 자원, 유휴공간 등을 연계 ·활용한 비즈니스 아이디어를 보유한 중장년 ㅇ 대상 : 서울시 거주 중장년(40세 …",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -4670,6 +4836,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177899",
    "status": "open",
    "note": "❍ 공고일 기준 창업 7년 이내로 연구개발 활동을 통해 기술을 보유한 김해소재(본사)의 스타트업 - 개인 사업자인 경우 사업자등록증의 개업연월일…",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -4698,6 +4865,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177896",
    "status": "open",
    "note": "스타트업 역량 강화에 관심이 있는 누구나",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4726,6 +4894,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177890",
    "status": "open",
    "note": "- 시각 디자인 분야로 취업 및 창업 의사가 분명하고, 교육 중 진행하는 현장 실습 및 프로젝트에 적극 참여하고자 하는 미취업 구직 여성 - 관…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4754,6 +4923,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177888",
    "status": "open",
    "note": "4대 과기원 권역*내에 있는 기업만 지원 가능 * 본사 소재지 기준(KAIST 중부권 / GIST 호남권 / DGIST 대경권 / UNIST 동…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -4783,6 +4953,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177882",
    "status": "open",
    "note": "1. 대중견기업 오픈이노베이션 프로그램 운영자 2. 중견기업 및 중소기업 신사업 스핀오프 사업부 3. 스타트업 및 중소기업 4. 투자기관/지원기…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -4810,6 +4981,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177880",
    "status": "open",
    "note": "현재 상용화되지 않은 지능 온디바이스(온디바이스 AI, 5G-A/6G 등) 관련 아이디어와 기술을 보유한 일반인 및 예비창업자(팀) 및 중소ㆍ초…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4837,6 +5009,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177877",
    "status": "open",
    "note": "바이오·헬스케어 분야 혁신기술을 보유한, 업력 10년 미만 창업기업 및 예비창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4866,6 +5039,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177874",
    "status": "open",
    "note": "① 협약일 이전 사업자등록증 또는 기업부설연구소 인정서상 소재지가 강원도가 아닌 기업 ② 본사 또는 기업부설연구소, 자회사, 지사를 협약 후 6…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -4895,6 +5069,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177864",
    "status": "open",
    "note": "- 위치정보 산업에 진출하려는 (예비)창업자 또는 스타트업 - 중소 위치정보사업자, 위치기반서비스 사업자 ※ 대기업 제외",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4923,6 +5098,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177844",
    "status": "open",
    "note": "금회 공급하는 업무시설은 입주자모집공고일 현재 아래 업종 및 기관에 한하여 공급합니다. -창업기업 : 창업 후 사업개시일로부터 7년차 이하(모집…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4950,6 +5126,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177837",
    "status": "open",
    "note": "1. 예비창업자: AI 기술 또는 활용 비즈니스 모델을 보유한 창업 전 팀/개인 2. 초기스타트업: 창업 3년 이내, 시제품 및 Poc 단계 기…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4977,6 +5154,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177826",
    "status": "open",
    "note": "F&B 및 프랜차이즈 분야 예비창업자 및 7년 이내 초기 창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5005,6 +5183,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177812",
    "status": "open",
    "note": "소상공인",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -5032,6 +5211,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177809",
    "status": "open",
    "note": "경기광주시 청년(거주·재직·재학·활동) 예비창업자* 초기창업자* 도약창업자* - 청년(거주·재직·재학·활동) 증빙 첨부 필수 - 공고문 참고",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -5061,6 +5241,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177792",
    "status": "open",
    "note": "공간정보 우수기술(아이디어)을 보유한 창업기업",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -5088,6 +5269,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177757",
    "status": "open",
    "note": "예비창업자 및 기창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5116,6 +5298,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177755",
    "status": "open",
    "note": "신사업 분야 7년 미만 국내외 스타트업 - 신사업분야: AI·스마트시티, DX(디지털 전환), 헬스케어·바이오, 콘텐츠 등 - PoC(기술실증)…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -5145,6 +5328,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177746",
    "status": "open",
    "note": "국내기업: 해외 진출을 희망하는 10년 미만 국내 스타트업 해외기업: 외국 국적을 보유한 대표자가 운영하는 10년 미만 스타트업",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -5173,6 +5357,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177723",
    "status": "open",
    "note": "「중소기업창업 지원법」제2조 및 동법 시행령 제2조에 따른 '창업기업 확인서'를 발급받은 기업 * 모집마감일 '26.7.7.까지 발급 받아야 함…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5201,6 +5386,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177718",
    "status": "open",
    "note": "일반 산업 재직자 및 관련 업계 종사자",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -5228,6 +5414,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177685",
    "status": "open",
    "note": "바이오·메디컬 분야 창업 아이템을 보유한 예비창업자(팀) 및 초기창업기업(창업7년 이내)",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -5256,6 +5443,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177681",
    "status": "open",
    "note": "◼ 충남 도내 유망 스타트업(또는 26년 내 충남 이전 예정 기업) ① 디스플레이 ② 모빌리티 ③ 에너지 ④ 바이오 ⑤ 기타 충남 주력산업 및 …",
+   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -5285,6 +5473,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177629",
    "status": "open",
    "note": "▶ 교육대상 : 비전공자, 구직자, 재직자",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -5313,6 +5502,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177563",
    "status": "open",
    "note": "- 원청사로부터 ESG경영을 요구받는 중소‧중견기업 - ESG 규제 대응이 필요한 해외 수출 중소‧중견기업 - ESG 경영에 관심있는 국내 모든…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -5340,6 +5530,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177526",
    "status": "open",
    "note": "◆ 공통 요건: 예비창업자, 업력 10년 이내의 개인사업자, 또는 업력 10년 이내의 상법에 따른 회사 ◆ 트랙 구성 ▷ SEED 1 (ODA …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5369,6 +5560,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177493",
    "status": "open",
    "note": "❍ 신청대상 • 지식기반, 정보통신(IT), 생명공학(BT)와 관련된 벤처‧중소기업 • IT‧BT 관련 대기업의 지사 또는 부설연구소",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5396,6 +5588,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177487",
    "status": "open",
    "note": "1. 내일배움카드 소지자 또는 발급 가능한 자 2. 창업을 준비 중이지만 어디서부터 시작할지 막막한 예비창업자 3. 사업계획서·IR 피칭을 제대…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5425,6 +5618,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177359",
    "status": "open",
    "note": "부울경 지역 내 구직자, 전공자 및 비전공자",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -5453,6 +5647,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177350",
    "status": "open",
    "note": "서울 소재 중소기업 중 중동 수출 피해 기업",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -5480,6 +5675,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177328",
    "status": "open",
    "note": "기술창업기반 예비창업자 및 창업기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5508,6 +5704,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177278",
    "status": "open",
    "note": "서울시 소재 벤처기업 또는 창업 7년 이내 스타트업",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -5537,6 +5734,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177269",
    "status": "open",
    "note": "• Seed ~ Pre-Series A 단계 • 미국 진출을 준비 중이거나, 현지 전략 고도화가 필요한 팀",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -5566,6 +5764,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177241",
    "status": "open",
    "note": "연구개발특구의 육성에 관한 특별법 제34조 및 과학기술정보통신부 고시에 따른 부산연구개발특구 R&D융합지구(미음일반산업단지)의 입주 허용 업종을…",
+   "region": "부산",
    "star": false,
    "source": "공고"
   },
@@ -5593,6 +5792,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177210",
    "status": "open",
    "note": "대전 소재 예비창업자 또는 7년 이내 창업기업(2026.4.13.기준) *(2026년 4월 ~ 10월(상시 접수, 예산 소진 시 조기 마감)",
+   "region": "대전",
    "star": true,
    "source": "공고"
   },
@@ -5621,6 +5821,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177160",
    "status": "open",
    "note": "이력이 있고 ‘핵심기술’을 보유하고 있는, 해당 기술의 유출 및 탈취에 대한 우려가 있는 중소기업 * 기술임치 이력이 없는 중소기업의 경우 기술…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5649,6 +5850,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177152",
    "status": "open",
    "note": "- 업력 7년 이내 창업기업(신청일 기준) - 구미소재 기업 및 구미(본사)로 이전 계획 기업 ※ 타 지역 창업기업의 경우 선정 후 60일 이내…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5678,6 +5880,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177121",
    "status": "open",
    "note": "성남시 소재 상시 근로자수 10인 미만 식품제조 소공인 (산업분류코드 C10, C11)",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -5705,6 +5908,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177113",
    "status": "open",
    "note": "- 수도권 진출 및 투자유치 희망 경상남도 소재 업력 7년 이내 스타트업 (초격차 분야 스타트업은 업력 10년 이내까지 신청 가능) - 본사/지…",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -5732,6 +5936,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177072",
    "status": "open",
    "note": "예비창업자, 기창업자, 대학(원)생, 스타트업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5760,6 +5965,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177060",
    "status": "open",
    "note": "1. 대구시 단일 사업장 소속 노동자 및 사업주(4인 이상) 2. 대구시 여러 사업장 노동자, 예비노동자, 대구시민 등(10인 이상)",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -5788,6 +5994,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176978",
    "status": "open",
    "note": "창원 관내 예비 또는 7년 이내 일반·기술 창업자",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -5816,6 +6023,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176961",
    "status": "open",
    "note": "경기도 내 ICT 제조 분야 (예비)창업자 또는 소재지 창업 기업 (7년 이내)",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -5845,6 +6053,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176953",
    "status": "open",
    "note": "사업자등록증상 부산 소재 관광ㆍ마이스 유관 기업",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -5873,6 +6082,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176952",
    "status": "open",
    "note": "대구시 소재 50인 미만 사업장",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -5900,6 +6110,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176938",
    "status": "open",
    "note": "「중소기업창업지원법」제2조에 따른 창업기업 또는 예비창업자 * 본 사업은 기술기반 창업기업과 예비창업자를 지원합니다.",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5929,6 +6140,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176937",
    "status": "open",
    "note": "사업화, 제조 및 생산, 지식재산 및 교육, 지식재산 활용, 창업 및 경영 관련 전문가",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -5957,6 +6169,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176858",
    "status": "open",
    "note": "ㅁ 은퇴(예정) 또는 경력 단절 체육인 중 전·현직 선수, 지도자, 심판으로 창업 의지가 있는 자 * 체육인 복지법 제2조에 해당하는 체육인 ㅁ…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5985,6 +6198,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176856",
    "status": "open",
    "note": "□ 서울시 중구, 종로구, 동대문구 소재 기업 □ 기업: 5인 이상 우선지원대상 기업 - 참여 신청 직전 월부터 이전 1년간 평균 고용보험 피보…",
+   "region": "서울",
    "star": false,
    "source": "공고"
   },
@@ -6014,6 +6228,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176810",
    "status": "open",
    "note": "펀드 투자유치를 희망하는 기술창업기업 또는 벤처기업(창원시 관내 기업 또는 창원시로 본사 이전 계획이 있는 관외기업 참여 가능)",
+   "region": "경남",
    "star": true,
    "source": "공고"
   },
@@ -6042,6 +6257,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176782",
    "status": "open",
    "note": "창업 후 7년 이내 기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6069,6 +6285,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176755",
    "status": "open",
    "note": "❍ (사업대상) 예비창업자(팀) 또는 7년 이내 스타트업 ① 창업기업 지역 제한 없음 ② (예비창업자) 사업 공고일 기준 사업자등록 및 법인등록…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6097,6 +6314,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176741",
    "status": "open",
    "note": "서울시 소재 7년 미만(공고일 기준)의 창업기업 (본사, 지사, 연구소, 공장 중 1곳만 서울 소재면 족함)",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -6125,6 +6343,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176739",
    "status": "open",
    "note": "서울시 소재 7년 미만 (공고일 기준)의 창업기업 (본사 소재지가 서울이어야 함)",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -6153,6 +6372,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176692",
    "status": "open",
    "note": "제품 및 서비스 개발 단계에서 한국인 인체치수 데이터 활용이 필요한 전 산업 분야 *우대사항 : 특수계층(장애인, 고령자 등), 신산업 분야(로…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6180,6 +6400,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176685",
    "status": "open",
    "note": "예비창업가 및 도내‧외 사업장 보유 게임콘텐츠 관련 기업",
+   "region": "전북",
    "star": true,
    "source": "공고"
   },
@@ -6209,6 +6430,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176566",
    "status": "open",
    "note": "입점자 모집 공고일 현재 입점자격을 충족하는 창업(BI) 또는 성장(POST BI)기업",
+   "region": "대전",
    "star": false,
    "source": "공고"
   },
@@ -6237,6 +6459,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176563",
    "status": "open",
    "note": "부산 소재 AI솔루션 보유 기업, 스타트업, AI개발사(자), 대학원생 등",
+   "region": "부산",
    "star": true,
    "source": "공고"
   },
@@ -6265,6 +6488,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176497",
    "status": "open",
    "note": "- 부산시 소재(본사 기준), 공고일 기준 업력 7년 이내(신산업분야는 10년 이내) 기술창업기업 - 해외 프로그램(전시회, 상담회, 컨퍼런스 …",
+   "region": "부산",
    "star": false,
    "source": "공고"
   },
@@ -6294,6 +6518,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176494",
    "status": "open",
    "note": "경기도 내 예비·초기 (재)창업자 및 기술창업기업",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -6321,6 +6546,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176442",
    "status": "open",
    "note": "예비창업자, 스타트업, 중소기업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6349,6 +6575,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176406",
    "status": "open",
    "note": "대구·경북 소재* 7년 미만 창업·벤처기업으로서 투자유치를 희망하는 기업 * 대구경북 내 본사 또는 지사/연구소/공장 소재지 기업",
+   "region": "경북",
    "star": true,
    "source": "공고"
   },
@@ -6377,6 +6604,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176391",
    "status": "open",
    "note": "신산업 분야에서 일정 경력이상을 보유하였거나 전문성을 지니고 있는자로, 아래 자격기준 중 한가지 이상 충족하는자 - 학계 : 해당 분야에 관한 …",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6405,6 +6633,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176378",
    "status": "open",
    "note": "대구·경북 소재 엔젤투자를 희망하는 7년이내 창업기업 * 대구경북 내 본사 또는 지사/연구소/공장 소재지 기업",
+   "region": "경북",
    "star": true,
    "source": "공고"
   },
@@ -6432,6 +6661,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176296",
    "status": "open",
    "note": "□ 지원대상 : 인천 거주 예비창업자 * 사업신청자는 사업자등록이 없음을 증명하는 서류를 필수 제출해야 함 - 국세청 홈택스(hometax.go…",
+   "region": "인천",
    "star": true,
    "source": "공고"
   },
@@ -6461,6 +6691,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176286",
    "status": "open",
    "note": "특별귀화 희망자로서 분야별 특별귀화 기본요건을 충족한 자 (A person who seeks special naturalization and m…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6488,6 +6719,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176248",
    "status": "open",
    "note": "사업자등록을 하지 않은 강원지역 거주 예비창업자 및 2026년 신규창업자 ※ 아래의 경우 타 지역민도 예외적으로 지원 가능 - 강원지식재산센터 …",
+   "region": "강원",
    "star": true,
    "source": "공고"
   },
@@ -6516,6 +6748,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176224",
    "status": "open",
    "note": "■ 지원대상 (아래 요건을 모두 충족해야 하며, 세부 자격은 담당자에 문의) 1. 수원, 용인, 화성 소재 기업 2. 기준 피보험자 수 5인 이…",
+   "region": "경기",
    "star": false,
    "source": "공고"
   },
@@ -6543,6 +6776,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176218",
    "status": "open",
    "note": "사업자 등록을 하지 않은 충남소재 예비창업자 또는 '26년 창업자 ※ 아래의 경우 타 지역민도 예외적으로 지원 가능 (이외 조건 별도 문의 요망…",
+   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -6571,6 +6805,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176129",
    "status": "open",
    "note": "인력 채용에 애로가 있는 중소기업 및 중소기업에 취업할 의사가 있는 구직자",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
@@ -6599,6 +6834,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176090",
    "status": "open",
    "note": "용산구에서 6개월 이상 거주 중이며, 용산구에 사업자등록을 한 39세 이하 청년(신청일 기준)",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -6628,6 +6864,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176085",
    "status": "open",
    "note": "성남시 식품제조 소공인",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
@@ -6656,6 +6893,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176076",
    "status": "open",
    "note": "* 팁스(R&D) : 팁스 운영사로부터 투자 및 추천을 받은 (예비)창업기업 * 딥테크팁스(R&D) : 팁스 일반트랙 최종평가 결과 '완료' 판…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6683,6 +6921,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175849",
    "status": "open",
    "note": "◦ 지원자격 - 예비창업자 또는 1인 창조기업으로 직장의료보험 가입자가 아닌 자 - K스타트업 회원가입 후 정회원 신청 후 승인 받은 자",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -6710,6 +6949,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175833",
    "status": "open",
    "note": "중소기업, 창업자, 예비창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6739,6 +6979,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175817",
    "status": "open",
    "note": "지원사업 정보에 관심이 있는 모든 분에게 무상(무료)로 제공됩니다.",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6766,6 +7007,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175808",
    "status": "open",
    "note": "위치정보(위치기반)를 기반으로 서비스를 개발하고 상용화하고자 하는 의지가 있는 스타트업(3년 미만) 및 예비창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6794,6 +7036,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175783",
    "status": "open",
    "note": "각 지원사업 모집 공고문 참고",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6821,6 +7064,7 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=175366",
    "status": "open",
    "note": "만 45세 이하의 예비창업자 또는 창업기업 - 예비창업자의 경우 스파크 주소로 사업자등록을 1개월 이내로 가능한 기업 - 창업기업의 경우 스파크…",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -6848,6 +7092,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171259&page=1&schM=view",
    "status": "open",
    "note": "멘토링, 창업교육, 스타트업 인큐베이팅 및 액셀러레이팅 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -6876,6 +7121,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171260&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 스케일업(멘토링/투자연계지원 등), 글로벌 시장진출 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -6903,6 +7149,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171261&page=1&schM=view",
    "status": "open",
    "note": "기술사업화, 개방형혁신(Open Innovation), 민관협력 투자생태계 구축·운영(TIPS), 글로벌 진출 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -6932,6 +7179,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171262&page=1&schM=view",
    "status": "open",
    "note": "맞춤형 창업 교육, 컨설팅, 창업사업화 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -6961,6 +7209,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171264&page=1&schM=view",
    "status": "open",
    "note": "점포 사업장 임대료 1인당 월 30만원씩 12개월 지원(최대 360만원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -6990,6 +7239,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171265&page=1&schM=view",
    "status": "open",
    "note": "농산업 분야 청년 창업을 위한 보육 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7019,6 +7269,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171266&page=1&schM=view",
    "status": "open",
    "note": "창업기업 사업화 역량강화를 위한 기술개발 지원, 액셀러레이팅 프로그램, 제품 고도화를 위한 바우처 지원사업, 예비창업자를 위한 창업 교육 및 멘…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7048,6 +7299,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171267&page=1&schM=view",
    "status": "open",
    "note": "중소·벤처기업 기술혁신·사업화 지원, 창업 생태계 조성·교류 활성화 행사, 창업 역량 강화 교육 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -7076,6 +7328,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171268&page=1&schM=view",
    "status": "open",
    "note": "제조시설 및 공간 제공, 사업화자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7104,6 +7357,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171269&page=1&schM=view",
    "status": "open",
    "note": "창업 사업화에 소요되는 사업화 자금(15~30백만원), 교육 및 멘토링 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7131,6 +7385,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171270&page=1&schM=view",
    "status": "open",
    "note": "점포 리모델링 비용 및 임차료 지원 (최대 10백만원) - 리모델링비 최대 5백만원 (500천원/3.3㎡) - 임차료 최대 월 0.5백만원 (5…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7159,6 +7414,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171271&page=1&schM=view",
    "status": "open",
    "note": "주공간, 멘토링, 네크워크 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7188,6 +7444,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171272&page=1&schM=view",
    "status": "open",
    "note": "- 수도권 투자사 대상 창업기업 IR라운드(정기 기업설명회)를 통해 사업자금 확보 지원 - 입주기업 모집 및 선발 등 거점센터 이용 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7217,6 +7474,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171273&page=1&schM=view",
    "status": "open",
    "note": "창창 기술창업 아카데미, 창창 창업멘토링, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7246,6 +7504,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171274&page=1&schM=view",
    "status": "open",
    "note": "창업공간(사무실, 회의실, 촬영실 등) 제공, 창업교육, 사업화 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7274,6 +7533,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171275&page=1&schM=view",
    "status": "open",
    "note": "입주공간 제공, 창업교육, 사업화 및 투자유치 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7301,6 +7561,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171276&page=1&schM=view",
    "status": "open",
    "note": "창업공간(사무실, 화상회의장, 회의실), 창업교육 및 컨설팅, 엑셀러레이팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7329,6 +7590,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171277&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 창업공간(사무실, 화상회의장, 회의실), 창업교육 및 컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7356,6 +7618,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171278&page=1&schM=view",
    "status": "open",
    "note": "사업화자금, 창업공간(사무실, 화상회의장,회의실), 창업교육 및 컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7384,6 +7647,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171279&page=1&schM=view",
    "status": "open",
    "note": "시설‧공간‧보육/창업교육/사업화/ 멘토링‧컨설팅 /행사‧네트워크",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7411,6 +7675,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171280&page=1&schM=view",
    "status": "open",
    "note": "입주공간 제공, 창업교육, 전문가 자문, 네트워킹, 사업화 자금지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7440,6 +7705,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171281&page=1&schM=view",
    "status": "open",
    "note": "- 공간지원 : 사무공간 무상지원, 영상 스튜디오 및 회의실 입주기업 우선예약 지원 - 사업화지원 : 기업의 성장 및 도약을 위한 사업화 자금지…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7468,6 +7734,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171282&page=1&schM=view",
    "status": "open",
    "note": "시설‧공간‧보육/사업화 지원/ 멘토링‧컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7497,6 +7764,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171283&page=1&schM=view",
    "status": "open",
    "note": "양산시 관내 창업보육센터 입주기업 보육실 연간 임차료 50% - 관리비 및 부가세 제외, 1개 기업 당 연간 2,500천원 한도 및 최대 3년 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7526,6 +7794,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171284&page=1&schM=view",
    "status": "open",
    "note": "청년 창업공간 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7553,6 +7822,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171285&page=1&schM=view",
    "status": "open",
    "note": "창업공간 및 활동 지원, 컨설팅 등 교육, 커뮤니티 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7580,6 +7850,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171286&page=1&schM=view",
    "status": "open",
    "note": "입주·창업 지원사업, 공연예술 역량강화 교육, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7609,6 +7880,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171287&page=1&schM=view",
    "status": "open",
    "note": "창업공간 지원, 컨설팅 등 교육, 브랜딩 및 콘텐츠 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7636,6 +7908,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171288&page=1&schM=view",
    "status": "open",
    "note": "개소당 최대 1,000만 원 - 시설개선비: 내부 시설개선(총사업비 공급가액의 80%) - 임차료: 월 50만원 이내(최대 12개월간, 600만…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7663,6 +7936,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171289&page=1&schM=view",
    "status": "open",
    "note": "사업계획서 작성, 재무회계지식, 지식재산권, 마케팅활용 등 교육",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7692,6 +7966,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171290&page=1&schM=view",
    "status": "open",
    "note": "공간 활용 지원 및 리모트워크, 전주한옥마을 팝업존 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7721,6 +7996,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171291&page=1&schM=view",
    "status": "open",
    "note": "창업공간지원, 전문가 상담, 교육 지원, 네트워크 활동 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7749,6 +8025,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171292&page=1&schM=view",
    "status": "open",
    "note": "시설 및 장소 제공, 경영‧세무‧기술지도, 지식재산권 취득 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7778,6 +8055,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171293&page=1&schM=view",
    "status": "open",
    "note": "- 청년 역량강화교육, 취업지원, 청년활동 및 교류 네트워킹 등 서비스공간 운영 - 창업교육 및 컨설팅, 예비창업가 육성, 아이디어 시제품 제작…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7807,6 +8085,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171294&page=1&schM=view",
    "status": "open",
    "note": "창작공간 제공, 마케팅및 제품개발비 사업화 지원, 컨설팅 지원 - 홍보물, 포장패키지 등 제작 지원 - 온라인 마케팅(바이럴마케팅, 홍보 컨텐츠…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7834,6 +8113,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171295&page=1&schM=view",
    "status": "open",
    "note": "사업장 및 기물 무상대여",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7863,6 +8143,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171296&page=1&schM=view",
    "status": "open",
    "note": "LH보유 원룸 보증금(최대 3,500천원), 월 임대료(최대100천원) 지원 ※ 임대보증금 외 계약금 1,000천원 본인부담(계약 만료시 반환)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7892,6 +8173,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171297&page=1&schM=view",
    "status": "open",
    "note": "시중보다 저렴한 임대료로 창업 공간 임대",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7919,6 +8201,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171298&page=1&schM=view",
    "status": "open",
    "note": "- 창업활성화 조성 : 사업계획서 작성 지도 - 창업분위기 조성 : 졸업 및 입주기업 네트워킹, 워크숍, 성과보고회 - 세무회계 지원 : 회계 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7947,6 +8230,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171299&page=1&schM=view",
    "status": "open",
    "note": "임대료 최대 3백만원 지원(월 최대 50만원씩 6개월 지원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -7974,6 +8258,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171302&page=1&schM=view",
    "status": "open",
    "note": "- (경영아카데미) 분야별 전문가의 맞춤형(창업·경영·마케팅) 교육으로 준비된 창업지원과 소상공인의 사업 지속가능성 및 경쟁력 강화 - (현장경…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8003,6 +8288,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171303&page=1&schM=view",
    "status": "open",
    "note": "독창적인 아이디어가 창업으로 연계될 수 있도록 열린 창작공간(팹랩*) 제공 및 디지털 장비 교육 등 및 시제품 제작 등 사업화 지원 구분, 학습…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8030,6 +8316,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171258&page=1&schM=view",
    "status": "open",
    "note": "입주 공간 제공 및 사업화 지원(지식재산권 취득, 멘토링·컨설팅) 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8057,6 +8344,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171257&page=1&schM=view",
    "status": "open",
    "note": "신규창업, 지재권 취득, 시제품 제작 및 마케팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8085,6 +8373,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171248&page=1&schM=view",
    "status": "open",
    "note": "초기 창업기업의 전문보육과 투자",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -8113,6 +8402,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171249&page=1&schM=view",
    "status": "open",
    "note": "입주공간 지원 및 사업화지원, 교육, 멘토링, 창업지원 프로그램 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8141,6 +8431,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171250&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 사업화, 창업교육, 멘토링, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8170,6 +8461,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171251&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 창업교육, 사업화 자금, 네트워킹 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8197,6 +8489,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171252&page=1&schM=view",
    "status": "open",
    "note": "멘토링 교육, 스튜디오, 공간지원, 가상오피스 지원(임대차 계약서 지원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8224,6 +8517,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171253&page=1&schM=view",
    "status": "open",
    "note": "사무공간, 전문가 멘토링 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8251,6 +8545,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171254&page=1&schM=view",
    "status": "open",
    "note": "- 공간 지원 : 입주공간 임대료·관리비 무료, 교육실·3D프린터·촬영스튜디오 등 제공 - 프로그램 지원 : 창업 멘토링·컨설팅, 청년 스타트업…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8280,6 +8575,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171255&page=1&schM=view",
    "status": "open",
    "note": "교육, 자문, 네트워킹, 사무공간 제공 등 - (사무공간) 독립형·개방형 사무공간 및 다인실 운영 - (교육) 기업 핵심역량 강화 교육 프로그램…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8307,6 +8603,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171256&page=1&schM=view",
    "status": "open",
    "note": "매주(화, 목) 멘토링 운영, 코워킹 스페이스 운영, 회의실 운영 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8334,6 +8631,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171239&page=1&schM=view",
    "status": "open",
    "note": "사무공간 및 사무실 입주 지원, 멘토링, 선택형사업, 네트워킹 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8361,6 +8659,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171240&page=1&schM=view",
    "status": "open",
    "note": "- 사업화 지원 : 20개 입주사 중 선정 - 입주기업 프로그램 지원 : 특강, 전문가 멘토링, 네트워킹 - 독립형 사무공간 제공, 인터넷 전용…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8388,6 +8687,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171241&page=1&schM=view",
    "status": "open",
    "note": "- 바이오·메디컬 특화 멘토링, 컨설팅, 투자·사업화 연계, 공용 인프라 제공 등 성장 단계별 맞춤형 지원 - 입주기업사업화 지원 : 시제품제작…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8415,6 +8715,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171242&page=1&schM=view",
    "status": "open",
    "note": "입주공간(18㎡) 및 공용 공간 제공, 사업화 지원, 판로개척, 전문가 멘토링, 네트워킹 프로그램, 시제품 컨설팅, 메이커 스페이스 시설 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8442,6 +8743,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171243&page=1&schM=view",
    "status": "open",
    "note": "사무공간 제공(지정석 18석, 자유석 4석), 선택형 사업비 지원, 전문가 자문, 교육·멘토링·네트워킹 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8470,6 +8772,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171244&page=1&schM=view",
    "status": "open",
    "note": "시설‧공간‧보육/창업 교육/사업화/멘토링‧컨설팅/행사‧네트워크",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8497,6 +8800,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171245&page=1&schM=view",
    "status": "open",
    "note": "· 창업입주사무실 및 OA공간 등 입주자 단독 사용 공간 제공 · 유료대관 4층 강당 무료 사용 및 코워킹스페이스 등 다양한 공간 사용 가능 ·…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8524,6 +8828,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171246&page=1&schM=view",
    "status": "open",
    "note": "- 공간 및 시설: 독립형 사무공간, 커뮤니티홀, 회의실 등 공용 공간 및 시설 - 프로그램: 네트워킹 프로그램, 엑셀러레이팅 프로그램 등 - …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8552,6 +8857,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171247&page=1&schM=view",
    "status": "open",
    "note": "- 공간 및 시설: 독립형 사무공간, 회의실, 탕비실 등 공용 공간 및 시설 - 비용: 임차료 및 임차보증금 전액 지원 - 기간: 최초 2년, …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8579,6 +8885,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171225&page=1&schM=view",
    "status": "open",
    "note": "- 기업역량 강화를 위한 멘토링, 컨설팅, 전시‧박람회 지원 - 분기별 간담회를 통한 소통 강화 - 입주기업 홍보 및 판로개척 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8607,6 +8914,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171226&page=1&schM=view",
    "status": "open",
    "note": "- (임 차 료) 최대 80만원 - (컨 설 팅) 마케팅 및 세무회계 등 전문가 컨설팅 제공 - (마케팅지원) SNS 등 실질적인 마케팅 등 홍…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8635,6 +8943,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171227&page=1&schM=view",
    "status": "open",
    "note": "제조(사무) 공간, 입주기업 엑설러레이팅(사업화 자금, 멘토링), 제품화 컨설팅, 기술자문, 교육 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8662,6 +8971,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171228&page=1&schM=view",
    "status": "open",
    "note": "사무공간, 창업프로그램(컨설팅·멘토링 등), 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8689,6 +8999,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171229&page=1&schM=view",
    "status": "open",
    "note": "사무공간, 사업화지원금, 창업프로그램(컨설팅·멘토링 등), 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8716,6 +9027,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171230&page=1&schM=view",
    "status": "open",
    "note": "사무공간, 창업프로그램(컨설팅·멘토링 등), 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8745,6 +9057,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171231&page=1&schM=view",
    "status": "open",
    "note": "창업보육센터 내 입주기업 사업화 지원(시제품제작, 컨설팅, 국내·외 인증비용 등 지원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8774,6 +9087,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171232&page=1&schM=view",
    "status": "open",
    "note": "관내 우수창업기업 사업화지원 및 전문가 멘토링, IR자료 작성",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8801,6 +9115,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171233&page=1&schM=view",
    "status": "open",
    "note": "창업공간 제공, 창업기업 사업화 및 창업 네트워크 지원 등 - 창업공간 : 입주공간 56실 제공, 다목적실 및 회의실 등 창업 인프라 제공 - …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8828,6 +9143,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171234&page=1&schM=view",
    "status": "open",
    "note": "창업 교육, 투자유치 행사 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8855,6 +9171,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171235&page=1&schM=view",
    "status": "open",
    "note": "- (입주공간) 기술창업기업 대상 입주공간 및 개방형 지정석 제공 - (코워킹스페이스) 공유 업무시설 제공, 맞춤형 멘토링 지원, 기술 IR 교…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8883,6 +9200,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171236&page=1&schM=view",
    "status": "open",
    "note": "- 독립사무공간 제공 및 사업화지원(지식재산, 기술인증 등) - 정부지원·세무·법률·경영 등에 관한 창업교육·멘토링 지원 - 간담회 운영 등을 …",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -8910,6 +9228,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171237&page=1&schM=view",
    "status": "open",
    "note": "사무공간 및 사무실 입주 지원, 기업 간 네트워킹 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8937,6 +9256,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171238&page=1&schM=view",
    "status": "open",
    "note": "1) 창업지원센터 입주기업 대상: 맞춤형 컨설팅, 투자유치 등 지원 2) 용인 소재 예비창업자 및 창업기업 대상: 배치 프로그램 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8964,6 +9284,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171224&page=1&schM=view",
    "status": "open",
    "note": "사무공간, 창업교육, 상담, 전문가 경영지원(세무‧회계‧법률 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -8993,6 +9314,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171211&page=1&schM=view",
    "status": "open",
    "note": "입주공간 19개실(20기업 입주가능), 입주기업 대상 멘토링 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9022,6 +9344,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171212&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 기업교육, 컨설팅, 사업화, 투자유치, 교류·멘토링 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9049,6 +9372,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171213&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 사업화 지원, 경영 컨설팅, BM 진단, 글로벌 진출 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9077,6 +9401,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171214&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 소셜벤처 맞춤형 특화지원, 인큐베이팅 및 액셀러레이팅 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9105,6 +9430,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171215&page=1&schM=view",
    "status": "open",
    "note": "입주공간 지원, 입주기업 지원 프로그램 운영, 사업화 자금 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9134,6 +9460,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171216&page=1&schM=view",
    "status": "open",
    "note": "입주공간 지원, 시제품 제작, 글로벌 마케팅 및 글로벌 전시회 참가 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9163,6 +9490,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171217&page=1&schM=view",
    "status": "open",
    "note": "지역 청년 (예비)창업가를 위한 창업공간 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9192,6 +9520,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171218&page=1&schM=view",
    "status": "open",
    "note": "①입주공간 제공 ②센터 부대시설 무상지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9221,6 +9550,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171219&page=1&schM=view",
    "status": "open",
    "note": "창업공간제공, 분야별 전문가 멘토링(상담), 마케팅 및 판로개척 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9250,6 +9580,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171220&page=1&schM=view",
    "status": "open",
    "note": "맞춤형 사업화 및 역량강화 교육 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9278,6 +9609,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171221&page=1&schM=view",
    "status": "open",
    "note": "재창업 컨설팅·교육, 사업화·시장전환 등 지원 및 실패 사례·제품 전시·체험공간 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9306,6 +9638,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171222&page=1&schM=view",
    "status": "open",
    "note": "제조공간 지원(60~100㎡), 마케팅·멘토링·판로개척·투자유치 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9334,6 +9667,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171223&page=1&schM=view",
    "status": "open",
    "note": "창업보육실, 성장단계별 맞춤형 기술개발 지원, 판로개척 및 사업화 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9363,6 +9697,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171155&page=1&schM=view",
    "status": "open",
    "note": "사무공간‧공유주방 제공, 사업화자금, 멘토링, 판로개척, 네트워킹 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9391,6 +9726,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171156&page=1&schM=view",
    "status": "open",
    "note": "독립 사무공간, 입주기업 대상 투자연계ㆍ네트워킹ㆍ파트너 프로그램 등 보육ㆍ성장 프로그램 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9420,6 +9756,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171157&page=1&schM=view",
    "status": "open",
    "note": "대·중소기업 협력 오픈이노베이션, 글로벌 진출, 독립 사무공간 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9448,6 +9785,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171158&page=1&schM=view",
    "status": "open",
    "note": "우수 스타트업 발굴·보육 및 국내외 판로 개척 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9476,6 +9814,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171159&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 엑셀러레이팅 프로그램 제공, 투자 네트워크 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9504,6 +9843,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171160&page=1&schM=view",
    "status": "open",
    "note": "회로설계→부품선정→전자보드제작→성능시험평가→펌웨어→기구설계→케이스·외형제작→제품 피드백(스케일업)의 전자제품 개발·제조 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9532,6 +9872,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171161&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 기업역량 강화, 기술사업화 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9559,6 +9900,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171162&page=1&schM=view",
    "status": "open",
    "note": "비즈니스모델(BM) 구축 지원, 고도기술(딥테크) 분야 상시 상담(멘토링), 성능시험장(테스트베드·PoC)-홍보 연계지원, 기업 투자설명회(IR…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9587,6 +9929,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171163&page=1&schM=view",
    "status": "open",
    "note": "대기업 연계 오픈이노베이션 협력사업 추진, 마케팅 지원, 투자 및 컨설팅 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9615,6 +9958,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171164&page=1&schM=view",
    "status": "open",
    "note": "입주 공간 제공, 액셀러레이팅 프로그램 및 투자 유치 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9643,6 +9987,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171165&page=1&schM=view",
    "status": "open",
    "note": "공간 제공, 맞춤형 교육 프로그램, 투자유치·해외진출 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9672,6 +10017,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171166&page=1&schM=view",
    "status": "open",
    "note": "입주 사무공간 지원(최대 3년), 초기 핀테크 기업 특화 보육 프로그램 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9700,6 +10046,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171167&page=1&schM=view",
    "status": "open",
    "note": "창업보육공간 및 역량 강화 프로그램 제공",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9727,6 +10074,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171168&page=1&schM=view",
    "status": "open",
    "note": "코워킹스페이스 형태의 입주기업 좌석 제공(2~6좌석)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9754,6 +10102,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171169&page=1&schM=view",
    "status": "open",
    "note": "사무공간 제공, 창업컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9783,6 +10132,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171170&page=1&schM=view",
    "status": "open",
    "note": "자금(위탁사 투자연계), 멘토링 및 네트워킹, 회의 공간 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9810,6 +10160,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171171&page=1&schM=view",
    "status": "open",
    "note": "①창업 공간 제공 /② 교육 및 컨설팅 / ③ 기업 간 네트워킹 / ④투자유치 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9837,6 +10188,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171172&page=1&schM=view",
    "status": "open",
    "note": "입주공간 및 사업화자금, 멘토링 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9865,6 +10217,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171173&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 사업화자금, 창업교육, 멘토링 등 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -9892,6 +10245,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171174&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 사업화자금, 창업교육, 멘토링, 네트워킹 프로그램 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9920,6 +10274,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171175&page=1&schM=view",
    "status": "open",
    "note": "사무실, 임대료 및 보증금, 관리비, 인터넷 및 무인경비요금, 창업교육",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9947,6 +10302,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171176&page=1&schM=view",
    "status": "open",
    "note": "①입주공간 제공 ② 사업화자금 일부 지원 ③ 네트워킹 지원 ④ 창업교육 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -9974,6 +10330,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171177&page=1&schM=view",
    "status": "open",
    "note": "- 공간지원 : 사무공간, 회의실, 휴게실 등 기업활동에 필요 공간 지원 - 사업화지원 : 성장단계별 제품개발, 창안, 홍보 등 사업화 활동 지…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10001,6 +10358,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171178&page=1&schM=view",
    "status": "open",
    "note": "보육서비스(경영, 마케팅, 재무, 기술지원 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10028,6 +10386,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171179&page=1&schM=view",
    "status": "open",
    "note": "무료 공간 제공 및 상담·자문·교육 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10056,6 +10415,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171180&page=1&schM=view",
    "status": "open",
    "note": "무료 공간 제공 및 상담·자문·교육 등 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10085,6 +10445,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171181&page=1&schM=view",
    "status": "open",
    "note": "예비·초기창업자를 위한 창업 상담 및 정보 제공, 입주 공간 지원 등 - 창업교육 ‣ 예비창업자 대상 상담, 컨설팅, 멘토링 서비스 제공 ‣ 다…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10112,6 +10473,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171182&page=1&schM=view",
    "status": "open",
    "note": "직접수행(창업지원센터 임대, 시설대관[회의실,세미나실] 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10140,6 +10502,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171183&page=1&schM=view",
    "status": "open",
    "note": "- 초기 창업기업을 위한 사무 및 공유 공간 지원 - 경영 컨설팅 등 체계적인 지원으로 성공적인 창업 정착 도모",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10168,6 +10531,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171184&page=1&schM=view",
    "status": "open",
    "note": "창업공간 제공, 창업교육, 멘토링·컨설팅, 투자유치, 네트워킹 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10196,6 +10560,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171185&page=1&schM=view",
    "status": "open",
    "note": "사무공간 제공, 창업교육, 멘토링, 네트워킹 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10225,6 +10590,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171186&page=1&schM=view",
    "status": "open",
    "note": "창업교육 프로그램, 멘토링 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10254,6 +10620,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171187&page=1&schM=view",
    "status": "open",
    "note": "창업 컨설팅, 창업 교육, 장비·공간 대관 등 연간 상시 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10282,6 +10649,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171188&page=1&schM=view",
    "status": "open",
    "note": "1인, 월 30만 원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10311,6 +10679,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171189&page=1&schM=view",
    "status": "open",
    "note": "투자생태계 촉진 및 활성화를 위한 온·오프라인 데모데이 운영, 지역 투자 전문가 양성, 민간 투자생태계 활성화 지원, 민관 투자 활성화 협의체 …",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10338,6 +10707,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171190&page=1&schM=view",
    "status": "open",
    "note": "사무공간, 교육 및 컨설팅, 멘토링 및 액셀러레이팅 지원 - (입주지원) 입주사무실 16개사, 코워킹 정기사용자 30명 사무공간 지원 - (사업…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10367,6 +10737,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171191&page=1&schM=view",
    "status": "open",
    "note": "임대료의 50% 지원, 기술창업기업 보육, 컨설팅, 투자연계 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10394,6 +10765,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171192&page=1&schM=view",
    "status": "open",
    "note": "창업공간 지원, 푸드트럭 창업 지원프로그램 운영 및 취‧창업 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10421,6 +10793,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171193&page=1&schM=view",
    "status": "open",
    "note": "입주기업·멤버십 회원 관리 및 액셀러레이팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10448,6 +10821,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171194&page=1&schM=view",
    "status": "open",
    "note": "사업 안정화를 위한 창업공간 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10476,6 +10850,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171195&page=1&schM=view",
    "status": "open",
    "note": "창업공간(1-2인실 사무공간), 판로개척(200만원), 컨설팅 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10504,6 +10879,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171196&page=1&schM=view",
    "status": "open",
    "note": "창업공간 제공, 창업교육 , 판로개척비 지원(분기별 50만원, 총200만원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10533,6 +10909,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171197&page=1&schM=view",
    "status": "open",
    "note": "입주공간 임차료 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10561,6 +10938,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171198&page=1&schM=view",
    "status": "open",
    "note": "입주공간 임차료 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10589,6 +10967,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171199&page=1&schM=view",
    "status": "open",
    "note": "입주공간 임차료 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10616,6 +10995,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171200&page=1&schM=view",
    "status": "open",
    "note": "입주공간 지원, 맞춤형 액셀러레이팅, 스타트업 컨퍼런스 개최 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10644,6 +11024,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171201&page=1&schM=view",
    "status": "open",
    "note": "기업 입주공간 지원, 창업기업 사업화·스케일업 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10673,6 +11054,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171202&page=1&schM=view",
    "status": "open",
    "note": "카페공간, 시설대관, 멘토링, 창업특강, 창업모임 지원, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10701,6 +11083,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171203&page=1&schM=view",
    "status": "open",
    "note": "입주공간 무상제공, 실무교육, 모의투자 IR 대회 개최 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10730,6 +11113,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171204&page=1&schM=view",
    "status": "open",
    "note": "- 민간 액셀러레이터(창업기획사)가 유망 바이오 스타트업(10개사)을 엄선하여 투자 유치를 목표로 종합 밀착지원 - 우수 바이오 스타트업(10개…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10759,6 +11143,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171205&page=1&schM=view",
    "status": "open",
    "note": "- 임상전문가와 기업별 임상전문가 매칭, 컨설팅 지원 - 병원의 연구시설 개방 (실험실 Wet Lab 및 Dry Lab) - 연구회 운영 및 산…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10787,6 +11172,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171206&page=1&schM=view",
    "status": "open",
    "note": "사무실 공간제공, 사업화 지원, 창업보육 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10814,6 +11200,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171207&page=1&schM=view",
    "status": "open",
    "note": "창업공간 제공, 초기창업사업기반 구축비 월 최대 30만원 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10842,6 +11229,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171208&page=1&schM=view",
    "status": "open",
    "note": "사업장 임대료 월 20만원 지원 / 최대 5개월, 총 100만원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -10870,6 +11258,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171209&page=1&schM=view",
    "status": "open",
    "note": "입주기업실 및 창업지원시설 무상 임차 · 독립사무실, 창업 멘토링 및 교육 제공, 창업시설 무상 우선 이용 · 공유사무실, 창업 멘토링 및 교육…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10898,6 +11287,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=171210&page=1&schM=view",
    "status": "open",
    "note": "입주기업 무상입차(2년, 추가 1회), 초기창업지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10926,6 +11316,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170043&page=1&schM=view",
    "status": "open",
    "note": "제조 (예비)창업자의 아이디어를 시제품 제작부터 초도양산까지 지원하는 프로그램 운영 등을 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10953,6 +11344,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170044&page=1&schM=view",
    "status": "open",
    "note": "보육공간 제공, 보육프로그램 운영, 인프라 시설지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -10980,6 +11372,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170045&page=1&schM=view",
    "status": "open",
    "note": "멘토링, 창업교육, 투자설명회, 지역 창업자·기업 간 네트워킹, 마케팅·판로개척, 글로벌진출 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11008,6 +11401,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170046&page=1&schM=view",
    "status": "open",
    "note": "①시설‧공간‧보육 ②사업화, 멘토링·컨설팅·교육, 행사·네트워크, 글로벌 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11037,6 +11431,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170047&page=1&schM=view",
    "status": "open",
    "note": "초기 창업기업(예비창업자 포함)에게 사업공간 및 교육, 멘토링, 네트워킹 등 보육서비스를 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11066,6 +11461,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170048&page=1&schM=view",
    "status": "open",
    "note": "사무공간 제공, 판로개척, 창업교육 및 멘토링 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11095,6 +11491,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170049&page=1&schM=view",
    "status": "open",
    "note": "창업공간(무상), 해외진출 프로그램 등 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11123,6 +11520,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170050&page=1&schM=view",
    "status": "open",
    "note": "독립형 사무․교육공간 제공, 창업교육, 맞춤형 컨설팅, 기술금융(대출·투자) 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11150,6 +11548,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=170051&page=1&schM=view",
    "status": "open",
    "note": "사무·공용공간 제공, 비즈니스 네트워크 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11179,6 +11578,7 @@
    "url": "www.k-startup.go.kr/web/contents/webFC_SP_NR.do?id=157025&page=1&schM=view",
    "status": "open",
    "note": "사무공간 제공, 전문가 자문, 교육·멘토링, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11207,6 +11607,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=174089&page=1&schM=view",
    "status": "open",
    "note": "최대 1천만원 이용한도의 신용카드* 발급 지원 * 혜택 : 연회비 면제, 최대 6개월 무이자 할부, 최초 1년간 이용금액 3%(최대 10만원),…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11235,6 +11636,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171387&page=1&schM=view",
    "status": "open",
    "note": "5천만원 내 보증(5년 내, 보증료율 0.5%), 이자(3%, 1년)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11264,6 +11666,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171388&page=1&schM=view",
    "status": "open",
    "note": "- 이차보전금: 2년간 연 3% 이자보전금 지원 - 보증수수료: 1년간 보증수수료의 1% 이내 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11293,6 +11696,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171389&page=1&schM=view",
    "status": "open",
    "note": "- 대출한도 : 5천만원(창업·청년창업자금), 7천만원(경영안정자금) - 이차보전 : 최대 4년간 2.5%(창업·경영안정자금), 3%(청년창업자…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11321,6 +11725,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171390&page=1&schM=view",
    "status": "open",
    "note": "우대보증 및 이자 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11349,6 +11754,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171391&page=1&schM=view",
    "status": "open",
    "note": "구분융자금액상환방법지원내용중소기업 육성자금 (경영안정자금, 시설·설비자금)5억원 이내2년 거치 3년 균등상환5년간 연 3.5% 이자차액 보전※ …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11377,6 +11783,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171392&page=1&schM=view",
    "status": "open",
    "note": "창업자금 대출 및 이자지원, 금융교육 및 컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11405,6 +11812,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171393&page=1&schM=view",
    "status": "open",
    "note": "신용 또는 기술보증기금 연계 자금지원 및 이자·보증수수료 지원 - 기업당 최대 3억원 이하의 운전자금 - 이자 지원: 2% - 보증료 지원: 연…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11433,6 +11841,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171394&page=1&schM=view",
    "status": "open",
    "note": "담보력 부족 등 자금사정이 어려운 도내 창업기업 육성을 위한 특별보증 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11461,6 +11870,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171395&page=1&schM=view",
    "status": "open",
    "note": "담보력 부족 등 자금사정이 어려운 도내 청년 창업기업 육성을 위한 창업 두드림 특별보증 수수료 지원 (최초 신규보증 1회(2년)분)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11489,6 +11899,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=171396&page=1&schM=view",
    "status": "open",
    "note": "청년창업기업 저금리 융자지원 * 지원기간: 2회 4년 (1회차) 이차보전율 4.25%, (2회차) 이차보전율 3.25% 담보별협약최고 대출금리(…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11517,6 +11928,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170073&page=1&schM=view",
    "status": "open",
    "note": "사업장 매입·기계설비 도입 등 시설자금 및 원부자재 구입비용·인건비 등 운전자금 융자 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11545,6 +11957,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170074&page=1&schM=view",
    "status": "open",
    "note": "- 융자기간 : (시설) 10년 이내(거치기간 4년 이내 포함)(운전) 6년 이내(거치기간 3년 이내 포함) - 융자한도 : (시설) 잔액기준 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11573,6 +11986,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170075&page=1&schM=view",
    "status": "open",
    "note": "창업 후 7년 이내 신기술사업을 영위하는 중소기업에 대해 창업분야를 지식문화, 이공계챌린저, 기술경력·뿌리, 첨단·성장연계 분야로 구분하여 맞춤…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11601,6 +12015,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170076&page=1&schM=view",
    "status": "open",
    "note": "운전자금 및 시설자금",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11629,6 +12044,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170077&page=1&schM=view",
    "status": "open",
    "note": "운전자금 및 시설자금",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11656,6 +12072,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170078&page=1&schM=view",
    "status": "open",
    "note": "운전자금 및 시설자금",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11684,6 +12101,7 @@
    "url": "www.k-startup.go.kr/web/contents/webBUSI_INTR_VIEW.do?id=170079&page=1&schM=view",
    "status": "open",
    "note": "운전자금 및 시설자금",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11711,6 +12129,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171348&page=1&schM=view",
    "status": "open",
    "note": "국내·외 스타트업 IR․밋업, 포럼 및 스타트업 혁신기술 전시 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11740,6 +12159,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171349&page=1&schM=view",
    "status": "open",
    "note": "1인당 10만 원 내 기업 간 동아리 활동 지원 및 네트워킹 행사 마련",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11767,6 +12187,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171350&page=1&schM=view",
    "status": "open",
    "note": "콘퍼런스, 어워즈, LP-VC포럼, 밋업, 전시, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11795,6 +12216,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171351&page=1&schM=view",
    "status": "open",
    "note": "우수 스타트업 포상",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11823,6 +12245,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171352&page=1&schM=view",
    "status": "open",
    "note": "- (발 굴) 공개 모집 후 평가를 통한 기업발굴 - (컨 설 팅) 참여기업 투자유치 1:1 사전코칭 - (행사운영) 분기별(3, 6, 9, 1…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11852,6 +12275,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171353&page=1&schM=view",
    "status": "open",
    "note": "메이커 제품 전시·체험 부스 운영, 시민 참여 부대행사 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11880,6 +12304,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171354&page=1&schM=view",
    "status": "open",
    "note": "인사이트 세미나 및 네트워킹, 성과 공유 간담회 등 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11907,6 +12332,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171355&page=1&schM=view",
    "status": "open",
    "note": "청년창업아이디어 멘토링, 우수아이디어 시상 및 창업유관기관 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11935,6 +12361,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171356&page=1&schM=view",
    "status": "open",
    "note": "투자유치IR, 전시, 밋업/네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -11964,6 +12391,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171357&page=1&schM=view",
    "status": "open",
    "note": "부스 임차 및 설치, 기업바우처 지원, CES 혁신상 컨설팅, 투자사 매칭지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -11991,6 +12419,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171358&page=1&schM=view",
    "status": "open",
    "note": "창업 아이디어 수상자 사업화 지원(특허출원, 시제품 제작 등) ※ 1차 서류통과자 1:1전문가 컨설팅 및 수상자 3팀 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12018,6 +12447,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171359&page=1&schM=view",
    "status": "open",
    "note": "청년·여성 창업자 대상 프로그램, 창업벤처기관협의회, 창업정보시스템 운영, 세종 스타트업 페스티벌 개최",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12046,6 +12476,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171360&page=1&schM=view",
    "status": "open",
    "note": "창업경진대회 우수기업 발굴‧사업화 자금 지원, 투자 검토, 멘토링 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12073,6 +12504,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171361&page=1&schM=view",
    "status": "open",
    "note": "총 45백만원의 시상금 및 245백만원의 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12100,6 +12532,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171362&page=1&schM=view",
    "status": "open",
    "note": "입주공간, 시제품 제작, 액셀러레이팅, R&D 및 투자 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12128,6 +12561,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171363&page=1&schM=view",
    "status": "open",
    "note": "수상자 사업화지원금 및 경기도일자리재단장상 수여",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12156,6 +12590,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171364&page=1&schM=view",
    "status": "open",
    "note": "- 대형쇼핑몰(스타필드 고양) 협업 장소제공 - 사전설명회, 매대 및 인테리어 제공, 소비자 조사 추진",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12184,6 +12619,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171365&page=1&schM=view",
    "status": "open",
    "note": "- 고양 IR데이 : 창업·벤처기업을 발굴하고 멘토링 및 투자까지 연계 - 홍보부스 지원 : 고양IR데이 우수선정기업 10개 - 전문가 상담 :…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12211,6 +12647,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171366&page=1&schM=view",
    "status": "open",
    "note": "대회상금(사업화 지원금), 액셀러레이팅 프로그램",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12238,6 +12675,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171367&page=1&schM=view",
    "status": "open",
    "note": "(Connect) 투자자 및 판로처 등을 연결하는 커뮤니티 구축(Help) 연간 스타트업 지원 정책 안내 (Advise) 전문가의 1:1 성장 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12266,6 +12704,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171368&page=1&schM=view",
    "status": "open",
    "note": "시상금 차등 지급, 교육 및 1:1 멘토링 등 성장지원프로그램 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12295,6 +12734,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171369&page=1&schM=view",
    "status": "open",
    "note": "1)우수작품 시상‧상금 지급 및 최우수작 범정부 통합본선 진출권 부여 2)서류평가 통과 작품 대상 창업 컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12324,6 +12764,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171370&page=1&schM=view",
    "status": "open",
    "note": "- 기업 IR & 1분 스피치(IR) - 분과별(바이오, 소부장, 이차전지 등) 소모임 - 정부지원사업 강연 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12352,6 +12793,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171371&page=1&schM=view",
    "status": "open",
    "note": "멘토링, 투자연계, 사업화자금지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12379,6 +12821,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171372&page=1&schM=view",
    "status": "open",
    "note": "예비 창업 기업 1개소당 1천만원, 7년미만 창업기업 1~3천만원 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12408,6 +12851,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171373&page=1&schM=view",
    "status": "open",
    "note": "도내 창업기업의 성장자금 유치 지원 프로그램 운영을 통한 경남기업의 스케일업 및 투자 활성화 - 금융기관 연계 IR 개최 - 소규모 지역 특화 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12437,6 +12881,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171374&page=1&schM=view",
    "status": "open",
    "note": "CES 참가기업 지원(참가비, 항공료, 홍보비, 통역 및 물류비 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12466,6 +12911,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171375&page=1&schM=view",
    "status": "open",
    "note": "- 스타트업 컨퍼런스 : 창업 분야 저명인사 초청 특강 진행 - 벤처투자 피칭 경진대회 : 스타트업 및 중소중견기업 IR 발표 - 기술창업 경진…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12494,6 +12940,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171376&page=1&schM=view",
    "status": "open",
    "note": "- 개최시기 : ‘26. 11.(예정) ※창스타 테크쇼 개최 연계 - 개최장소 : 창원컨벤션센터 - 참가대상 : 대학생 및 청년 창업가, 업력 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12521,6 +12968,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171377&page=1&schM=view",
    "status": "open",
    "note": "IR 컨설팅 및 제작, 멘토링, IR 데모데이 개최, 시제품 제작 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12548,6 +12996,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171378&page=1&schM=view",
    "status": "open",
    "note": "- 관내·외 스타트업 및 유관기관 등 협의체 구성 - 관내 스타트업 및 예비창업자를 위한 정기 교류회 추진 - 신규 투자사 발굴 및 유망 스타트…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12576,6 +13025,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171379&page=1&schM=view",
    "status": "open",
    "note": "네트워킹 활성화를 통한 우수 창업사례 및 정책홍보, 교류의 장 마련",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12605,6 +13055,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171380&page=1&schM=view",
    "status": "open",
    "note": "사업사례 강연, 질의응답, 네트워킹",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12634,6 +13085,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171381&page=1&schM=view",
    "status": "open",
    "note": "입주기업간 성과 공유, 선배기업, 우수기업의 경험과 성과 공유",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -12663,6 +13115,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171382&page=1&schM=view",
    "status": "open",
    "note": "입주기업의 차별화된 제품 전시 판매 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12692,6 +13145,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171383&page=1&schM=view",
    "status": "open",
    "note": "기념식, 토크콘서트, 청년마켓, 청년공연, 청년영화제 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12721,6 +13175,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171384&page=1&schM=view",
    "status": "open",
    "note": "청년 창업기업 제품 전시·판매, 컨퍼런스, 투자IR, 선배 창업가 밋업 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12750,6 +13205,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171385&page=1&schM=view",
    "status": "open",
    "note": "시상금 차등 지급, 교육 워크숍 및 1:1 비즈니스 코칭, 성장지원프로그램 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12778,6 +13234,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171386&page=1&schM=view",
    "status": "open",
    "note": "오프라인 판로개척을 위한 프로그램 운영",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -12806,6 +13263,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171036&page=1&schM=view",
    "status": "open",
    "note": "시상금 지급, 포상수여, 역량강화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12833,6 +13291,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=171051&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 및 창업경진대회, 네트워킹",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12862,6 +13321,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170063&page=1&schM=view",
    "status": "open",
    "note": "국내 우수 스타트업이 해외 유망한 VC 및 창업생태계 관계자를 통해 투자유치를 받을 수 있도록 다양한 프로그램 운영",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -12890,6 +13350,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170064&page=1&schM=view",
    "status": "open",
    "note": "시상(대통령상, 국무총리상, 장관‧청장상) 및 상금, 정부지원사업 후속 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -12919,6 +13380,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170065&page=1&schM=view",
    "status": "open",
    "note": "혁신기술 보유 스타트업과 이들의 기술을 필요로 하는 수요기업(대·중견기업, 공공기관 등)간 협업(PoC 등)이 가능하도록 스타트업에 자금 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -12948,6 +13410,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170066&page=1&schM=view",
    "status": "open",
    "note": "혁신기술 보유 스타트업과 이들의 기술을 필요로 하는 수요기업(대·중견기업, 공공기관 등)간 협업(PoC 등)이 가능하도록 스타트업에 자금 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -12977,6 +13440,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170067&page=1&schM=view",
    "status": "open",
    "note": "대기업 수요에 기반한 협업 희망 스타트업에 기술최적화, 글로벌 시장진출지원 및 투자·R&D 등 후속연계 프로그램 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13004,6 +13468,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170068&page=1&schM=view",
    "status": "open",
    "note": "상금 및 시상, 투자 유치 연계, 해외 진출지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13031,6 +13496,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170069&page=1&schM=view",
    "status": "open",
    "note": "상금 108백만원, 수상자 창업벤처녹색융합클러스터 입주 시 가점 부여, 에코스타트업 지원사업 신청 시 서류평가 면제, 창업 멘토링 등 추가 후속…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13058,6 +13524,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170070&page=1&schM=view",
    "status": "open",
    "note": "시상을 통해 우수기업을 선정하고 후속지원 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13085,6 +13552,7 @@
    "url": "www.k-startup.go.kr/web/contents/webENT_NET.do?id=170071&page=1&schM=view",
    "status": "open",
    "note": "방위사업청장상, 국방과학연구소 기술이전 시 기본기술료 면제, 시작품 제작과 사업화 지원 및 창업 멘토링, 네트워크 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13113,6 +13581,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171406&page=1&schM=view",
    "status": "open",
    "note": "해외진츨을 위한 단계별 맞춤형 프로그램 지원 - (전담 액셀러레이팅 지원) 해외진출 멘토링, 컨설팅, 투자유치 역량강화 프로그램 운영 - (사업…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13141,6 +13610,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171407&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원, 글로벌기업 인프라 제공, 해외진출 및 투자유치등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13169,6 +13639,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171408&page=1&schM=view",
    "status": "open",
    "note": "최대 2억원 이내 사업화자금 및 글로벌 실증(PoC)프로그램 제공 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13197,6 +13668,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171409&page=1&schM=view",
    "status": "open",
    "note": "- AI데이터센터 인프라 연계 지원 : 데이터 시각화, 에너지모니터링, 보안솔루션, 배전시스템, 냉각최적화 관련 기술진단 및 시제품제작 지원 -…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13225,6 +13697,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171410&page=1&schM=view",
    "status": "open",
    "note": "국내 특화교육, 현지 프로그램(IR, 투자상담 등), 해외전시회 참관경비",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13253,6 +13726,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171411&page=1&schM=view",
    "status": "open",
    "note": "글로벌 역량강화 및 현지 프로그램, 투자 및 창업 성장자금 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13281,6 +13755,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171412&page=1&schM=view",
    "status": "open",
    "note": "- (국내) 특화교육, 멘토링, IR컨설팅(스토리라인, 리디자인, 번역, 피칭 등),성과공유, 후속투자 검토 등 - (해외) 데모데이, 바이어/…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13309,6 +13784,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171414&page=1&schM=view",
    "status": "open",
    "note": "- 의료기기 분야 기업의 글로벌 시장 진출 지원을 위한 컨설팅 및 참가 지원 - 기업별 맞춤형 Tapping 진행, 타겟 전시회를 위한 홍보 마…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13337,6 +13813,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171415&page=1&schM=view",
    "status": "open",
    "note": "해외 전시회 참가지원, 투자·자금 연계, 글로벌 진출 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13365,6 +13842,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171416&page=1&schM=view",
    "status": "open",
    "note": "- 글로벌 진출을 위한 기본역량 및 실전창업 교육 운영 - 현지 시장조사, 비즈니스 모델 개선 등 전문가 컨설팅 지원 - 현지 프로그램 운영으로…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13393,6 +13871,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171417&page=1&schM=view",
    "status": "open",
    "note": "해외 전시회 참가 또는 시장진출에 대한 맞춤형 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13421,6 +13900,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171418&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원 및 엑셀러레이팅, 투자연계 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13450,6 +13930,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171419&page=1&schM=view",
    "status": "open",
    "note": "해외 유학생 창업 멘토링, 기술창업비자 및 지식재산권 등 취득 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13479,6 +13960,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171400&page=1&schM=view",
    "status": "open",
    "note": "해외시장 진출을 위한 사전 컨설팅 및 현지 액셀러레이팅 참여",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13508,6 +13990,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171401&page=1&schM=view",
    "status": "open",
    "note": "부스임차비 및 인테리어비, 통역지원, IR피칭, 비즈매칭 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13537,6 +14020,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171402&page=1&schM=view",
    "status": "open",
    "note": "단계별 글로벌진출 지원, 글로벌 인턴십 매칭, 워케이션 연계 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13565,6 +14049,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171403&page=1&schM=view",
    "status": "open",
    "note": "CES전시참가 및 혁신상 수상 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13593,6 +14078,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171404&page=1&schM=view",
    "status": "open",
    "note": "맞춤형 글로벌 역량 프로그램(멘토링, 워크숍, 네트워킹) 운영, 현지 투자자 및 협력사와의 네트워킹을 통한 현지 진출지원, 글로벌 규모 스타트업…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13622,6 +14108,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=171405&page=1&schM=view",
    "status": "open",
    "note": "해외 온라인 플랫폼(알리바바닷컴, 아마존닷컴) 입점·운영 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13650,6 +14137,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170081&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 교육, 멘토링‧컨설팅, 홍보·마케팅, 투자연계 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13678,6 +14166,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170082&page=1&schM=view",
    "status": "open",
    "note": "부스 임차, 전시회 참가비, 사전교육, 비즈니스 매칭 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13705,6 +14194,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170083&page=1&schM=view",
    "status": "open",
    "note": "참가지원금, 사무공간, 액셀러레이팅 등 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13733,6 +14223,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170084&page=1&schM=view",
    "status": "open",
    "note": "분야별 특화 액셀러레이팅 프로그램, 멘토링(법인설립, 투자유치 등) 등 제공",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13761,6 +14252,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170085&page=1&schM=view",
    "status": "open",
    "note": "주요국 현지에서 사무공간, 액셀러레이팅 및 멘토링, 네트워크 등 종합 지원 - (거점형)중진공 현지에 물리적 공간(센터)을 설치하고 입주공간과 …",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13789,6 +14281,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170086&page=1&schM=view",
    "status": "open",
    "note": "원스톱 상담창구, 비자 취득 및 법인설립 지원, 사무공간 및 네트워킹 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13818,6 +14311,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170087&page=1&schM=view",
    "status": "open",
    "note": "- (Solution 바우처) AI·디지털 스타트업(수요기업)의 해외시장 맞춤형 제품 개발·고도화를 위한 ICT 전문개발기업(공급기업) 활용 비…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13846,6 +14340,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170088&page=1&schM=view",
    "status": "open",
    "note": "글로벌 진출 지원, 금융지원(보증, 투자 등) 연계 등 종합 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13875,6 +14370,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170089&page=1&schM=view",
    "status": "open",
    "note": "ICT·디지털 분야 혁신기술기업이 글로벌 시장을 지향하여 성장할 수 있도록 해외진출 경영 컨설팅(법률·특허·회계), 사업개발 컨설팅(PMF‧마케…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13904,6 +14400,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170090&page=1&schM=view",
    "status": "open",
    "note": "합작법인설립·운영관련 전문 컨설팅(법률, 특허, 회계, 마케팅), 글로벌 파트너십 발굴 및 확장 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13933,6 +14430,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170091&page=1&schM=view",
    "status": "open",
    "note": "글로벌 협력채널 및 해외실증 프로젝트 발굴 지원, 해외 수요처 실증 요청에 따른 MVP 시제품 테스트 관련 비용 지원(제작 및 개발비용, 시장조…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -13962,6 +14460,7 @@
    "url": "www.k-startup.go.kr/web/contents/webGLOBAL.do?id=170092&page=1&schM=view",
    "status": "open",
    "note": "지식재산권 등 소양 교육, 법인설립 지원, 사업화 지원 제공 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -13990,6 +14489,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNPW.do?id=171397&page=1&schM=view",
    "status": "open",
    "note": "인건비, 역외 인재 체제비",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14019,6 +14519,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNPW.do?id=171398&page=1&schM=view",
    "status": "open",
    "note": "인건비 1인당 1,000천원, 최대 8개월 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14047,6 +14548,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNPW.do?id=171399&page=1&schM=view",
    "status": "open",
    "note": "고용 인건비 지원(신청인원 1인당 최대 300만원/기업당 5명이내)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14075,6 +14577,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=171149&page=1&schM=view",
    "status": "open",
    "note": "- (민간투자연계형)先민간투자 유치로 시장성이 검증된 창업기업을 대상으로 연구개발(R&D) 자금지원(기업당 최대 1억원) - (창업초기기업형) …",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14102,6 +14605,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=171151&page=1&schM=view",
    "status": "open",
    "note": "OSAT 필요 자금, 기술컨설팅, 전문교육 초기 기업 연구실 입주 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14131,6 +14635,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=171152&page=1&schM=view",
    "status": "open",
    "note": "기후테크 스타트업 박람회 참여 지원, POC 자금 지원(2700만원 내외)",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14160,6 +14665,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=171153&page=1&schM=view",
    "status": "open",
    "note": "실증장소 및 비용, 규제해소, 공공구매, 벤처투자 연계 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14188,6 +14694,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=171154&page=1&schM=view",
    "status": "open",
    "note": "기술 상용화 사업화 자금, 비즈니스 컨설팅, 투자유치 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14215,6 +14722,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=170040&page=1&schM=view",
    "status": "open",
    "note": "실험실창업혁신단이 발굴한 실험실창업탐색팀을 대상으로 국내·외 시장탐색교육 및 창업보육 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14244,6 +14752,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=170041&page=1&schM=view",
    "status": "open",
    "note": "다부처 협력 체계 활용 창업유망 기술을 보유한 실험실을 대상으로 주관기관 창업 프로그램 연계, 사업화R&D, 사업모형 수립 지원 등 실험실창업 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14273,6 +14782,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=170042&page=1&schM=view",
    "status": "open",
    "note": "연구자와 경영자가 역할을 분담하고 창업지원전문기관이 밀착 지원하는 협력형 창업 추진",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14301,6 +14811,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=170038&page=1&schM=view",
    "status": "open",
    "note": "① (디딤돌) 다양한 분야의 혁신역량 초기 창업기업의 기술개발 지원(1.5년, 2억원) ② (TIPS) 액셀러레이터 등 TIPS 운영사가 발굴․…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14330,6 +14841,7 @@
    "url": "www.k-startup.go.kr/web/contents/webRND.do?id=170039&page=1&schM=view",
    "status": "open",
    "note": "① 기술개발 및 PoC 지원(1차년도) : 산업별 맞춤형 AI 데이터·모델·플랫폼 등 기술개발(R&D) ② 추가기술개발 및 파일럿·실증 지원(선…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14357,6 +14869,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171420&page=1&schM=view",
    "status": "open",
    "note": "멘토링단 운영하여 현장 또는 온라인 멘토링 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14385,6 +14898,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171304&page=1&schM=view",
    "status": "open",
    "note": "데모데이 참석기업에 한해 IR피칭 컨설팅 및 다양한 분야 투자자 매칭",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14412,6 +14926,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171305&page=1&schM=view",
    "status": "open",
    "note": "부산창업촉진지구별 맞춤형 액셀러레이팅 프로그램 운영지원 - 창업기업 발굴, 컨설팅‧멘토링, 교육‧행사 개최, 투자유치 연계 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14439,6 +14954,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171306&page=1&schM=view",
    "status": "open",
    "note": "창업공간 지원, 컨설팅 및 교육 지원, 창업 역량 강화(네트워킹 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14467,6 +14983,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171307&page=1&schM=view",
    "status": "open",
    "note": "초격차·딥테크 기술창업기업 전략적 컨설팅 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14495,6 +15012,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171308&page=1&schM=view",
    "status": "open",
    "note": "투자밋업데이(1:1 투자상담), 데모데이(IR피칭 및 매칭상담) 등 운영",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14523,6 +15041,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171309&page=1&schM=view",
    "status": "open",
    "note": "사업전략 수립, 경영관련 인증 취득 과정 등 기업 맞춤형 경영컨설팅 제공",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14551,6 +15070,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171310&page=1&schM=view",
    "status": "open",
    "note": "중장년 전문가-청년창업가 매칭 컨설팅 지원 및 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14580,6 +15100,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171311&page=1&schM=view",
    "status": "open",
    "note": "민간AC(창업기획자)와의 협력을 통해 지역 내 우수 창업기업에게 맞춤형 프로그램 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14608,6 +15129,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171312&page=1&schM=view",
    "status": "open",
    "note": "투자유치를 위한 기업진단 및 전략수립, 창업기업",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14635,6 +15157,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171313&page=1&schM=view",
    "status": "open",
    "note": "창업자들에게 필요한 맞춤형 강의",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14662,6 +15185,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171314&page=1&schM=view",
    "status": "open",
    "note": "- 업체(개인)당 2회, 분야별 전문 컨설턴트가 찾아가서 상담하는 1:1 맞춤형 컨설팅 - 업종별(도소매업, 외식업, 소공인, 청년·예비창업자 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14689,6 +15213,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171315&page=1&schM=view",
    "status": "open",
    "note": "맞춤형 창업 컨설팅 및 상품화 실습, 창업자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14718,6 +15243,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171316&page=1&schM=view",
    "status": "open",
    "note": "청년창업가 육성 교육 및 컨설팅 지원 - 집체교육(기본), 소규모컨설팅(심화), 선배창업가 특강, 전문가 멘토링 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14746,6 +15272,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171317&page=1&schM=view",
    "status": "open",
    "note": "1:1 전담 멘토링, IR리디자인 컨설팅, 투자포럼, IR피칭 등 네트워킹",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -14775,6 +15302,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171318&page=1&schM=view",
    "status": "open",
    "note": "창업교육(창업기초, 기술사업화 교육, 글로벌 유니콘 특화교육 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14802,6 +15330,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171319&page=1&schM=view",
    "status": "open",
    "note": "사회적경제 교육 및 창업가 발굴·지원 - (사회적경제 교육) 사회적경제 이해 및 사회적경제 창업 관련 교육운영 - (사회적경제 창업가 발굴·지원…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14831,6 +15360,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171320&page=1&schM=view",
    "status": "open",
    "note": "- 공용사무공간, 회의실, 상품촬영실 등 창업활동 지원공간 제공 - 창업교육 및 온·오프라인 창업상담 프로그램 운영, 사업화지원 및 네트워킹 지…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14858,6 +15388,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171321&page=1&schM=view",
    "status": "open",
    "note": "사업계획서 작성 방법, 마케팅, 세무, 회계 등 (예비)창업기업의 역량 강화를 위한 교육 지원, 관내 예비창업자 및 창업기업 대상 전문가 자문 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14885,6 +15416,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171322&page=1&schM=view",
    "status": "open",
    "note": "예비ㆍ초기 창업자 대상 창업 실무교육, 아이디어 공모전, 맞춤형 창업 컨설팅, 창업 공모전(IR 데모데이), 네트워킹 프로그램 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14912,6 +15444,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171324&page=1&schM=view",
    "status": "open",
    "note": "투자유치, 기업경영, 사업계획서 작성 등 테마별 창업 교육 및 멘토링 우수팀 선정을 통한 후속 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14941,6 +15474,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171325&page=1&schM=view",
    "status": "open",
    "note": "정부지원사업 선정을 위한 사업계획서 작성방법 등 창업교육 AI기술 기반 창업자의 비즈니스 모델 설계 교육",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14969,6 +15503,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171326&page=1&schM=view",
    "status": "open",
    "note": "투자유치역량강화 멘토링, 컨설팅, 교육, IR대회, OI",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -14998,6 +15533,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171327&page=1&schM=view",
    "status": "open",
    "note": "실제 창업을 희망하는 참가자를 대상, 전문 컨설팅․사업화 자금 지원 등을 통한 원스톱 창업 프로젝트 추진",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15027,6 +15563,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171328&page=1&schM=view",
    "status": "open",
    "note": "사회적경제 기초교육, 심화교육, 1:1 집중 컨설팅 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15056,6 +15593,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171330&page=1&schM=view",
    "status": "open",
    "note": "전문개인투자자 양성 및 엔젤투자 활성화 특화 프로그램 운영 - 엔젤투자 활성화를 위한 개인전문투자자 양성 교육과정 운영 - 엔젤투자 저변 확대를…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15084,6 +15622,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171331&page=1&schM=view",
    "status": "open",
    "note": "여성창업경진대회, 수상 5개팀 사업화‧컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15111,6 +15650,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171332&page=1&schM=view",
    "status": "open",
    "note": "창업기업이 꼭 알아야 하는 필수 종합교육 무료 운영(6개 과목 , 12시간)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15139,6 +15679,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171333&page=1&schM=view",
    "status": "open",
    "note": "창업기업의 보육 및 액셀러레이팅, 기술개발 지원 등 완결형 창업 지원 - 심화교육 및 컨설팅(비즈니스, 특허, 투자설명 등), 상담 및 IR 트…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15168,6 +15709,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171334&page=1&schM=view",
    "status": "open",
    "note": "벤처기업 확인제도 유형별 기술혁신성 등 전문가 컨설팅 프로그램 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15195,6 +15737,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171335&page=1&schM=view",
    "status": "open",
    "note": "전문 창업교육 프로그램 운영, 1:1 상담 및 지원사업 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15224,6 +15767,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171336&page=1&schM=view",
    "status": "open",
    "note": "공간, 경영, 브랜딩, 문화예술, 창업일반 등 수요조사를 통한 분야 선정을 통한 멘토 구성 및 맞춤형 상담 진행",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15252,6 +15796,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171337&page=1&schM=view",
    "status": "open",
    "note": "현장 기술코칭 및 멘토링 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15281,6 +15826,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171338&page=1&schM=view",
    "status": "open",
    "note": "액셀러레이팅, 투자 및 TIPS 추천 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15308,6 +15854,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171339&page=1&schM=view",
    "status": "open",
    "note": "창업 실무교육(기초교육, 비즈니스모델 설계·검증 지원), 최소요건제품(MVP) 및 시장검증 지원, IR 고도화, 전문가 1:1 컨설팅, 투자 연…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15336,6 +15883,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171340&page=1&schM=view",
    "status": "open",
    "note": "농식품기업의 성장 단계별 수요기반 자율 프로그램(기술지원, 사업화지원 등)패키지 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -15364,6 +15912,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171341&page=1&schM=view",
    "status": "open",
    "note": "- 투자유치형 : 기술사업화, 식품분야 창업기업 진단을 통한 지역 맞춤형 투자유치 활성화 및 연계 - 매출증대형 : 사업화 전략수립, 아이템검증…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15391,6 +15940,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171342&page=1&schM=view",
    "status": "open",
    "note": "사업성 검토 및 사업화 컨설팅, 창업절차대행 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15420,6 +15970,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171345&page=1&schM=view",
    "status": "open",
    "note": "창업관련 아이템 개발, 교육 및 컨설팅, 창업 보육비 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15447,6 +15998,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=171346&page=1&schM=view",
    "status": "open",
    "note": "사회적기업가 발굴을 위한 전문교육 및 컨설팅 등 운영 - 신규 사회적기업 발굴·육성을 위한 전문교육 · 사회적경제기업 운영 원칙 및 요건, 지정…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15476,6 +16028,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170052&page=1&schM=view",
    "status": "open",
    "note": "비즈쿨 학교 운영비, 창업 체험 프로그램, 네트워킹 행사 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15503,6 +16056,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170053&page=1&schM=view",
    "status": "open",
    "note": "스타트업 전문 변호사가 규제·투자·계약·지재권 등 국내·외 법률상담 * 지원한도(안) : 기업당 연간 300만원 한도(법률상담 1건 당 한도금액…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15530,6 +16084,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170054&page=1&schM=view",
    "status": "open",
    "note": "전담형 멘토링, 분야별 멘토링, 실전창업교육, 초기투자 밋업, 동문회네트워킹 등 종합 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15558,6 +16113,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170055&page=1&schM=view",
    "status": "open",
    "note": "창업경진대회 기반 전국 단위 400팀 내외의 창업동아리 및 학생창업팀 발굴, 창업수준별 단계별 교육과정 및 지역 기반 네트워킹 등을 통해 창업기…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15585,6 +16141,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170056&page=1&schM=view",
    "status": "open",
    "note": "- (농식품 크라우드펀딩 플랫폼) 농식품 크라우드펀딩 전용 플랫폼 구축 및 운영 - (현장코칭) 크라우드펀딩 참여 희망업체 대상 1:1 컨설팅 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15612,6 +16169,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170057&page=1&schM=view",
    "status": "open",
    "note": "센터별 특화프로그램 운영 및 지역창업자 상담 및 창업지원 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15641,6 +16199,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170058&page=1&schM=view",
    "status": "open",
    "note": "특허 논문 분석, 시장동향, 우회전략, R&D로드맵, 해외출원 전략 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -15670,6 +16229,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170059&page=1&schM=view",
    "status": "open",
    "note": "인·허가 프로세스, 기술문서 작성, GMP 인증, 해외인증, 임상계획 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -15697,6 +16257,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170060&page=1&schM=view",
    "status": "open",
    "note": "예비창업자의 우수 아이디어를 지식재산(IP) 기반 사업아이템으로 고도화하고, 창업까지 연계될 수 있도록 맞춤형 IP 컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15725,6 +16286,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170061&page=1&schM=view",
    "status": "open",
    "note": "창업기업의 지식재산 역량 강화를 위한 IP 기술·경영 컨설팅 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15754,6 +16316,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170062&page=1&schM=view",
    "status": "open",
    "note": "창업기초, 노무, 회계, 마케팅, 정책자금 등 분야별 전문가 1:1 매칭 및 컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15783,6 +16346,7 @@
    "url": "www.k-startup.go.kr/web/contents/webMNT_CNS.do?id=170080&page=1&schM=view",
    "status": "open",
    "note": "- (교육과정) 전반적인 인공지능 기술 활용도 상승에 따라, 다양한 산업 분야에 대한 인공지능 실무인재 양성 교육과정 지원 * 교육기간 9개월,…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15810,6 +16374,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171421&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 전문가 교육·컨설팅, 판로 확대, 네트워킹, 투자 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15837,6 +16402,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171002&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금지원 및 사업화 심층 멘토링 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15865,6 +16431,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171003&page=1&schM=view",
    "status": "open",
    "note": "컨설팅, 오픈이노베이션, 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15894,6 +16461,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171004&page=1&schM=view",
    "status": "open",
    "note": "- 초기 창업을 위한 사업비 지원(최대 2,500만원) - 사업 안정화를 위한 임차료 지원(최대 810만원) - (공통) 전문가 1:1 창업 컨…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -15921,6 +16489,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171005&page=1&schM=view",
    "status": "open",
    "note": "기술 기반 창업기업 전주기 육성 프로그램 운영, 창업 교육 및 컨설팅, 판로지원, 투자유치 대회, 창업아이디어 경진대회 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -15949,6 +16518,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171006&page=1&schM=view",
    "status": "open",
    "note": "신규회원사 인증, 사업화자금* 및 멤버십 혜택, 네트워킹 지원 등 * 브라이트클럽/밀리언클럽/에이스스텔라 순 10백만원/15백만원/1억원 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -15978,6 +16548,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171007&page=1&schM=view",
    "status": "open",
    "note": "사업화자금(레벨업 800만원, 신규 700만원), 교육, 컨설팅 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16006,6 +16577,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171008&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금(30백만원) 및 공간 지원, 디자인 융합 역량강화 교육 및 멘토링 제공, 투자 역량강화를 위한 IR피칭 교육 및 IR피칭덱 리디자인…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16035,6 +16607,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171009&page=1&schM=view",
    "status": "open",
    "note": "교육·컨설팅 및 사업화 자금(시설개선 및 임차료) 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16063,6 +16636,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171010&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 지원, 기술 및 경영 멘토링, 분야별 교육, 사업연계 등 단계별 체계적인 사업 고도화를 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16091,6 +16665,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171011&page=1&schM=view",
    "status": "open",
    "note": "지원 스타트업의 PoC* 자금 및 컨설팅, 네트워킹, 후속연계 프로그램 * PoC : 제품/서비스 연구개발비, 지식재산권, 시제품 제작 등 제품…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16120,6 +16695,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171012&page=1&schM=view",
    "status": "open",
    "note": "투자 및 상장촉진 지원, 역량강화 실무교육, IR 행사 및 투자상담 운영 - 투자촉진 프로그램 지원(2~3개사), 상장촉진 프로그램 지원(4~5…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16148,6 +16724,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171013&page=1&schM=view",
    "status": "open",
    "note": "맞춤형 패키지를 통한 사업화자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16176,6 +16753,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171014&page=1&schM=view",
    "status": "open",
    "note": "프로젝트 사업화에 필요한 수요맞춤형 전분야 패키지 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16205,6 +16783,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171015&page=1&schM=view",
    "status": "open",
    "note": "시제품 개발, 지식재산권 출원 등 제품혁신 및 기술개발 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16233,6 +16812,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171016&page=1&schM=view",
    "status": "open",
    "note": "시제품 제작, 시험·인증, 특허 등 무형자산 취득, 마케팅 등 사업화 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16261,6 +16841,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171017&page=1&schM=view",
    "status": "open",
    "note": "청년 소셜벤처기업 육성을 위한 맞춤형 프로그램 지원 - (소셜벤처 창업캠프) 팀빌딩, 아이디어 발굴 및 고도화, 창업교육 등(70명 내외) - …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16289,6 +16870,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171018&page=1&schM=view",
    "status": "open",
    "note": "사업화 지원 및 오픈이노베이션 지원 - (오픈 이노베이션) 사업화연계 분야 대중견기업-창업기업 간 협업 - (사업화 지원) 협업과제 수행을 위한…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16318,6 +16900,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171019&page=1&schM=view",
    "status": "open",
    "note": "사업화자금(임차료, 시제품 제작비, 마케팅비), 창업 컨설팅 및 홍보 지원 구분최초지원초기지원성장지원창업 컨설팅자격요건예비창업자3년 이하 창업자…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16346,6 +16929,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171020&page=1&schM=view",
    "status": "open",
    "note": "혁신제품 지정(조달청) 및 구매상담회를 통한 판로지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16374,6 +16958,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171021&page=1&schM=view",
    "status": "open",
    "note": "실증장소, 실증비용, 실증확인서, 후속지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16401,6 +16986,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171022&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 지원, 창업 교육 및 컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16429,6 +17015,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171023&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 지원, 재창업 교육 및 컨설팅 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16457,6 +17044,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171024&page=1&schM=view",
    "status": "open",
    "note": "사업화 지원(시제품 제작 및 마케팅 판로 지원) 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16486,6 +17074,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171025&page=1&schM=view",
    "status": "open",
    "note": "창업교육, 멘토링, 사업화 자금 지원(각, 10백만원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16514,6 +17103,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171026&page=1&schM=view",
    "status": "open",
    "note": "제품·브랜드 디자인, 온라인 마케팅, 전시 박람회 참가, 국내 인증 및 지식재산권 획득, 마케팅 전략 수립 등 맞춤형 마케팅 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16543,6 +17133,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171027&page=1&schM=view",
    "status": "open",
    "note": "기업의 사업성 분석·강화, IR/PR 영상 제작, 마케팅 역량강화 교육, 투자연계 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16571,6 +17162,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171028&page=1&schM=view",
    "status": "open",
    "note": "유망기업 선별 후 사업화 자금 및 글로벌 시장진출 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16598,6 +17190,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171029&page=1&schM=view",
    "status": "open",
    "note": "- 창업아이템 발굴, 창업화 교육, 멘토링, 창업공간 지원 - 기술·제품 실증 및 개발지원, 기술보호 및 경영 전문서비스 지원 - 마케팅 지원,…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16626,6 +17219,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171030&page=1&schM=view",
    "status": "open",
    "note": "사업화자금(10개사내외), 초기창업 전과정 지원, 글로벌 진출지원 외",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16654,6 +17248,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171031&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 기술 고도화(PoC), 성장 가속화(투자) 등 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16682,6 +17277,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171032&page=1&schM=view",
    "status": "open",
    "note": "- R&D 역량강화 프로그램 지원 : AI활용 기술기획 컨설팅 지원 및 아이디어 검증 및 정부 R&D 컨설팅, 기술전문가 멘토링 지원 - 기술사…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16710,6 +17306,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171033&page=1&schM=view",
    "status": "open",
    "note": "창업 발굴‧육성 : 창업교육, 판로개척, 창업활동비 지원 등 창업 성장‧지원 : 사업화, 마케팅, 홍보, 교육‧컨설팅, 환경개선 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16739,6 +17336,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171034&page=1&schM=view",
    "status": "open",
    "note": "- (임 차 료) 최대 80만원 - (컨 설 팅) 마케팅 및 세무회계 등 전문가 컨설팅 제공 - (마케팅지원) SNS 등 실질적인 마케팅 등 홍…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16767,6 +17365,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171035&page=1&schM=view",
    "status": "open",
    "note": "(예비)창업기업 사업화지원, 공인(시험)인증지원, 거브테크(Gov-Tech) 패키지 지원, 창업기업 맞춤형 교육·컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16795,6 +17394,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171037&page=1&schM=view",
    "status": "open",
    "note": "자금(최대5천만원, 차등지원), 창업공간(공동ㆍ개별), 멘토링, 창업특강 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16823,6 +17423,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171038&page=1&schM=view",
    "status": "open",
    "note": "자금(PoC), 컨설팅, 전문가 그룹네트워킹, IR데이 스피치훈련 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16851,6 +17452,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171039&page=1&schM=view",
    "status": "open",
    "note": "사업화자금(최대 1.5억원/社), 네트워킹, 운영사 액셀러레이팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16879,6 +17481,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171040&page=1&schM=view",
    "status": "open",
    "note": "- (사업화자금 지원) 개발․홍보․시제품 제작 등 맞춤형 사업화 지원(최대 20백만원) - (액셀러레이팅) 경영컨설팅, 투자IR 등 창업기업 역…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16906,6 +17509,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171041&page=1&schM=view",
    "status": "open",
    "note": "사업화/마케팅 자금지원, 로컬크리에이터 지원, IR경진대회 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16934,6 +17538,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171042&page=1&schM=view",
    "status": "open",
    "note": "사업화(시제품제작 및 시험 분석, 홍보, 마케팅 비용 등)비용 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -16961,6 +17566,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171043&page=1&schM=view",
    "status": "open",
    "note": "시제품 제작 비용",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -16989,6 +17595,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171044&page=1&schM=view",
    "status": "open",
    "note": "협업과제의 PoC 수행 및 후속 사업화 지원, 액셀러레이팅 프로그램",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17017,6 +17624,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171045&page=1&schM=view",
    "status": "open",
    "note": "선정 과제 관련 사업화 자금 지원(과제당 최대 1,500만원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17046,6 +17654,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171046&page=1&schM=view",
    "status": "open",
    "note": "최소 5,000천원 ~ 최대 15,000천원 사업화 지원금(차등 지원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17074,6 +17683,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171047&page=1&schM=view",
    "status": "open",
    "note": "민간투자자(액셀러레이터 등)와 기업 간 1:1매칭을 통한 사업화 자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17102,6 +17712,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171048&page=1&schM=view",
    "status": "open",
    "note": "- [특허청] 기업의 제품에 대한 기술적 문제해결 및 투자유치 지원 등 - [성남시] 개선제품에 대한 설계, 워킹목업 등의 후속지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17129,6 +17740,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171049&page=1&schM=view",
    "status": "open",
    "note": "자금지원, 멘토링&예비창업패키지 스터디, 컨설팅 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17156,6 +17768,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171050&page=1&schM=view",
    "status": "open",
    "note": "- 프로젝트 개발비(팀당 최대 200만원) 지원 - 각종 전문교육 및 컨설팅(워크숍, 타운홀미팅 등) 제공 - 청년 공유공간 무료 제공 및 프로…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17184,6 +17797,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171052&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 10,000천원 20개사, 전문 액셀러레이터 매칭 보육 및 투자기회 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17212,6 +17826,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171053&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 15~25백만원, 공유오피스, 전문가 멘토링, ESG경영진단 및 컨설팅",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17240,6 +17855,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171054&page=1&schM=view",
    "status": "open",
    "note": "인테리어 공사, 기자재 설비 등 자본적 경비 지원 ※ 1인 최대 15백만원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17268,6 +17884,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171055&page=1&schM=view",
    "status": "open",
    "note": "- 도배, 도색, 어닝, 조명, 타일, 전기, 화장실, 세면대 등 인테리어 - 홍보(판촉물), 제품 포장재 등 창업에 필요한 관련 물품 - PO…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17295,6 +17912,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171056&page=1&schM=view",
    "status": "open",
    "note": "사회적경제 창업자금 - 재료비, 사무관리비, 홍보·마케팅비 등 창업을 위한 사업 추진자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17323,6 +17941,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171057&page=1&schM=view",
    "status": "open",
    "note": "교육, 멘토링, 네트워크 형성, 사업화 자금 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17350,6 +17969,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171058&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금(시제품 제작, 지식재산권 취득 등), 창업프로그램 (BM고도화 등), 멘토링(경영‧자문 서비스 제공 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17378,6 +17998,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171059&page=1&schM=view",
    "status": "open",
    "note": "사업모델 제품‧서비스 고도화에 필요한 사업화 자금 및 특화 프로그램(투자유치, 글로벌 진출 등) 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17405,6 +18026,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171060&page=1&schM=view",
    "status": "open",
    "note": "- 매주 월요일 기술창업 먼데이피칭 실시, 유망 스타트업(예비창업포함) 발굴 - 피칭 후 크레딧 심의회를 통하여 스타트업의 경쟁력 향상을 위한 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17432,6 +18054,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171061&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원, 사업화 실증 지원, 투자연계 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17460,6 +18083,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171062&page=1&schM=view",
    "status": "open",
    "note": "- 매주 월요일 기술창업 먼데이피칭 실시, 바이오, 의료기기 스타트업 발굴 - 피칭 후 크레딧 심의회를 통하여 스타트업의 경쟁력 향상을 위한 맞…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17488,6 +18112,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171063&page=1&schM=view",
    "status": "open",
    "note": "액셀러레이팅 내용항목, 엑셀러레이팅 세부 내용으로 구성된 표항목액셀러레이팅 세부 내용이차전지특허분석▸ 국내외 특허침해 이슈 제거, 특허전략 등 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17515,6 +18140,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171064&page=1&schM=view",
    "status": "open",
    "note": "창작자 육성 및 창업생태계 조성 프로그램 제공 - 콘텐츠산업 창제작․교육․사업화․창업프로그램 운영 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17544,6 +18170,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171065&page=1&schM=view",
    "status": "open",
    "note": "창업지원(예비 및 초기창업 사업화), 고도화 지원(로컬 앵커기업 프로젝트)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17573,6 +18200,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171067&page=1&schM=view",
    "status": "open",
    "note": "사업화자금, 교육, 컨설팅·멘토링 등 제공",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17601,6 +18229,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171068&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 신용보증, 멘토링·컨설팅·교육, 청년 창업자 네트워킹, 통합 브랜드 개발 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17628,6 +18257,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171069&page=1&schM=view",
    "status": "open",
    "note": "사업화 지원금(최대 12백만원), 교육·멘토링, 수출상담회 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17655,6 +18285,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171071&page=1&schM=view",
    "status": "open",
    "note": "신규창업 및 투자IR 컨설팅 등 교육지원, 시제품개발비, 디자인 리뉴얼, 품질인증, 온·오프라인 마케팅, 국내외 홍보 판촉, 국내외 박람회 참가…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17682,6 +18313,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171072&page=1&schM=view",
    "status": "open",
    "note": "창업지원금(1인당 최대 20백만원), 1:1멘토링, 창업교육(부트캠프) 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17710,6 +18342,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171073&page=1&schM=view",
    "status": "open",
    "note": "컨설팅 지원(기업별 1.5백만원), 사업화 지원(최대 5백만원), 창업자 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17739,6 +18372,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171074&page=1&schM=view",
    "status": "open",
    "note": "개소당 최대 2,200만원(보조 2,000 자부담 200) (사업장 인테리어, 환경개선, 홍보물품 제작, 창업 기반 시설을 첨단시설로 설치, 기…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17767,6 +18401,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171075&page=1&schM=view",
    "status": "open",
    "note": "①중기부 팁스 운영사 매칭② 사업화 10백만원③ 컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17795,6 +18430,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171076&page=1&schM=view",
    "status": "open",
    "note": "①투자플랫폼 개설②원스톱 Set-Up(임대공간, 은행·회계·법무·특허법인 연계)③직접 투자(5억이내)④ 사업화 지원⑤ 팁스 추천⑥후속투자 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17823,6 +18459,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171077&page=1&schM=view",
    "status": "open",
    "note": "①수요기업-스타트업 1:1 연결②멘토링③PoC지원④통합 네트워킹",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -17851,6 +18488,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171078&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 지원, 대기업 기술검증 컨설팅, 지역R&D기관 연계 기술개발 컨설팅, 투자 IR(SI/FI) 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17880,6 +18518,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171079&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 브랜딩/수출/투자 역량강화 프로그램, 판로·마케팅 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -17908,6 +18547,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171080&page=1&schM=view",
    "status": "open",
    "note": "- 소셜벤처 육성 프로그램 : 소셜벤처 인증 교육 및 역량 강화 교육, 소셜벤처 인증, 전담 멘토링 및 스케일업 컨설팅, 데모데이 등 - 기업별…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -17937,6 +18577,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171081&page=1&schM=view",
    "status": "open",
    "note": "- 기업진단 및 해외사장 트랜드 분석교육, 시장조사, 해외 진출 마케팅 홍보물 제작, 인바운드 바이어 초청 수출 상담회 지원 - 글로벌 진출 준…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -17964,6 +18605,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171082&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 및 교육·컨설팅 등 창업 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -17991,6 +18633,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171083&page=1&schM=view",
    "status": "open",
    "note": "사업화자금, 상품화제작, 시장개척, 창업컨설팅 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18018,6 +18661,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171084&page=1&schM=view",
    "status": "open",
    "note": "창업 활동비 1,200만원, 교육 및 컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18046,6 +18690,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171085&page=1&schM=view",
    "status": "open",
    "note": "창업자 지원 및 창업 공간 대관·교육 등 프로그램 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18074,6 +18719,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171086&page=1&schM=view",
    "status": "open",
    "note": "- 기업 수요 맞춤형 비R&D 기업 지원(기술지원, 사업화지원) - 전문가 자문 프로그램 운영",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18102,6 +18748,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171087&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원(1개社 당 1,400만원 지원), 창업 컨설팅 및 멘토링, 시제품(기술) 개발 및 제작 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18130,6 +18777,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171088&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원(1개社 당 20,000만원 지원), 창업 컨설팅 및 멘토링, 시제품(기술) 개발 및 제작 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18158,6 +18806,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171089&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원(1개社 당 최대 60,000만원 지원), 창업 컨설팅 및 멘토링, 시제품(기술) 개발 및 제작 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18186,6 +18835,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171090&page=1&schM=view",
    "status": "open",
    "note": "디자인 개발, 홍보물 제작, 마케팅, 시제품 제작 중 최대 2개 분야 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18214,6 +18864,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171091&page=1&schM=view",
    "status": "open",
    "note": "창업기업 맞춤형 멘토링 및 교육, 기술 고도화 자금 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18242,6 +18893,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171092&page=1&schM=view",
    "status": "open",
    "note": "창업기업 멘토링 및 교육, 상용화 시기 단축을 위한 자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18271,6 +18923,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171093&page=1&schM=view",
    "status": "open",
    "note": "청년창업기업 연 12개소(신규 대상자 기준), 사업화자금 및 교육, 컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18298,6 +18951,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171094&page=1&schM=view",
    "status": "open",
    "note": "1:1 멘토링 교육, 스타트업 성장 교육, 네트워킹 활성화 교육 등 창업 지원 프로그램 지원, 사업화 자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18326,6 +18980,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171095&page=1&schM=view",
    "status": "open",
    "note": "창업교육, 컨설팅, 모니터링, 창업활동비 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18353,6 +19008,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171096&page=1&schM=view",
    "status": "open",
    "note": "사업모델 구축 및 자원활용방법 등 교육, 액셀러레이팅, 사업화 자금",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18382,6 +19038,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171097&page=1&schM=view",
    "status": "open",
    "note": "유망 스타트업 발굴, IR 컨설팅, 투자검토 및 집행 - 벤처투자 매칭데이 : 투자사(VC)와 창업기업 간 투자유치 연계 및 네트워크 - 창창 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18410,6 +19067,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171098&page=1&schM=view",
    "status": "open",
    "note": "창업활동비 1인당 최대 630만원(월 최대 70만원×9개월간)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18437,6 +19095,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171099&page=1&schM=view",
    "status": "open",
    "note": "- 창업기업(예비창업) 전문멘토링 및 컨설팅 - 창업기업 프로그램 운영(창업, 예비창업) - 창업기업(예비창업자) 사업화 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18465,6 +19124,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171100&page=1&schM=view",
    "status": "open",
    "note": "창업기업 마케팅 역량 강화 지원, 국내외 유망전시회 단체관 참가 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18492,6 +19152,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171101&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 지원(팀별 각 10백만원), 전문창업교육 및 컨설팅 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18519,6 +19180,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171102&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 지원(예비창업자 4팀 각 15백만원, 7년 이내 창업자 5팀 각 20백만원), 전문창업교육 및 컨설팅, 최종성과보고회 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18546,6 +19208,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171103&page=1&schM=view",
    "status": "open",
    "note": "- 시제품 개발 및 마케팅 비용 등 사업화 자금 지원 - 전문가 컨설팅/교육을 통한 사업계획 구체화 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18574,6 +19237,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171104&page=1&schM=view",
    "status": "open",
    "note": "- 비즈니스 역량 강화를 위한 맞춤형 컨설팅 및 교육 - 사업화 자금 지원, 판로확보 및 네트워킹 지원(박람회 참가 등)",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18602,6 +19266,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171105&page=1&schM=view",
    "status": "open",
    "note": "- 창업 성장지원금 지원(1인당 15,000천 원) - 창업자 간 네트워킹 및 성과 공유를 위한 간담회 개최",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18631,6 +19296,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171106&page=1&schM=view",
    "status": "open",
    "note": "점포 임차료, 시설비, 기계·장비 구입비 및 임차료, 사업개발비, 기타 사업비 중 창업에 필요한 자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18660,6 +19326,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171107&page=1&schM=view",
    "status": "open",
    "note": "- 대‧중견기업과 스타트업의 협업 기술에 대한 PoC(기술검증)를 위한 *사업화 자금 지원 * 사업화자금 : 제품/서비스 연구개발비, 지식재산권…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18687,6 +19354,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171108&page=1&schM=view",
    "status": "open",
    "note": "- 기술개발 단계부터 시제품 제작, 사업화까지 창업기업의 성장단계별 맞춤형 지원 - 김해창업지원기관협의체의 분야별 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18715,6 +19383,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171109&page=1&schM=view",
    "status": "open",
    "note": "- 기업 맞춤형 멘토링, 창업교육, 비즈니스 모델개발, IR 훈련 등 - IR 행사 개최를 통해 우수기업 사업화 자금지원(5개사, 각 10백만원…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18743,6 +19412,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171110&page=1&schM=view",
    "status": "open",
    "note": "사업화자금, 투자유치, 창업공간 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18770,6 +19440,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171111&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원 및 창업 교육프로그램 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18798,6 +19469,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171112&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원 및 창업 교육프로그램(마케팅, 투자 등) 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18826,6 +19498,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171113&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원 및 창업 교육프로그램(판로확대, 투자 등) 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18853,6 +19526,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171114&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원 및 창업 교육프로그램 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18880,6 +19554,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171115&page=1&schM=view",
    "status": "open",
    "note": "- 창업지원: (예비창업자) 교육·멘토링, 창업 아이디어 경진대회 개최, 사업화 지원 - 영업지원: (기 사업체) 판로개척 마케팅 지원, 사업고…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18909,6 +19584,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171116&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 및 교육 프로그램 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18938,6 +19614,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171117&page=1&schM=view",
    "status": "open",
    "note": "부가가치세 제외 최대 2백만원 지원(최초 1회)",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -18966,6 +19643,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171118&page=1&schM=view",
    "status": "open",
    "note": "창업간접비 1,200만 원 1년간 지원(자부담 200만 원)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -18993,6 +19671,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171119&page=1&schM=view",
    "status": "open",
    "note": "임대료(50만 원/월 한도, 3년)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19022,6 +19701,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171120&page=1&schM=view",
    "status": "open",
    "note": "창업지원 20,000천 원 ~ 50,000천 원(자부담 20% 포함)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19049,6 +19729,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171121&page=1&schM=view",
    "status": "open",
    "note": "- 1인(팀)당 최대 20,000천원 ※자부담 30% - 시설 리모델링 및 시설장비 임차료 등(단, 인건비 제외) - 창업관련 교육 및 멘토링…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19077,6 +19758,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171122&page=1&schM=view",
    "status": "open",
    "note": "창업비용(인테리어, 재료비, 임대료 등) 1인당 최대 20백만원 이내 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19104,6 +19786,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171123&page=1&schM=view",
    "status": "open",
    "note": "창업교육, 창업컨설팅, 심화교육, 시제품제작, 시장개척, 홍보 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19132,6 +19815,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171124&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원(최대 6천만원), 창업프로그램 운영, 투자유치 연계 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19160,6 +19844,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171125&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원(최대 5천만원), 금융지원, 투자유치 연계 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19188,6 +19873,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171126&page=1&schM=view",
    "status": "open",
    "note": "시제품, 시금형 제작 비용 지원 및 유형별 멘토링 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19216,6 +19902,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171127&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 역량 강화 프로그램",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19243,6 +19930,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171128&page=1&schM=view",
    "status": "open",
    "note": "- 1차 지원금(초기투자비) : 인(팀)당 최대 5백만원 * 시제품제작비, 마케팅 비용 등 - 2차 지원금(창업활동경비) : 인(팀)당 월 1백…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19271,6 +19959,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171129&page=1&schM=view",
    "status": "open",
    "note": "창업 시 3년간 최대 총 15백만원 지원(연 5백만원씩 분할 지급 ※ 자부담금 : 총 3백만원(연 1백만원씩 / 각 회차별 보조금액의 20%)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19298,6 +19987,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171130&page=1&schM=view",
    "status": "open",
    "note": "자금(리모델링, 기계 구입 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19325,6 +20015,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171131&page=1&schM=view",
    "status": "open",
    "note": "시제품제작, 창업교육 및 컨설팅 프로그램 등 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19353,6 +20044,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171132&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 지원, 창업 공간 제공, 역량 강화 교육‧멘토링, 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19380,6 +20072,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171133&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금(기업당 평균 30백만원), 온라인 판로개척 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19407,6 +20100,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171134&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금(기업당 평균 30백만원), 투자유치 역량강화 교육",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19435,6 +20129,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171135&page=1&schM=view",
    "status": "open",
    "note": "디지털 전환을 위한 역량 교육, 전문가 협업을 통한 컨설팅 및 솔루션 이행 지원항목, 내용으로 구성된 표지원항목내용교육디지털 역량 수준별 교육 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19462,6 +20157,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171136&page=1&schM=view",
    "status": "open",
    "note": "창업교육, 컨설팅 및 창업비용 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19490,6 +20186,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171137&page=1&schM=view",
    "status": "open",
    "note": "창업기업 현장 진단을 통한 애로사항 파악 후 애로 해소 지원 프로그램 매칭 ⦁기업진단·성장코칭 지원: 기업 현장 진단 실시 및 전문가 컨설팅 지…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19518,6 +20215,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171138&page=1&schM=view",
    "status": "open",
    "note": "성장 가능성이 높은 청년기업에 대한 성장 도약을 위한 투자역량 강화 등 종합 성장 지원으로 청년창업 생태계 활성화 환경 조성",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19546,6 +20244,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171139&page=1&schM=view",
    "status": "open",
    "note": "- 벤처기업이 보유한 핵심기술(제품)의 사업화에 필요한 기업수요 맞춤형 지원 및 마케팅 지원 - 조달청 벤처나라 입점을 위한 컨설팅 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19575,6 +20274,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171140&page=1&schM=view",
    "status": "open",
    "note": "- 기술개발 과제발굴·기회기 어려운 중소기업의 유망기술·제품개발 확산 및 정부 R&D 과제 도출 - 제주지역 주력·신성장산업에 적합한 연구개발 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19603,6 +20303,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171141&page=1&schM=view",
    "status": "open",
    "note": "- (시제품 개발) 설립 3년 이내 초기창업자 대상 ICT분야 시제품 개발 지원 - (제품 고도화) 설립 7년 이내 창업자 ICT 기업 대상 기…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19631,6 +20332,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171142&page=1&schM=view",
    "status": "open",
    "note": "- IP나래 프로그램 (창업 초기기업의 IP 기술경영 융복합 컨설팅) - IP디딤돌 프로그램 (IP 기술형 창업 맞춤 프로그램)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19658,6 +20360,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171143&page=1&schM=view",
    "status": "open",
    "note": "기업 성장에 필요한 사업화 자금, 콘텐츠 고도화‧유통 관련 컨설팅, 교육 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19686,6 +20389,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171144&page=1&schM=view",
    "status": "open",
    "note": "1) 비즈니스 빌드업:비즈니스 및 관광분야 컨설팅, IR코칭 2) 사업비용 재정지원: 최종 평가 후 사업화 자금(상금) 수여(총상금 5,000만…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19713,6 +20417,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=171148&page=1&schM=view",
    "status": "open",
    "note": "시제품개발 및 제작, 기술·경영(컨설팅), 디자인 개선, 마케팅 지원 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19741,6 +20446,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170004&page=1&schM=view",
    "status": "open",
    "note": "사업화자금 및 기술협업·투자 등 프로그램 지원, 기술보증 등 연계·우대 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19769,6 +20475,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170005&page=1&schM=view",
    "status": "open",
    "note": "팁스운용사 등 투자사가 창업기업에 先투자·보육·추천하면, 정부 R&D, 창업사업화 자금 등을 매칭 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19796,6 +20503,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170006&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금 및 성장 프로그램 지원 - 사업화 자금 : 유형별* 창업기업의 기술(사업모델) 사업화 자금 지원 * 예시 : 지역 내 창업기업, 청…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19824,6 +20532,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170007&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 교육 및 멘토링, 연계지원(중진공 재창업자금) 등 패키지식 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19852,6 +20561,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170008&page=1&schM=view",
    "status": "open",
    "note": "창업 공간, 교육 및 코칭, 기술지원, 사업화자금, 후속 연계(판로, 정책자금, 인력 등) 지원 등 창업 全 과정 패키지 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19880,6 +20590,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170009&page=1&schM=view",
    "status": "open",
    "note": "제조창업기업의 설계 개선, 시제품 제작, 시금형, 초도양산, 시험‧인증 등 전 과정을 통합 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19909,6 +20620,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170010&page=1&schM=view",
    "status": "open",
    "note": "첨단제조 스타트업을 대상으로 지역 혁신기관 등이 보유한 전문 장비‧인력‧인증 체계를 활용하여 전주기 기술지원 프로그램을 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -19936,6 +20648,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170015&page=1&schM=view",
    "status": "open",
    "note": "창업자금 지원 및 육성 프로그램(교육, 멘토링, 컨설팅, 네트워킹 등)",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19963,6 +20676,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170016&page=1&schM=view",
    "status": "open",
    "note": "지원대상,지원규모,지원내용으로 구성된 표지원대상지원규모지원내용예비창업자25팀사업화자금 20백만원기창업자300社(신규모집 120社 내외)사업화자금…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -19990,6 +20704,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170017&page=1&schM=view",
    "status": "open",
    "note": "농식품 분야 기술창업 액셀러레이팅 프로그램 운영 및 투자유치, 데모데이 개최",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20017,6 +20732,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170018&page=1&schM=view",
    "status": "open",
    "note": "평가수수료의 50 ~ 90% 지원(농식품 기술창업의 경제적 가치를 가액 또는 점수로 평가하여 투자유치/IP담보‧보증대출/현물출자/저리융자 연계 …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20045,6 +20761,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170019&page=1&schM=view",
    "status": "open",
    "note": "온라인 운영매장 및 기획전 추진으로 판로지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20073,6 +20790,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170020&page=1&schM=view",
    "status": "open",
    "note": "지원대상,지원규모,지원내용으로 구성된 표지원대상지원규모지원내용창업기업 또는 벤처확인기업15팀 내외사업화자금 최대 7.15억원* 사업화자금 자부담…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20102,6 +20820,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170021&page=1&schM=view",
    "status": "open",
    "note": "* 청년(만 19~39세 이하) 대상 지원대상 지원규모 지원내용 창업관심자 40명 교육비(탐색 40명, 전문 20명), 40백만원 예비창업자 2…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20131,6 +20850,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170022&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금(단계별 차등), 교육·컨설팅·멘토링, 투자유치 등 자원 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20158,6 +20878,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170023&page=1&schM=view",
    "status": "open",
    "note": "사업화자금, 창업 교육 및 컨설팅, 시제품 제작, 기업 간 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20185,6 +20906,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170024&page=1&schM=view",
    "status": "open",
    "note": "사업화자금, 사업고도화 컨설팅, 투자유치 역량강화 교육, 초기·후속 투자 지원, 기업 및 투자자 간 네트워킹 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20213,6 +20935,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170025&page=1&schM=view",
    "status": "open",
    "note": "- (액셀러레이터) 프로그램 운영비 지원 - (스타트업) 액셀러레이팅 프로그램(멘토링·컨설팅·홍보 등) 및 사업화 자금 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20241,6 +20964,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170026&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 멘토링·컨설팅·교육, 민간 투자연계 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20269,6 +20993,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170027&page=1&schM=view",
    "status": "open",
    "note": "선도기업의 인프라, 노하우 등을 활용한 사업협력 및 사업화 자금 지원",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20296,6 +21021,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170028&page=1&schM=view",
    "status": "open",
    "note": "창업 준비 및 아이디어 구체화, 창업 사업화에 소요되는 사업화 자금, 교육 및 멘토링 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20323,6 +21049,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170029&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 교육․컨설팅, 협업․네트워크, 홍보 판로개척 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20351,6 +21078,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170030&page=1&schM=view",
    "status": "open",
    "note": "사업 실증비 지원, 협업․네트워크, 홍보 판로개척, 투자유치 지원 등",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20378,6 +21106,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170031&page=1&schM=view",
    "status": "open",
    "note": "방산특화 실전형 창업교육, 사업화 지원, 데모데이 개최 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20407,6 +21136,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170032&page=1&schM=view",
    "status": "open",
    "note": "기술 고도화 및 상용화 자금(인건비, 재료비 등), 시제품 제작 등",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20436,6 +21166,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170033&page=1&schM=view",
    "status": "open",
    "note": "전문 투자기관을 통한 유망 창업기업의 국내·외 투자유치 연계",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20463,6 +21194,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170035&page=1&schM=view",
    "status": "open",
    "note": "생활밀착형 현장실습 비용(최대 3개월), 아산나눔재단 아산상회* 프로그램(약 7개월) 및 신규 창업 재정지원(최대 1,000만원, 2회 분할) …",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20490,6 +21222,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170036&page=1&schM=view",
    "status": "open",
    "note": "국내외 환경변화 대응 및 우수 중소ㆍ벤처기업 발굴·육성, 해양수산 창업기업의 투자유치, IR컨설팅 및 사업화 자금 지원",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20518,6 +21251,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170037&page=1&schM=view",
    "status": "open",
    "note": "사업화, 멘토링, 네트워킹",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   },
@@ -20546,6 +21280,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170002&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 창업프로그램 등 - 사업화자금 : 시제품 제작, 마케팅, 지식재산권 출원·등록 등에 소요되는 사업화자금 일반형･투자연계형 최대 1…",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20574,6 +21309,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170003&page=1&schM=view",
    "status": "open",
    "note": "- (사업화 자금) 사업모델 및 제품‧서비스 고도화에 필요한 사업화 자금(최대 3억원) - (창업 프로그램) 후속투자 연계, 글로벌 시장 확대 …",
+   "region": "전국",
    "star": false,
    "source": "통합공고"
   },
@@ -20601,6 +21337,7 @@
    "url": "www.k-startup.go.kr/web/contents/webCMRCZN.do?id=170001&page=1&schM=view",
    "status": "open",
    "note": "사업화 자금, 창업프로그램 등 - 사업화자금 : 시제품 제작, 마케팅, 지식재산권 출원·등록 등에 소요되는 사업화자금 최대 0.8억원 지원(중간…",
+   "region": "전국",
    "star": true,
    "source": "통합공고"
   }
