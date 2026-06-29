@@ -1,6 +1,6 @@
 /* AUTUS Builder — Service Worker (offline + 업데이트 프롬프트) */
 /* VERSION은 배포 시 pre-commit 훅이 자동으로 갱신 → 변경 감지 트리거 */
-const VERSION = '20260629-115416';
+const VERSION = '20260629-120409';
 const CACHE = 'autus-builder-' + VERSION;
 const ASSETS = [
   './',
@@ -35,6 +35,14 @@ self.addEventListener('message', e => {
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
+  // 실공고 데이터는 항상 최신(네트워크 우선), 실패 시 캐시
+  if (new URL(req.url).pathname.endsWith('/opps.json')) {
+    e.respondWith(
+      fetch(req).then(res => { const c = res.clone(); caches.open(CACHE).then(ch => ch.put(req, c)); return res; })
+        .catch(() => caches.match(req))
+    );
+    return;
+  }
   if (req.mode === 'navigate') {
     e.respondWith(
       fetch(req).then(res => {

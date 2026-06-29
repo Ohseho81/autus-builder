@@ -535,7 +535,7 @@ const LIFECYCLE=[
   {k:'발굴',d:'Discovery'},{k:'자격',d:'Eligibility'},{k:'서류',d:'Application'},
   {k:'추적',d:'Tracking'},{k:'사후',d:'Post-award'}
 ];
-const OPPS=[
+let OPPS=[
   {id:'o1',group:'A',gtag:'창업 전',title:'예비창업패키지',agency:'중기부 · 창업진흥원',category:'창업사업화',
    elig:{stage:['예비'],age:'any',hire:false}, amount:'평균 5천만 · 최대 1억', deadline:'2026-08-31',
    docs:['사업계획서(PSST)','대표자 신분증','창업아이템 증빙'], url:'https://www.k-startup.go.kr', status:'open',
@@ -584,6 +584,20 @@ const STRATEGY=[
 ];
 // 빌더 자격 프로필 (Eligibility 입력값)
 let gProfile={stage:'예비',young:true,hire:false};
+// 실공고 데이터 연동 — opps.json(기업마당 자동수집) 우선, 없거나 실패 시 위 내장 샘플 사용
+let OPPS_META={source:'',updated:''};
+async function loadOpps(){
+  try{
+    const r=await fetch('opps.json',{cache:'no-store'});
+    if(!r.ok) return;
+    const d=await r.json();
+    if(d&&Array.isArray(d.opps)&&d.opps.length){
+      OPPS=d.opps;
+      OPPS_META={source:d.source||'실데이터',updated:(d.updated||'').slice(0,10)};
+      if(current==='business') renderGrants();
+    }
+  }catch(e){/* 오프라인/미존재 → 내장 샘플 유지 */}
+}
 
 const NAVTABS=[
   {id:'home',ic:'🏠',label:'홈'},
@@ -678,7 +692,10 @@ function eligible(o,p){
 }
 
 function renderGrants(){
-  document.getElementById('grants-intro').textContent='빌더는 1인 디지털 서비스 사업자입니다. 글로벌 표준 5단계로 — 받을 수 있는 것만 골라, 서류까지 만들고, 신청을 추적합니다.';
+  const intro='빌더는 1인 디지털 서비스 사업자입니다. 글로벌 표준 5단계로 — 받을 수 있는 것만 골라, 서류까지 만들고, 신청을 추적합니다.';
+  document.getElementById('grants-intro').innerHTML=intro+(OPPS_META.source
+    ?` <b style="color:var(--ok)">· ${OPPS_META.source} 실데이터 ${OPPS.length}건${OPPS_META.updated?' · 갱신 '+OPPS_META.updated:''}</b>`
+    :' <span style="color:var(--ink3)">· 샘플 데이터</span>');
   document.getElementById('lifecycle').innerHTML=LIFECYCLE.map((s,i)=>
     `<div class="lc-step ${i<3?'on':''}"><span class="lc-n">${i+1}</span><span class="lc-k">${s.k}</span><span class="lc-d">${s.d}</span></div>`
     +(i<LIFECYCLE.length-1?'<span class="lc-ar">›</span>':'')).join('');
@@ -782,7 +799,7 @@ function renderTracking(){
   if(!ids.length){html+='<div style="text-align:center;color:var(--ink3);padding:28px 0;font-size:13px">담은 지원이 없어요.<br>목록에서 ＋ 신청목록 담기를 눌러보세요.</div>';}
   else{html+=ids.map(id=>{const o=OPPS.find(x=>x.id===id);const st=t[id].status;const idx=TRACK_STAGES.indexOf(st);
     return `<div class="trk-card">
-      <div style="font-weight:700;font-size:14px;margin-bottom:9px">${o.title}</div>
+      <div style="font-weight:700;font-size:14px;margin-bottom:9px">${o?o.title:'<span style=\"color:var(--ink3)\">(만료/제외된 공고)</span>'}</div>
       <div class="trk-bar">${TRACK_STAGES.map((s,i)=>`<div class="trk-dot ${i<=idx?'on':''}"></div>`).join('<div class="trk-line"></div>')}</div>
       <div style="display:flex;align-items:center;margin-top:10px">
         <span class="trk-now">${st}</span>
@@ -1015,7 +1032,7 @@ if('serviceWorker' in navigator){
 }
 
 // ============ INIT ============
-renderBotNav();renderHome();
+renderBotNav();renderHome();loadOpps();
 </script>
 </body>
 </html>

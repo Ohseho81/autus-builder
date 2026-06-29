@@ -1,0 +1,172 @@
+{
+ "source": "기업마당(샘플)",
+ "updated": "2026-06-29T03:01:31.733Z",
+ "count": 6,
+ "opps": [
+  {
+   "id": "bzM1",
+   "group": "A",
+   "gtag": "창업",
+   "title": "예비창업패키지 일반분야",
+   "agency": "중소벤처기업부",
+   "category": "창업",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "any",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-20",
+   "docs": [
+    "사업계획서",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/view.do?pblancId=M1",
+   "status": "open",
+   "note": "예비창업자 사업화 자금 및 멘토링 지원",
+   "star": true
+  },
+  {
+   "id": "bzM2",
+   "group": "A",
+   "gtag": "창업",
+   "title": "청년창업 사관학교 입교생 모집",
+   "agency": "중소벤처기업진흥공단",
+   "category": "창업",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-07-31",
+   "docs": [
+    "사업계획서",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.bizinfo.go.kr/web/lay1/bbs/view.do?pblancId=M2",
+   "status": "open",
+   "note": "만 39세 이하 청년 창업자 사업화 공간·교육·자금",
+   "star": true
+  },
+  {
+   "id": "bzM3",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "소상공인 디지털전환 지원사업",
+   "agency": "소상공인시장진흥공단",
+   "category": "디지털",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "any",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-30",
+   "docs": [
+    "사업계획서",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.bizinfo.go.kr/web/lay1/bbs/view.do?pblancId=M3",
+   "status": "open",
+   "note": "AI·키오스크 등 소상공인 디지털 솔루션 도입 지원",
+   "star": true
+  },
+  {
+   "id": "bzM4",
+   "group": "A",
+   "gtag": "창업",
+   "title": "청년 일자리 도약장려금",
+   "agency": "고용노동부",
+   "category": "고용",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.bizinfo.go.kr/web/lay1/bbs/view.do?pblancId=M4",
+   "status": "open",
+   "note": "청년 정규직 채용 기업 인건비 지원",
+   "star": true
+  },
+  {
+   "id": "bzM5",
+   "group": "C",
+   "gtag": "자금·융자",
+   "title": "소상공인 정책자금(일반경영안정)",
+   "agency": "소상공인시장진흥공단",
+   "category": "금융",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "any",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "상시",
+   "docs": [
+    "사업계획서",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.bizinfo.go.kr/web/lay1/bbs/view.do?pblancId=M5",
+   "status": "open",
+   "note": "운영비·임대료 저리 융자",
+   "star": false
+  },
+  {
+   "id": "bzM6",
+   "group": "B",
+   "gtag": "판로·수출",
+   "title": "수출바우처 참여기업 모집",
+   "agency": "KOTRA",
+   "category": "수출",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "any",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-15",
+   "docs": [
+    "사업계획서",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.bizinfo.go.kr/web/lay1/bbs/view.do?pblancId=M6",
+   "status": "open",
+   "note": "내수기업 수출기업화 마케팅 바우처",
+   "star": false
+  }
+ ]
+}

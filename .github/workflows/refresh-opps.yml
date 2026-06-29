@@ -1,0 +1,37 @@
+name: Refresh grants (opps.json)
+
+# 실공고 데이터 자동 갱신: 매일 06:00 KST + 수동 실행
+on:
+  schedule:
+    - cron: '0 21 * * *'   # UTC 21:00 = KST 06:00
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch & normalize 기업마당 공고
+        env:
+          BIZINFO_KEY: ${{ secrets.BIZINFO_KEY }}
+        run: node fetch-opps.mjs
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- opps.json 2>/dev/null; then
+            git config user.name "autus-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add opps.json
+            git commit -m "data: refresh grants $(date -u +%F)"
+            git push
+            echo "opps.json 갱신 푸시됨"
+          else
+            echo "변경 없음 (키 미설정이거나 동일 데이터)"
+          fi
