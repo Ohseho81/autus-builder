@@ -18,9 +18,9 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch & normalize 기업마당 공고
+      - name: Fetch & normalize K-Startup 공고
         env:
-          BIZINFO_KEY: ${{ secrets.BIZINFO_KEY }}
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: node fetch-opps.mjs
 
       - name: Commit if changed

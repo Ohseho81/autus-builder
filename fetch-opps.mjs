@@ -1,104 +1,114 @@
 /**
  * AUTUS Builder — 실공고 데이터 수집·정규화 (Discovery 파이프라인)
  * ------------------------------------------------------------------
- * 소스: 기업마당(bizinfo) OpenAPI — 무료 인증키 필요(BIZINFO_KEY)
- *   키 발급: https://www.bizinfo.go.kr  또는 data.go.kr "기업마당 지원사업정보"
+ * 소스: data.go.kr "창업진흥원_K-Startup 조회서비스" (data 15125364)
+ *   Base : https://apis.data.go.kr/B552735/kisedKstartupService01
+ *   공고 : GET /getAnnouncementInformation01  (지원사업 공고 정보)
+ *   응답 : { currentCount, matchCount, page, perPage, totalCount, data:[ {...} ] }
+ *   심의 : 개발/운영 자동승인(즉시) · 개발계정 10,000건/일
+ *   키   : data.go.kr 마이페이지 > 인증키 발급현황 의 "일반 인증키(Decoding)"
+ *          → 환경변수 DATA_GO_KR_KEY
  * 출력: opps.json  (앱이 같은 출처에서 로드 → CORS 없음)
  *
  * 사용:
- *   node fetch-opps.mjs            # 실데이터 (BIZINFO_KEY 환경변수 필요)
- *   node fetch-opps.mjs --mock     # 키 없이 파이프라인 검증용 샘플 생성
- *
- * 표준 스키마(글로벌 5단계 문서 §3)로 정규화:
- *   id·group·gtag·title·agency·category·elig{stage,age,hire}
- *   ·amount·deadline·docs[]·url·status·note·star
+ *   DATA_GO_KR_KEY=xxxx node fetch-opps.mjs   # 실데이터
+ *   node fetch-opps.mjs --mock                # 키 없이 파이프라인 검증
+ *   DATA_GO_KR_KEY=xxxx node fetch-opps.mjs --probe   # 응답 1건 원본 필드 확인용
  */
 import { writeFileSync } from 'node:fs';
 
 const OUT = new URL('./opps.json', import.meta.url);
-const KEY = process.env.BIZINFO_KEY || '';
+const KEY = process.env.DATA_GO_KR_KEY || '';
 const MOCK = process.argv.includes('--mock');
-const API = 'https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do';
+const PROBE = process.argv.includes('--probe');
+const BASE = 'https://apis.data.go.kr/B552735/kisedKstartupService01/getAnnouncementInformation01';
 
-// ---------- 분류 휴리스틱 (대상/분야 텍스트 → 빌더 자격모델) ----------
+// ---------- 분류 휴리스틱 (공고명/분야/대상 → 빌더 자격모델) ----------
 function classify(text) {
-  const t = (text || '');
-  let group = 'C', gtag = '경영·운영';
-  if (/창업|예비|도약|스타트업/.test(t))      { group = 'A'; gtag = '창업'; }
-  else if (/고용|인력|일자리|채용|청년채용/.test(t)) { group = 'C'; gtag = '고용·인력'; }
-  else if (/융자|정책자금|보증|자금|금융/.test(t))   { group = 'C'; gtag = '자금·융자'; }
-  else if (/수출|글로벌|판로|해외|내수/.test(t))     { group = 'B'; gtag = '판로·수출'; }
-  else if (/기술|R&D|연구|개발|디지털|AI|혁신/.test(t)) { group = 'D'; gtag = '기술·디지털'; }
+  const t = text || '';
+  let group = 'A', gtag = '창업';
+  if (/재도전|재창업|폐업/.test(t))                 { group = 'A'; gtag = '재창업'; }
+  else if (/예비/.test(t))                          { group = 'A'; gtag = '예비창업'; }
+  else if (/도약|초기|성장|스케일업/.test(t))         { group = 'B'; gtag = '창업도약'; }
+  else if (/글로벌|수출|해외|판로/.test(t))           { group = 'B'; gtag = '글로벌·판로'; }
+  else if (/기술|R&D|연구|AI|디지털|딥테크|혁신/.test(t)) { group = 'D'; gtag = '기술·디지털'; }
+  else if (/고용|인력|일자리|채용/.test(t))           { group = 'C'; gtag = '고용·인력'; }
 
-  // 자격(보수적·permissive): 명확할 때만 좁힌다 → 실데이터를 과도 필터링하지 않음
   const stage = /예비창업|예비 창업/.test(t) ? ['예비']
-    : /창업\s?[1-7]년|초기창업|도약/.test(t) ? ['예비', '3년내']
+    : /재도전|재창업/.test(t) ? ['예비', '3년내']
+    : /도약|초기창업|[1-7]년/.test(t) ? ['예비', '3년내']
     : ['예비', '3년내', '운영중'];
-  const age = /청년|만\s?39|39세|만 34/.test(t) ? 'young' : 'any';
-  const hire = false; // 고용요건은 신뢰성 있게 추출 어려움 → 기본 미적용
-  return { group, gtag, elig: { stage, age, hire } };
+  const age = /청년|만\s?39|39세|만\s?34|34세/.test(t) ? 'young' : 'any';
+  return { group, gtag, elig: { stage, age, hire: false } };
 }
 
 function toYmd(s) {
   const m = String(s || '').match(/(\d{4})[.\-/]?(\d{2})[.\-/]?(\d{2})/);
   return m ? `${m[1]}-${m[2]}-${m[3]}` : '';
 }
-function parseDeadline(reqstBeginEndDe) {
-  if (!reqstBeginEndDe) return '상시';
-  if (/예산|소진|상시|마감시/.test(reqstBeginEndDe)) return '상시';
-  const parts = String(reqstBeginEndDe).split('~');
-  const end = toYmd(parts[parts.length - 1]);
-  return end || '상시';
+function clip(s, n) {
+  s = String(s == null ? '' : s).replace(/<[^>]+>/g, '').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();
+  return s.length > n ? s.slice(0, n) + '…' : s;
 }
-function abs(url) {
-  if (!url) return 'https://www.bizinfo.go.kr';
-  return /^https?:\/\//.test(url) ? url : 'https://www.bizinfo.go.kr' + url;
-}
-function clip(s, n) { s = String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(); return s.length > n ? s.slice(0, n) + '…' : s; }
+function pick(o, keys) { for (const k of keys) if (o[k] != null && String(o[k]).trim() !== '') return o[k]; return ''; }
 
-// ---------- 정규화 ----------
-function normalize(item, i) {
-  const title = item.pblancNm || item.title || '';
-  const category = item.pldirSportRealmLclasCodeNm || item.category || '기타';
-  const agency = item.jrsdInsttNm || item.excInsttNm || '소관기관';
-  const target = item.trgetNm || item.bsnsSumryCn || '';
-  const c = classify(`${title} ${category} ${target}`);
+// ---------- 정규화 (K-Startup 공고 → 표준 스키마) ----------
+// 필드명은 알려진 K-Startup 표준 + 방어적 폴백. 첫 실호출 로그로 검증/보정.
+function normalize(it, i) {
+  const title   = pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'pbanc_nm', 'title']);
+  const agency  = pick(it, ['pbanc_ntrp_nm', 'excutInsttNm', 'spnsr_organ_nm']) || '창업진흥원';
+  const category= pick(it, ['supt_biz_clsfc', 'biz_clsfc', 'pld_clsfc']) || '창업지원';
+  const target  = pick(it, ['aply_trgt_ctnt', 'aply_trgt', 'supt_trgt']);
+  const age     = pick(it, ['biz_trgt_age', 'aply_trgt_age']);
+  const region  = pick(it, ['supt_regin', 'biz_aply_regin']);
+  const begin   = pick(it, ['pbanc_rcpt_bgng_dt', 'rcrt_pbanc_bgng_de']);
+  const end     = pick(it, ['pbanc_rcpt_end_dt', 'rcrt_pbanc_end_de']);
+  const url     = pick(it, ['detl_pg_url', 'biz_gdnc_url', 'pbanc_url']) || 'https://www.k-startup.go.kr';
+  const sn      = pick(it, ['pbanc_sn', 'id']) || i;
+  const c = classify(`${title} ${category} ${target} ${age} ${region}`);
   return {
-    id: 'bz' + (item.pblancId || i),
+    id: 'ks' + sn,
     group: c.group, gtag: c.gtag,
     title, agency, category,
     elig: c.elig,
     amount: '공고 참조',
-    deadline: parseDeadline(item.reqstBeginEndDe),
-    docs: ['사업계획서', '사업자등록증(해당시)', '대표자 신분증'],
-    url: abs(item.pblancUrl || item.rceptInstUrl),
-    status: 'open',
-    note: clip(item.bsnsSumryCn || target || title, 80),
+    deadline: toYmd(end) || '상시',
+    docs: ['사업계획서(PSST)', '사업자등록증(해당시)', '대표자 신분증'],
+    url, status: 'open',
+    note: clip(target || title, 80),
     star: c.group === 'A' || c.group === 'D',
   };
 }
 
-// ---------- 실데이터 ----------
-async function fetchLive() {
-  const u = `${API}?crtfcKey=${encodeURIComponent(KEY)}&dataType=json&searchCnt=200`;
-  const res = await fetch(u, { headers: { 'User-Agent': 'AUTUS-Builder/1.0' } });
-  const text = await res.text();
-  let json;
-  try { json = JSON.parse(text); } catch { throw new Error('JSON 파싱 실패: ' + text.slice(0, 120)); }
-  const arr = json.jsonArray || json.items || json.list || [];
-  if (!Array.isArray(arr) || !arr.length) throw new Error('빈 응답/인증 실패: ' + text.slice(0, 120));
-  return arr.map(normalize).filter(o => o.title);
+function isOpen(o) {
+  if (o.deadline === '상시') return true;
+  const today = new Date().toISOString().slice(0, 10);
+  return o.deadline >= today;
 }
 
-// ---------- 검증용 목데이터 ----------
+// ---------- 실데이터 ----------
+async function fetchLive() {
+  const url = `${BASE}?serviceKey=${encodeURIComponent(KEY)}&page=1&perPage=200&returnType=json`;
+  const res = await fetch(url, { headers: { Accept: 'application/json' } });
+  const text = await res.text();
+  let json;
+  try { json = JSON.parse(text); } catch { throw new Error('JSON 파싱 실패(키/엔드포인트 확인): ' + text.slice(0, 160)); }
+  const arr = json.data || json.items || [];
+  if (!Array.isArray(arr) || !arr.length) throw new Error('빈 응답/인증 실패: ' + text.slice(0, 160));
+  // 첫 항목 실제 필드명 로그 → 매핑 검증/보정 근거
+  console.log('실제 응답 필드:', Object.keys(arr[0]).join(', '));
+  if (PROBE) { console.log(JSON.stringify(arr[0], null, 1)); process.exit(0); }
+  return arr.map(normalize).filter(o => o.title).filter(isOpen);
+}
+
+// ---------- 검증용 목데이터 (키 없이 파이프라인 점검) ----------
 function mock() {
   const raw = [
-    { pblancId: 'M1', pblancNm: '예비창업패키지 일반분야', pldirSportRealmLclasCodeNm: '창업', jrsdInsttNm: '중소벤처기업부', reqstBeginEndDe: '20260701 ~ 20260820', bsnsSumryCn: '예비창업자 사업화 자금 및 멘토링 지원', pblancUrl: '/web/lay1/bbs/S1T122C128/AS/74/view.do?pblancId=M1' },
-    { pblancId: 'M2', pblancNm: '청년창업 사관학교 입교생 모집', pldirSportRealmLclasCodeNm: '창업', jrsdInsttNm: '중소벤처기업진흥공단', reqstBeginEndDe: '20260705 ~ 20260731', bsnsSumryCn: '만 39세 이하 청년 창업자 사업화 공간·교육·자금', pblancUrl: '/web/lay1/bbs/view.do?pblancId=M2' },
-    { pblancId: 'M3', pblancNm: '소상공인 디지털전환 지원사업', pldirSportRealmLclasCodeNm: '디지털', jrsdInsttNm: '소상공인시장진흥공단', reqstBeginEndDe: '20260710 ~ 20260930', bsnsSumryCn: 'AI·키오스크 등 소상공인 디지털 솔루션 도입 지원', pblancUrl: '/web/lay1/bbs/view.do?pblancId=M3' },
-    { pblancId: 'M4', pblancNm: '청년 일자리 도약장려금', pldirSportRealmLclasCodeNm: '고용', jrsdInsttNm: '고용노동부', reqstBeginEndDe: '20260601 ~ 20261231', bsnsSumryCn: '청년 정규직 채용 기업 인건비 지원', pblancUrl: '/web/lay1/bbs/view.do?pblancId=M4' },
-    { pblancId: 'M5', pblancNm: '소상공인 정책자금(일반경영안정)', pldirSportRealmLclasCodeNm: '금융', jrsdInsttNm: '소상공인시장진흥공단', reqstBeginEndDe: '예산 소진시까지', bsnsSumryCn: '운영비·임대료 저리 융자', pblancUrl: '/web/lay1/bbs/view.do?pblancId=M5' },
-    { pblancId: 'M6', pblancNm: '수출바우처 참여기업 모집', pldirSportRealmLclasCodeNm: '수출', jrsdInsttNm: 'KOTRA', reqstBeginEndDe: '20260715 ~ 20260815', bsnsSumryCn: '내수기업 수출기업화 마케팅 바우처', pblancUrl: '/web/lay1/bbs/view.do?pblancId=M6' },
+    { pbanc_sn: 'M1', intg_pbanc_biz_nm: '예비창업패키지 일반분야 예비창업자 모집', supt_biz_clsfc: '창업사업화', pbanc_ntrp_nm: '창업진흥원', pbanc_rcpt_end_dt: '20260820', aply_trgt_ctnt: '사업자등록 전 예비창업자', detl_pg_url: 'https://www.k-startup.go.kr' },
+    { pbanc_sn: 'M2', intg_pbanc_biz_nm: '청년창업사관학교 입교생 모집', supt_biz_clsfc: '창업사업화', pbanc_ntrp_nm: '중소벤처기업진흥공단', pbanc_rcpt_end_dt: '20260731', aply_trgt_ctnt: '만 39세 이하 청년 창업자', detl_pg_url: 'https://www.k-startup.go.kr' },
+    { pbanc_sn: 'M3', intg_pbanc_biz_nm: '창업도약패키지 성장지원', supt_biz_clsfc: '창업사업화', pbanc_ntrp_nm: '창업진흥원', pbanc_rcpt_end_dt: '20260910', aply_trgt_ctnt: '창업 3~7년 도약기 기업', detl_pg_url: 'https://www.k-startup.go.kr' },
+    { pbanc_sn: 'M4', intg_pbanc_biz_nm: '재도전 성공패키지 재창업자 모집', supt_biz_clsfc: '재창업', pbanc_ntrp_nm: '창업진흥원', pbanc_rcpt_end_dt: '20260930', aply_trgt_ctnt: '폐업 후 재창업 예정자', detl_pg_url: 'https://www.k-startup.go.kr' },
+    { pbanc_sn: 'M5', intg_pbanc_biz_nm: '글로벌 창업사관학교(딥테크)', supt_biz_clsfc: '글로벌', pbanc_ntrp_nm: '창업진흥원', pbanc_rcpt_end_dt: '20260815', aply_trgt_ctnt: 'AI·딥테크 분야 창업기업', detl_pg_url: 'https://www.k-startup.go.kr' },
   ];
   return raw.map(normalize);
 }
@@ -107,17 +117,17 @@ function mock() {
 async function main() {
   let opps, source;
   if (MOCK) {
-    opps = mock(); source = '기업마당(샘플)';
-    console.log(`[mock] ${opps.length}건 생성`);
+    opps = mock(); source = 'K-Startup(샘플)';
+    console.log(`[mock] ${opps.length}건`);
   } else if (!KEY) {
-    console.error('BIZINFO_KEY 없음 → opps.json 갱신 건너뜀(앱은 내장 샘플 사용). 검증은 --mock 사용.');
+    console.error('DATA_GO_KR_KEY 없음 → opps.json 갱신 건너뜀(앱은 내장 샘플 사용). 검증은 --mock.');
     process.exit(0);
   } else {
-    opps = await fetchLive(); source = '기업마당';
-    console.log(`[live] ${opps.length}건 수집`);
+    opps = await fetchLive(); source = 'K-Startup';
+    console.log(`[live] ${opps.length}건 (마감 안 지난 공고만)`);
   }
   const payload = { source, updated: new Date().toISOString(), count: opps.length, opps };
   writeFileSync(OUT, JSON.stringify(payload, null, 1));
-  console.log('opps.json 작성 완료:', OUT.pathname);
+  console.log('opps.json 작성:', OUT.pathname);
 }
 main().catch(e => { console.error('실패:', e.message); process.exit(1); });
