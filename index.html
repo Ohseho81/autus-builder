@@ -195,6 +195,8 @@
   .install-bar .id{font-size:11px;opacity:.7;margin-top:1px}
   .install-bar .ibtn{margin-left:auto;background:var(--brand);color:#fff;font-weight:700;font-size:12px;padding:8px 13px;border-radius:9px;white-space:nowrap}
   .install-bar .ix{background:none;color:rgba(255,255,255,.5);font-size:18px;padding:0 4px;line-height:1}
+  .install-bar.update .ii{background:linear-gradient(135deg,#0a8f56,#2347d4);font-size:20px}
+  .install-bar.update .ibtn{background:#0a8f56}
   /* iOS 안내 시트 */
   .ios-sheet{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:80;display:none;align-items:flex-end;justify-content:center}
   .ios-sheet.show{display:flex}
@@ -308,6 +310,13 @@
       <div id="academy-list"></div>
     </div>
   </section>
+
+  <!-- ============ 업데이트(패치) 배너 ============ -->
+  <div class="install-bar update" id="updatebar">
+    <div class="ii">↻</div>
+    <div><div class="it">새 버전이 있어요</div><div class="id">탭하면 최신으로 업데이트돼요</div></div>
+    <button class="ibtn" id="update-btn">업데이트</button>
+  </div>
 
   <!-- ============ 홈 화면 추가 안내 ============ -->
   <div class="install-bar" id="installbar">
@@ -615,10 +624,36 @@ if(isIOS&&!isStandalone&&!installDismissed()){showInstallBar();}
 // ============ INIT ============
 renderBotNav();renderHome();
 
-// ============ 서비스워커 등록 (PWA 설치 조건) ============
+// ============ 서비스워커 등록 + 업데이트 프롬프트 ============
+function showUpdateBar(reg){
+  const bar=document.getElementById('updatebar');
+  if(!bar) return;
+  bar.classList.add('show');
+  document.getElementById('update-btn').onclick=()=>{
+    document.getElementById('update-btn').textContent='적용 중…';
+    if(reg.waiting) reg.waiting.postMessage({type:'SKIP_WAITING'});
+  };
+}
 if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js').catch(err=>console.warn('SW 등록 실패',err));
+  let reloaded=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(reloaded) return; reloaded=true; location.reload();  // 새 워커 활성화 → 새로고침
+  });
+  window.addEventListener('load',async ()=>{
+    try{
+      const reg=await navigator.serviceWorker.register('sw.js');
+      // 등록 시점에 이미 대기 중인 새 버전이 있으면 배너
+      if(reg.waiting && navigator.serviceWorker.controller) showUpdateBar(reg);
+      // 새 버전 설치 감지
+      reg.addEventListener('updatefound',()=>{
+        const nw=reg.installing; if(!nw) return;
+        nw.addEventListener('statechange',()=>{
+          if(nw.state==='installed' && navigator.serviceWorker.controller) showUpdateBar(reg);
+        });
+      });
+      // 앱이 떠 있는 동안 60초마다 업데이트 확인
+      setInterval(()=>reg.update().catch(()=>{}),60000);
+    }catch(err){console.warn('SW 등록 실패',err);}
   });
 }
 </script>

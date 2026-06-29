@@ -1,5 +1,7 @@
-/* AUTUS Builder — Service Worker (offline app shell) */
-const CACHE = 'autus-builder-v1';
+/* AUTUS Builder — Service Worker (offline + 업데이트 프롬프트) */
+/* VERSION은 배포 시 pre-commit 훅이 자동으로 갱신 → 변경 감지 트리거 */
+const VERSION = '20260629-105857';
+const CACHE = 'autus-builder-' + VERSION;
 const ASSETS = [
   './',
   './index.html',
@@ -11,14 +13,22 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  // skipWaiting 호출하지 않음 → 새 워커는 '대기' 상태로 머물고,
+  // 사용자가 '업데이트' 배너를 탭할 때만 활성화된다.
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
 });
 
 self.addEventListener('activate', e => {
   e.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
+});
+
+// 페이지에서 '업데이트' 누르면 SKIP_WAITING 메시지 → 즉시 활성화
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 // 네비게이션 = 네트워크 우선(최신 우선), 실패 시 캐시. 정적자산 = 캐시 우선.
