@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AUTUS · Builder 영업&교육</title>
+
+<!-- ===== PWA: 홈 화면 앱 아이콘 설정 ===== -->
+<meta name="theme-color" content="#3b5bff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AUTUS">
+<meta name="description" content="사장님은 수업만 하세요. 운영은 AUTUS가 합니다. — Builder 시작하기">
+
+<!-- 앱 아이콘 (실제 PNG 파일) -->
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+
+<!-- 웹 매니페스트 (실제 파일) -->
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  :root{
+    --bg:#fafbfc; --card:#fff; --ink:#0b1524; --ink2:#4a5567; --ink3:#9aa4b2;
+    --line:#e8ebf0; --line2:#f3f5f8;
+    --brand:#2347d4; --brand-d:#1a37a8; --brand-soft:#eef1fc;
+    --navy:#0f1b3d;
+    --ok:#0a8f56; --ok-soft:#e6f5ee; --warn:#c77d10; --warn-soft:#fbf2e2; --danger:#d3402f;
+    --value:#2347d4; --rule:#0a8f56; --flow:#c77d10;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Pretendard","Noto Sans KR",sans-serif;
+    --mono:"SF Mono",ui-monospace,Menlo,monospace;
+    --shadow:0 1px 2px rgba(11,21,36,.04),0 1px 1px rgba(11,21,36,.03);
+    --shadow-lg:0 16px 40px rgba(11,21,36,.10);
+    --r:13px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.55;font-size:15px;-webkit-font-smoothing:antialiased}
+  button{font-family:inherit;cursor:pointer;border:none}
+  a{color:inherit;text-decoration:none}
+
+  /* ===== Phone shell (mobile-first, centered on desktop) ===== */
+  .device{max-width:430px;margin:0 auto;min-height:100vh;background:var(--bg);position:relative;box-shadow:0 0 0 1px var(--line);overflow:hidden;padding-bottom:74px}
+  @media(min-width:600px){.device{margin:20px auto;min-height:calc(100vh - 40px);border-radius:28px;overflow:hidden;box-shadow:var(--shadow-lg)}}
+
+  /* ===== Top app bar ===== */
+  .appbar{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);height:52px;display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:1px solid var(--line)}
+  .appbar .brand{display:flex;align-items:center;gap:7px;font-weight:800;font-size:15px;letter-spacing:-.3px}
+  .appbar .mark{width:24px;height:24px;border-radius:6px;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800}
+  .appbar .grow{margin-left:auto}
+  .appbar .pill{font-size:11px;font-weight:600;color:var(--brand);background:var(--brand-soft);padding:4px 11px;border-radius:999px;letter-spacing:-.2px}
+
+  /* ===== Screens ===== */
+  .screen{display:none;animation:sf .25s ease}
+  .screen.active{display:block}
+  @keyframes sf{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .pad{padding:18px 16px}
+
+  /* ===== Home ===== */
+  .hero{padding:38px 20px 30px;background:var(--navy);color:#fff;border-radius:0 0 22px 22px;position:relative;overflow:hidden}
+  .hero:after{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(35,71,212,.35),transparent 70%)}
+  .hero .kick{font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#8fa3e8;margin-bottom:16px;position:relative}
+  .hero h1{font-size:28px;font-weight:800;letter-spacing:-.8px;line-height:1.22;position:relative}
+  .hero p{font-size:14px;color:rgba(255,255,255,.78);margin-top:14px;line-height:1.6;position:relative}
+  .hero .cta-main{width:100%;background:#fff;color:var(--navy);font-weight:700;font-size:15px;padding:15px;border-radius:11px;margin-top:24px;position:relative;letter-spacing:-.2px}
+  .hero .cta-main:active{background:#f0f2f8}
+  .hero .cta-sub{width:100%;background:rgba(255,255,255,.08);color:#fff;font-weight:600;font-size:14px;padding:13px;border-radius:11px;margin-top:9px;border:1px solid rgba(255,255,255,.16);position:relative}
+
+  .sec-h{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink3);margin:26px 0 13px}
+  .vcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .vcard h3{font-size:16px;font-weight:700;margin-bottom:5px;letter-spacing:-.3px;display:flex;align-items:center;gap:8px}
+  .vcard .lead{font-size:13px;color:var(--ink2);margin-bottom:14px;line-height:1.5}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{font-size:12px;font-weight:600;background:var(--ok-soft);color:var(--ok);padding:6px 11px;border-radius:7px;letter-spacing:-.2px}
+  .vcard .foot{font-size:12.5px;color:var(--ink3);margin-top:14px;padding-top:13px;border-top:1px solid var(--line2);line-height:1.5}
+  .flowline{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:2px}
+  .flowline .f{font-size:11.5px;font-weight:600;background:var(--line2);padding:6px 10px;border-radius:7px;color:var(--ink2)}
+  .flowline .ar{color:var(--ink3);font-size:10px}
+
+  /* builder steps */
+  .bstep{display:flex;gap:13px;padding:12px 0;align-items:flex-start}
+  .bstep:not(:last-child){border-bottom:1px solid var(--line2)}
+  .bstep .num{width:25px;height:25px;border-radius:7px;background:var(--brand-soft);color:var(--brand);font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .bstep .bt{font-weight:600;font-size:14px;letter-spacing:-.2px}
+  .bstep .bd{font-size:12.5px;color:var(--ink3);margin-top:1px}
+  .quote{background:var(--navy);color:#fff;border-radius:var(--r);padding:20px;margin:14px 0;font-size:15px;font-weight:600;line-height:1.55;letter-spacing:-.2px}
+  .quote .em{color:#8fa3e8}
+
+  /* money strip */
+  .money{background:var(--navy);color:#fff;border-radius:var(--r);padding:20px;margin-top:12px;position:relative;overflow:hidden}
+  .money:after{content:'';position:absolute;bottom:-40px;right:-30px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,rgba(10,143,86,.3),transparent 70%)}
+  .money .k{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#8fa3e8;position:relative}
+  .money .row{display:flex;justify-content:space-between;align-items:baseline;margin-top:11px;position:relative}
+  .money .row .lbl{font-size:13px;color:rgba(255,255,255,.75)}
+  .money .row .val{font-size:17px;font-weight:700;letter-spacing:-.3px}
+
+  /* ===== Experience wizard ===== */
+  .exp-head{padding:18px 16px 6px}
+  .exp-head h2{font-size:20px;font-weight:800;letter-spacing:-.4px}
+  .exp-head p{font-size:13px;color:var(--ink2);margin-top:4px}
+  .progress{display:flex;gap:6px;padding:14px 16px 6px}
+  .progress .seg{flex:1;height:5px;border-radius:3px;background:var(--line)}
+  .progress .seg.on{background:var(--brand)}
+  .exp-body{padding:10px 16px 16px}
+  .exp-body h3{font-size:18px;font-weight:800;margin-bottom:4px;letter-spacing:-.3px}
+  .exp-body .ph{font-size:13px;color:var(--ink3);margin-bottom:16px}
+  .opt{display:flex;align-items:center;gap:13px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:15px;margin-bottom:10px;transition:.12s;width:100%;text-align:left}
+  .opt:active{transform:scale(.99)}
+  .opt.sel{border-color:var(--brand);background:var(--brand-soft)}
+  .opt.lock{opacity:.45}
+  .opt .oe{font-size:24px}
+  .opt .ot{font-weight:700;font-size:15px}
+  .opt .od{font-size:12px;color:var(--ink3)}
+  .opt .badge{margin-left:auto;font-size:10px;font-weight:800;padding:3px 8px;border-radius:6px;background:var(--ok-soft);color:var(--ok)}
+  .opt .soon{margin-left:auto;font-size:11px;color:var(--ink3)}
+
+  .diffcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+  .diffcard .dh{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+  .diffcard .tag{font-size:11px;font-weight:800;padding:3px 9px;border-radius:6px}
+  .tag-value{background:#eef1ff;color:var(--value)} .tag-rule{background:#e7f8ef;color:var(--rule)} .tag-flow{background:#fef6e7;color:var(--flow)}
+  .diffcard .cmp{display:flex;align-items:center;gap:10px;font-size:13px}
+  .diffcard .from{color:var(--ink3);text-decoration:line-through} .diffcard .to{font-weight:700}
+  .diffcard .ar{color:var(--brand);font-weight:800}
+
+  .genrow{display:flex;align-items:center;gap:11px;padding:11px 0;font-size:14px;opacity:0;animation:fadein .4s forwards}
+  @keyframes fadein{to{opacity:1}}
+  .genrow .ck{width:22px;height:22px;border-radius:50%;background:var(--ok-soft);color:var(--ok);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}
+  .spinner{width:38px;height:38px;border:3px solid var(--line);border-top-color:var(--brand);border-radius:50%;margin:8px auto 14px;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .done-emoji{font-size:48px;text-align:center;margin-bottom:6px}
+
+  /* sticky CTA */
+  .sticky-cta{position:sticky;bottom:0;background:linear-gradient(to top,var(--bg) 70%,transparent);padding:12px 16px 16px}
+  .btn-primary{width:100%;background:var(--brand);color:#fff;font-weight:700;font-size:15px;padding:15px;border-radius:11px;transition:.12s;letter-spacing:-.2px}
+  .btn-primary:active{background:var(--brand-d)}
+  .btn-primary:disabled{opacity:.4}
+  .btn-ghost{width:100%;background:var(--card);color:var(--ink2);font-weight:600;font-size:14px;padding:13px;border-radius:11px;border:1px solid var(--line);margin-top:8px}
+
+  /* ===== Customer Workspace ===== */
+  .ws-head{background:var(--card);border-bottom:1px solid var(--line);padding:16px}
+  .ws-head .back{font-size:13px;color:var(--brand);font-weight:600;margin-bottom:10px;display:inline-block}
+  .ws-head h2{font-size:20px;font-weight:800}
+  .ws-head .meta{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:13px;color:var(--ink2)}
+  .stat-badge{font-size:11px;font-weight:800;padding:3px 9px;border-radius:6px}
+  .stat-operating{background:var(--ok-soft);color:var(--ok)} .stat-building{background:var(--brand-soft);color:var(--brand)} .stat-deploying{background:var(--warn-soft);color:var(--warn)}
+  .ws-tabs{display:flex;gap:4px;padding:10px 12px;overflow-x:auto;background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:52px;z-index:30}
+  .ws-tab{font-size:13px;font-weight:600;color:var(--ink2);padding:8px 13px;border-radius:9px;white-space:nowrap;background:none}
+  .ws-tab.on{background:var(--brand-soft);color:var(--brand)}
+  .ws-panel{padding:16px}
+  .miniscore{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-bottom:14px}
+  .ring{width:54px;height:54px;border-radius:50%;background:conic-gradient(var(--ok) 0 92%,var(--line) 92%);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .ring .inner{width:42px;height:42px;border-radius:50%;background:var(--card);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+  .todo-list{list-style:none}
+  .todo-list li{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--line2);font-size:14px}
+  .todo-list li .dot{width:8px;height:8px;border-radius:50%;background:var(--brand)}
+  .todo-list li.done{color:var(--ink3)} .todo-list li.done .dot{background:var(--ok)}
+  .kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .kpibox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
+  .kpibox .v{font-size:24px;font-weight:800}
+  .kpibox .l{font-size:11px;color:var(--ink3);margin-top:2px}
+  .kpibox .d{font-size:11px;font-weight:700;color:var(--ok)}
+  .evrow{display:flex;align-items:center;gap:11px;padding:12px 0;border-bottom:1px solid var(--line2);font-size:13px}
+  .evrow .ei{width:30px;height:30px;border-radius:8px;background:var(--line2);display:flex;align-items:center;justify-content:center;font-size:14px}
+  .evrow .et{font-weight:600}.evrow .ed{font-size:11px;color:var(--ink3)}
+  .evrow .etime{margin-left:auto;font-size:11px;color:var(--ink3);font-family:var(--mono)}
+  .difflist .dl-item{display:flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;font-size:13px}
+
+  /* ===== Bottom Nav ===== */
+  .botnav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line);display:flex;height:64px;z-index:50}
+  .botnav button{flex:1;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;color:var(--ink3);font-size:10.5px;font-weight:600;padding-top:4px}
+  .botnav button .bi{font-size:20px;line-height:1}
+  .botnav button.on{color:var(--brand)}
+  @media(min-width:600px){.botnav{border-radius:0 0 28px 28px}}
+
+  .callout2{background:var(--brand-soft);border:1px solid #d6ddff;border-radius:12px;padding:13px 15px;font-size:13px;color:var(--ink2);margin-top:12px}
+  .callout2 b{color:var(--brand)}
+
+  /* ===== Sales flow ===== */
+  .sflow-step{position:relative;padding-left:38px;padding-bottom:18px}
+  .sflow-step:before{content:'';position:absolute;left:13px;top:28px;bottom:0;width:2px;background:var(--line)}
+  .sflow-step:last-child:before{display:none}
+  .sflow-step .sn{position:absolute;left:0;top:2px;width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;z-index:2}
+  .sflow-step.last .sn{background:var(--ok)}
+  .sflow-step .sname{font-weight:800;font-size:15px;margin-bottom:6px}
+  .sflow-step .ssay{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--brand);border-radius:0 9px 9px 0;padding:9px 12px;font-size:14px;font-weight:600;color:var(--ink);margin-bottom:7px}
+  .sflow-step .sdo{font-size:13px;color:var(--ink2);margin-bottom:3px}
+  .sflow-step .smind{font-size:12px;color:var(--ink3);font-style:italic}
+  .sflow-step .smind:before{content:'💡 '}
+
+  /* ===== Install (홈 화면 추가) 안내 ===== */
+  .install-bar{position:fixed;bottom:74px;left:50%;transform:translateX(-50%);width:calc(100% - 24px);max-width:406px;background:var(--ink);color:#fff;border-radius:14px;padding:13px 15px;display:none;align-items:center;gap:12px;z-index:60;box-shadow:0 8px 24px rgba(0,0,0,.25);animation:slideup .3s ease}
+  .install-bar.show{display:flex}
+  @keyframes slideup{from{opacity:0;transform:translateX(-50%) translateY(10px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+  .install-bar .ii{width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg,var(--brand),#7b5cff);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;flex-shrink:0}
+  .install-bar .it{font-size:13px;font-weight:700;line-height:1.3}
+  .install-bar .id{font-size:11px;opacity:.7;margin-top:1px}
+  .install-bar .ibtn{margin-left:auto;background:var(--brand);color:#fff;font-weight:700;font-size:12px;padding:8px 13px;border-radius:9px;white-space:nowrap}
+  .install-bar .ix{background:none;color:rgba(255,255,255,.5);font-size:18px;padding:0 4px;line-height:1}
+  /* iOS 안내 시트 */
+  .ios-sheet{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:80;display:none;align-items:flex-end;justify-content:center}
+  .ios-sheet.show{display:flex}
+  .ios-card{background:#fff;border-radius:20px 20px 0 0;width:100%;max-width:430px;padding:24px 20px 30px;animation:slideup2 .3s ease}
+  @keyframes slideup2{from{transform:translateY(40px)}to{transform:translateY(0)}}
+  .ios-card h3{font-size:18px;font-weight:800;margin-bottom:6px}
+  .ios-card p{font-size:14px;color:var(--ink2);margin-bottom:16px}
+  .ios-step{display:flex;align-items:center;gap:12px;padding:12px;background:var(--line2);border-radius:11px;margin-bottom:8px;font-size:14px}
+  .ios-step .sn{width:24px;height:24px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .ios-card .close{width:100%;background:var(--ink);color:#fff;font-weight:700;padding:13px;border-radius:11px;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="device">
+  <div class="appbar">
+    <div class="brand"><span class="mark">A</span> AUTUS</div>
+    <span class="pill" id="appbar-pill">Builder 되기</span>
+    <span class="grow"></span>
+  </div>
+
+  <!-- ============ HOME ============ -->
+  <section class="screen active" id="s-home">
+    <div class="hero">
+      <div class="kick" id="h-kick"></div>
+      <h1 id="h-title"></h1>
+      <p id="h-sub"></p>
+      <button class="cta-main" onclick="nav('exp')" id="h-cta"></button>
+      <button class="cta-sub" onclick="scrollToBuilder()" id="h-cta2"></button>
+    </div>
+    <div class="pad">
+      <div class="sec-h">학원 운영의 구조적 문제</div>
+      <div class="vcard">
+        <h3 id="v1-t"></h3>
+        <div class="lead" id="v1-lead"></div>
+        <div class="chips" id="v1-chips"></div>
+        <div class="foot" id="v1-foot"></div>
+      </div>
+      <div class="vcard">
+        <h3 id="v2-t"></h3>
+        <div class="lead" id="v2-lead"></div>
+        <div class="flowline" id="v2-flow"></div>
+        <div class="foot" id="v2-foot"></div>
+      </div>
+
+      <div class="money">
+        <div class="k">Builder 수익 모델</div>
+        <div class="row"><span class="lbl">초기 구축 (1회성)</span><span class="val">50–100만원</span></div>
+        <div class="row"><span class="lbl">운영 관리 (월 정기)</span><span class="val">5–15만원</span></div>
+        <div class="row" style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.25)"><span class="lbl">고객 10곳 기준 월 매출</span><span class="val">50–150만원+</span></div>
+      </div>
+
+      <div class="sec-h" id="builder-anchor">Builder의 역할</div>
+      <div class="vcard">
+        <div id="builder-steps"></div>
+        <div class="quote" id="builder-quote"></div>
+      </div>
+
+      <button class="btn-primary" style="margin:6px 0 10px" onclick="nav('sales')">고객 확보하는 법 보기 →</button>
+      <button class="btn-ghost" style="margin:0 0 20px" onclick="nav('exp')">3분 체험 시작하기</button>
+    </div>
+  </section>
+
+  <!-- ============ SALES FLOW ============ -->
+  <section class="screen" id="s-sales">
+    <div class="exp-head">
+      <h2>고객을 확보하는 순서</h2>
+      <p>제품을 팔지 마세요. 운영 개선을 제안하세요.</p>
+    </div>
+    <div class="pad" style="padding-top:6px">
+      <div class="quote" style="margin-top:0">"AI를 구축합니다"가 아니라<br><span class="em">"운영을 정리해드립니다"</span>부터 시작하세요.</div>
+      <div id="sales-flow"></div>
+      <div class="callout2" style="margin-top:14px">AI·기술 이야기는 <b>맨 마지막에만</b>. 고객은 기술이 아니라 운영 문제 해결을 삽니다.</div>
+      <button class="btn-primary" style="margin:16px 0 8px" onclick="nav('exp')">이 흐름 직접 체험하기 →</button>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="screen" id="s-exp">
+    <div class="exp-head">
+      <h2 id="exp-title">3분 체험</h2>
+      <p id="exp-desc">학원 사장님 한 분을 직접 도와드려 봐요.</p>
+    </div>
+    <div class="progress" id="exp-progress"></div>
+    <div class="exp-body" id="exp-body"></div>
+  </section>
+
+  <!-- ============ CUSTOMERS LIST ============ -->
+  <section class="screen" id="s-customers">
+    <div class="pad">
+      <div class="sec-h" style="margin-top:8px">내 고객 <span id="cust-count" style="color:var(--brand)"></span></div>
+      <div id="cust-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ CUSTOMER WORKSPACE ============ -->
+  <section class="screen" id="s-workspace">
+    <div class="ws-head">
+      <span class="back" onclick="nav('customers')">← 고객 목록</span>
+      <h2 id="ws-name"></h2>
+      <div class="meta" id="ws-meta"></div>
+    </div>
+    <div class="ws-tabs" id="ws-tabs"></div>
+    <div class="ws-panel" id="ws-panel"></div>
+  </section>
+
+  <!-- ============ ACADEMY ============ -->
+  <section class="screen" id="s-academy">
+    <div class="pad">
+      <div class="sec-h" style="margin-top:8px">Builder Academy</div>
+      <p style="font-size:13px;color:var(--ink2);margin-bottom:14px">현장에 투입될 수 있을 때까지, 단계별로 배워요.</p>
+      <div id="academy-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ 홈 화면 추가 안내 ============ -->
+  <div class="install-bar" id="installbar">
+    <div class="ii">A</div>
+    <div><div class="it">홈 화면에 앱으로 추가</div><div class="id">진짜 앱처럼 전체화면으로 쓰세요</div></div>
+    <button class="ibtn" onclick="doInstall()">추가</button>
+    <button class="ix" onclick="dismissInstall()">✕</button>
+  </div>
+
+  <div class="ios-sheet" id="iossheet" onclick="if(event.target===this)closeIosSheet()">
+    <div class="ios-card">
+      <h3>홈 화면에 추가하기</h3>
+      <p>아이폰에서는 2단계면 앱처럼 설치돼요.</p>
+      <div class="ios-step"><span class="sn">1</span><div>하단의 <b>공유 버튼</b> <span style="font-size:16px">􀈂</span> (네모에 화살표)를 누르세요</div></div>
+      <div class="ios-step"><span class="sn">2</span><div><b>"홈 화면에 추가"</b>를 선택하세요</div></div>
+      <button class="close" onclick="closeIosSheet()">알겠어요</button>
+    </div>
+  </div>
+
+  <!-- ============ BOTTOM NAV ============ -->
+  <nav class="botnav" id="botnav"></nav>
+</div>
+
+<script>
+// ============ COPY (분리: 문구 하드코딩 회피) ============
+const COPY={
+  home:{
+    kick:"학원 운영 표준화 솔루션",
+    title:"수업은 사장님이,\n운영은 AUTUS가.",
+    sub:"과금·청구·환불·보강·출결·정산·학부모 알림. 학원 운영 전반을 표준화하고 자동화합니다.",
+    cta:"3분 체험", cta2:"Builder의 역할 보기",
+    v1:{t:"운영 리스크 제거", lead:"누락과 오류를 표준이 차단합니다.",
+        chips:["출결 누락 0건","청구 누락 제거","환불 분쟁 감소","보강 누락 0건","정산 오류 0건","미납 자동 추적"],
+        foot:"운영 규칙은 사람이 아니라 표준이 관리합니다."},
+    v2:{t:"운영 효율화 · 시간 확보", lead:"수작업 운영이 자동으로 전환됩니다.",
+        flow:["등록 시 자동 청구","출결 연동 정산","결석 시 보강 제안","수업 후 학부모 알림","월간 운영 보고"],
+        foot:"운영자는 학생과 수업에 집중합니다."},
+    builderSteps:[
+      {t:"현장 방문",d:"실제 운영 환경을 확인합니다"},
+      {t:"운영 관찰",d:"추측이 아닌 관찰로 진단합니다"},
+      {t:"표준과 비교",d:"검증된 운영 표준과 대조합니다"},
+      {t:"차이 분석",d:"값·규칙·흐름의 차이만 도출합니다"},
+      {t:"시스템 구축",d:"개발 없이 표준을 적용합니다"},
+      {t:"운영 개선",d:"결과를 측정하고 지속 개선합니다"},
+    ],
+    quote:'Builder는 개발자가 아닙니다.<br><span class="em">운영 표준을 현장에 적용하는 전문가</span>입니다.',
+  }
+};
+
+// ============ DATA ============
+const CUSTOMERS=[
+  {id:'c1',name:'밝은수학학원',biz:'학원·교습소',status:'operating',score:92,last:'오늘',next:'리포트 발송',diffs:[['월 수강료','200,000원','value'],['수업 횟수','주 3회','rule'],['결제 순서','결제 후 등록','flow']]},
+  {id:'c2',name:'한빛영어교습소',biz:'학원·교습소',status:'building',score:60,last:'어제',next:'다른 점 입력',diffs:[['월 수강료','180,000원','value']]},
+  {id:'c3',name:'으뜸피아노',biz:'학원·교습소',status:'deploying',score:75,last:'2일 전',next:'직원 초대',diffs:[['월 수강료','150,000원','value'],['보강 한도','월 2회','rule']]},
+];
+const WS_TABS=['Overview','Build','Deploy','Operate','Evidence'];
+const ACADEMY=[
+  {lv:1,t:'Foundation',d:'AUTUS 사업 이해 · Builder 역할 · 운영 표준화 · 다른 점 3종',state:'current',items:['AUTUS는 무슨 사업인가','Builder는 무엇을 하나','운영 규칙이란','값·규칙·흐름 3가지']},
+  {lv:2,t:'Field Practice',d:'현장 방문 · 관찰 · 차이 기록 · 고객 인터뷰',state:'locked'},
+  {lv:3,t:'Build',d:'표준 시스템 선택 · 다른 점 입력 · 고객 시스템 생성',state:'locked'},
+  {lv:4,t:'Deploy & Operate',d:'직원 교육 · 운영 시작 · KPI 확인 · 피드백',state:'locked'},
+  {lv:5,t:'Business',d:'고객 확보 · 가격 제안 · 정부지원 활용 · 반복 매출',state:'locked'},
+];
+const NAVTABS=[
+  {id:'home',ic:'🏠',label:'홈'},
+  {id:'sales',ic:'🤝',label:'영업'},
+  {id:'exp',ic:'✨',label:'체험'},
+  {id:'customers',ic:'👥',label:'고객'},
+  {id:'academy',ic:'🎓',label:'배우기'},
+];
+// 영업 흐름 — Builder가 고객 앞에서 따라가는 순서. AI는 맨 마지막에만.
+const SALES_FLOW=[
+  {n:'현장 방문',say:'"운영 한번 봐드릴게요."',do:'학원에 직접 간다. 팔러 온 게 아니라 도우러 왔다.',mind:'제품을 팔지 않는다. 관계를 연다.'},
+  {n:'운영 진단',say:'"지금 어떻게 운영하세요?"',do:'질문보다 관찰. 수첩·엑셀·단톡방을 본다.',mind:'문제는 사장님이 말하기 전에 보인다.'},
+  {n:'표준과 비교',say:'"보통 학원은 이렇게 해요."',do:'AUTUS 표준 운영과 현재를 나란히 둔다.',mind:'기준이 있으면 문제가 선명해진다.'},
+  {n:'차이 분석',say:'"여기 세 가지가 다르네요."',do:'값·규칙·흐름 차이만 짚는다.',mind:'전부 바꾸자고 하지 않는다. 다른 점만.'},
+  {n:'AUTUS 구축',say:'"이대로 정리해드릴게요."',do:'표준에 차이만 입혀 시스템을 만든다.',mind:'개발이 아니다. 적용이다. 그날 끝난다.'},
+  {n:'운영 시작',say:'"내일부터 이걸로 해보세요."',do:'직원에게 전달, 첫날 함께 켠다.',mind:'설치가 아니라 운영의 시작이다.'},
+  {n:'운영 자동화',say:'"이제 손 안 대셔도 돼요."',do:'청구·정산·알림이 자동으로 흐른다.',mind:'사장님 시간을 돌려준다.'},
+  {n:'지속 개선',say:'"매달 운영 보고 드릴게요."',do:'KPI로 결과를 보여주고 다음을 제안.',mind:'한 번 팔고 끝이 아니다. 반복 매출.'},
+];
+
+// ============ NAV ============
+let current='home';
+function nav(id){
+  current=id;
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById('s-'+id).classList.add('active');
+  document.querySelectorAll('#botnav button').forEach(b=>b.classList.toggle('on',b.dataset.nav===id));
+  document.querySelector('.device').scrollTop=0;window.scrollTo(0,0);
+  const pill={home:'Builder 되기',sales:'영업 흐름',exp:'3분 체험',customers:'내 고객',academy:'배우기',workspace:'고객 관리'}[id]||'AUTUS';
+  document.getElementById('appbar-pill').textContent=pill;
+  if(id==='sales')renderSales();
+  if(id==='exp')resetExp();
+  if(id==='customers')renderCustomers();
+  if(id==='academy')renderAcademy();
+}
+function renderBotNav(){
+  document.getElementById('botnav').innerHTML=NAVTABS.map(t=>
+    `<button data-nav="${t.id}" class="${t.id==='home'?'on':''}" onclick="nav('${t.id}')"><span class="bi">${t.ic}</span>${t.label}</button>`).join('');
+}
+function scrollToBuilder(){document.getElementById('builder-anchor').scrollIntoView({behavior:'smooth'});}
+
+// ============ SALES FLOW RENDER ============
+function renderSales(){
+  document.getElementById('sales-flow').innerHTML=SALES_FLOW.map((s,i)=>
+    `<div class="sflow-step ${i===SALES_FLOW.length-1?'last':''}">
+      <span class="sn">${i===SALES_FLOW.length-1?'✓':i+1}</span>
+      <div class="sname">${s.n}</div>
+      <div class="ssay">${s.say}</div>
+      <div class="sdo">${s.do}</div>
+      <div class="smind">${s.mind}</div>
+    </div>`).join('');
+}
+
+// ============ HOME RENDER ============
+function renderHome(){
+  const c=COPY.home;
+  document.getElementById('h-kick').textContent=c.kick;
+  document.getElementById('h-title').innerHTML=c.title.replace(/\n/g,'<br>');
+  document.getElementById('h-sub').textContent=c.sub;
+  document.getElementById('h-cta').textContent=c.cta;
+  document.getElementById('h-cta2').textContent=c.cta2;
+  document.getElementById('v1-t').textContent=c.v1.t;
+  document.getElementById('v1-lead').textContent=c.v1.lead;
+  document.getElementById('v1-chips').innerHTML=c.v1.chips.map(x=>`<span class="chip">${x}</span>`).join('');
+  document.getElementById('v1-foot').textContent='“'+c.v1.foot+'”';
+  document.getElementById('v2-t').textContent=c.v2.t;
+  document.getElementById('v2-lead').textContent=c.v2.lead;
+  document.getElementById('v2-flow').innerHTML=c.v2.flow.map((f,i)=>`<span class="f">${f}</span>${i<c.v2.flow.length-1?'<span class="ar">→</span>':''}`).join('');
+  document.getElementById('v2-foot').textContent='“'+c.v2.foot+'”';
+  document.getElementById('builder-steps').innerHTML=c.builderSteps.map((s,i)=>
+    `<div class="bstep"><span class="num">${i+1}</span><div><div class="bt">${s.t}</div><div class="bd">${s.d}</div></div></div>`).join('');
+  document.getElementById('builder-quote').innerHTML=c.quote.replace(/\n/g,'<br>');
+}
+
+// ============ EXPERIENCE WIZARD ============
+let expStep=0; const EXP_TOTAL=4;
+function resetExp(){expStep=0;renderExp();}
+function renderExpProgress(){
+  let h='';for(let i=0;i<EXP_TOTAL;i++)h+=`<div class="seg ${i<=expStep?'on':''}"></div>`;
+  document.getElementById('exp-progress').innerHTML=h;
+}
+function renderExp(){
+  renderExpProgress();
+  const b=document.getElementById('exp-body');
+  if(expStep===0){
+    b.innerHTML=`<h3>어떤 사장님을 도와드릴까요?</h3><div class="ph">고객의 업종을 골라보세요.</div>
+      ${[['학원 / 교습소','🎓',1],['식당 / 카페','🍽️',0],['병원 / 의원','🏥',0],['공사 / 현장','🏗️',0]]
+        .map(o=>`<button class="opt ${o[2]?'':'lock'}" ${o[2]?'onclick="expNext()"':'disabled'}>
+          <span class="oe">${o[1]}</span><div><div class="ot">${o[0]}</div><div class="od">${o[2]?'바로 시작 가능':'곧 추가돼요'}</div></div>
+          ${o[2]?'<span class="badge">준비완료</span>':'<span class="soon">준비중</span>'}</button>`).join('')}`;
+  } else if(expStep===1){
+    b.innerHTML=`<h3>어떤 업무를 자동화할까요?</h3><div class="ph">학원 · 가장 많이 쓰는 업무부터요.</div>
+      ${[['출결','📋',1],['수강료','💳',0],['상담','💬',0],['알림','🔔',0],['리포트','📊',0]]
+        .map(o=>`<button class="opt ${o[2]?'':'lock'}" ${o[2]?'onclick="expNext()"':'disabled'}>
+          <span class="oe">${o[1]}</span><div><div class="ot">${o[0]}</div><div class="od">${o[2]?'802개 학원 검증':'곧 추가'}</div></div>
+          ${o[2]?'<span class="badge">준비완료</span>':'<span class="soon">준비중</span>'}</button>`).join('')}
+      <button class="btn-ghost" onclick="expBack()">← 뒤로</button>`;
+  } else if(expStep===2){
+    b.innerHTML=`<h3>이 학원만 다른 점을 바꿔요</h3><div class="ph">시스템은 이미 다 돼 있어요. 다른 점 3가지만!</div>
+      <div class="diffcard"><div class="dh"><span style="font-weight:700;font-size:13px">월 수강료</span><span class="tag tag-value">값</span></div>
+        <div class="cmp"><span class="from">비어있음</span><span class="ar">→</span><span class="to">200,000원</span></div></div>
+      <div class="diffcard"><div class="dh"><span style="font-weight:700;font-size:13px">수업 횟수</span><span class="tag tag-rule">규칙</span></div>
+        <div class="cmp"><span class="from">주 2회</span><span class="ar">→</span><span class="to">주 3회</span></div></div>
+      <div class="diffcard"><div class="dh"><span style="font-weight:700;font-size:13px">결제 순서</span><span class="tag tag-flow">흐름</span></div>
+        <div class="cmp"><span class="from">등록 후 결제</span><span class="ar">→</span><span class="to">결제 후 등록</span></div></div>
+      <div class="callout2">바꾼 건 <b>딱 3가지</b>예요. 나머지(출결·알림·정산)는 이미 다 돼 있어요.</div>
+      <button class="btn-primary" style="margin-top:14px" onclick="expGenerate()">고객 운영 시스템 완성하기 →</button>
+      <button class="btn-ghost" onclick="expBack()">← 뒤로</button>`;
+  } else if(expStep===3){
+    b.innerHTML=`<div class="done-emoji">🎉</div><h3 style="text-align:center">고객 운영 시스템 완성!</h3>
+      <div class="ph" style="text-align:center">코딩 한 줄 없이, 3분 만에 학원 시스템을 만들었어요.</div>
+      <div id="gen-list" style="margin:6px 0 4px"></div>
+      <div class="callout2" style="margin-top:14px"><b>방금 한 일:</b> 업종 고르기 → 시스템 가져오기 → 다른 점 3가지 바꾸기 → 완성. 실제 일도 똑같아요.</div>
+      <button class="btn-primary" style="margin-top:14px" onclick="nav('customers')">현장에 배포하기 →</button>
+      <button class="btn-ghost" onclick="nav('academy')">더 배우기</button>`;
+    const items=['학생 명단 준비','출결 체크 준비 (탭 한 번)','학부모 알림 준비','정산 연결 준비','리포트 준비'];
+    let i=0;const gl=document.getElementById('gen-list');
+    const iv=setInterval(()=>{if(i>=items.length){clearInterval(iv);return;}
+      gl.innerHTML+=`<div class="genrow" style="animation-delay:${i*.05}s"><span class="ck">✓</span>${items[i]}</div>`;i++;},300);
+  }
+}
+function expNext(){if(expStep<EXP_TOTAL-1){expStep++;renderExp();}}
+function expBack(){if(expStep>0){expStep--;renderExp();}}
+function expGenerate(){
+  expStep=3;renderExpProgress();
+  const b=document.getElementById('exp-body');
+  b.innerHTML=`<div class="spinner"></div><h3 style="text-align:center">시스템 만드는 중…</h3><div class="ph" style="text-align:center">학원 · 출결</div>`;
+  setTimeout(()=>renderExp(),1400);
+}
+
+// ============ CUSTOMERS ============
+const STATUS_LABEL={operating:'운영중',building:'구축중',deploying:'배포중',prospect:'상담',improving:'개선중'};
+function renderCustomers(){
+  document.getElementById('cust-count').textContent=`(${CUSTOMERS.length})`;
+  document.getElementById('cust-list').innerHTML=CUSTOMERS.map(c=>`
+    <button class="vcard" style="width:100%;text-align:left;display:block" onclick="openWs('${c.id}')">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <h3 style="font-size:15px">${c.name}</h3>
+        <span class="stat-badge stat-${c.status}">${STATUS_LABEL[c.status]}</span>
+      </div>
+      <div style="font-size:12px;color:var(--ink3);margin:6px 0 10px">${c.biz} · 마지막 활동 ${c.last}</div>
+      <div style="display:flex;align-items:center;justify-content:space-between;font-size:13px">
+        <span style="color:var(--ink2)">다음 할 일: <b style="color:var(--ink)">${c.next}</b></span>
+        <span style="font-weight:800;color:${c.score>=80?'var(--ok)':'var(--warn)'}">${c.score}점</span>
+      </div>
+    </button>`).join('');
+}
+
+// ============ WORKSPACE ============
+let wsCust=null, wsTab='Overview';
+function openWs(id){wsCust=CUSTOMERS.find(c=>c.id===id);wsTab='Overview';nav('workspace');renderWs();}
+function renderWs(){
+  const c=wsCust;if(!c)return;
+  document.getElementById('ws-name').textContent=c.name;
+  document.getElementById('ws-meta').innerHTML=`${c.biz} <span class="stat-badge stat-${c.status}">${STATUS_LABEL[c.status]}</span> · 운영점수 <b>${c.score}</b>`;
+  document.getElementById('ws-tabs').innerHTML=WS_TABS.map(t=>`<button class="ws-tab ${t===wsTab?'on':''}" onclick="wsGo('${t}')">${t}</button>`).join('');
+  const p=document.getElementById('ws-panel');
+  if(wsTab==='Overview'){
+    p.innerHTML=`<div class="miniscore"><div class="ring"><div class="inner">${c.score}</div></div>
+      <div><div style="font-weight:800;font-size:15px">운영 점수 ${c.score}점</div><div style="font-size:12px;color:var(--ink3)">고객이 잘 운영되고 있어요</div></div></div>
+      <div class="sec-h" style="margin-top:4px">오늘 할 일</div>
+      <ul class="todo-list">
+        <li class="done"><span class="dot"></span>출결 시스템 적용</li>
+        <li class="done"><span class="dot"></span>직원 사용 안내</li>
+        <li><span class="dot"></span>${c.next}</li>
+      </ul>`;
+  } else if(wsTab==='Build'){
+    p.innerHTML=`<div class="sec-h" style="margin-top:0">선택한 표준 시스템</div>
+      <div class="callout2" style="margin-top:0">🎓 학원 운영 표준 시스템 · 출결 자동화</div>
+      <div class="sec-h">이 학원만 다른 점</div>
+      <div class="difflist">${c.diffs.map(d=>`<div class="dl-item"><span class="tag tag-${d[2]}">${d[2]==='value'?'값':d[2]==='rule'?'규칙':'흐름'}</span><span>${d[0]}: <b>${d[1]}</b></span></div>`).join('')}</div>
+      <div style="font-size:13px;color:var(--ink2);margin-top:6px">완성률 <b style="color:var(--brand)">${c.score}%</b></div>`;
+  } else if(wsTab==='Deploy'){
+    p.innerHTML=`<div class="sec-h" style="margin-top:0">배포 상태</div>
+      <ul class="todo-list">
+        <li class="done"><span class="dot"></span>직원 초대 (3명)</li>
+        <li class="done"><span class="dot"></span>권한 설정</li>
+        <li class="${c.status==='operating'?'done':''}"><span class="dot"></span>사용 안내 발송</li>
+        <li class="${c.status==='operating'?'done':''}"><span class="dot"></span>오픈 ${c.status==='operating'?'완료':'대기'}</li>
+      </ul>`;
+  } else if(wsTab==='Operate'){
+    p.innerHTML=`<div class="kpis">
+        <div class="kpibox"><div class="v">96%</div><div class="l">출석률</div><div class="d">▲ 4%</div></div>
+        <div class="kpibox"><div class="v">100%</div><div class="l">결제 완료</div><div class="d">정상</div></div>
+        <div class="kpibox"><div class="v">98%</div><div class="l">알림 성공률</div><div class="d">▲ 2%</div></div>
+        <div class="kpibox"><div class="v">2</div><div class="l">미처리 피드백</div><div class="d" style="color:var(--warn)">확인 필요</div></div>
+      </div>
+      <div class="callout2" style="margin-top:12px">💡 김서연 학생 2번째 결석 → 시스템이 <b>보강</b>을 제안했어요.</div>`;
+  } else if(wsTab==='Evidence'){
+    p.innerHTML=`<div class="sec-h" style="margin-top:0">기록된 증거</div>
+      ${[['📋','출결 기록','오늘 24건','09:03'],['💳','결제 기록','이번달 18건','어제'],['🔔','알림 기록','오늘 24건','09:05'],['📊','리포트 기록','이번주 6건','월요일']]
+        .map(e=>`<div class="evrow"><span class="ei">${e[0]}</span><div><div class="et">${e[1]}</div><div class="ed">${e[2]}</div></div><span class="etime">${e[3]}</span></div>`).join('')}
+      <div class="callout2" style="margin-top:12px">모든 기록은 자동으로 남아요. 정산·리포트의 <b>근거</b>가 됩니다.</div>`;
+  }
+}
+function wsGo(t){wsTab=t;renderWs();}
+
+// ============ ACADEMY ============
+function renderAcademy(){
+  document.getElementById('academy-list').innerHTML=ACADEMY.map(l=>{
+    const open=l.state==='current';
+    return `<div class="vcard" style="${l.state==='locked'?'opacity:.6':''}">
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="width:30px;height:30px;border-radius:8px;background:${open?'var(--brand)':'var(--line)'};color:${open?'#fff':'var(--ink3)'};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px">${l.lv}</span>
+        <div style="flex:1"><div style="font-weight:800;font-size:15px">Level ${l.lv} · ${l.t}</div></div>
+        ${open?'<span class="stat-badge stat-operating">지금</span>':'<span style="font-size:14px">🔒</span>'}
+      </div>
+      <div style="font-size:12.5px;color:var(--ink2);margin-top:8px">${l.d}</div>
+      ${open&&l.items?`<ul class="todo-list" style="margin-top:8px">${l.items.map((it,i)=>`<li class="${i===0?'done':''}"><span class="dot"></span>${it}</li>`).join('')}</ul>
+        <button class="btn-primary" style="margin-top:10px" onclick="nav('exp')">Level 1 체험으로 시작 →</button>`:''}
+    </div>`;
+  }).join('');
+}
+
+// ============ PWA 설치 (홈 화면 추가) ============
+let deferredPrompt=null;
+// 이미 앱으로 실행 중이면 안내 숨김
+const isStandalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone;
+const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+
+// Android/Chrome: 설치 프롬프트 가로채기
+window.addEventListener('beforeinstallprompt',e=>{
+  e.preventDefault();deferredPrompt=e;
+  if(!isStandalone&&!installDismissed())showInstallBar();
+});
+
+function showInstallBar(){setTimeout(()=>{document.getElementById('installbar').classList.add('show')},2500);}
+function installDismissed(){return window.__installDismissed===true;}
+function dismissInstall(){window.__installDismissed=true;document.getElementById('installbar').classList.remove('show');}
+function doInstall(){
+  if(deferredPrompt){ // Android
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(()=>{deferredPrompt=null;dismissInstall();});
+  } else { // iOS — 수동 안내
+    document.getElementById('iossheet').classList.add('show');
+  }
+}
+function closeIosSheet(){document.getElementById('iossheet').classList.remove('show');dismissInstall();}
+
+// iOS는 beforeinstallprompt가 없으므로 직접 안내 노출
+if(isIOS&&!isStandalone&&!installDismissed()){showInstallBar();}
+
+// ============ INIT ============
+renderBotNav();renderHome();
+
+// ============ 서비스워커 등록 (PWA 설치 조건) ============
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('sw.js').catch(err=>console.warn('SW 등록 실패',err));
+  });
+}
+</script>
+</body>
+</html>
