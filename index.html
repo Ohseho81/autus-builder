@@ -193,6 +193,70 @@
   .grant-note:before{content:'💡 ';opacity:.7}
   .strat-item{display:flex;gap:11px;align-items:flex-start;padding:9px 0;font-size:13.5px;color:var(--ink)}
   .strat-item:not(:last-child){border-bottom:1px solid var(--line2)}
+  .gtag{font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px;color:#fff;letter-spacing:-.2px}
+
+  /* 5단계 라이프사이클 스테퍼 */
+  .lifecycle{display:flex;align-items:flex-start;gap:1px;overflow-x:auto;padding:2px 0 18px;scrollbar-width:none}
+  .lifecycle::-webkit-scrollbar{display:none}
+  .lc-step{display:flex;flex-direction:column;align-items:center;gap:3px;flex:0 0 auto;opacity:.38}
+  .lc-step.on{opacity:1}
+  .lc-n{width:24px;height:24px;border-radius:50%;background:var(--line);color:var(--ink3);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center}
+  .lc-step.on .lc-n{background:var(--brand);color:#fff}
+  .lc-k{font-size:11.5px;font-weight:700;letter-spacing:-.2px}
+  .lc-d{font-size:8px;color:var(--ink3);text-transform:uppercase;letter-spacing:.3px}
+  .lc-ar{color:var(--ink3);flex:0 0 auto;font-size:14px;margin-top:3px;padding:0 1px}
+
+  /* 자격 셀렉터 */
+  .elig-row{display:flex;align-items:center;gap:10px}
+  .elig-row:not(:last-child){margin-bottom:11px;padding-bottom:11px;border-bottom:1px solid var(--line2)}
+  .elig-label{width:52px;font-size:12px;color:var(--ink3);font-weight:600;flex-shrink:0}
+  .elig-opts{display:flex;gap:6px;flex-wrap:wrap;flex:1}
+  .echip{font-size:12px;font-weight:600;padding:7px 11px;border-radius:8px;background:var(--line2);color:var(--ink2);border:1px solid transparent}
+  .echip.on{background:var(--brand-soft);color:var(--brand);border-color:#cdd8ff}
+
+  /* 발굴 카드 */
+  .opp-card{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:9px;box-shadow:var(--shadow)}
+  .opp-card:active{background:var(--line2)}
+  .opp-card.hl{border-color:var(--brand);background:linear-gradient(180deg,var(--brand-soft),var(--card) 55%)}
+  .opp-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+  .opp-dday{font-size:11px;font-weight:800;color:var(--ink3)}
+  .opp-dday.soon{color:var(--danger)}
+  .opp-title{font-weight:700;font-size:14.5px;letter-spacing:-.2px;line-height:1.35}
+  .opp-agency{font-size:12px;color:var(--ink3);margin-top:3px}
+  .opp-foot{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+  .opp-amt{font-size:13px;font-weight:700;color:var(--ok)}
+  .opp-go{font-size:11.5px;color:var(--brand);font-weight:700}
+  .opp-status{font-size:11.5px;color:var(--warn);font-weight:700}
+
+  /* 상세 시트 공통 */
+  .grab{width:40px;height:4px;border-radius:3px;background:var(--line);margin:2px auto 16px}
+  .sheet-x{margin-left:auto;background:var(--line2);border:none;width:30px;height:30px;border-radius:50%;color:var(--ink3);font-size:15px;flex-shrink:0}
+  .opp-kpi{flex:1;background:var(--line2);border-radius:10px;padding:11px 12px;min-width:0}
+  .opp-kpi-l{font-size:11px;color:var(--ink3)}
+  .opp-kpi-v{font-size:13px;font-weight:700;margin-top:3px;letter-spacing:-.2px}
+  .doc-row{display:flex;align-items:center;gap:9px;font-size:13px;padding:9px 0;border-bottom:1px solid var(--line2)}
+  .doc-ck{font-size:14px}
+
+  /* PSST 초안 */
+  .psst{background:var(--line2);border-radius:12px;padding:2px 14px;margin-bottom:12px}
+  .psst-sec{padding:13px 0;border-bottom:1px solid var(--line)}
+  .psst-sec:last-child{border-bottom:none}
+  .psst-h{font-weight:700;font-size:13.5px;display:flex;align-items:center;gap:8px;margin-bottom:6px}
+  .psst-k{width:20px;height:20px;border-radius:5px;background:var(--brand);color:#fff;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .psst-b{font-size:12.5px;color:var(--ink2);line-height:1.6}
+
+  /* 추적 파이프라인 */
+  .trk-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+  .trk-bar{display:flex;align-items:center}
+  .trk-dot{width:12px;height:12px;border-radius:50%;background:var(--line);flex-shrink:0}
+  .trk-dot.on{background:var(--brand)}
+  .trk-line{height:2px;background:var(--line);flex:1}
+  .trk-now{font-size:12px;font-weight:800;color:var(--brand);background:var(--brand-soft);padding:3px 10px;border-radius:6px}
+  .trk-next{margin-left:auto;font-size:12px;font-weight:700;color:var(--brand);background:none}
+  .trk-next:disabled{color:var(--ink3)}
+  .trk-rm{font-size:12px;color:var(--ink3);background:none;margin-left:12px}
+  .gtoast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:13px;font-weight:600;padding:11px 18px;border-radius:11px;z-index:90;opacity:0;transition:.25s;pointer-events:none;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+  .gtoast.show{opacity:1}
 
   /* ===== Segment toggle (통합 탭 내부 전환) ===== */
   .segwrap{padding:14px 16px 0}
@@ -310,14 +374,30 @@
       </div>
     </div>
 
-    <!-- 지원금 패널 -->
+    <!-- 지원금 패널 — 글로벌 표준 5단계 -->
     <div class="seg-panel" id="panel-grants">
       <div class="pad" style="padding-top:14px">
         <p id="grants-intro" style="font-size:13px;color:var(--ink2);margin-bottom:14px"></p>
-        <div id="grants-groups"></div>
+        <div class="lifecycle" id="lifecycle"></div>
+
+        <!-- ① 자격 (Eligibility) -->
+        <div class="sec-h">① 내 자격 — 받을 수 있는 것만</div>
+        <div class="vcard" style="padding:15px 16px">
+          <div class="elig-row"><div class="elig-label">사업 단계</div><div class="elig-opts" id="elig-stage"></div></div>
+          <div class="elig-row"><div class="elig-label">연령</div><div class="elig-opts" id="elig-age"></div></div>
+          <div class="elig-row"><div class="elig-label">고용</div><div class="elig-opts" id="elig-hire"></div></div>
+        </div>
+
+        <!-- ② 발굴 (Discovery) -->
+        <div class="sec-h" style="display:flex;align-items:center;justify-content:space-between">
+          <span>② 받을 수 있는 지원 <span id="opp-count" style="color:var(--brand)"></span></span>
+          <span id="opp-track-link" style="color:var(--brand);font-weight:700;cursor:pointer;text-transform:none;letter-spacing:0" onclick="openTracking()">신청 현황 →</span>
+        </div>
+        <div id="opp-list"></div>
+
         <div class="sec-h">진입 전략</div>
         <div class="vcard" id="grants-strategy"></div>
-        <div class="callout2" style="margin-top:12px">정부지원은 매년 공고가 바뀌고 마감이 있습니다. 신청 전 <b>K-Startup·기업마당</b>에서 최신 공고를 확인하세요.</div>
+        <div class="callout2" style="margin-top:12px">금액·자격은 2026년 예시값. 신청 전 <b>K-Startup·기업마당</b>에서 최신 공고를 확인하세요.</div>
       </div>
     </div>
   </section>
@@ -394,6 +474,16 @@
     </div>
   </div>
 
+  <!-- ============ 지원사업 상세 + 서류생성 시트 ============ -->
+  <div class="ios-sheet" id="grantsheet" onclick="if(event.target===this)closeGrantSheet()">
+    <div class="ios-card" id="grant-card-body" style="max-height:92vh;overflow-y:auto"></div>
+  </div>
+
+  <!-- ============ 신청 추적 시트 ============ -->
+  <div class="ios-sheet" id="tracksheet" onclick="if(event.target===this)closeTrackSheet()">
+    <div class="ios-card" id="track-body" style="max-height:88vh;overflow-y:auto"></div>
+  </div>
+
   <!-- ============ BOTTOM NAV ============ -->
   <nav class="botnav" id="botnav"></nav>
 </div>
@@ -438,40 +528,62 @@ const ACADEMY=[
   {lv:4,t:'Deploy & Operate',d:'직원 교육 · 운영 시작 · KPI 확인 · 피드백',state:'locked'},
   {lv:5,t:'Business',d:'고객 확보 · 가격 제안 · 정부지원 활용 · 반복 매출',state:'locked'},
 ];
-// 정부지원 — 2026년 기준. 빌더 상태별 분류.
-const GRANTS={
-  intro:'빌더는 1인 디지털 서비스 사업자입니다. 상태에 따라 받을 수 있는 지원이 다릅니다.',
-  groups:[
-    {id:'A',tag:'창업 전',color:'var(--brand)',title:'창업 자금',desc:'사업자등록 전이라면 가장 큰 지원이 여기 있습니다.',
-     items:[
-       {n:'예비창업패키지',who:'사업자등록 전 · 나이 무관',amt:'평균 5천만, 최대 1억',note:'자기부담금 없음. 보조금(상환 의무 없음). 빌더 1순위.'},
-       {n:'청년창업사관학교',who:'만 39세 이하 · 창업 3년 내',amt:'사업화 자금 + 공간·교육',note:'청년 빌더에 유리'},
-       {n:'재도전성공패키지',who:'폐업 이력 보유',amt:'최대 1억 + 멘토링',note:'재창업 빌더'},
-     ]},
-    {id:'B',tag:'창업 후',color:'var(--ok)',title:'성장 자금',desc:'사업자등록 후 3년 이내라면.',
-     items:[
-       {n:'초기창업패키지',who:'창업 3년 이내',amt:'최대 1억 (자부담 30%)',note:'예비창업패키지와 동시 신청 불가'},
-       {n:'창업중심대학',who:'예비~7년 이내',amt:'7천만 내외, 최대 2억',note:'권역별 모집'},
-     ]},
-    {id:'C',tag:'운영 중',color:'var(--warn)',title:'운영·고용 지원',desc:'사업을 키우고 사람을 쓸 때.',
-     items:[
-       {n:'자영업자 고용보험료 지원',who:'고용보험 가입 사업자',amt:'납부액 일부~전액 환급',note:'인건비 부담 완화'},
-       {n:'청년 신규고용 인건비',who:'청년 신규 고용 시',amt:'1인 월 180만, 최대 24개월',note:'지자체별 상이'},
-       {n:'소상공인 정책자금',who:'업력 3년 미만',amt:'저리 융자',note:'운영비·임대료'},
-     ]},
-    {id:'D',tag:'추천',color:'var(--brand)',title:'디지털·AI 공급자 등록',desc:'빌더 사업과 가장 잘 맞는 핵심. 받는 쪽이 아니라 공급하는 쪽이 됩니다.',star:true,
-     items:[
-       {n:'혁신 소상공인 AI 활용지원 — 협력기관 등록',who:'AI 솔루션 공급자',amt:'정부 예산이 고객을 통해 유입',note:'고객이 받는 AI 지원금으로 빌더 솔루션 구매 → 반복 매출'},
-       {n:'찾아가는 1:1 경영 컨설팅 — 컨설턴트 등록',who:'경영·전문직',amt:'컨설팅 수행',note:'빌더가 정부 컨설턴트로 등록'},
-       {n:'소상공인 디지털 역량강화',who:'디지털 전환 대행',amt:'전환 사업 수행',note:'빌더가 전환을 대행'},
-     ]},
-  ],
-  strategy:[
-    '① 창업 전 — 예비창업패키지로 시작 자금 확보',
-    '② 운영 시작 — AI 활용지원 협력기관/컨설턴트 등록으로 공급자 위치 선점',
-    '③ 성장 — 고용 지원으로 조직 확장',
-  ],
-};
+// 정부지원 — 글로벌 표준 5단계(Discovery→Eligibility→Application→Tracking→Post-award)
+// 표준 스키마: title·agency·category·eligibility·amount·deadline·required_docs·url·status
+// 데이터는 2026년 기준 예시값. 신청 전 K-Startup·기업마당 최신 공고 확인.
+const LIFECYCLE=[
+  {k:'발굴',d:'Discovery'},{k:'자격',d:'Eligibility'},{k:'서류',d:'Application'},
+  {k:'추적',d:'Tracking'},{k:'사후',d:'Post-award'}
+];
+const OPPS=[
+  {id:'o1',group:'A',gtag:'창업 전',title:'예비창업패키지',agency:'중기부 · 창업진흥원',category:'창업사업화',
+   elig:{stage:['예비'],age:'any',hire:false}, amount:'평균 5천만 · 최대 1억', deadline:'2026-08-31',
+   docs:['사업계획서(PSST)','대표자 신분증','창업아이템 증빙'], url:'https://www.k-startup.go.kr', status:'open',
+   note:'자기부담금 없음. 보조금(상환 의무 없음). 빌더 1순위.', star:true},
+  {id:'o2',group:'A',gtag:'창업 전',title:'청년창업사관학교',agency:'중소벤처기업진흥공단',category:'창업사업화',
+   elig:{stage:['예비','3년내'],age:'young',hire:false}, amount:'사업화 자금 + 공간·교육', deadline:'2026-07-20',
+   docs:['사업계획서(PSST)','졸업/재직 증빙','신분증'], url:'https://start.kosmes.or.kr', status:'open',
+   note:'만 39세 이하 청년 빌더에 유리.'},
+  {id:'o3',group:'A',gtag:'창업 전',title:'재도전성공패키지',agency:'창업진흥원',category:'재창업',
+   elig:{stage:['예비','3년내'],age:'any',hire:false}, amount:'최대 1억 + 멘토링', deadline:'2026-09-15',
+   docs:['사업계획서','폐업 증빙','재창업 계획'], url:'https://www.k-startup.go.kr', status:'open',
+   note:'폐업 이력 보유 재창업 빌더 대상.'},
+  {id:'o4',group:'B',gtag:'창업 후',title:'초기창업패키지',agency:'창업진흥원',category:'창업사업화',
+   elig:{stage:['3년내'],age:'any',hire:false}, amount:'최대 1억 (자부담 30%)', deadline:'2026-08-10',
+   docs:['사업계획서(PSST)','사업자등록증','재무 증빙'], url:'https://www.k-startup.go.kr', status:'open',
+   note:'예비창업패키지와 동시 신청 불가.'},
+  {id:'o5',group:'B',gtag:'창업 후',title:'창업중심대학',agency:'지정 대학 컨소시엄',category:'창업사업화',
+   elig:{stage:['예비','3년내'],age:'any',hire:false}, amount:'7천만 내외 · 최대 2억', deadline:'2026-07-31',
+   docs:['사업계획서(PSST)','사업자등록증(해당시)'], url:'https://www.k-startup.go.kr', status:'open',
+   note:'권역별 모집. 예비~7년 이내.'},
+  {id:'o6',group:'C',gtag:'운영 중',title:'자영업자 고용보험료 지원',agency:'근로복지공단',category:'고용·운영',
+   elig:{stage:['운영중'],age:'any',hire:false}, amount:'납부액 일부~전액 환급', deadline:'상시',
+   docs:['사업자등록증','고용보험 가입 증빙'], url:'https://www.comwel.or.kr', status:'open',
+   note:'고용보험 가입 사업자. 인건비 부담 완화.'},
+  {id:'o7',group:'C',gtag:'운영 중',title:'청년 신규고용 인건비 지원',agency:'고용노동부 · 지자체',category:'고용',
+   elig:{stage:['3년내','운영중'],age:'any',hire:true}, amount:'1인 월 180만 · 최대 24개월', deadline:'2026-10-31',
+   docs:['사업자등록증','고용계약서','4대보험 가입'], url:'https://www.work.go.kr', status:'open',
+   note:'청년 신규 고용 시. 지자체별 상이.'},
+  {id:'o8',group:'C',gtag:'운영 중',title:'소상공인 정책자금',agency:'소상공인시장진흥공단',category:'융자',
+   elig:{stage:['3년내','운영중'],age:'any',hire:false}, amount:'저리 융자', deadline:'상시',
+   docs:['사업자등록증','매출 증빙','자금 사용계획'], url:'https://www.semas.or.kr', status:'open',
+   note:'업력 3년 미만 운영비·임대료.'},
+  {id:'o9',group:'D',gtag:'추천',title:'혁신 소상공인 AI 활용지원 — 협력기관 등록',agency:'중소벤처기업부',category:'AI 공급자',
+   elig:{stage:['예비','3년내','운영중'],age:'any',hire:false}, amount:'정부예산이 고객을 통해 유입', deadline:'2026-09-30',
+   docs:['공급기업 등록서','솔루션 소개서','수행 실적'], url:'https://www.mss.go.kr', status:'open',
+   note:'고객이 받는 AI 지원금으로 빌더 솔루션 구매 → 반복 매출. 빌더 핵심.', star:true},
+  {id:'o10',group:'D',gtag:'추천',title:'찾아가는 1:1 경영컨설팅 — 컨설턴트 등록',agency:'소상공인시장진흥공단',category:'컨설턴트',
+   elig:{stage:['3년내','운영중'],age:'any',hire:false}, amount:'컨설팅 수행 수수료', deadline:'상시',
+   docs:['컨설턴트 등록서','경력 증빙'], url:'https://www.semas.or.kr', status:'open',
+   note:'빌더가 정부 컨설턴트로 등록.'},
+];
+const STRATEGY=[
+  '① 창업 전 — 예비창업패키지로 시작 자금 확보',
+  '② 운영 시작 — AI 활용지원 협력기관/컨설턴트 등록으로 공급자 위치 선점',
+  '③ 성장 — 고용 지원으로 조직 확장',
+];
+// 빌더 자격 프로필 (Eligibility 입력값)
+let gProfile={stage:'예비',young:true,hire:false};
 
 const NAVTABS=[
   {id:'home',ic:'🏠',label:'홈'},
@@ -540,30 +652,148 @@ function renderSales(){
     </div>`).join('');
 }
 
-// ============ GRANTS RENDER ============
-function renderGrants(){
-  document.getElementById('grants-intro').textContent=GRANTS.intro;
-  document.getElementById('grants-groups').innerHTML=GRANTS.groups.map(g=>`
-    <div class="grant-group">
-      <div class="grant-gh">
-        <span class="gtag" style="background:${g.color}">${g.tag}</span>
-        <span class="gtitle">${g.title}</span>
-        ${g.star?'<span class="gstar">⭐</span>':''}
-      </div>
-      <div class="grant-gdesc">${g.desc}</div>
-      ${g.items.map(it=>`
-        <div class="grant-card ${g.star?'hl':''}">
-          <div class="gn">${it.n}</div>
-          <div class="grant-meta">
-            <div class="gm"><span class="glabel">대상</span><span class="gval">${it.who}</span></div>
-            <div class="gm amt"><span class="glabel">지원</span><span class="gval">${it.amt}</span></div>
-          </div>
-          <div class="grant-note">${it.note}</div>
-        </div>`).join('')}
-    </div>`).join('');
-  document.getElementById('grants-strategy').innerHTML=GRANTS.strategy.map(s=>
-    `<div class="strat-item">${s}</div>`).join('');
+// ============ GRANTS — 글로벌 표준 5단계 엔진 ============
+const TRACK_KEY='autus_grants_track_v1';
+const TRACK_STAGES=['발굴됨','검토중','준비중','제출','결과대기','선정'];
+function loadTrack(){try{return JSON.parse(localStorage.getItem(TRACK_KEY))||{};}catch(e){return {};}}
+function saveTrack(t){localStorage.setItem(TRACK_KEY,JSON.stringify(t));}
+function groupColor(g){return {A:'var(--brand)',B:'var(--ok)',C:'var(--warn)',D:'var(--brand)'}[g]||'var(--ink3)';}
+
+function dday(deadline){
+  if(!deadline||deadline==='상시')return {txt:'상시',cls:''};
+  const today=new Date(); today.setHours(0,0,0,0);
+  const d=new Date(deadline+'T00:00:00');
+  const diff=Math.round((d-today)/86400000);
+  if(diff<0)return {txt:'마감',cls:'over'};
+  if(diff===0)return {txt:'D-DAY',cls:'soon'};
+  return {txt:'D-'+diff,cls:diff<=30?'soon':''};
 }
+// [2] Eligibility — 자격 판정
+function eligible(o,p){
+  const reasons=[];
+  const stageOk=o.elig.stage.includes(p.stage); if(!stageOk)reasons.push('사업 단계');
+  const ageOk=o.elig.age==='any'||(o.elig.age==='young'&&p.young); if(!ageOk)reasons.push('청년(만39세↓)');
+  let hireOk=true; if(o.elig.hire===true){hireOk=p.hire; if(!hireOk)reasons.push('직원 고용');}
+  return {ok:stageOk&&ageOk&&hireOk, reasons};
+}
+
+function renderGrants(){
+  document.getElementById('grants-intro').textContent='빌더는 1인 디지털 서비스 사업자입니다. 글로벌 표준 5단계로 — 받을 수 있는 것만 골라, 서류까지 만들고, 신청을 추적합니다.';
+  document.getElementById('lifecycle').innerHTML=LIFECYCLE.map((s,i)=>
+    `<div class="lc-step ${i<3?'on':''}"><span class="lc-n">${i+1}</span><span class="lc-k">${s.k}</span><span class="lc-d">${s.d}</span></div>`
+    +(i<LIFECYCLE.length-1?'<span class="lc-ar">›</span>':'')).join('');
+  renderEligControls();
+  renderOppList();
+  document.getElementById('grants-strategy').innerHTML=STRATEGY.map(s=>`<div class="strat-item">${s}</div>`).join('');
+  updateTrackLink();
+}
+function renderEligControls(){
+  document.getElementById('elig-stage').innerHTML=[['예비','예비창업'],['3년내','창업 3년내'],['운영중','운영중']]
+    .map(s=>`<button class="echip ${gProfile.stage===s[0]?'on':''}" onclick="setProfile('stage','${s[0]}')">${s[1]}</button>`).join('');
+  document.getElementById('elig-age').innerHTML=[['young','만 39세↓'],['any','40세+']]
+    .map(a=>`<button class="echip ${((a[0]==='young')===gProfile.young)?'on':''}" onclick="setProfile('young',${a[0]==='young'})">${a[1]}</button>`).join('');
+  document.getElementById('elig-hire').innerHTML=[[true,'직원 있음/예정'],[false,'1인']]
+    .map(h=>`<button class="echip ${gProfile.hire===h[0]?'on':''}" onclick="setProfile('hire',${h[0]})">${h[1]}</button>`).join('');
+}
+function setProfile(k,v){gProfile[k]=v;renderEligControls();renderOppList();}
+
+// [1] Discovery — 자격 충족분만 발굴
+function renderOppList(){
+  const matched=OPPS.map(o=>({o,e:eligible(o,gProfile)})).filter(x=>x.e.ok);
+  document.getElementById('opp-count').textContent='('+matched.length+'건)';
+  const track=loadTrack();
+  if(!matched.length){document.getElementById('opp-list').innerHTML='<div style="text-align:center;color:var(--ink3);padding:28px 0;font-size:13px">조건에 맞는 지원이 없어요. 자격을 바꿔보세요.</div>';return;}
+  matched.sort((a,b)=>{const da=a.o.deadline==='상시'?'9999':a.o.deadline,db=b.o.deadline==='상시'?'9999':b.o.deadline;return da<db?-1:1;});
+  document.getElementById('opp-list').innerHTML=matched.map(({o})=>{
+    const dd=dday(o.deadline); const tr=track[o.id];
+    return `<button class="opp-card ${o.star?'hl':''}" onclick="openGrant('${o.id}')">
+      <div class="opp-top"><span class="gtag" style="background:${groupColor(o.group)}">${o.gtag}</span><span class="opp-dday ${dd.cls}">${dd.txt}</span></div>
+      <div class="opp-title">${o.title} ${o.star?'⭐':''}</div>
+      <div class="opp-agency">${o.agency}</div>
+      <div class="opp-foot"><span class="opp-amt">${o.amount}</span>
+        ${tr?`<span class="opp-status">📌 ${tr.status}</span>`:'<span class="opp-go">자격 충족 · 서류 →</span>'}</div>
+    </button>`;
+  }).join('');
+}
+
+// [3] Application — 상세 + PSST 서류 생성
+let curOpp=null;
+function openGrant(id){curOpp=OPPS.find(o=>o.id===id);if(!curOpp)return;renderGrantSheet();document.getElementById('grantsheet').classList.add('show');}
+function closeGrantSheet(){document.getElementById('grantsheet').classList.remove('show');}
+function renderGrantSheet(){
+  const o=curOpp; const dd=dday(o.deadline); const tr=loadTrack()[o.id];
+  document.getElementById('grant-card-body').innerHTML=`
+    <div class="grab"></div>
+    <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:2px">
+      <div><div style="font-size:19px;font-weight:800;letter-spacing:-.3px;line-height:1.3">${o.title}</div>
+        <div style="font-size:12.5px;color:var(--ink3);margin-top:4px">${o.agency} · ${o.category}</div></div>
+      <button onclick="closeGrantSheet()" class="sheet-x">✕</button>
+    </div>
+    <div style="display:flex;gap:8px;margin:14px 0">
+      <div class="opp-kpi"><div class="opp-kpi-l">지원 금액</div><div class="opp-kpi-v" style="color:var(--ok)">${o.amount}</div></div>
+      <div class="opp-kpi"><div class="opp-kpi-l">마감</div><div class="opp-kpi-v">${o.deadline} <span class="opp-dday ${dd.cls}">${dd.txt}</span></div></div>
+    </div>
+    <div class="callout2" style="margin-top:0">💡 ${o.note}</div>
+    <div class="sec-h">필요 서류</div>
+    ${o.docs.map(d=>`<div class="doc-row"><span class="doc-ck">📄</span>${d}</div>`).join('')}
+    <div id="docgen-area"><button class="btn-primary" style="margin-top:16px" onclick="genDoc()">★ AUTUS로 사업계획서(PSST) 초안 만들기</button></div>
+    <div style="display:flex;gap:8px;margin-top:8px">
+      <button class="btn-ghost" style="margin-top:0;flex:1" onclick="window.open('${o.url}','_blank')">공고 보기 ↗</button>
+      <button class="btn-ghost" style="margin-top:0;flex:1;${tr?'opacity:.55':''}" onclick="applyGrant('${o.id}')">${tr?'담김 ✓':'＋ 신청목록 담기'}</button>
+    </div>`;
+}
+function genDoc(){
+  document.getElementById('docgen-area').innerHTML=`<div class="spinner"></div><div style="text-align:center;font-size:13px;color:var(--ink3)">${curOpp.title} 양식 인식 → 초안 생성 중…</div>`;
+  setTimeout(injectDraft,1300);
+}
+function PSST(o){return [
+  {k:'P',t:'문제 · 필요성',b:`1인 운영 사업장(학원·소상공인)은 출결·청구·정산·알림을 수기로 처리해 누락과 분쟁이 반복됩니다. ${o.category} 영역의 디지털 전환 수요는 크지만 비용·기술 장벽으로 도입이 지연되고 있습니다.`},
+  {k:'S',t:'해결방안 · 사업화',b:`AUTUS 표준 운영체계를 현장에 맞춰 적용합니다(개발 없이 표준+차이만 구성). Builder가 진단→구축→운영까지 무인 자동화로 제공해 도입 장벽을 제거합니다.`},
+  {k:'S',t:'성장전략 · Scale-up',b:`고객 1곳당 초기 구축(50~100만)+월 운영(5~15만)의 반복 매출 구조. ${o.gtag} 단계 지원으로 초기 자금을 확보하고, 검증된 표준을 업종·지역으로 복제 확장합니다.`},
+  {k:'T',t:'팀 · 역량',b:`Builder 네트워크 + AUTUS 플랫폼(표준 라이브러리·자동화 엔진). 비개발 인력도 표준을 적용해 즉시 현장 투입 가능한 교육·운영 체계를 보유합니다.`},
+];}
+function injectDraft(){
+  const o=curOpp;
+  document.getElementById('docgen-area').innerHTML=`
+    <div class="sec-h" style="margin-top:18px">생성된 사업계획서 초안 · PSST</div>
+    <div class="psst">${PSST(o).map(s=>`<div class="psst-sec"><div class="psst-h"><span class="psst-k">${s.k}</span>${s.t}</div><div class="psst-b">${s.b}</div></div>`).join('')}</div>
+    <div class="callout2" style="margin-top:0"><b>표준 양식 + 차이만 입력</b> = AUTUS Formula. 빌더는 이 초안을 검토·보완만 하면 됩니다.</div>
+    <button class="btn-primary" style="margin-top:12px" onclick="applyGrant('${o.id}',true)">이 초안으로 신청 준비 →</button>`;
+}
+function applyGrant(id,fromDraft){
+  const t=loadTrack();
+  if(!t[id])t[id]={status:'발굴됨',ts:Date.now()};
+  if(fromDraft)t[id].status='준비중';
+  saveTrack(t); renderOppList(); updateTrackLink();
+  if(curOpp&&curOpp.id===id)renderGrantSheet();
+  toastG(fromDraft?'초안 저장 · 신청 준비중으로 이동':'신청목록에 담았어요');
+}
+
+// [4] Tracking — 신청 추적 파이프라인
+function updateTrackLink(){const n=Object.keys(loadTrack()).length;const el=document.getElementById('opp-track-link');if(el)el.textContent='신청 현황 '+(n?'('+n+') →':'→');}
+function openTracking(){renderTracking();document.getElementById('tracksheet').classList.add('show');}
+function closeTrackSheet(){document.getElementById('tracksheet').classList.remove('show');}
+function renderTracking(){
+  const t=loadTrack(); const ids=Object.keys(t);
+  let html=`<div class="grab"></div>
+    <div style="display:flex;align-items:center;margin-bottom:6px"><div style="font-size:19px;font-weight:800">신청 현황 · Tracking</div>
+      <button onclick="closeTrackSheet()" class="sheet-x">✕</button></div>
+    <div style="font-size:12px;color:var(--ink3);margin-bottom:14px">발굴됨 → 검토중 → 준비중 → 제출 → 결과대기 → 선정</div>`;
+  if(!ids.length){html+='<div style="text-align:center;color:var(--ink3);padding:28px 0;font-size:13px">담은 지원이 없어요.<br>목록에서 ＋ 신청목록 담기를 눌러보세요.</div>';}
+  else{html+=ids.map(id=>{const o=OPPS.find(x=>x.id===id);const st=t[id].status;const idx=TRACK_STAGES.indexOf(st);
+    return `<div class="trk-card">
+      <div style="font-weight:700;font-size:14px;margin-bottom:9px">${o.title}</div>
+      <div class="trk-bar">${TRACK_STAGES.map((s,i)=>`<div class="trk-dot ${i<=idx?'on':''}"></div>`).join('<div class="trk-line"></div>')}</div>
+      <div style="display:flex;align-items:center;margin-top:10px">
+        <span class="trk-now">${st}</span>
+        <button class="trk-next" onclick="advanceTrack('${id}')" ${idx>=TRACK_STAGES.length-1?'disabled':''}>다음 단계 →</button>
+        <button class="trk-rm" onclick="removeTrack('${id}')">삭제</button>
+      </div></div>`;}).join('');}
+  document.getElementById('track-body').innerHTML=html;
+}
+function advanceTrack(id){const t=loadTrack();const i=TRACK_STAGES.indexOf(t[id].status);if(i<TRACK_STAGES.length-1)t[id].status=TRACK_STAGES[i+1];saveTrack(t);renderTracking();renderOppList();updateTrackLink();}
+function removeTrack(id){const t=loadTrack();delete t[id];saveTrack(t);renderTracking();renderOppList();updateTrackLink();}
+function toastG(m){let el=document.getElementById('gtoast');if(!el){el=document.createElement('div');el.id='gtoast';el.className='gtoast';document.body.appendChild(el);}el.textContent=m;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),1600);}
 
 // ============ HOME RENDER ============
 function renderHome(){
