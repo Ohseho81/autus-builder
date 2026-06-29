@@ -59,6 +59,26 @@ function clip(s, n) {
 }
 function pick(o, keys) { for (const k of keys) if (o[k] != null && String(o[k]).trim() !== '') return o[k]; return ''; }
 
+// ---------- 적합성 필터 (빌더 본인 사업 = 1인 디지털·서비스 사업자 / 부드럽게: 배제만) ----------
+// 신청대상·제외대상 텍스트를 룰로 대조. 명백한 비적합만 떨군다(포함신호 있으면 살림).
+const INCL_RE = /전\s?업종|업종\s?무관|제한\s?없|모든\s?기업|소상공인|1인|예비\s?창업|창업\s?기업|중소기업|디지털|인공지능|\bAI\b|소프트웨어|\bSW\b|지식\s?서비스|서비스업|컨설팅|콘텐츠|플랫폼/i;
+const NONFIT_RE = /제조(업|기업|\s?중소)|뿌리\s?(산업|기업)|소재[·.\s]?부품[·.\s]?장비|소부장|바이오|제약|의료\s?기기|농업|농식품|어업|수산|축산|임업|광업|건설업|화학|철강|조선|관광\s?사업체|외식업|숙박업|여행업/;
+const SPECIAL_RE = /여성\s?기업\s?전용|여성\s?전용|장애인\s?기업|국가\s?유공|보훈|북한\s?이탈|새터민|외국인\s?전용|사회적\s?기업\s?전용|협동조합\s?전용|마을\s?기업/;
+const SCALE_RE = /중견\s?기업|중기업\s?이상|매출액?\s?\d+\s?억\s?이상|상시\s?근로자\s?\d{2,}\s?인\s?이상/;
+function fits(it) {
+  const t = decodeEnt([
+    pick(it, ['aply_trgt_ctnt', 'aply_trgt', 'biz_supt_trgt_info']),
+    pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'supt_biz_titl_nm']),
+    pick(it, ['supt_biz_clsfc', 'supt_biz_chrct']),
+  ].join(' '));
+  const excl = decodeEnt(pick(it, ['aply_excl_trgt_ctnt']));
+  // 제외대상이 우리 정체성(1인·디지털·서비스·소상공인·창업)을 콕 집으면 → 배제
+  if (/1인|디지털|서비스업|소상공인|예비\s?창업|창업\s?기업/.test(excl)) return false;
+  // 타산업/특수대상/규모 전용인데 포함신호가 전혀 없으면 → 배제 (부드럽게: 포함신호 있으면 살림)
+  if ((NONFIT_RE.test(t) || SPECIAL_RE.test(t) || SCALE_RE.test(t)) && !INCL_RE.test(t)) return false;
+  return true;
+}
+
 // ---------- 정규화 (K-Startup 공고 → 표준 스키마) ----------
 // 표준 매핑(schema.org/MonetaryGrant): title→name, agency→funder, amount→amount,
 //   deadline→applicationDeadline, url→url, note→description, elig→eligibility.
@@ -89,6 +109,7 @@ function normalize(it, i, src) {
     note: clip(note0, 80),
     star: c.group === 'A' || c.group === 'D',
     source: src || '공고',
+    fit: fits(it),
   };
 }
 
@@ -135,7 +156,11 @@ async function fetchLive() {
   // id 중복 제거 + 제목 있는 것만
   const seen = new Set(), uniq = [];
   for (const o of merged) { if (o.title && !seen.has(o.id)) { seen.add(o.id); uniq.push(o); } }
-  return uniq.filter(isOpen);
+  const open = uniq.filter(isOpen);
+  const relevant = open.filter(o => o.fit);
+  console.log(`적합성 배제: ${open.length}건 중 ${open.length - relevant.length}건 비적합 제외 → 빌더 적합 ${relevant.length}건`);
+  relevant.forEach(o => delete o.fit); // 출력 정리(앱은 이미 적합분만 받음)
+  return relevant;
 }
 
 // ---------- 검증용 목데이터 (키 없이 파이프라인 점검) ----------
