@@ -64,15 +64,17 @@ function pick(o, keys) { for (const k of keys) if (o[k] != null && String(o[k]).
 //   deadline→applicationDeadline, url→url, note→description, elig→eligibility.
 // 필드명은 알려진 K-Startup 표준 + 방어적 폴백. 첫 실호출 로그로 검증/보정.
 function normalize(it, i, src) {
-  const title   = decodeEnt(pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'pbanc_nm', 'title'])).replace(/\s+/g, ' ').trim();
-  const agency  = pick(it, ['pbanc_ntrp_nm', 'excutInsttNm', 'spnsr_organ_nm']) || '창업진흥원';
-  const category= pick(it, ['supt_biz_clsfc', 'biz_clsfc', 'pld_clsfc']) || '창업지원';
-  const target  = pick(it, ['aply_trgt_ctnt', 'aply_trgt', 'supt_trgt']);
+  // 공고 필드 + 통합공고 필드(supt_biz_titl_nm·biz_supt_*) 둘 다 커버
+  const title   = decodeEnt(pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'supt_biz_titl_nm', 'pbanc_nm', 'title'])).replace(/\s+/g, ' ').trim();
+  const agency  = pick(it, ['pbanc_ntrp_nm', 'sprv_inst', 'excutInsttNm']) || (src === '통합공고' ? '창업진흥원 통합공고' : '창업진흥원');
+  const category= pick(it, ['supt_biz_clsfc', 'supt_biz_chrct', 'biz_category_cd']) || '창업지원';
+  const target  = pick(it, ['aply_trgt_ctnt', 'aply_trgt', 'biz_supt_trgt_info']);
+  const amount  = pick(it, ['biz_supt_bdgt_info']) || '공고 참조';
   const age     = pick(it, ['biz_trgt_age', 'aply_trgt_age']);
   const region  = pick(it, ['supt_regin', 'biz_aply_regin']);
-  const begin   = pick(it, ['pbanc_rcpt_bgng_dt', 'rcrt_pbanc_bgng_de']);
   const end     = pick(it, ['pbanc_rcpt_end_dt', 'rcrt_pbanc_end_de']);
-  const url     = pick(it, ['detl_pg_url', 'biz_gdnc_url', 'pbanc_url']) || 'https://www.k-startup.go.kr';
+  const url     = pick(it, ['detl_pg_url', 'biz_gdnc_url', 'biz_aply_url']) || 'https://www.k-startup.go.kr';
+  const note0   = pick(it, ['aply_trgt_ctnt', 'biz_supt_ctnt', 'supt_biz_intrd_info']) || target || title;
   const sn      = pick(it, ['pbanc_sn', 'id']) || i;
   const c = classify(`${title} ${category} ${target} ${age} ${region}`);
   return {
@@ -80,11 +82,11 @@ function normalize(it, i, src) {
     group: c.group, gtag: c.gtag,
     title, agency, category,
     elig: c.elig,
-    amount: '공고 참조',
+    amount: clip(amount, 40),
     deadline: toYmd(end) || '상시',
     docs: ['사업계획서(PSST)', '사업자등록증(해당시)', '대표자 신분증'],
     url, status: 'open',
-    note: clip(target || title, 80),
+    note: clip(note0, 80),
     star: c.group === 'A' || c.group === 'D',
     source: src || '공고',
   };
