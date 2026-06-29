@@ -60,8 +60,10 @@ function clip(s, n) {
 function pick(o, keys) { for (const k of keys) if (o[k] != null && String(o[k]).trim() !== '') return o[k]; return ''; }
 
 // ---------- 정규화 (K-Startup 공고 → 표준 스키마) ----------
+// 표준 매핑(schema.org/MonetaryGrant): title→name, agency→funder, amount→amount,
+//   deadline→applicationDeadline, url→url, note→description, elig→eligibility.
 // 필드명은 알려진 K-Startup 표준 + 방어적 폴백. 첫 실호출 로그로 검증/보정.
-function normalize(it, i) {
+function normalize(it, i, src) {
   const title   = decodeEnt(pick(it, ['intg_pbanc_biz_nm', 'biz_pbanc_nm', 'pbanc_nm', 'title'])).replace(/\s+/g, ' ').trim();
   const agency  = pick(it, ['pbanc_ntrp_nm', 'excutInsttNm', 'spnsr_organ_nm']) || '창업진흥원';
   const category= pick(it, ['supt_biz_clsfc', 'biz_clsfc', 'pld_clsfc']) || '창업지원';
@@ -84,6 +86,7 @@ function normalize(it, i) {
     url, status: 'open',
     note: clip(target || title, 80),
     star: c.group === 'A' || c.group === 'D',
+    source: src || '공고',
   };
 }
 
@@ -93,19 +96,35 @@ function isOpen(o) {
   return o.deadline >= today;
 }
 
-// ---------- 실데이터 ----------
-async function fetchLive() {
-  const url = `${BASE}?serviceKey=${encodeURIComponent(KEY)}&page=1&perPage=200&returnType=json`;
+// ---------- 실데이터 (다중소스: 같은 키로 공고 + 통합공고) ----------
+const GW = 'https://apis.data.go.kr/B552735/kisedKstartupService01';
+async function fetchOp(op, perPage = 200) {
+  const url = `${GW}/${op}?serviceKey=${encodeURIComponent(KEY)}&page=1&perPage=${perPage}&returnType=json`;
   const res = await fetch(url, { headers: { Accept: 'application/json' } });
   const text = await res.text();
   let json;
-  try { json = JSON.parse(text); } catch { throw new Error('JSON 파싱 실패(키/엔드포인트 확인): ' + text.slice(0, 160)); }
-  const arr = json.data || json.items || [];
-  if (!Array.isArray(arr) || !arr.length) throw new Error('빈 응답/인증 실패: ' + text.slice(0, 160));
-  // 첫 항목 실제 필드명 로그 → 매핑 검증/보정 근거
-  console.log('실제 응답 필드:', Object.keys(arr[0]).join(', '));
-  if (PROBE) { console.log(JSON.stringify(arr[0], null, 1)); process.exit(0); }
-  return arr.map(normalize).filter(o => o.title).filter(isOpen);
+  try { json = JSON.parse(text); } catch { throw new Error(op + ' JSON 파싱 실패: ' + text.slice(0, 140)); }
+  return json.data || json.items || [];
+}
+async function fetchLive() {
+  // 1차 소스 — 개별 지원사업 공고 (필수)
+  const ann = await fetchOp('getAnnouncementInformation01');
+  if (!Array.isArray(ann) || !ann.length) throw new Error('공고 빈 응답/인증 실패');
+  console.log('공고 필드:', Object.keys(ann[0]).join(', '));
+  if (PROBE) { console.log(JSON.stringify(ann[0], null, 1)); process.exit(0); }
+  // 2차 소스 — 통합공고(연간 지원사업 카탈로그). best-effort: 실패해도 공고는 유지
+  let biz = [];
+  try {
+    biz = await fetchOp('getBusinessInformation01');
+    if (biz.length) console.log('통합공고 필드:', Object.keys(biz[0]).join(', '));
+  } catch (e) { console.log('통합공고 스킵:', e.message); }
+
+  const merged = ann.map((x, i) => normalize(x, i, '공고'))
+    .concat(biz.map((x, i) => normalize(x, 'b' + i, '통합공고')));
+  // id 중복 제거 + 제목 있는 것만
+  const seen = new Set(), uniq = [];
+  for (const o of merged) { if (o.title && !seen.has(o.id)) { seen.add(o.id); uniq.push(o); } }
+  return uniq.filter(isOpen);
 }
 
 // ---------- 검증용 목데이터 (키 없이 파이프라인 점검) ----------
@@ -117,7 +136,7 @@ function mock() {
     { pbanc_sn: 'M4', intg_pbanc_biz_nm: '재도전 성공패키지 재창업자 모집', supt_biz_clsfc: '재창업', pbanc_ntrp_nm: '창업진흥원', pbanc_rcpt_end_dt: '20260930', aply_trgt_ctnt: '폐업 후 재창업 예정자', detl_pg_url: 'https://www.k-startup.go.kr' },
     { pbanc_sn: 'M5', intg_pbanc_biz_nm: '글로벌 창업사관학교(딥테크)', supt_biz_clsfc: '글로벌', pbanc_ntrp_nm: '창업진흥원', pbanc_rcpt_end_dt: '20260815', aply_trgt_ctnt: 'AI·딥테크 분야 창업기업', detl_pg_url: 'https://www.k-startup.go.kr' },
   ];
-  return raw.map(normalize);
+  return raw.map((x, i) => normalize(x, i, '공고'));
 }
 
 // ---------- 실행 ----------
@@ -133,7 +152,8 @@ async function main() {
     opps = await fetchLive(); source = 'K-Startup';
     console.log(`[live] ${opps.length}건 (마감 안 지난 공고만)`);
   }
-  const payload = { source, updated: new Date().toISOString(), count: opps.length, opps };
+  // 표준 정렬: schema.org/MonetaryGrant (name·funder·amount·applicationDeadline·url·description·eligibility)
+  const payload = { schema: 'schema.org/MonetaryGrant', source, updated: new Date().toISOString(), count: opps.length, opps };
   writeFileSync(OUT, JSON.stringify(payload, null, 1));
   console.log('opps.json 작성:', OUT.pathname);
 }
