@@ -174,6 +174,34 @@
   .callout2{background:var(--brand-soft);border:1px solid #d6ddff;border-radius:12px;padding:13px 15px;font-size:13px;color:var(--ink2);margin-top:12px}
   .callout2 b{color:var(--brand)}
 
+  /* ===== Grants (정부지원) ===== */
+  .grant-group{margin-bottom:18px}
+  .grant-gh{display:flex;align-items:center;gap:9px;margin-bottom:10px}
+  .grant-gh .gtag{font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px;color:#fff;letter-spacing:-.2px}
+  .grant-gh .gtitle{font-weight:700;font-size:15px;letter-spacing:-.3px}
+  .grant-gh .gstar{font-size:13px}
+  .grant-gdesc{font-size:12.5px;color:var(--ink3);margin:-4px 0 10px;line-height:1.5}
+  .grant-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px;margin-bottom:9px;box-shadow:var(--shadow)}
+  .grant-card.hl{border-color:var(--brand);background:linear-gradient(180deg,var(--brand-soft),var(--card) 60%)}
+  .grant-card .gn{font-weight:700;font-size:14px;letter-spacing:-.2px;margin-bottom:8px;line-height:1.4}
+  .grant-meta{display:flex;flex-direction:column;gap:5px}
+  .grant-meta .gm{display:flex;gap:8px;font-size:12.5px;align-items:baseline}
+  .grant-meta .gm .glabel{color:var(--ink3);flex-shrink:0;width:42px}
+  .grant-meta .gm .gval{color:var(--ink2);font-weight:600}
+  .grant-meta .gm.amt .gval{color:var(--ok)}
+  .grant-note{font-size:12px;color:var(--ink2);margin-top:9px;padding-top:9px;border-top:1px solid var(--line2);line-height:1.45}
+  .grant-note:before{content:'💡 ';opacity:.7}
+  .strat-item{display:flex;gap:11px;align-items:flex-start;padding:9px 0;font-size:13.5px;color:var(--ink)}
+  .strat-item:not(:last-child){border-bottom:1px solid var(--line2)}
+
+  /* ===== Segment toggle (통합 탭 내부 전환) ===== */
+  .segwrap{padding:14px 16px 0}
+  .segment{display:flex;background:var(--line2);border-radius:11px;padding:4px;gap:4px}
+  .segment button{flex:1;background:none;font-family:inherit;font-size:13.5px;font-weight:600;color:var(--ink2);padding:9px;border-radius:8px;transition:.15s;letter-spacing:-.2px}
+  .segment button.on{background:#fff;color:var(--ink);box-shadow:var(--shadow)}
+  .seg-panel{display:none}
+  .seg-panel.on{display:block;animation:sf .25s ease}
+
   /* ===== Sales flow ===== */
   .sflow-step{position:relative;padding-left:38px;padding-bottom:18px}
   .sflow-step:before{content:'';position:absolute;left:13px;top:28px;bottom:0;width:2px;background:var(--line)}
@@ -223,7 +251,7 @@
       <div class="kick" id="h-kick"></div>
       <h1 id="h-title"></h1>
       <p id="h-sub"></p>
-      <button class="cta-main" onclick="nav('exp')" id="h-cta"></button>
+      <button class="cta-main" onclick="goExp()" id="h-cta"></button>
       <button class="cta-sub" onclick="scrollToBuilder()" id="h-cta2"></button>
     </div>
     <div class="pad">
@@ -254,33 +282,44 @@
         <div class="quote" id="builder-quote"></div>
       </div>
 
-      <button class="btn-primary" style="margin:6px 0 10px" onclick="nav('sales')">고객 확보하는 법 보기 →</button>
-      <button class="btn-ghost" style="margin:0 0 20px" onclick="nav('exp')">3분 체험 시작하기</button>
+      <button class="btn-primary" style="margin:6px 0 10px" onclick="nav('business')">고객 확보하는 법 보기 →</button>
+      <button class="btn-ghost" style="margin:0 0 20px" onclick="goExp()">3분 체험 시작하기</button>
     </div>
   </section>
 
-  <!-- ============ SALES FLOW ============ -->
-  <section class="screen" id="s-sales">
+  <!-- ============ BUSINESS (영업 + 지원금 통합) ============ -->
+  <section class="screen" id="s-business">
     <div class="exp-head">
-      <h2>고객을 확보하는 순서</h2>
-      <p>제품을 팔지 마세요. 운영 개선을 제안하세요.</p>
+      <h2>고객을 확보하고 자금을 마련하기</h2>
+      <p>빌더가 돈을 버는 두 가지 길.</p>
     </div>
-    <div class="pad" style="padding-top:6px">
-      <div class="quote" style="margin-top:0">"AI를 구축합니다"가 아니라<br><span class="em">"운영을 정리해드립니다"</span>부터 시작하세요.</div>
-      <div id="sales-flow"></div>
-      <div class="callout2" style="margin-top:14px">AI·기술 이야기는 <b>맨 마지막에만</b>. 고객은 기술이 아니라 운영 문제 해결을 삽니다.</div>
-      <button class="btn-primary" style="margin:16px 0 8px" onclick="nav('exp')">이 흐름 직접 체험하기 →</button>
+    <div class="segwrap">
+      <div class="segment">
+        <button id="seg-sales" class="on" onclick="bizSeg('sales')">고객 확보</button>
+        <button id="seg-grants" onclick="bizSeg('grants')">정부지원</button>
+      </div>
     </div>
-  </section>
 
-  <!-- ============ EXPERIENCE ============ -->
-  <section class="screen" id="s-exp">
-    <div class="exp-head">
-      <h2 id="exp-title">3분 체험</h2>
-      <p id="exp-desc">학원 사장님 한 분을 직접 도와드려 봐요.</p>
+    <!-- 영업 패널 -->
+    <div class="seg-panel on" id="panel-sales">
+      <div class="pad" style="padding-top:14px">
+        <div class="quote" style="margin-top:0">"AI를 구축합니다"가 아니라<br><span class="em">"운영을 정리해드립니다"</span>부터 시작하세요.</div>
+        <div id="sales-flow"></div>
+        <div class="callout2" style="margin-top:14px">AI·기술 이야기는 <b>맨 마지막에만</b>. 고객은 기술이 아니라 운영 문제 해결을 삽니다.</div>
+        <button class="btn-primary" style="margin:16px 0 8px" onclick="nav('academy')">이 흐름 직접 체험하기 →</button>
+      </div>
     </div>
-    <div class="progress" id="exp-progress"></div>
-    <div class="exp-body" id="exp-body"></div>
+
+    <!-- 지원금 패널 -->
+    <div class="seg-panel" id="panel-grants">
+      <div class="pad" style="padding-top:14px">
+        <p id="grants-intro" style="font-size:13px;color:var(--ink2);margin-bottom:14px"></p>
+        <div id="grants-groups"></div>
+        <div class="sec-h">진입 전략</div>
+        <div class="vcard" id="grants-strategy"></div>
+        <div class="callout2" style="margin-top:12px">정부지원은 매년 공고가 바뀌고 마감이 있습니다. 신청 전 <b>K-Startup·기업마당</b>에서 최신 공고를 확인하세요.</div>
+      </div>
+    </div>
   </section>
 
   <!-- ============ CUSTOMERS LIST ============ -->
@@ -302,12 +341,31 @@
     <div class="ws-panel" id="ws-panel"></div>
   </section>
 
-  <!-- ============ ACADEMY ============ -->
+  <!-- ============ ACADEMY (체험 포함) ============ -->
   <section class="screen" id="s-academy">
-    <div class="pad">
-      <div class="sec-h" style="margin-top:8px">Builder Academy</div>
-      <p style="font-size:13px;color:var(--ink2);margin-bottom:14px">현장에 투입될 수 있을 때까지, 단계별로 배워요.</p>
-      <div id="academy-list"></div>
+    <div class="segwrap">
+      <div class="segment">
+        <button id="seg-learn" class="on" onclick="acadSeg('learn')">학습 과정</button>
+        <button id="seg-try" onclick="acadSeg('try')">3분 체험</button>
+      </div>
+    </div>
+
+    <!-- 학습 과정 패널 -->
+    <div class="seg-panel on" id="panel-learn">
+      <div class="pad" style="padding-top:14px">
+        <p style="font-size:13px;color:var(--ink2);margin-bottom:14px">현장에 투입될 수 있을 때까지, 단계별로 배웁니다.</p>
+        <div id="academy-list"></div>
+      </div>
+    </div>
+
+    <!-- 3분 체험 패널 -->
+    <div class="seg-panel" id="panel-try">
+      <div class="exp-head" style="padding-top:14px">
+        <h2 id="exp-title">3분 체험</h2>
+        <p id="exp-desc">학원 사장님 한 분을 직접 도와드려 봐요.</p>
+      </div>
+      <div class="progress" id="exp-progress"></div>
+      <div class="exp-body" id="exp-body"></div>
     </div>
   </section>
 
@@ -380,10 +438,44 @@ const ACADEMY=[
   {lv:4,t:'Deploy & Operate',d:'직원 교육 · 운영 시작 · KPI 확인 · 피드백',state:'locked'},
   {lv:5,t:'Business',d:'고객 확보 · 가격 제안 · 정부지원 활용 · 반복 매출',state:'locked'},
 ];
+// 정부지원 — 2026년 기준. 빌더 상태별 분류.
+const GRANTS={
+  intro:'빌더는 1인 디지털 서비스 사업자입니다. 상태에 따라 받을 수 있는 지원이 다릅니다.',
+  groups:[
+    {id:'A',tag:'창업 전',color:'var(--brand)',title:'창업 자금',desc:'사업자등록 전이라면 가장 큰 지원이 여기 있습니다.',
+     items:[
+       {n:'예비창업패키지',who:'사업자등록 전 · 나이 무관',amt:'평균 5천만, 최대 1억',note:'자기부담금 없음. 보조금(상환 의무 없음). 빌더 1순위.'},
+       {n:'청년창업사관학교',who:'만 39세 이하 · 창업 3년 내',amt:'사업화 자금 + 공간·교육',note:'청년 빌더에 유리'},
+       {n:'재도전성공패키지',who:'폐업 이력 보유',amt:'최대 1억 + 멘토링',note:'재창업 빌더'},
+     ]},
+    {id:'B',tag:'창업 후',color:'var(--ok)',title:'성장 자금',desc:'사업자등록 후 3년 이내라면.',
+     items:[
+       {n:'초기창업패키지',who:'창업 3년 이내',amt:'최대 1억 (자부담 30%)',note:'예비창업패키지와 동시 신청 불가'},
+       {n:'창업중심대학',who:'예비~7년 이내',amt:'7천만 내외, 최대 2억',note:'권역별 모집'},
+     ]},
+    {id:'C',tag:'운영 중',color:'var(--warn)',title:'운영·고용 지원',desc:'사업을 키우고 사람을 쓸 때.',
+     items:[
+       {n:'자영업자 고용보험료 지원',who:'고용보험 가입 사업자',amt:'납부액 일부~전액 환급',note:'인건비 부담 완화'},
+       {n:'청년 신규고용 인건비',who:'청년 신규 고용 시',amt:'1인 월 180만, 최대 24개월',note:'지자체별 상이'},
+       {n:'소상공인 정책자금',who:'업력 3년 미만',amt:'저리 융자',note:'운영비·임대료'},
+     ]},
+    {id:'D',tag:'추천',color:'var(--brand)',title:'디지털·AI 공급자 등록',desc:'빌더 사업과 가장 잘 맞는 핵심. 받는 쪽이 아니라 공급하는 쪽이 됩니다.',star:true,
+     items:[
+       {n:'혁신 소상공인 AI 활용지원 — 협력기관 등록',who:'AI 솔루션 공급자',amt:'정부 예산이 고객을 통해 유입',note:'고객이 받는 AI 지원금으로 빌더 솔루션 구매 → 반복 매출'},
+       {n:'찾아가는 1:1 경영 컨설팅 — 컨설턴트 등록',who:'경영·전문직',amt:'컨설팅 수행',note:'빌더가 정부 컨설턴트로 등록'},
+       {n:'소상공인 디지털 역량강화',who:'디지털 전환 대행',amt:'전환 사업 수행',note:'빌더가 전환을 대행'},
+     ]},
+  ],
+  strategy:[
+    '① 창업 전 — 예비창업패키지로 시작 자금 확보',
+    '② 운영 시작 — AI 활용지원 협력기관/컨설턴트 등록으로 공급자 위치 선점',
+    '③ 성장 — 고용 지원으로 조직 확장',
+  ],
+};
+
 const NAVTABS=[
   {id:'home',ic:'🏠',label:'홈'},
-  {id:'sales',ic:'🤝',label:'영업'},
-  {id:'exp',ic:'✨',label:'체험'},
+  {id:'business',ic:'💼',label:'사업'},
   {id:'customers',ic:'👥',label:'고객'},
   {id:'academy',ic:'🎓',label:'배우기'},
 ];
@@ -407,13 +499,29 @@ function nav(id){
   document.getElementById('s-'+id).classList.add('active');
   document.querySelectorAll('#botnav button').forEach(b=>b.classList.toggle('on',b.dataset.nav===id));
   document.querySelector('.device').scrollTop=0;window.scrollTo(0,0);
-  const pill={home:'Builder 되기',sales:'영업 흐름',exp:'3분 체험',customers:'내 고객',academy:'배우기',workspace:'고객 관리'}[id]||'AUTUS';
+  const pill={home:'Builder 되기',business:'사업',customers:'내 고객',academy:'배우기',workspace:'고객 관리'}[id]||'AUTUS';
   document.getElementById('appbar-pill').textContent=pill;
-  if(id==='sales')renderSales();
-  if(id==='exp')resetExp();
+  if(id==='business'){renderSales();renderGrants();bizSeg('sales');}
   if(id==='customers')renderCustomers();
-  if(id==='academy')renderAcademy();
+  if(id==='academy'){renderAcademy();acadSeg('learn');}
 }
+// 사업 탭 세그먼트
+function bizSeg(s){
+  document.getElementById('seg-sales').classList.toggle('on',s==='sales');
+  document.getElementById('seg-grants').classList.toggle('on',s==='grants');
+  document.getElementById('panel-sales').classList.toggle('on',s==='sales');
+  document.getElementById('panel-grants').classList.toggle('on',s==='grants');
+}
+// 배우기 탭 세그먼트
+function acadSeg(s){
+  document.getElementById('seg-learn').classList.toggle('on',s==='learn');
+  document.getElementById('seg-try').classList.toggle('on',s==='try');
+  document.getElementById('panel-learn').classList.toggle('on',s==='learn');
+  document.getElementById('panel-try').classList.toggle('on',s==='try');
+  if(s==='try')resetExp();
+}
+// 체험으로 바로 이동 (배우기 탭 → 3분 체험 세그먼트)
+function goExp(){nav('academy');acadSeg('try');}
 function renderBotNav(){
   document.getElementById('botnav').innerHTML=NAVTABS.map(t=>
     `<button data-nav="${t.id}" class="${t.id==='home'?'on':''}" onclick="nav('${t.id}')"><span class="bi">${t.ic}</span>${t.label}</button>`).join('');
@@ -430,6 +538,31 @@ function renderSales(){
       <div class="sdo">${s.do}</div>
       <div class="smind">${s.mind}</div>
     </div>`).join('');
+}
+
+// ============ GRANTS RENDER ============
+function renderGrants(){
+  document.getElementById('grants-intro').textContent=GRANTS.intro;
+  document.getElementById('grants-groups').innerHTML=GRANTS.groups.map(g=>`
+    <div class="grant-group">
+      <div class="grant-gh">
+        <span class="gtag" style="background:${g.color}">${g.tag}</span>
+        <span class="gtitle">${g.title}</span>
+        ${g.star?'<span class="gstar">⭐</span>':''}
+      </div>
+      <div class="grant-gdesc">${g.desc}</div>
+      ${g.items.map(it=>`
+        <div class="grant-card ${g.star?'hl':''}">
+          <div class="gn">${it.n}</div>
+          <div class="grant-meta">
+            <div class="gm"><span class="glabel">대상</span><span class="gval">${it.who}</span></div>
+            <div class="gm amt"><span class="glabel">지원</span><span class="gval">${it.amt}</span></div>
+          </div>
+          <div class="grant-note">${it.note}</div>
+        </div>`).join('')}
+    </div>`).join('');
+  document.getElementById('grants-strategy').innerHTML=GRANTS.strategy.map(s=>
+    `<div class="strat-item">${s}</div>`).join('');
 }
 
 // ============ HOME RENDER ============
@@ -493,7 +626,7 @@ function renderExp(){
       <div id="gen-list" style="margin:6px 0 4px"></div>
       <div class="callout2" style="margin-top:14px"><b>방금 한 일:</b> 업종 고르기 → 시스템 가져오기 → 다른 점 3가지 바꾸기 → 완성. 실제 일도 똑같아요.</div>
       <button class="btn-primary" style="margin-top:14px" onclick="nav('customers')">현장에 배포하기 →</button>
-      <button class="btn-ghost" onclick="nav('academy')">더 배우기</button>`;
+      <button class="btn-ghost" onclick="acadSeg('learn')">더 배우기</button>`;
     const items=['학생 명단 준비','출결 체크 준비 (탭 한 번)','학부모 알림 준비','정산 연결 준비','리포트 준비'];
     let i=0;const gl=document.getElementById('gen-list');
     const iv=setInterval(()=>{if(i>=items.length){clearInterval(iv);return;}
@@ -588,7 +721,7 @@ function renderAcademy(){
       </div>
       <div style="font-size:12.5px;color:var(--ink2);margin-top:8px">${l.d}</div>
       ${open&&l.items?`<ul class="todo-list" style="margin-top:8px">${l.items.map((it,i)=>`<li class="${i===0?'done':''}"><span class="dot"></span>${it}</li>`).join('')}</ul>
-        <button class="btn-primary" style="margin-top:10px" onclick="nav('exp')">Level 1 체험으로 시작 →</button>`:''}
+        <button class="btn-primary" style="margin-top:10px" onclick="goExp()">Level 1 체험으로 시작 →</button>`:''}
     </div>`;
   }).join('');
 }
@@ -621,9 +754,6 @@ function closeIosSheet(){document.getElementById('iossheet').classList.remove('s
 // iOS는 beforeinstallprompt가 없으므로 직접 안내 노출
 if(isIOS&&!isStandalone&&!installDismissed()){showInstallBar();}
 
-// ============ INIT ============
-renderBotNav();renderHome();
-
 // ============ 서비스워커 등록 + 업데이트 프롬프트 ============
 function showUpdateBar(reg){
   const bar=document.getElementById('updatebar');
@@ -642,20 +772,20 @@ if('serviceWorker' in navigator){
   window.addEventListener('load',async ()=>{
     try{
       const reg=await navigator.serviceWorker.register('sw.js');
-      // 등록 시점에 이미 대기 중인 새 버전이 있으면 배너
       if(reg.waiting && navigator.serviceWorker.controller) showUpdateBar(reg);
-      // 새 버전 설치 감지
       reg.addEventListener('updatefound',()=>{
         const nw=reg.installing; if(!nw) return;
         nw.addEventListener('statechange',()=>{
           if(nw.state==='installed' && navigator.serviceWorker.controller) showUpdateBar(reg);
         });
       });
-      // 앱이 떠 있는 동안 60초마다 업데이트 확인
       setInterval(()=>reg.update().catch(()=>{}),60000);
     }catch(err){console.warn('SW 등록 실패',err);}
   });
 }
+
+// ============ INIT ============
+renderBotNav();renderHome();
 </script>
 </body>
 </html>
