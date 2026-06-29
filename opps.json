@@ -1,6 +1,7 @@
 {
+ "schema": "schema.org/MonetaryGrant",
  "source": "K-Startup",
- "updated": "2026-06-29T03:48:15.247Z",
+ "updated": "2026-06-29T04:08:34.689Z",
  "count": 149,
  "opps": [
   {
@@ -28,7 +29,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178300",
    "status": "open",
    "note": "도내 (예비)창업자 및 7년 이내 중소기업 30명 내외",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178297",
@@ -55,7 +57,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178297",
    "status": "open",
    "note": "(공통) 7년 이내 청년창업기업(대표자 만 39세 이하) 아래의 요건 중 1개 이상 해당하는 기업 1. 대구시 중구 거주자 2. 대구시 중구 소…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178296",
@@ -83,7 +86,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178296",
    "status": "open",
    "note": "○ 유사사업 수행실적이 있는 전문 제작업체 ○ 과제 수행에 필요한 전문인력과 조직 보유",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178295",
@@ -110,7 +114,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178295",
    "status": "open",
    "note": "소방장비ㆍ용품 제조ㆍ공급 업체 중 아래 조건 충족업체 - 공공조달 시장 진입에 어려움을 겪고 있거나 우수한 기술력을 바탕으로 판로 개척을 희망하…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178293",
@@ -137,7 +142,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178293",
    "status": "open",
    "note": "(예비) 스타트업 및 스타트업 투자자, 실무자 및 의료기기 전반 및 조직수복용생체지료 강의 아이템에 관심 있으신 분 신청 가능(대학생 포함)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178292",
@@ -165,7 +171,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178292",
    "status": "open",
    "note": "AI 기술 도입을 추진하는 기업의 최고 경영자 및 임원, 본부장 해외사업 ·수출 총괄 기획 임원 및 본부장",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178291",
@@ -192,7 +199,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178291",
    "status": "open",
    "note": "예비(청년)창업자 및 창업에 관심있는 시민",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178290",
@@ -218,7 +226,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178290",
    "status": "open",
    "note": "기업 대표자 기준, 아래 조건 충족 - 코워킹 오피스 : 예비창업자 또는 1년 미만의 초기창업자(※ 사업자등록증 기준 2025. 6. 26 이후…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178288",
@@ -244,7 +253,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178288",
    "status": "open",
    "note": "게임 개발 기초역량을 보유하고 실무 프로젝트 참여가 가능한 도내 대학생, 취업준비생, 예비창업자, 일반인 등",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178287",
@@ -270,7 +280,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178287",
    "status": "open",
    "note": "대구 지역 캐릭터 분야 예비창업자 및 3년 이내 콘텐츠 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178286",
@@ -296,7 +307,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178286",
    "status": "open",
    "note": "▶ 대상 : 패션, 뷰티, 주얼리 디자인 이커머스 분야로 취창업을 희망하는 미취업 구직여성 및 예비 창업자 (교육에 적극적으로 참여하고, 취업의…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178285",
@@ -324,7 +336,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178285",
    "status": "open",
    "note": "가. 공고일 기준 사업장 소재지가 대전 내에 위치한 법인 또는 개인사업자 나. 기획안(스토리분석을 통한 콘티 초안 포함) 및 포트폴리오 제출 가…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178284",
@@ -351,7 +364,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178284",
    "status": "open",
    "note": "물산업분야 벤처 또는 창업기업이 직접 생산하거나 국내 제조기업과 주문자상표부착생산(OEM) 방식으로 생산하는 물품 또는 서비스",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178283",
@@ -378,7 +392,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178283",
    "status": "open",
    "note": "전국 만 7년 이내 창업기업(개인, 법인)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178282",
@@ -405,7 +420,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178282",
    "status": "open",
    "note": "글로벌(북미) 시장 진출 희망 대전시 소재 기업 - 대전에 본사, 지사, 또는 기업부설연구소가 소재한 기업 - 대전시 공공 기술 연계 사회문제해…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178281",
@@ -432,7 +448,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178281",
    "status": "open",
    "note": "※지원 자격 - Seed ~ Series A 단계 - 바이오·헬스케어 분야(신약개발, 바이오 소재·플랫폼, 의료기기·진단, 디지털 헬스케어·디지…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178280",
@@ -458,7 +475,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178280",
    "status": "open",
    "note": "제안할 혁신기술·솔루션을 보유하고 있는 김해시 소재 및 이전 예정 관외 창업 7년(또는 10년*)이내 (예비)창업기업 * 「중소기업 창업 지원법…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178279",
@@ -485,7 +503,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178279",
    "status": "open",
    "note": "경기 동남부 7개 지역(성남, 용인, 평택, 안성, 이천, 광주, 여주) 내 본사가 소재한 업력 7년 이내 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178278",
@@ -512,7 +531,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178278",
    "status": "open",
    "note": "'전국 AI 기술기반' 스마트선박, 디지털항만, 해상물류 데이터 등 스마트해운물류 분야 7년 이내 기업 ※ 부·울·경 소재 기업(사업자등록증 주…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178277",
@@ -540,7 +560,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178277",
    "status": "open",
    "note": "인도 진출에 관심있는 '서울 소재 중소기업'",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178276",
@@ -567,7 +588,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178276",
    "status": "open",
    "note": "◦ 업력 7년 이내 창업기업 (공고일 기준) ◦ 사업장 주소 : 구미소재 기업 및 구미(본사)로 이전 계획 기업 - 타 지역 창업기업의 경우 선…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178275",
@@ -593,7 +615,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178275",
    "status": "open",
    "note": "혁신적인 창업아이템을 보유한 (예비)창업자 및 창업기업 - 아이디어 분야: 공고일 기준 사업자등록이 없는 예비창업자 - 사업화 분야: 공고일 기…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178274",
@@ -621,7 +644,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178274",
    "status": "open",
    "note": "아래 조건 모두 충족하는 기업 (1) 창업 10년미만 바이오 의료 기업 - 공고일 기준 법인설립등기일(법인등기부등본 기준) 8년 미만 기업 (2…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178273",
@@ -649,7 +673,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178273",
    "status": "open",
    "note": "서울대학교 재학중인 대학원생(연구생 등록 수료생 포함) 개인 혹은 팀 (팀으로 지원하는 경우 서울대 대학원생(재학생) 1명 이상 포함 시 학부생…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178271",
@@ -675,7 +700,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178271",
    "status": "open",
    "note": "- 충남 신성장동력산업 분야(첨부 사업분야 참고) - 예비창업자(3개월 이내 충남 소재 법인설립자) - 창업 업력 3년 이내 충남 소재 법인기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178270",
@@ -701,7 +727,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178270",
    "status": "open",
    "note": "경력과 기술을 보유한 만 40세 이상 예비창업자 또는 공고일 기준 창업 3년 이내 기업이며, 창업 7년 이내 일반 창업기업도 전체 입주기업의 2…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178269",
@@ -729,7 +756,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178269",
    "status": "open",
    "note": "국제공동연구를 통한 해외진출 의지ㆍ역량 보유하고 AI 기반 제품ㆍ서비스ㆍ솔루션을 보유한 경기도 내 AI관련 중소기업ㆍ스타트업 (1) (필수) 경…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178268",
@@ -756,7 +784,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178268",
    "status": "open",
    "note": "□ 신청대상 - ｢중소기업창업지원법｣ 제2조에 따른 창업기업으로 ‘사업을 개시한 날’로부터 7년 이내 창업기업으로, 대구에 본사, 지점, 연구소…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178266",
@@ -782,7 +811,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178266",
    "status": "open",
    "note": "[창업기획 ·사업화 분야] 1. 내용 : 창업 아이템 및 비즈니스 모델(BM) 분석, 사업 타당성 검토 및 시장성 분석, 사업계획서 작성 및 고…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178265",
@@ -809,7 +839,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178265",
    "status": "open",
    "note": "해외 시장에 적합한 기술력과 사업성을 갖춘 글로벌 자본유치 유망 기업으로서 아래 1~3을 모두 충족하는 기업 1. 서울 소재 기업 ※ 본사 또는…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178263",
@@ -836,7 +867,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178263",
    "status": "open",
    "note": "창업 7년 이내 중소기업 또는 창업·벤처기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178262",
@@ -863,7 +895,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178262",
    "status": "open",
    "note": "서울 소재 소셜벤처기업 ※ 자유치 SeriesA 이상 진행 중인 서울 소재 소셜벤처기업 ※ 기술보증기금 소셜벤처스퀘어에서 소셜벤처로 판별을 받은…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178261",
@@ -891,7 +924,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178261",
    "status": "open",
    "note": "예비 및 초기 청년(만 19세~39세) 창업자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178260",
@@ -919,7 +953,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178260",
    "status": "open",
    "note": "예비 및 초기 청년(만 19세~39세) 창업자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178258",
@@ -945,7 +980,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178258",
    "status": "open",
    "note": "- 지역창업기업 : 춘천 지역 사업자등록 예정 예비창업자 또는 창업기업 (업력 7년 이내 창업기업) ※ 예비창업자의 경우 협약 후 6개월 이내 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178256",
@@ -973,7 +1009,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178256",
    "status": "open",
    "note": "ㅇ 4대 과기원 관할 권역 내 소재기업 또는 공모 마감일 기준 대표자가 4대 과기원 재학생/동문/교직원인 기업 ㅇ 초기 투자(Seed) 유치 이…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178255",
@@ -1001,7 +1038,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178255",
    "status": "open",
    "note": "(예비)창업자, 창업에 관심 있는 자, 세종에 창업 예정인 자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178254",
@@ -1029,7 +1067,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178254",
    "status": "open",
    "note": "- 포스트팁스를 기 수행했거나 수행 중인 기업 - 포스트팁스를 향후 수행 희망하는 기업 - 기타 포스트팁스 및 오픈이노베이션에 관심 있는 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178253",
@@ -1056,7 +1095,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178253",
    "status": "open",
    "note": "모집공고일 기준 창업 7년이내 창업기업 ※ 상세내용은 공고문 내 '신청 자격' 확인",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178252",
@@ -1083,7 +1123,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178252",
    "status": "open",
    "note": "투자유치를 희망하는 예비·초기창업기업, AC/VC 전문투자자, 창업에 관심 있는 누구나",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178251",
@@ -1110,7 +1151,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178251",
    "status": "open",
    "note": "- 경기도 내 G7 분야 창업기업 *G7 분야 : 반도체, AI·빅데이터, 첨단모빌리티, 신재생에너지, 바이오, 양자, 디지털전환 등 - 사업자…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178249",
@@ -1138,7 +1180,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178249",
    "status": "open",
    "note": "[지원대상] : 패션 분야 해외 팝업을 희망하는 서울 소재 중소기업 · 신청일 기준 서울 소재 사업장, 연구소, 지사 등을 보유하고 있는 기업(…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178248",
@@ -1166,7 +1209,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178248",
    "status": "open",
    "note": "부산 지역 섬유·패션·봉제·신발 관련 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178247",
@@ -1192,7 +1236,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178247",
    "status": "open",
    "note": "대전 소재 예비창업자 및 창업기업 20개사 내외",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178246",
@@ -1220,7 +1265,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178246",
    "status": "open",
    "note": "군포 창업기업 및 경기지역 BI 센터 입주기업 등",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178245",
@@ -1246,7 +1292,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178245",
    "status": "open",
    "note": "전국(수도권 제외한 전 지역, 디지털 혁신거점 포함) 디지털 기술 기반 창업 아이템·아이디어 보유한 예비창업자 및 설립 7년 미만의 창업기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178244",
@@ -1273,7 +1320,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178244",
    "status": "open",
    "note": "울산 소재 창업 7년 이내 기업, 신기술 분야 창업 10년 이내 기업 ※ 공고일 기준 울산지역에 본사를 둔 창업 7년 이내 기업 ※ 4. 글로벌…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178241",
@@ -1299,7 +1347,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178241",
    "status": "open",
    "note": "예비창업자 및 창업 후, 5년 이내의 창업기업 대표",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178240",
@@ -1326,7 +1375,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178240",
    "status": "open",
    "note": "공공데이터를 통해 지역사회 현안의 해결방안을 함께 만들어 갈 수 있는 기업(데이터·사회적 기업, 1인기업 등) 및 단체(협동조합, 비영리단체, …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178239",
@@ -1352,7 +1402,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178239",
    "status": "open",
    "note": "○ 모집업종 -『해양수산발전기본법』제3조 2의2(해양과학기술) -『해양수산발전기본법』제3조의 3호(해양수산업)에 따른 산업 ○ 모집대상 - 예비…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178238",
@@ -1378,7 +1429,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178238",
    "status": "open",
    "note": "창업 후 3년 이내 혁신창업기업(예비창업자 포함)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178237",
@@ -1404,7 +1456,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178237",
    "status": "open",
    "note": "공고일 기준, 예비창업자* 및 업력 7년 이내의 창업기업** * 예비창업자의 경우, 중소벤처기업부(창업진흥원)에서 지원하는 ①2026년 예비창업…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178236",
@@ -1432,7 +1485,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178236",
    "status": "open",
    "note": "초격차/챌린지 역대 선정기업 및 전남 광주 기반 10년이내 스타트업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178235",
@@ -1458,7 +1512,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178235",
    "status": "open",
    "note": "▪️ Red Bio에 관심있는 투자 심사역, 제약사 직원 ▪️ 신약개발 및 기술기반 관련 제약·바이오 스타트업 관계자, 예비창업자 ▪️ 바이오 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178232",
@@ -1485,7 +1540,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178232",
    "status": "open",
    "note": "- 농심 : 포장용기, 포장재, 식품소재 - 유한킴벌리 : Planet, Health, Life - 하이트진로 : Food-Tech, AI/빅데…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178230",
@@ -1511,7 +1567,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178230",
    "status": "open",
    "note": "고양시에 거주하는 예비창업자, 초기창업자 또는 고양시 소재 기업이나 학교에 다니는 창업에 관심 있는 직장인 및 대학생",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178229",
@@ -1539,7 +1596,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178229",
    "status": "open",
    "note": "브라질 및 중남미 시장 진출을 희망하는 미래자동차, 모빌리티, 스마트물류, 전장, 충전, EV 관련 솔루션 분야 중소기업 - 「중소기업기본법」 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178228",
@@ -1565,7 +1623,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178228",
    "status": "open",
    "note": "- 기술 기반의 예비창업자 또는 7년 이내의 창업기업 * 연구소기업 및 대구 5대 신산업 분야 기술 우대 * 접수일 기준 사업장 소재지 대구연구…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178227",
@@ -1593,7 +1652,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178227",
    "status": "open",
    "note": "창업기업과 협업을 희망하는 군 및 방산 분야 수요기업 - 군(육‧해‧공군‧해병대), 방산 분야 수요기업(대‧중견기업·공공기관 등)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178226",
@@ -1619,7 +1679,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178226",
    "status": "open",
    "note": "지원대상 : 예비창업자(팀) *공고일 기준 신청자 명의의 사업자등록 또는 법인 설립 등기가 없는 자들로 구성된 예비 창업팀(1명 이상) ※ 예비…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178224",
@@ -1647,7 +1708,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178224",
    "status": "open",
    "note": "AI 도입 및 디지털 전환을 추진하는 실무자 및 중간 관리자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178223",
@@ -1674,7 +1736,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178223",
    "status": "open",
    "note": "청년 예비 및 초기창업자(1987년 이후 출생자)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178222",
@@ -1701,7 +1764,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178222",
    "status": "open",
    "note": "청년 예비 및 초기창업자(1987년 이후 출생자)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178221",
@@ -1729,7 +1793,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178221",
    "status": "open",
    "note": "ICT기업 재직자, ICT기업 경력 보유자, ICT기업 컨설팅 경력 보유자 *퇴직자, 재취업 예정자도 신청가능 (단, 경력증명서 제출)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178220",
@@ -1757,7 +1822,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178220",
    "status": "open",
    "note": "AI 기술 도입을 추진하는 기업의 최고 경영자 및 임원, 본부장 해외사업 ·수출 총괄 기획 임원 및 본부장",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178219",
@@ -1784,7 +1850,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178219",
    "status": "open",
    "note": "* 정부 지원(마케팅지원사업 등)을 통해 중소기업 제품의 판매실적이 증가하는 등 판로 성과가 우수한 중소기업 임·직원 ** 중소기업 국내·외 판…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178218",
@@ -1812,7 +1879,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178218",
    "status": "open",
    "note": "대한민국 유망 AI 스타트업 K-PATH는 아래 6개 분야에서 KT와 협업 가능성이 높은 AI 스타트업을 모집합니다. 01. 엔터프라이즈 & A…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178217",
@@ -1839,7 +1907,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178217",
    "status": "open",
    "note": "경남 동부권(양산, 밀양, 김해) 소재 업력 7년 이내 창업기업 ※ 타 지역지원자 등 상세 신청자격은 동 공고 (2page) “2. 신청자격 및…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178216",
@@ -1867,7 +1936,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178216",
    "status": "open",
    "note": "경남도민, 경남지역 학교 재학생, 경남지역 창업 예정자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178215",
@@ -1893,7 +1963,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178215",
    "status": "open",
    "note": "[기술창업분야] 예비창업자 ~ 3년 이내 스타트업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178214",
@@ -1919,7 +1990,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178214",
    "status": "open",
    "note": "예비창업자 또는 창업3년 미만의 개인, 법인",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178213",
@@ -1947,7 +2019,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178213",
    "status": "open",
    "note": "해당 주제에 관심 있는 (예비)창업가 누구나 신청 가능",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178212",
@@ -1975,7 +2048,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178212",
    "status": "open",
    "note": "KT와의 사업화 연계를 희망하는 스타트업 및 중소기업 ※공고일('26.6.22.) 기준 업력 10년 내 법인 사업자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178211",
@@ -2001,7 +2075,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178211",
    "status": "open",
    "note": "부산에서 사회서비스 분야(복지·보건·교육·고용·주거 등) 창업을 희망하는 청년 예비창업팀 ① 청년 예비창업자 (사업자등록 전 단계) - 만 18…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178210",
@@ -2029,7 +2104,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178210",
    "status": "open",
    "note": "인천 공공기관과 실증과제 추진이 가능한 창업기업 또는 중소기업 ※선정기업이 인천 관외 기업인 경우, 협약기간 종료일로부터 1개월 전까지 본점·지…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178209",
@@ -2055,7 +2131,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178209",
    "status": "open",
    "note": "인공지능, 전자정보, 첨단장비, 바이오/헬스케어, 신소재, 신에너지, 기타 등 총 7개 분야 ① 향후 2년 내 중국 강소성에 법인 설립 예정인 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178208",
@@ -2082,7 +2159,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178208",
    "status": "open",
    "note": "공고일 기준 경기도에 본사(또는 공장)가 소재한 중소·중견 기업으로서 기후테크 기술을 보유하고 있으며 실증 사례 추진이 필요한 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178207",
@@ -2110,7 +2188,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178207",
    "status": "open",
    "note": "자체 콘텐츠 기획 및 제작이 가능한 도내 콘텐츠 기업 ※ 자세한 내용은 공고문 및 사업 안내서 참조",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178205",
@@ -2137,7 +2216,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178205",
    "status": "open",
    "note": "◦ (모집규모) 창업기업(Eureka Park) 20개사 내외 ◦ (모집대상) *Eureka Park관: 창업 5년 이내 기업 - 대전 전략산업…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178204",
@@ -2165,7 +2245,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178204",
    "status": "open",
    "note": "모집분야에서 시제품(혹은 시작품)을 보유하고 있으면서, 해외시장 진출을 목표로 하는 설립 10년 미만 창업기업",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178203",
@@ -2193,7 +2274,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178203",
    "status": "open",
    "note": "신한 오픈이노베이션 프로그램에 관심있는 스타트업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178201",
@@ -2219,7 +2301,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178201",
    "status": "open",
    "note": "- 지원 자격: 공고일(2026. 6. 11.) 기준 아래 요건을 모두 충족하는 기업 ① 창업 이력 요건: 대표자 연령 39세 이하의 업력 7년…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178200",
@@ -2247,7 +2330,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178200",
    "status": "open",
    "note": "바이오·메디컬 분야 기업 / 기술이전 및 사업화를 희망하는 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178199",
@@ -2273,7 +2357,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178199",
    "status": "open",
    "note": "아래 두가지 요건을 모두 충족하는 (예비)창업자 및 기업 1) 중앙대학교 교원, 중앙대학교 교원 및 학생 창업기업, 중앙대학교 산학협력단 가족회…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178198",
@@ -2300,7 +2385,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178198",
    "status": "open",
    "note": "신산업 창업 분야의 창업 10년 이내 창업기업으로, 과학기술원( 광주과학기술원, 대구경북과학기술원, 울산과학기술원, 한국과학기술원) 소속(졸업 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178196",
@@ -2327,7 +2413,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178196",
    "status": "open",
    "note": "'26년 초기창업패키지 선정기업",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178195",
@@ -2353,7 +2440,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178195",
    "status": "open",
    "note": "- 초기창업기업(창업 3년 이내, 예비창업자 포함) : 8개社 내외 - 성장창업기업(창업 3년 이상 ∼ 7년 미만) : 7개社 내외",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178194",
@@ -2380,7 +2468,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178194",
    "status": "open",
    "note": "창업도시 내 소재하거나 이전을 희망하는 업력 10년 이내 창업기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178193",
@@ -2408,7 +2497,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178193",
    "status": "open",
    "note": "은평창업지원센터 입주기업, 은평구민 또는 은평구 소재 스타트업 및 서울시 스타트업 (팀은 3인 이내로 제한)",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178192",
@@ -2434,7 +2524,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178192",
    "status": "open",
    "note": "출연(연) 및 대학에 재직 중이며, 본인이 개발한 기술의 사업화를 희망하는 연구자 대덕특구 내 연구소기업 희망 연구자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178191",
@@ -2461,7 +2552,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178191",
    "status": "open",
    "note": "F&B, 뷰티, 소비재 등 5년 이내 기업가형 소상공인",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178189",
@@ -2488,7 +2580,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178189",
    "status": "open",
    "note": "우리금융 그룹사 금융 AX 과제 수행 가능 스타트업 ※ 공고 마감일 기준 업력 7년 이내 창업기업 (개인사업자 제외) ※ 기존 디노랩 기업 지원…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178188",
@@ -2514,7 +2607,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178188",
    "status": "open",
    "note": "예비창업자 및 기창업자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178187",
@@ -2542,7 +2636,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178187",
    "status": "open",
    "note": "태국 온라인 플랫폼(쇼피, 라자다 등)을 통해 자사 브랜드 제품을 판매 중인 서울 소재 중소기업",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178186",
@@ -2568,7 +2663,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178186",
    "status": "open",
    "note": "공고일(26.6.4.) 기준 대한민국 국적으로, 전통문화산업 분야 창업을 희망하는 예비창업자로서, 만 39세 이하인 자 - 예비창업자는 개인 또…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178185",
@@ -2595,7 +2691,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178185",
    "status": "open",
    "note": "◦ 응모자격: 비즈니스를 통해 교통 또는 환경 분야의 사회문제를 해결하고자 하는 소셜벤처 창업자 (아래 항목 중 1가지 이상 해당 必) ① 사회…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178183",
@@ -2622,7 +2719,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178183",
    "status": "open",
    "note": "ㅇ 지원대상 : 본사가 충청남도에 소재한 콘텐츠 기업 (Pre-TIPS / TIPS 중 택1 신청) [Pre-TIPS 추천 트랙] - 공고일 기…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178182",
@@ -2648,7 +2746,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178182",
    "status": "open",
    "note": "디지털 헬스케어 분야 설립 10년 미만 창업기업 또는 예비창업자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178181",
@@ -2675,7 +2774,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178181",
    "status": "open",
    "note": "참여 기간 내(협약 시점 이후 ~ 12.31.) 신규 채용 1명 이상 및 최소 3개월 이상고용 유지가 가능한 기업, 기업 규모 제한 없음 자세한…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178180",
@@ -2702,7 +2802,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178180",
    "status": "open",
    "note": "기업의 성장을 고민하는 여성CEO",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178179",
@@ -2730,7 +2831,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178179",
    "status": "open",
    "note": "동대문구 거주 청년 동대문구 활동 청년(학업, 직장 및 기타)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178176",
@@ -2756,7 +2858,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178176",
    "status": "open",
    "note": "극초기 창업팀(예비창업가 또는 법인 3년 이내)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178175",
@@ -2783,7 +2886,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178175",
    "status": "open",
    "note": "- 설립 5년 미만 소비자 기술을 보유한 혁신기업으로, 전시 기술은 자사 브랜드명으로 출시되는 프로토타입, 제품 또는 서비스여야 함 - 기존 유…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178174",
@@ -2811,7 +2915,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178174",
    "status": "open",
    "note": "XR 기술을 보유한 서울소재 기업 (서울소재: 본사, 지점, 연구소 등 상관 없음)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178172",
@@ -2838,7 +2943,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178172",
    "status": "open",
    "note": "자립준비청년",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178170",
@@ -2864,7 +2970,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178170",
    "status": "open",
    "note": "창의적인 시제품 아이디어를 가진 학생팀, 예비창업팀, 7년 미만의 스타트업 대상",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178169",
@@ -2892,7 +2999,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178169",
    "status": "open",
    "note": "여성 (예비)창업자 및 초기 스타트업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178166",
@@ -2919,7 +3027,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178166",
    "status": "open",
    "note": "신청일 기준 인천 본사 혹은 1년 이내 인천 본사 이전 가능한 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178164",
@@ -2946,7 +3055,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178164",
    "status": "open",
    "note": "※지원자의 신청 자격(나이, 경제활동, 영업경력 등)의 판단기준일은 모집공고일(2026년 6월 11일 수요일)입니다. [공공지원형1] ● 청년 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178161",
@@ -2974,7 +3084,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178161",
    "status": "open",
    "note": "글로벌 진출을 희망하는 스타트업 총 30개사 (미국, 일본, 중국, 유럽, 싱가포르, 인도 각 5개사 선발)",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178158",
@@ -3000,7 +3111,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178158",
    "status": "open",
    "note": "네트워킹을 희망하는 핀테크 분야 스타트업 및 예비창업자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178157",
@@ -3027,7 +3139,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178157",
    "status": "open",
    "note": "창업의지가 강한 39세 이하 (예비)청년 창업자 또는 7년 미만 청년창업기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178156",
@@ -3053,7 +3166,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178156",
    "status": "open",
    "note": "예비창업자 또는 초기 창업기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178155",
@@ -3081,7 +3195,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178155",
    "status": "open",
    "note": "예술산업 관련 기업, 예술분야 협단체 관계자",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178153",
@@ -3108,7 +3223,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178153",
    "status": "open",
    "note": "지식재산 교육이 필요한 단체, 기업, 학교 또는 기관",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178151",
@@ -3134,7 +3250,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178151",
    "status": "open",
    "note": "[ 예비창업자] ￭ 잠재력 높은 기술의 개발 단계에 있는 창업 준비자 ￭ 기술적 아이디어를 바탕으로 구체적 사업화 목적이 있는 자 ￭ 입주 후 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178150",
@@ -3160,7 +3277,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178150",
    "status": "open",
    "note": "창업에 관심 있는 예비창업자, 7년 미만 창업기업 등",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178147",
@@ -3188,7 +3306,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178147",
    "status": "open",
    "note": "스타트업 대표 및 임직원, (예비)창업자 및 창업에 관심이 있는 학생 등",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178142",
@@ -3215,7 +3334,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178142",
    "status": "open",
    "note": "◦ (모집규모) 대전 소재 바이오테크 기업 4개社 ◦ (일반사항) - 공고일 기준으로 창업 후 7년 이내 기업 - 대전 소재 스타트업: 대전시에…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178141",
@@ -3242,7 +3362,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178141",
    "status": "open",
    "note": "도내 예비·초기창업자, 창업기업 재직자, 대학(원)생, 유관기관 등",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178140",
@@ -3270,7 +3391,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178140",
    "status": "open",
    "note": "공고일('26.06.16) 기준 Seed 투자 유치 완료 이상 삼천리 그룹과 협업(PoC/사업적용/파트너십/투자)을 희망하는 스타트업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178139",
@@ -3297,7 +3419,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178139",
    "status": "open",
    "note": "❍ 국내 특허출원·등록 비용 지원 희망 스타트업/중소기업 ❍ 특허증 1건 이상의 지적재산권 보유 희망 기업(법인 또는 개인) * 본 특허출원·등…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178137",
@@ -3324,7 +3447,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178137",
    "status": "open",
    "note": "모집공고일 기준 창업 후 업력 7년 이내 창업기업 * 신산업 창업 분야에 해당하는 경우 업력 10년 이내까지 신청 가능",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178135",
@@ -3350,7 +3474,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178135",
    "status": "open",
    "note": "AI·디지털 기술 기반 ICT 예비창업자 및 7년 이내 창업기업 - 예비창업자: 창업에 대한 명확하고 뚜렷한 의지가 있으며 1년 이내 창업을 목…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178129",
@@ -3376,7 +3501,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178129",
    "status": "open",
    "note": "예비창업자 및 업력 7년 이내 국토교통 분야 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178127",
@@ -3404,7 +3530,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178127",
    "status": "open",
    "note": "미국 시장 진출을 준비하는 스타트업 해외 고객 확보 및 사업 확장을 추진 중인 중소·벤처기업 미국 현지 파트너 발굴 및 PoC 기회를 모색하는 …",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178126",
@@ -3430,7 +3557,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178126",
    "status": "open",
    "note": "- 새로이 기업을 설립하고자 하는 예비 여성창업자 - 입주 신청일 현재 창업 후 7년이 경과 되지 아니한 여성기업 ※ 입주 후 3개월 이내 사업…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178123",
@@ -3458,7 +3586,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178123",
    "status": "open",
    "note": "글로벌 실증이 가능한 기술 아이템을 보유하고 해외 기업 및 기관과 협력이 가능한 창업 10년 이내(신청을 기준) 연구개발특구 소재 기업 *연구소…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178117",
@@ -3486,7 +3615,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178117",
    "status": "open",
    "note": "〇 전시 및 투자유치를 희망하는 로봇 분야 스타트업 및 중소기업(자사 제품 보유 시 우대) - 로봇 관련 기술을 보유하고 있거나 로봇 아이템을 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178116",
@@ -3512,7 +3642,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178116",
    "status": "open",
    "note": "1. 예비창업 또는 창업 후 7년 이내 창업 기업 2. 사업장 주소 : 구미소재 기업 및 구미(본사)로 이전 계획 기업 - 선정 후 60일 이내…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178115",
@@ -3539,7 +3670,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178115",
    "status": "open",
    "note": "최근 3년 내 누적 투자유치 실적(10억원 이상)을 보유한 7년 이내 창업기업(단, 신산업창업분야 해당시 업력 10년 이내) * 최근 3년 : …",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178113",
@@ -3567,7 +3699,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178113",
    "status": "open",
    "note": "투자유치에 관심있는 스타트업 누구나 (업력/분야제한 無)",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178112",
@@ -3594,7 +3727,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178112",
    "status": "open",
    "note": "① 공고일 기준 국내에 소재지를 둔 초기 • 성장 단계 유망 분야 법인 기업 ② 누적 투자액 약 10억원 내외 또는 투자 수준에 상응하는 기술력…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178109",
@@ -3621,7 +3755,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178109",
    "status": "open",
    "note": "- 출산・육아로 인한 휴직자 또는 단축근무자의 대체인력 신규 채용 기관 - 육아기 연구자의 유연근무를 위한 추가 연구 인력 신규 채용 기관",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178108",
@@ -3648,7 +3783,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178108",
    "status": "open",
    "note": "경복대학교, 대진대학교, 차의과학대학교 재학생, 경기 북동부에 거주하는 일반 참여자 혹은 경기 북동부 사업자등록 의사가 있는 일반 참여자 (가평…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178106",
@@ -3674,7 +3810,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178106",
    "status": "open",
    "note": "(성동구 관내 법인 기업) 예비창업자 및 창업기업 정부지원사업 참여를 준비 중인 기업 정부 R&D 및 사업화 과제를 준비 중인 기업 투자유치 및…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178103",
@@ -3700,7 +3837,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178103",
    "status": "open",
    "note": "신청대상 항공, 우주 기술에 관심있고, 관련 사업모델을 구상하고 있는 누구나[대학(원)생, 직장인, 일반인 등] *단, 사업자등록이 되어 있지 …",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178100",
@@ -3728,7 +3866,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178100",
    "status": "open",
    "note": "1) 수요처 : AI 보안 제품·서비스 도입 및 비즈니스 협력이 필요한 기업·기관 (대·중견기업, 공기업, 공공기관 등) ※ 중소기업은 매출 1…",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178097",
@@ -3756,7 +3895,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178097",
    "status": "open",
    "note": "의류, 섬유, 소재, 신발, 디지털, AI콘텐츠, 친환경, 리빙, 액세서리 등 섬유패션 관련 기업 ※지역제한 없음",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178096",
@@ -3784,7 +3924,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178096",
    "status": "open",
    "note": "모집공고일 기준 바이오 분야 해당 창업 10년 이내인 창업기업 ※ 상세내용은 공고문 내 '신청 자격' 확인",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178095",
@@ -3810,7 +3951,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178095",
    "status": "open",
    "note": "전 국민, 예비창업자, 7년이내 창업기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178084",
@@ -3836,7 +3978,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178084",
    "status": "open",
    "note": "1. 예비창업자 2. 창업 7년 이내 초기 기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178081",
@@ -3862,7 +4005,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178081",
    "status": "open",
    "note": "- 충청남도 내 창업 예정인 청년 예비창업자 또는 - 충청남도 소재 사업장을 운영 중인 청년 기창업자(업종제한 없음) *(청년) 19세 이상 3…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178080",
@@ -3890,7 +4034,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178080",
    "status": "open",
    "note": "생성형 AI 및 디지털 전환에 관심있는 누구나",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178078",
@@ -3918,7 +4063,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178078",
    "status": "open",
    "note": "※모집 조건 - 투자 단계 : Series A ~ preIPO - 모집 대상 : 뷰티·코스메틱 접목 가능한 바이오·피부과학 기술 기업 - 모집 …",
-   "star": false
+   "star": false,
+   "source": "공고"
   },
   {
    "id": "ks178077",
@@ -3946,7 +4092,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178077",
    "status": "open",
    "note": "※모집 조건 - 투자 단계: Pre-Seed ~ Pre-A - AI, 푸드테크, 라이프스타일, 콘텐츠·미디어",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178075",
@@ -3974,7 +4121,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178075",
    "status": "open",
    "note": "대한민국 국적의 성인 또는 고졸 이상 학력자라면 전공 및 경력과 무관하게 누구나 지원 가능합니다.",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178073",
@@ -4000,7 +4148,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178073",
    "status": "open",
    "note": "□ 모집부문 ❶ AI 및 공공데이터 활용 제품 및 서비스 개발 ❷ AI 기술 활용 국민 서비스 개선 아이디어 □ 참가대상 (모집부문❶) 예비창업…",
-   "star": true
+   "star": true,
+   "source": "공고"
   },
   {
    "id": "ks178069",
@@ -4026,7 +4175,8 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178069",
    "status": "open",
    "note": "예비창업자, 3년미만 창업기업",
-   "star": true
+   "star": true,
+   "source": "공고"
   }
  ]
 }
