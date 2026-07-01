@@ -228,6 +228,15 @@
   .ladder{display:flex;flex-direction:column;gap:2px;align-items:flex-start}
   .lad{font-size:13px;font-weight:700;background:var(--line2);padding:8px 13px;border-radius:9px;color:var(--ink)}
   .lad-ar{color:var(--ink3);font-size:12px;padding:1px 0 1px 14px}
+  /* 영업 채널 */
+  .ch-row{display:flex;align-items:center;gap:11px;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:11px 13px;margin-bottom:7px;box-shadow:var(--shadow)}
+  .ch-row.hot{border-color:#d6ddff;background:linear-gradient(180deg,var(--brand-soft),var(--card) 60%)}
+  .ch-n{width:22px;height:22px;border-radius:6px;background:var(--line2);color:var(--ink2);font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .ch-row.hot .ch-n{background:var(--brand);color:#fff}
+  .ch-body{flex:1;min-width:0}
+  .ch-name{font-size:13.5px;font-weight:700;letter-spacing:-.2px}
+  .ch-desc{font-size:11.5px;color:var(--ink3);margin-top:2px;line-height:1.4}
+  .ch-tag{font-size:10.5px;font-weight:700;color:var(--brand);background:var(--brand-soft);padding:3px 8px;border-radius:6px;flex-shrink:0}
 
   /* ===== Grants (정부지원) ===== */
   .grant-group{margin-bottom:18px}
@@ -431,6 +440,8 @@
         <div class="sec-h">영업 흐름</div>
         <div id="sales-flow"></div>
         <div class="callout2" style="margin-top:14px">AI·기술 이야기는 <b>맨 마지막에만</b>. 고객은 기술이 아니라 운영 문제 해결을 삽니다.</div>
+        <div class="sec-h">영업 채널 — 어디서 파나</div>
+        <div id="channels"></div>
         <button class="btn-primary" style="margin:16px 0 8px" onclick="nav('academy')">이 흐름 직접 체험하기 →</button>
       </div>
     </div>
@@ -750,6 +761,26 @@ function renderBotNav(){
 }
 function scrollToBuilder(){document.getElementById('builder-anchor').scrollIntoView({behavior:'smooth'});}
 
+// ============ 영업 채널 표준 리스트 ============
+const CHANNELS=[
+  {n:'동네 학원가 직접 방문', d:'상가 학원 밀집지 도보 영업 — "운영 무료로 봐드릴게요"', t:'즉시', hot:true},
+  {n:'소개 (레퍼럴)',        d:'구축 고객 학원장 → 옆 학원장. 1건이 3건 됨', t:'최고 전환', hot:true},
+  {n:'프랜차이즈 본사',      d:'본사 계약 = 다지점 일괄 온보딩', t:'대형', hot:true},
+  {n:'학원장 커뮤니티',      d:'네이버 카페·밴드·카톡 오픈채팅(원장 모임)', t:'중'},
+  {n:'교육청 등록 학원 명부', d:'공개 학원·교습소 리스트 → 타깃 리스트업', t:'중'},
+  {n:'정부사업 연계',        d:'소상공인 디지털전환·컨설팅 수행사 등록 → 학원 매칭', t:'공신력'},
+  {n:'인바운드 콘텐츠',      d:'인스타·블로그 "학원 운영 팁" → 문의 유입', t:'장기'},
+  {n:'지역 광고',            d:'당근·지역맘카페 "학원 운영 자동화"', t:'저비용'},
+];
+function renderChannels(){
+  const el=document.getElementById('channels'); if(!el) return;
+  el.innerHTML=CHANNELS.map((c,i)=>`<div class="ch-row ${c.hot?'hot':''}">
+    <span class="ch-n">${i+1}</span>
+    <div class="ch-body"><div class="ch-name">${c.name||c.n} ${c.hot?'🔥':''}</div><div class="ch-desc">${c.d}</div></div>
+    <span class="ch-tag">${c.t}</span></div>`).join('')
+    +`<div class="callout2" style="margin-top:10px">우선순위 — <b>①직접방문으로 첫 고객 → ②소개로 확산 → ③프랜차이즈로 스케일.</b> 초기엔 ①②가 전부입니다.</div>`;
+}
+
 // ============ 교육업 특화 + 무료설치/과금 pitch ============
 function renderEduPitch(){
   const el=document.getElementById('edu-pitch'); if(!el) return;
@@ -775,7 +806,7 @@ function renderEduPitch(){
 
 // ============ SALES FLOW RENDER ============
 function renderSales(){
-  renderEduPitch();
+  renderEduPitch(); renderChannels();
   document.getElementById('sales-flow').innerHTML=SALES_FLOW.map((s,i)=>
     `<div class="sflow-step ${i===SALES_FLOW.length-1?'last':''}">
       <span class="sn">${i===SALES_FLOW.length-1?'✓':i+1}</span>
