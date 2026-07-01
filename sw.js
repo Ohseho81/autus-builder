@@ -1,6 +1,6 @@
 /* AUTUS Builder — Service Worker (offline + 업데이트 프롬프트) */
 /* VERSION은 배포 시 pre-commit 훅이 자동으로 갱신 → 변경 감지 트리거 */
-const VERSION = '20260629-225225';
+const VERSION = '20260701-211904';
 const CACHE = 'autus-builder-' + VERSION;
 const ASSETS = [
   './',
@@ -13,9 +13,8 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', e => {
-  // skipWaiting 호출하지 않음 → 새 워커는 '대기' 상태로 머물고,
-  // 사용자가 '업데이트' 배너를 탭할 때만 활성화된다.
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+  // 자동 업그레이드: 새 버전을 즉시 활성화(skipWaiting). 페이지 쪽에서 '안 끊기게' 반영.
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {

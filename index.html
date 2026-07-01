@@ -409,6 +409,15 @@
             <input class="biz-in" id="biz-name" placeholder="상호(선택)" oninput="setBiz('name',this.value)">
             <input class="biz-in" id="biz-field" placeholder="업종(선택)" oninput="setBiz('field',this.value)">
           </div></div>
+          <div class="elig-row"><div class="elig-label">내 지역</div><div class="elig-opts">
+            <select class="biz-in" id="biz-region" onchange="setBiz('region',this.value);oppShowAll=false;renderOppList()">
+              <option value="">지역 무관 (전체)</option>
+              <option>서울</option><option>경기</option><option>인천</option><option>강원</option>
+              <option>충북</option><option>충남</option><option>대전</option><option>세종</option>
+              <option>전북</option><option>전남</option><option>광주</option><option>경북</option>
+              <option>경남</option><option>대구</option><option>울산</option><option>부산</option><option>제주</option>
+            </select>
+          </div></div>
         </div>
 
         <!-- ② 발굴 (Discovery) -->
@@ -473,13 +482,6 @@
       <div class="exp-body" id="exp-body"></div>
     </div>
   </section>
-
-  <!-- ============ 업데이트(패치) 배너 ============ -->
-  <div class="install-bar update" id="updatebar">
-    <div class="ii">↻</div>
-    <div><div class="it">새 버전이 있어요</div><div class="id">탭하면 최신으로 업데이트돼요</div></div>
-    <button class="ibtn" id="update-btn">업데이트</button>
-  </div>
 
   <!-- ============ 홈 화면 추가 안내 ============ -->
   <div class="install-bar" id="installbar">
@@ -716,6 +718,15 @@ function eligible(o,p){
   const stageOk=o.elig.stage.includes(p.stage);
   return {ok:stageOk, reasons: stageOk?[]:['사업 단계']};
 }
+// 지역: 조건(시도)이면 빌더 지역과 일치해야, 전국이면 무관. 빌더 미선택이면 못 거름(유지).
+function regionOK(o){
+  const gr=(o.region||'전국').trim();
+  if(/전국|전 ?지역|공통|제한 ?없|무관/.test(gr)) return true;   // 조건 아님 → 무관
+  const br=(bizProfile.region||'').trim();
+  if(!br) return true;                                          // 빌더 지역 미선택 → 유지
+  const norm=s=>s.replace(/특별자치시|특별자치도|특별시|광역시|도$/g,'').replace(/\s/g,'');
+  return norm(gr)===norm(br)||gr.includes(br)||br.includes(gr); // 조건 → 일치해야
+}
 
 function renderGrants(){
   const intro='빌더는 1인 디지털 서비스 사업자입니다. 글로벌 표준 5단계로 — 받을 수 있는 것만 골라, 서류까지 만들고, 신청을 추적합니다.';
@@ -726,8 +737,8 @@ function renderGrants(){
     `<div class="lc-step ${i<3?'on':''}"><span class="lc-n">${i+1}</span><span class="lc-k">${s.k}</span><span class="lc-d">${s.d}</span></div>`
     +(i<LIFECYCLE.length-1?'<span class="lc-ar">›</span>':'')).join('');
   renderEligControls();
-  const bn=document.getElementById('biz-name'), bf=document.getElementById('biz-field');
-  if(bn) bn.value=bizProfile.name||''; if(bf) bf.value=bizProfile.field||'';
+  const bn=document.getElementById('biz-name'), bf=document.getElementById('biz-field'), br=document.getElementById('biz-region');
+  if(bn) bn.value=bizProfile.name||''; if(bf) bf.value=bizProfile.field||''; if(br) br.value=bizProfile.region||'';
   renderOppList();
   document.getElementById('grants-strategy').innerHTML=STRATEGY.map(s=>`<div class="strat-item">${s}</div>`).join('');
   updateTrackLink();
@@ -761,7 +772,7 @@ function scoreColor(s){ return s>=80?'var(--ok)':s>=65?'var(--brand)':'var(--ink
 let oppShowAll=false;
 const OPP_LIMIT=20;
 function renderOppList(){
-  const matched=OPPS.map(o=>({o,e:eligible(o,gProfile)})).filter(x=>x.e.ok)
+  const matched=OPPS.map(o=>({o,e:eligible(o,gProfile)})).filter(x=>x.e.ok && regionOK(x.o))
     .map(x=>({o:x.o, score:relevance(x.o,gProfile)}));
   matched.sort((a,b)=> b.score-a.score
     || (a.o.deadline==='상시'?'9999':a.o.deadline).localeCompare(b.o.deadline==='상시'?'9999':b.o.deadline));
@@ -1097,33 +1108,25 @@ function closeIosSheet(){document.getElementById('iossheet').classList.remove('s
 // iOS는 beforeinstallprompt가 없으므로 직접 안내 노출
 if(isIOS&&!isStandalone&&!installDismissed()){showInstallBar();}
 
-// ============ 서비스워커 등록 + 업데이트 프롬프트 ============
-function showUpdateBar(reg){
-  const bar=document.getElementById('updatebar');
-  if(!bar) return;
-  bar.classList.add('show');
-  document.getElementById('update-btn').onclick=()=>{
-    document.getElementById('update-btn').textContent='적용 중…';
-    if(reg.waiting) reg.waiting.postMessage({type:'SKIP_WAITING'});
-  };
-}
+// ============ 서비스워커 — 자동 업그레이드(조용히·안 끊김) ============
+// 새 버전이 뜨면 SW가 즉시 활성화(skipWaiting). 페이지는 '백그라운드일 때만' 새로고침 →
+// 사용 중엔 안 끊기고, 앱을 껐다 켜거나 다른 앱 갔다 오면 자동으로 최신.
 if('serviceWorker' in navigator){
-  let reloaded=false;
+  let refreshing=false;
   navigator.serviceWorker.addEventListener('controllerchange',()=>{
-    if(reloaded) return; reloaded=true; location.reload();  // 새 워커 활성화 → 새로고침
+    if(refreshing) return; refreshing=true;
+    if(document.hidden) location.reload();   // 안 보일 때만 조용히 교체
+    else refreshing=false;                   // 사용 중이면 대기(다음에 열 때 최신)
   });
   window.addEventListener('load',async ()=>{
     try{
       const reg=await navigator.serviceWorker.register('sw.js');
-      if(reg.waiting && navigator.serviceWorker.controller) showUpdateBar(reg);
-      reg.addEventListener('updatefound',()=>{
-        const nw=reg.installing; if(!nw) return;
-        nw.addEventListener('statechange',()=>{
-          if(nw.state==='installed' && navigator.serviceWorker.controller) showUpdateBar(reg);
-        });
-      });
-      setInterval(()=>reg.update().catch(()=>{}),60000);
+      setInterval(()=>reg.update().catch(()=>{}),60000);   // 1분마다 새 버전 확인
     }catch(err){console.warn('SW 등록 실패',err);}
+  });
+  // 앱을 백그라운드로 보낼 때 최신 확인 → 돌아오면 자동 반영
+  document.addEventListener('visibilitychange',()=>{
+    if(document.hidden) navigator.serviceWorker.getRegistration().then(r=>{ if(r) r.update(); });
   });
 }
 
