@@ -188,6 +188,31 @@
   .tier-split{font-size:12px;color:#cdd8f0;padding-top:11px;border-top:1px solid rgba(255,255,255,.12)}
   .tier-split b{color:#fff}
   .tier-sla{font-size:12px;color:#9fb0d8;margin-top:8px}
+  .tier-share{background:rgba(255,255,255,.10);border-radius:11px;padding:11px 14px;margin-bottom:12px;display:flex;align-items:baseline;justify-content:space-between}
+  .tier-share .ts-l{font-size:11.5px;color:#9fb0d8;font-weight:600}
+  .tier-share .ts-v{font-size:24px;font-weight:800;letter-spacing:-.5px}
+  .tier-share .ts-sub{font-size:12px;color:#9fb0d8;font-weight:600}
+
+  /* 요금제(기능) 토글 */
+  .feat-list{margin:4px 0 12px}
+  .feat-row{display:flex;align-items:center;gap:11px;padding:12px 0;border-bottom:1px solid var(--line2)}
+  .feat-chk{font-size:16px;flex-shrink:0}
+  .feat-body{flex:1;min-width:0}
+  .feat-name{font-size:13.5px;font-weight:700;letter-spacing:-.2px}
+  .feat-desc{font-size:11.5px;color:var(--ink3);margin-top:2px}
+  .feat-price{font-size:13px;font-weight:800;color:var(--ink3);flex-shrink:0}
+  .feat-row.on .feat-price{color:var(--ok)}
+  .feat-free{font-size:10px;font-weight:800;color:var(--ok);background:var(--ok-soft);padding:2px 6px;border-radius:5px;margin-left:4px;vertical-align:middle}
+  .feat-total{font-size:13px;color:var(--ink2);text-align:center;background:var(--brand-soft);border-radius:11px;padding:12px}
+  .feat-total b{font-size:15px}
+
+  /* 교육업 특화 */
+  .edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:4px}
+  .edu-card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px;box-shadow:var(--shadow)}
+  .edu-p{font-size:13px;font-weight:700;color:var(--danger)}
+  .edu-s{font-size:12px;color:var(--ink2);margin-top:5px;line-height:1.4}
+  .price-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line2);font-size:13px}
+  .price-row:last-child{border-bottom:none}
 
   /* ===== Grants (정부지원) ===== */
   .grant-group{margin-bottom:18px}
@@ -387,6 +412,8 @@
     <div class="seg-panel on" id="panel-sales">
       <div class="pad" style="padding-top:14px">
         <div class="quote" style="margin-top:0">"AI를 구축합니다"가 아니라<br><span class="em">"운영을 정리해드립니다"</span>부터 시작하세요.</div>
+        <div id="edu-pitch"></div>
+        <div class="sec-h">영업 흐름</div>
         <div id="sales-flow"></div>
         <div class="callout2" style="margin-top:14px">AI·기술 이야기는 <b>맨 마지막에만</b>. 고객은 기술이 아니라 운영 문제 해결을 삽니다.</div>
         <button class="btn-primary" style="margin:16px 0 8px" onclick="nav('academy')">이 흐름 직접 체험하기 →</button>
@@ -543,11 +570,30 @@ const COPY={
 
 // ============ DATA ============
 const CUSTOMERS=[
-  {id:'c1',name:'밝은수학학원',biz:'학원·교습소',status:'operating',score:92,last:'오늘',next:'리포트 발송',diffs:[['월 수강료','200,000원','value'],['수업 횟수','주 3회','rule'],['결제 순서','결제 후 등록','flow']]},
-  {id:'c2',name:'한빛영어교습소',biz:'학원·교습소',status:'building',score:60,last:'어제',next:'다른 점 입력',diffs:[['월 수강료','180,000원','value']]},
-  {id:'c3',name:'으뜸피아노',biz:'학원·교습소',status:'deploying',score:75,last:'2일 전',next:'직원 초대',diffs:[['월 수강료','150,000원','value'],['보강 한도','월 2회','rule']]},
+  {id:'c1',name:'밝은수학학원',biz:'학원·교습소',status:'operating',score:92,last:'오늘',next:'리포트 발송',diffs:[['월 수강료','200,000원','value'],['수업 횟수','주 3회','rule'],['결제 순서','결제 후 등록','flow']],features:['attend','billing','report','reenroll']},
+  {id:'c2',name:'한빛영어교습소',biz:'학원·교습소',status:'building',score:60,last:'어제',next:'다른 점 입력',diffs:[['월 수강료','180,000원','value']],features:['attend']},
+  {id:'c3',name:'으뜸피아노',biz:'학원·교습소',status:'deploying',score:75,last:'2일 전',next:'직원 초대',diffs:[['월 수강료','150,000원','value'],['보강 한도','월 2회','rule']],features:['attend','billing']},
 ];
-const WS_TABS=['Overview','Build','Deploy','Operate','Evidence'];
+// 교육서비스업 기능(과금) — 설치 무료(기본), 기능 추가할수록 월 과금↑ (프리미엄)
+const FEATURES=[
+  {key:'attend',  name:'출결·학부모 알림', price:0,     base:true, desc:'출석 체크·자동 알림 (기본 제공)'},
+  {key:'billing', name:'수강료 청구·미납관리', price:30000, desc:'자동 청구서·미납 추적'},
+  {key:'makeup',  name:'보강 자동배정',   price:20000, desc:'결석 시 보강 자동 제안'},
+  {key:'report',  name:'월간 리포트·상담기록', price:20000, desc:'학부모용 성취 리포트'},
+  {key:'reenroll',name:'재등록 관리',     price:20000, desc:'재등록 시점 알림·전환율 관리'},
+  {key:'ai',      name:'AI 학부모 상담',  price:40000, desc:'24시간 자동 응대'},
+];
+// 고객별 적용 기능(토글) — localStorage. 기본은 CUSTOMERS.features.
+function loadFeat(){try{return JSON.parse(localStorage.getItem('autus_custfeat')||'{}')}catch(e){return{}}}
+function custFeat(id){const m=loadFeat();if(m[id])return m[id];const c=CUSTOMERS.find(x=>x.id===id);return c?c.features.slice():['attend'];}
+function toggleFeat(id,key){const m=loadFeat();const cur=custFeat(id);const i=cur.indexOf(key);
+  if(key==='attend')return; // 기본 무료 기능은 항상 유지
+  if(i>=0)cur.splice(i,1);else cur.push(key);
+  m[id]=cur;localStorage.setItem('autus_custfeat',JSON.stringify(m));}
+function custFee(id){return custFeat(id).reduce((s,k)=>{const f=FEATURES.find(x=>x.key===k);return s+(f?f.price:0);},0);}
+// 실시간 내 몫 = Σ(고객 월요금) × Tier 보상률
+function myShare(){const t=curTier(CUSTOMERS.length);const rev=CUSTOMERS.reduce((s,c)=>s+custFee(c.id),0);return{rev,rate:t.rate,share:Math.round(rev*t.rate),tier:t};}
+const WS_TABS=['Overview','Build','요금제','Deploy','Operate','Evidence'];
 const ACADEMY=[
   {lv:1,t:'Foundation',d:'AUTUS 사업 이해 · Builder 역할 · 운영 표준화 · 다른 점 3종',state:'current',items:['AUTUS는 무슨 사업인가','Builder는 무엇을 하나','운영 규칙이란','값·규칙·흐름 3가지']},
   {lv:2,t:'Field Practice',d:'현장 방문 · 관찰 · 차이 기록 · 고객 인터뷰',state:'locked'},
@@ -684,8 +730,28 @@ function renderBotNav(){
 }
 function scrollToBuilder(){document.getElementById('builder-anchor').scrollIntoView({behavior:'smooth'});}
 
+// ============ 교육업 특화 + 무료설치/과금 pitch ============
+function renderEduPitch(){
+  const el=document.getElementById('edu-pitch'); if(!el) return;
+  const pains=[
+    ['재등록률 하락','재등록 시점 알림·전환 관리'],
+    ['수강료 미납','자동 청구서·미납 추적'],
+    ['보강 누락','결석 시 보강 자동 제안'],
+    ['학부모 클레임','출결·성취 자동 리포트'],
+  ];
+  el.innerHTML=`
+    <div class="sec-h">교육업 특화 — 학원이 겪는 문제만 정확히</div>
+    <div class="edu-grid">${pains.map(p=>`<div class="edu-card"><div class="edu-p">⚠ ${p[0]}</div><div class="edu-s">→ ${p[1]}</div></div>`).join('')}</div>
+    <div class="sec-h">무료로 시작 · 기능별 과금</div>
+    <div class="vcard" style="padding:14px 15px">
+      <div style="font-size:13px;color:var(--ink2);margin-bottom:11px"><b style="color:var(--brand)">설치는 무료.</b> 출결·학부모 알림부터 켜고, 필요한 기능만 월 과금으로 붙입니다 — 사장님 부담 0에서 시작.</div>
+      ${FEATURES.map(f=>`<div class="price-row"><span>${f.name}${f.base?' <span class="feat-free">무료</span>':''}</span><b>${f.price?manwon(f.price)+' /월':'₩0'}</b></div>`).join('')}
+    </div>`;
+}
+
 // ============ SALES FLOW RENDER ============
 function renderSales(){
+  renderEduPitch();
   document.getElementById('sales-flow').innerHTML=SALES_FLOW.map((s,i)=>
     `<div class="sflow-step ${i===SALES_FLOW.length-1?'last':''}">
       <span class="sn">${i===SALES_FLOW.length-1?'✓':i+1}</span>
@@ -978,7 +1044,7 @@ function curTier(n){let t=TIERS[0];for(const x of TIERS)if(n>=x.min)t=x;return t
 function renderTier(){
   const n=CUSTOMERS.length, t=curTier(n);
   const csat=Math.round(CUSTOMERS.reduce((a,c)=>a+(c.score||0),0)/Math.max(1,n));
-  const earn=Math.round(n*FEE_PER_CUST*t.rate);
+  const ms=myShare();
   const pct=t.needMin?Math.min(100,Math.round(n/t.needMin*100)):100;
   const remain=t.needMin?Math.max(0,t.needMin-n):0;
   const myPct=Math.round(t.rate*100), autusPct=100-myPct-10;
@@ -986,11 +1052,12 @@ function renderTier(){
     <div class="tier-card">
       <div class="tier-top"><span class="tier-badge">${t.label}</span>
         <span class="tier-next-lbl">${t.next?`${t.next}까지 고객 ${remain}명`:'최고 등급 🏆'}</span></div>
+      <div class="tier-share"><div class="ts-l">내 몫 · 실시간 (${myPct}%)</div><div class="ts-v">${manwon(ms.share)}<span class="ts-sub"> /월</span></div></div>
       <div class="tier-bar"><span style="width:${pct}%"></span></div>
       <div class="tier-kpis">
         <div><div class="tv">${n}</div><div class="tl">고객</div></div>
+        <div><div class="tv">${manwon(ms.rev)}</div><div class="tl">월 매출</div></div>
         <div><div class="tv">${csat}</div><div class="tl">평균 CSAT</div></div>
-        <div><div class="tv">${manwon(earn)}</div><div class="tl">이번달 예상(${myPct}%)</div></div>
       </div>
       <div class="tier-split">수익 배분 · <b>나 ${myPct}%</b> · 파트너 10% · AUTUS ${autusPct}%</div>
       <div class="tier-sla">🎯 다음 목표(SLA): ${t.sla}</div>
@@ -1038,6 +1105,16 @@ function renderWs(){
       <div class="sec-h">이 학원만 다른 점</div>
       <div class="difflist">${c.diffs.map(d=>`<div class="dl-item"><span class="tag tag-${d[2]}">${d[2]==='value'?'값':d[2]==='rule'?'규칙':'흐름'}</span><span>${d[0]}: <b>${d[1]}</b></span></div>`).join('')}</div>
       <div style="font-size:13px;color:var(--ink2);margin-top:6px">완성률 <b style="color:var(--brand)">${c.score}%</b></div>`;
+  } else if(wsTab==='요금제'){
+    const feats=custFeat(c.id), rate=curTier(CUSTOMERS.length).rate;
+    p.innerHTML=`<div class="callout2" style="margin-top:0">설치 <b>무료</b> · 필요한 기능만 켜면 월 과금. 켤 때마다 <b>이 고객 요금 + 내 몫</b>이 실시간 반영돼요.</div>
+      <div class="feat-list">${FEATURES.map(f=>{const on=feats.includes(f.key);
+        return `<div class="feat-row ${on?'on':''}" ${f.base?'':`onclick="wsToggleFeat('${c.id}','${f.key}')"`}>
+          <div class="feat-chk">${on?'✅':'⬜'}</div>
+          <div class="feat-body"><div class="feat-name">${f.name}${f.base?' <span class="feat-free">무료</span>':''}</div><div class="feat-desc">${f.desc}</div></div>
+          <div class="feat-price">${f.price?'+'+manwon(f.price):'₩0'}</div>
+        </div>`;}).join('')}</div>
+      <div class="feat-total">이 고객 월 요금 <b>${manwon(custFee(c.id))}</b><span> · 내 몫 ${Math.round(rate*100)}% = </span><b style="color:var(--ok)">${manwon(Math.round(custFee(c.id)*rate))}</b></div>`;
   } else if(wsTab==='Deploy'){
     p.innerHTML=`<div class="sec-h" style="margin-top:0">배포 상태</div>
       <ul class="todo-list">
@@ -1062,6 +1139,7 @@ function renderWs(){
   }
 }
 function wsGo(t){wsTab=t;renderWs();}
+function wsToggleFeat(id,key){toggleFeat(id,key);renderWs();renderTier();} // 실시간: 고객요금+내몫 동시 갱신
 
 // ============ ACADEMY ============
 function renderAcademy(){
