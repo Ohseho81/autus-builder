@@ -213,6 +213,21 @@
   .edu-s{font-size:12px;color:var(--ink2);margin-top:5px;line-height:1.4}
   .price-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line2);font-size:13px}
   .price-row:last-child{border-bottom:none}
+  .feat-pct{font-size:10px;font-weight:800;color:var(--flow);background:var(--warn-soft);padding:2px 6px;border-radius:5px;margin-left:3px;vertical-align:middle}
+
+  /* 3단계 과금 패키징 */
+  .tier3{display:flex;gap:8px;margin-bottom:2px}
+  .t3{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 11px;box-shadow:var(--shadow)}
+  .t3-h{font-size:12.5px;font-weight:800;letter-spacing:-.2px}
+  .t3-tag{display:inline-block;font-size:10px;font-weight:800;padding:2px 7px;border-radius:5px;margin:6px 0 7px}
+  .t3-tag.core{background:var(--ok-soft);color:var(--ok)}
+  .t3-tag.sub{background:var(--brand-soft);color:var(--brand)}
+  .t3-tag.out{background:var(--warn-soft);color:var(--flow)}
+  .t3-d{font-size:11px;color:var(--ink3);line-height:1.45}
+  /* 확장 경로 */
+  .ladder{display:flex;flex-direction:column;gap:2px;align-items:flex-start}
+  .lad{font-size:13px;font-weight:700;background:var(--line2);padding:8px 13px;border-radius:9px;color:var(--ink)}
+  .lad-ar{color:var(--ink3);font-size:12px;padding:1px 0 1px 14px}
 
   /* ===== Grants (정부지원) ===== */
   .grant-group{margin-bottom:18px}
@@ -570,29 +585,34 @@ const COPY={
 
 // ============ DATA ============
 const CUSTOMERS=[
-  {id:'c1',name:'밝은수학학원',biz:'학원·교습소',status:'operating',score:92,last:'오늘',next:'리포트 발송',diffs:[['월 수강료','200,000원','value'],['수업 횟수','주 3회','rule'],['결제 순서','결제 후 등록','flow']],features:['attend','billing','report','reenroll']},
-  {id:'c2',name:'한빛영어교습소',biz:'학원·교습소',status:'building',score:60,last:'어제',next:'다른 점 입력',diffs:[['월 수강료','180,000원','value']],features:['attend']},
-  {id:'c3',name:'으뜸피아노',biz:'학원·교습소',status:'deploying',score:75,last:'2일 전',next:'직원 초대',diffs:[['월 수강료','150,000원','value'],['보강 한도','월 2회','rule']],features:['attend','billing']},
+  {id:'c1',name:'밝은수학학원',biz:'학원·교습소',status:'operating',score:92,last:'오늘',next:'리포트 발송',diffs:[['월 수강료','200,000원','value'],['수업 횟수','주 3회','rule'],['결제 순서','결제 후 등록','flow']],sub:['ai_ops','auto','analytics'],outcome:['pay'],gmv:8000000,newrev:0},
+  {id:'c2',name:'한빛영어교습소',biz:'학원·교습소',status:'building',score:60,last:'어제',next:'다른 점 입력',diffs:[['월 수강료','180,000원','value']],sub:[],outcome:[],gmv:0,newrev:0},
+  {id:'c3',name:'으뜸피아노',biz:'학원·교습소',status:'deploying',score:75,last:'2일 전',next:'직원 초대',diffs:[['월 수강료','150,000원','value'],['보강 한도','월 2회','rule']],sub:['auto'],outcome:['pay'],gmv:3000000,newrev:0},
 ];
-// 교육서비스업 기능(과금) — 설치 무료(기본), 기능 추가할수록 월 과금↑ (프리미엄)
-const FEATURES=[
-  {key:'attend',  name:'출결·학부모 알림', price:0,     base:true, desc:'출석 체크·자동 알림 (기본 제공)'},
-  {key:'billing', name:'수강료 청구·미납관리', price:30000, desc:'자동 청구서·미납 추적'},
-  {key:'makeup',  name:'보강 자동배정',   price:20000, desc:'결석 시 보강 자동 제안'},
-  {key:'report',  name:'월간 리포트·상담기록', price:20000, desc:'학부모용 성취 리포트'},
-  {key:'reenroll',name:'재등록 관리',     price:20000, desc:'재등록 시점 알림·전환율 관리'},
-  {key:'ai',      name:'AI 학부모 상담',  price:40000, desc:'24시간 자동 응대'},
+// 3단계 과금 — 운영은 무료(Core) · 성장/자동화는 구독(Subscription) · 성과는 함께(Outcome 비율)
+const CORE_ITEMS=['운영보드·총괄시간표·출석부','회원·반·강사·시설 관리','상담·요청·공지·학부모 조회','GWS 연동(Drive/Calendar/Gmail)','AI 기본(검색·요약·추천)'];
+const SUB_PLANS=[
+  {key:'ai_ops',   name:'AI 운영',    price:40000, desc:'상담 요약·출석/성장 분석·부모 리포트'},
+  {key:'auto',     name:'자동화',     price:30000, desc:'자동 청구·알림·문자·카톡·보강/반배정'},
+  {key:'analytics',name:'운영 분석',  price:20000, desc:'KPI·매출·출석·유지율 대시보드'},
+  {key:'manager',  name:'Manager OS', price:20000, desc:'드래그 시간표·실시간 상태·충돌 감지'},
 ];
-// 고객별 적용 기능(토글) — localStorage. 기본은 CUSTOMERS.features.
-function loadFeat(){try{return JSON.parse(localStorage.getItem('autus_custfeat')||'{}')}catch(e){return{}}}
-function custFeat(id){const m=loadFeat();if(m[id])return m[id];const c=CUSTOMERS.find(x=>x.id===id);return c?c.features.slice():['attend'];}
-function toggleFeat(id,key){const m=loadFeat();const cur=custFeat(id);const i=cur.indexOf(key);
-  if(key==='attend')return; // 기본 무료 기능은 항상 유지
-  if(i>=0)cur.splice(i,1);else cur.push(key);
-  m[id]=cur;localStorage.setItem('autus_custfeat',JSON.stringify(m));}
-function custFee(id){return custFeat(id).reduce((s,k)=>{const f=FEATURES.find(x=>x.key===k);return s+(f?f.price:0);},0);}
-// 실시간 내 몫 = Σ(고객 월요금) × Tier 보상률
-function myShare(){const t=curTier(CUSTOMERS.length);const rev=CUSTOMERS.reduce((s,c)=>s+custFee(c.id),0);return{rev,rate:t.rate,share:Math.round(rev*t.rate),tier:t};}
+const OUT_PLANS=[
+  {key:'pay', name:'결제·자동수납',   pct:1,  on:'gmv',    unit:'월 결제액',  desc:'결제 연동·자동 수납·미납 관리'},
+  {key:'acq', name:'신규 회원 확보', pct:10, on:'newrev', unit:'신규 등록액', desc:'온라인 상담·전환·리드 관리'},
+];
+// 고객별 적용(토글) — localStorage. 기본은 CUSTOMERS.sub/outcome.
+function loadPlan(){try{return JSON.parse(localStorage.getItem('autus_custplan')||'{}')}catch(e){return{}}}
+function custPlan(id){const m=loadPlan();if(m[id])return m[id];const c=CUSTOMERS.find(x=>x.id===id);return c?{sub:c.sub.slice(),out:c.outcome.slice()}:{sub:[],out:[]};}
+function togglePlan(id,kind,key){const m=loadPlan();const p=custPlan(id);const arr=p[kind];const i=arr.indexOf(key);
+  if(i>=0)arr.splice(i,1);else arr.push(key); m[id]=p; localStorage.setItem('autus_custplan',JSON.stringify(m));}
+function subFee(id){const p=custPlan(id);return p.sub.reduce((s,k)=>{const f=SUB_PLANS.find(x=>x.key===k);return s+(f?f.price:0);},0);}
+function outFee(id){const c=CUSTOMERS.find(x=>x.id===id)||{};const p=custPlan(id);return p.out.reduce((s,k)=>{const f=OUT_PLANS.find(x=>x.key===k);return s+(f?Math.round((c[f.on]||0)*f.pct/100):0);},0);}
+function custFee(id){return subFee(id)+outFee(id);} // Core는 무료(0)
+// 실시간 내 몫 = Σ(구독+성과) × Tier 보상률
+function myShare(){const t=curTier(CUSTOMERS.length);
+  const sub=CUSTOMERS.reduce((s,c)=>s+subFee(c.id),0), out=CUSTOMERS.reduce((s,c)=>s+outFee(c.id),0);
+  return{rev:sub+out,sub,out,rate:t.rate,share:Math.round((sub+out)*t.rate),tier:t};}
 const WS_TABS=['Overview','Build','요금제','Deploy','Operate','Evidence'];
 const ACADEMY=[
   {lv:1,t:'Foundation',d:'AUTUS 사업 이해 · Builder 역할 · 운영 표준화 · 다른 점 3종',state:'current',items:['AUTUS는 무슨 사업인가','Builder는 무엇을 하나','운영 규칙이란','값·규칙·흐름 3가지']},
@@ -742,11 +762,15 @@ function renderEduPitch(){
   el.innerHTML=`
     <div class="sec-h">교육업 특화 — 학원이 겪는 문제만 정확히</div>
     <div class="edu-grid">${pains.map(p=>`<div class="edu-card"><div class="edu-p">⚠ ${p[0]}</div><div class="edu-s">→ ${p[1]}</div></div>`).join('')}</div>
-    <div class="sec-h">무료로 시작 · 기능별 과금</div>
-    <div class="vcard" style="padding:14px 15px">
-      <div style="font-size:13px;color:var(--ink2);margin-bottom:11px"><b style="color:var(--brand)">설치는 무료.</b> 출결·학부모 알림부터 켜고, 필요한 기능만 월 과금으로 붙입니다 — 사장님 부담 0에서 시작.</div>
-      ${FEATURES.map(f=>`<div class="price-row"><span>${f.name}${f.base?' <span class="feat-free">무료</span>':''}</span><b>${f.price?manwon(f.price)+' /월':'₩0'}</b></div>`).join('')}
-    </div>`;
+    <div class="sec-h">과금 원칙 — 운영 무료 · 성장 구독 · 성과 함께</div>
+    <div class="tier3">
+      <div class="t3"><div class="t3-h">Core · 운영</div><span class="t3-tag core">무료</span><div class="t3-d">시간표·출석·회원·상담 등 운영 필수</div></div>
+      <div class="t3"><div class="t3-h">구독 · 성장</div><span class="t3-tag sub">월 구독</span><div class="t3-d">AI·자동화·분석·Manager OS</div></div>
+      <div class="t3"><div class="t3-h">성과 · 함께</div><span class="t3-tag out">비율</span><div class="t3-d">결제·신규확보·마켓플레이스</div></div>
+    </div>
+    <div class="callout2"><b>"운영은 무료로 깔아드리고, 성장·자동화는 구독, 성과는 함께 나눕니다."</b> 도입 장벽 0 — 학원이 클수록 내 몫도 커집니다.</div>
+    <div class="sec-h">확장 경로</div>
+    <div class="ladder">${['Starter · 무료','Professional · 구독','Business · AI운영','Marketplace · Pack','Outcome · 성과'].map((x,i,a)=>`<span class="lad">${x}</span>${i<a.length-1?'<span class="lad-ar">↓</span>':''}`).join('')}</div>`;
 }
 
 // ============ SALES FLOW RENDER ============
@@ -1106,15 +1130,15 @@ function renderWs(){
       <div class="difflist">${c.diffs.map(d=>`<div class="dl-item"><span class="tag tag-${d[2]}">${d[2]==='value'?'값':d[2]==='rule'?'규칙':'흐름'}</span><span>${d[0]}: <b>${d[1]}</b></span></div>`).join('')}</div>
       <div style="font-size:13px;color:var(--ink2);margin-top:6px">완성률 <b style="color:var(--brand)">${c.score}%</b></div>`;
   } else if(wsTab==='요금제'){
-    const feats=custFeat(c.id), rate=curTier(CUSTOMERS.length).rate;
-    p.innerHTML=`<div class="callout2" style="margin-top:0">설치 <b>무료</b> · 필요한 기능만 켜면 월 과금. 켤 때마다 <b>이 고객 요금 + 내 몫</b>이 실시간 반영돼요.</div>
-      <div class="feat-list">${FEATURES.map(f=>{const on=feats.includes(f.key);
-        return `<div class="feat-row ${on?'on':''}" ${f.base?'':`onclick="wsToggleFeat('${c.id}','${f.key}')"`}>
-          <div class="feat-chk">${on?'✅':'⬜'}</div>
-          <div class="feat-body"><div class="feat-name">${f.name}${f.base?' <span class="feat-free">무료</span>':''}</div><div class="feat-desc">${f.desc}</div></div>
-          <div class="feat-price">${f.price?'+'+manwon(f.price):'₩0'}</div>
-        </div>`;}).join('')}</div>
-      <div class="feat-total">이 고객 월 요금 <b>${manwon(custFee(c.id))}</b><span> · 내 몫 ${Math.round(rate*100)}% = </span><b style="color:var(--ok)">${manwon(Math.round(custFee(c.id)*rate))}</b></div>`;
+    const pl=custPlan(c.id), rate=curTier(CUSTOMERS.length).rate;
+    p.innerHTML=`<div class="callout2" style="margin-top:0"><b>운영 무료</b> · 성장 구독 · 성과는 함께. 켤 때마다 <b>고객 요금 + 내 몫</b>이 실시간 반영돼요.</div>
+      <div class="sec-h" style="margin-top:14px">Core · 운영 <span class="feat-free">무료</span></div>
+      ${CORE_ITEMS.map(it=>`<div class="feat-row on"><div class="feat-chk">✅</div><div class="feat-body"><div class="feat-name" style="font-weight:600">${it}</div></div><div class="feat-price">₩0</div></div>`).join('')}
+      <div class="sec-h">구독 · 시간 절약</div>
+      ${SUB_PLANS.map(f=>{const on=pl.sub.includes(f.key);return `<div class="feat-row ${on?'on':''}" onclick="wsToggleFeat('${c.id}','sub','${f.key}')"><div class="feat-chk">${on?'✅':'⬜'}</div><div class="feat-body"><div class="feat-name">${f.name}</div><div class="feat-desc">${f.desc}</div></div><div class="feat-price">${manwon(f.price)} /월</div></div>`;}).join('')}
+      <div class="sec-h">성과 · 비율 과금</div>
+      ${OUT_PLANS.map(f=>{const on=pl.out.includes(f.key);const est=Math.round((c[f.on]||0)*f.pct/100);return `<div class="feat-row ${on?'on':''}" onclick="wsToggleFeat('${c.id}','out','${f.key}')"><div class="feat-chk">${on?'✅':'⬜'}</div><div class="feat-body"><div class="feat-name">${f.name} <span class="feat-pct">${f.pct}%</span></div><div class="feat-desc">${f.unit} ${manwon(c[f.on]||0)}${on?' → +'+manwon(est)+'/월':''}</div></div><div class="feat-price">${f.pct}%</div></div>`;}).join('')}
+      <div class="feat-total">이 고객 월 <b>${manwon(custFee(c.id))}</b> (구독 ${manwon(subFee(c.id))} + 성과 ${manwon(outFee(c.id))})<br><span style="font-size:12px">내 몫 ${Math.round(rate*100)}% = </span><b style="color:var(--ok)">${manwon(Math.round(custFee(c.id)*rate))}</b></div>`;
   } else if(wsTab==='Deploy'){
     p.innerHTML=`<div class="sec-h" style="margin-top:0">배포 상태</div>
       <ul class="todo-list">
@@ -1139,7 +1163,7 @@ function renderWs(){
   }
 }
 function wsGo(t){wsTab=t;renderWs();}
-function wsToggleFeat(id,key){toggleFeat(id,key);renderWs();renderTier();} // 실시간: 고객요금+내몫 동시 갱신
+function wsToggleFeat(id,kind,key){togglePlan(id,kind,key);renderWs();renderTier();} // 실시간: 고객요금+내몫 동시 갱신
 
 // ============ ACADEMY ============
 function renderAcademy(){
