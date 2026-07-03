@@ -336,7 +336,7 @@ var SHELL_EXEC='https://script.google.com/macros/s/AKfycbwk5_CFSQ2OCzVcOo7Pd2o9C
   // 🔴 SWR(Stale-While-Revalidate·글로벌표준) — 캐시 즉시 렌더 + 백그라운드 갱신. 재방문 0초. 캐시=브라우저 로컬(외부DB 아님·GWS-only 준수).
   function swrLoad(key, ac, render){
     try{ var c=localStorage.getItem(key); if(c) render(JSON.parse(c), true); }catch(e){}   // ① 캐시 즉시
-    if(typeof google==='undefined'||!google.script) return;
+    
     api('atbRun',ac,{}).then(function(d){ try{localStorage.setItem(key, JSON.stringify(d));}catch(e){} render(d, false); }).catch(function(){});   // ② 백그라운드 갱신
   }
   function loadToday(){
