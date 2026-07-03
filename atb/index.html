@@ -493,12 +493,22 @@ var SHELL_EXEC='https://script.google.com/macros/s/AKfycbwk5_CFSQ2OCzVcOo7Pd2o9C
     {sec:'결제'},{k:'refund',l:'↩️ 환불 문의'},
     {sec:'문의·정보'},{k:'consult',l:'💬 상담'},{k:'inquiry',l:'📩 일반 문의'},{k:'consent',l:'✅ 동의 요청'},{k:'profile',l:'👤 내 정보 수정'}];
   var _formLid='', _formTok='', _formBase='';
+  var REQ_KO2K={'결석':'absent','보충':'makeup','반변경':'regular','요일변경':'regular','동의':'consent','등록':'inquiry','이벤트':'inquiry'};   // 한글 change_type→req키
+  function rankedTop(){   // 데이터 기반 상위(shellboot FORM_RANK) → 없으면 기본 FORM_TOP
+    var fr=((window.__HUB__||{}).formRank||'').split(',').filter(Boolean);
+    if(!fr.length) return FORM_TOP;
+    var lbl={absent:'❌ 결석',makeup:'🔁 보강',regular:'🔄 반 변경',pay:'💳 결제',consent:'✅ 동의',temp:'📅 일시 변경',inquiry:'📩 문의'};
+    var seen={},out=[];
+    fr.forEach(function(ko){var k=REQ_KO2K[ko];if(k&&lbl[k]&&!seen[k]){seen[k]=1;out.push({k:k,l:lbl[k]});}});
+    FORM_TOP.forEach(function(t){if(!seen[t.k]){seen[t.k]=1;out.push(t);}});   // 기본 4개로 채움
+    return out.slice(0,4);
+  }
   function openFormPanel(name,lid,info){
     _formLid=lid||''; _formTok=''; _formBase='';
     if(_formLid){ api('atbRun','formurl',{learner:_formLid,req:''}).then(function(r){ if(r&&r.ok){ _formTok=r.token; _formBase=r.base; } }).catch(function(){}); }   // 토큰 프리페치(URL=인증)
     var html='<div style="border:1.5px solid var(--sep);border-radius:12px;padding:10px 12px;margin-bottom:10px"><div style="font-size:16px;font-weight:700">'+esc(name)+'</div>'+(info?('<div style="font-size:12px;color:var(--label2);margin-top:2px">'+esc(info)+'</div>'):'')+'</div>'
       +'<div style="font-size:13px;color:var(--label2);margin-bottom:8px">보낼 요청을 고르세요 — 누르면 URL 복사, 카톡에 붙여넣기만.</div>';
-    FORM_TOP.forEach(function(t){ html+='<button class="fxb" style="margin:3px 5px 3px 0;height:44px;padding:0 16px;font-size:15px" onclick="copyFormUrl(this,\''+t.k+'\')">'+t.l+'</button>'; });
+    rankedTop().forEach(function(t){ html+='<button class="fxb" style="margin:3px 5px 3px 0;height:44px;padding:0 16px;font-size:15px" onclick="copyFormUrl(this,\''+t.k+'\')">'+t.l+'</button>'; });
     html+='<div id="fmMore" style="display:none">';
     FORM_MORE.forEach(function(t){
       if(t.sec){ html+='<div style="font-size:12px;font-weight:700;color:var(--label2);margin:10px 2px 4px">'+t.sec+'</div>'; return; }
