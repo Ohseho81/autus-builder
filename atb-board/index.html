@@ -103,8 +103,8 @@
       bd.insertAdjacentHTML('beforeend', html);
     }
   }
-  function onBoard(d){
-    if(!d || !d.ok){ document.getElementById('board').innerHTML='<div class="loading">데이터 오류: '+esc(d&&d.error||'')+'</div>'; return; }
+  function onBoard(d, fromCache){
+    if(!d || !d.ok){ if(fromCache) return; document.getElementById('board').innerHTML='<div class="loading">데이터 오류: '+esc(d&&d.error||'')+'</div>'; return; }
     classes=d.classes||[]; coachSched=d.coachSched||{};
     var present={}; classes.forEach(function(c){ if(DAYS.indexOf(c.day)>=0) present[c.coach]=true; });
     coaches=FIXED.filter(function(n){ return present[n]; }); Object.keys(present).sort().forEach(function(n){ if(coaches.indexOf(n)<0) coaches.push(n); });
@@ -113,12 +113,14 @@
     document.getElementById('qtr').textContent=(d.label||'')+' · 빠른 읽기 뷰';
     document.getElementById('stats').innerHTML='<div class="stat"><div class="n">'+classes.length+'</div><div class="l">개 반</div></div><div class="stat"><div class="n">'+total+'</div><div class="l">등록</div></div><div class="stat"><div class="n">'+coaches.length+'</div><div class="l">코치</div></div>';
     renderBoard();
+    if(!fromCache){ try{ localStorage.setItem('twin_board', JSON.stringify(d)); }catch(e){} }
     var ms=Date.now()-T0;
-    document.getElementById('perf').textContent='⚡ 로드 '+ms+'ms (Vercel 트윈 · GAS 데이터 우회)';
+    document.getElementById('perf').textContent = fromCache ? ('⚡ 캐시 즉시 렌더 '+ms+'ms · GAS 최신화 중…') : ('⚡ GAS 최신화 완료 '+ms+'ms · 다음 방문은 캐시로 즉시');
   }
   var GAS='https://script.google.com/a/macros/autus-ai.com/s/AKfycbwk5_CFSQ2OCzVcOo7Pd2o9CUOsay9z_r-gmpfXLCNvzUigfbb9kjZy2cGIkrhDyFU2iQ/exec';
   document.getElementById('editlink').href=GAS+'?action=mgrtt';
   document.getElementById('src').textContent='데이터 소스: GAS-20 boardjson (@310)';
+  try{ var _cb=localStorage.getItem('twin_board'); if(_cb){ onBoard(JSON.parse(_cb), true); } }catch(e){}   // SWR: 캐시 즉시 렌더(재방문 즉시)
   var sc=document.createElement('script');
   sc.src=GAS+'?action=boardjson&token=ATB-TWIN-2026&callback=onBoard&_='+Date.now();
   sc.onerror=function(){ document.getElementById('board').innerHTML='<div class="loading">GAS 연결 실패 — autus-ai.com 로그인이 필요할 수 있습니다.</div>'; };
