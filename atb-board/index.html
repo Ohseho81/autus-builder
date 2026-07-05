@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#5E9BEF">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<title>올댓바스켓 · 빠른 보드</title>
+<style>
+  :root{--bg:#F5F5F8;--card:#FFF;--label:#2A2A2E;--label2:#9B9BA3;--sep:#E6E6EC;--accent:#5E9BEF}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Pretendard","Apple SD Gothic Neo",system-ui,sans-serif;background:var(--bg);color:var(--label);-webkit-font-smoothing:antialiased;padding:16px 14px 60px}
+  .head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+  h1{font-size:23px;font-weight:700;letter-spacing:-.5px}
+  .qtr{font-size:13px;color:var(--label2);margin-top:3px}
+  .stats{display:flex;gap:8px}
+  .stat{background:var(--card);border-radius:12px;padding:8px 14px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  .stat .n{font-size:19px;font-weight:700}.stat .l{font-size:11px;color:var(--label2);font-weight:600;margin-top:1px}
+  .perf{font-size:12px;color:#2E9E6B;font-weight:700;margin:6px 2px 12px}
+  .week-hd{font-size:14px;font-weight:800;color:var(--accent);padding:12px 4px 6px;margin-top:6px;border-top:2px solid var(--sep)}
+  .day-sec{margin-bottom:16px}
+  .day-title{font-size:16px;font-weight:700;letter-spacing:-.3px;margin:0 2px 6px;display:flex;align-items:baseline;gap:8px}
+  .day-title .dm{font-size:12px;color:var(--label2);font-weight:600}
+  .cal-wrap{background:var(--card);border-radius:14px;overflow-x:auto;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .cal-inner{min-width:max-content}
+  .cal-head{display:flex;position:sticky;top:0;z-index:3;background:var(--card);border-bottom:1px solid var(--sep)}
+  .cal-corner{flex:0 0 52px;width:52px;font-size:11px;color:var(--label2);display:flex;align-items:center;justify-content:center}
+  .cch{flex:1 0 78px;min-width:78px;border-top:4px solid var(--cc,#ccc);text-align:center;padding:6px 2px 5px;font-size:12px;font-weight:700}
+  .cal-body{display:flex;position:relative}
+  .cal-axis{flex:0 0 52px;width:52px;position:relative}
+  .cal-axis .chr{position:absolute;right:5px;font-size:10px;color:var(--label2);transform:translateY(-6px)}
+  .ccol{flex:1 0 78px;min-width:78px;position:relative;border-left:1px solid var(--sep)}
+  .ccol .cgl{position:absolute;left:0;right:0;height:0;border-top:1px solid #F1F1F4}
+  .cev{position:absolute;left:2px;right:2px;border-radius:7px;padding:3px 6px;box-sizing:border-box;overflow:hidden;display:flex;flex-direction:column;justify-content:center;gap:1px}
+  .cev .cn{font-size:12px;font-weight:600;letter-spacing:-.2px;line-height:1.15}
+  .cev .cd{font-size:10px;color:var(--label2);font-weight:600}.cev .cd .en{color:var(--label);font-weight:700}
+  .cev.tiny{padding:0 6px;justify-content:flex-start}.cev.tiny .cd{display:none}
+  .cev{position:relative}
+  .sdot{position:absolute;top:3px;right:4px;width:8px;height:8px;border-radius:50%;box-shadow:0 0 0 1.5px var(--card)}
+  .sdot.g{background:#2E9E6B}
+  .loading{padding:40px;color:var(--label2);font-size:15px;text-align:center}
+  .foot{margin:24px 2px;font-size:12px;color:var(--label2);text-align:center;line-height:1.6}
+  .foot a{color:var(--accent);font-weight:700;text-decoration:none}
+</style>
+</head>
+<body>
+  <div class="head">
+    <div><h1>올댓바스켓 <span style="font-size:13px;color:var(--accent);font-weight:700">⚡ 빠른 보드</span></h1><div class="qtr" id="qtr">불러오는 중…</div></div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="perf" id="perf"></div>
+  <div id="board"><div class="loading">불러오는 중…</div></div>
+  <div class="foot">읽기 전용 고속 뷰 · 편집은 <a id="editlink" href="#">총괄 보드(mgrtt)</a>에서<br><span id="src"></span></div>
+<script>
+  var T0 = Date.now();
+  var DAYS = ['월','화','수','목','금','토','일'];
+  var COACH_COLOR = {'심재혁':'#E5736B','김용우':'#5E9BEF','유영우':'#6B8E5A','정은지':'#E3A94E','조용원':'#52BE7D','최준':'#B98AE0','허진':'#4FC2C2','김현진':'#EF8FB0','이윤우':'#7E8CA0','윤홍규':'#6FB0C9','박진규':'#C9A24A','오승원':'#9AA0A8','송승연':'#B0929A','오윤혁':'#92A6A6'};
+  var FIXED = ['심재혁','김용우','유영우','정은지','조용원','최준','허진','김현진','이윤우','윤홍규','박진규','오승원','송승연','오윤혁'];
+  var PALETTE = ['#5E9BEF','#EF8FB0','#C9A24A','#E5736B','#6FB0C9','#7E8CA0','#E3A94E','#52BE7D','#B98AE0','#4FC2C2','#A0A0A8'];
+  var weekdayTimes = ['13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00'];
+  var satTimes = ['08:00','09:00','18:00','19:00','20:00','21:00','22:00'];
+  var sunTimes = ['08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00'];
+  function baseTimes(d){ return d==='토'?satTimes:d==='일'?sunTimes:weekdayTimes; }
+  var classes=[], coaches=[], colorMap={}, coachSched={};
+  function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
+  function timeMin_(t){ var m=String(t||'').match(/(\d{1,2})(?::(\d{2}))?/); return m?(+m[1])*60+(m[2]?+m[2]:0):0; }
+  function classStartMin_(c){ var s=String((c&&c.d)||(c&&c.t)||''); var m=s.match(/(\d{1,2})(?::(\d{2}))?/); return m?(+m[1])*60+(m[2]?+m[2]:0):0; }
+  function classEndMin_(c){ var s=String((c&&c.d)||(c&&c.t)||''); var sm=s.match(/(\d{1,2})(?::(\d{2}))?/); if(!sm) return 0; var st=(+sm[1])*60+(sm[2]?+sm[2]:0); var em=s.match(/~\s*(\d{1,2})(?::(\d{2}))?/); return em?((+em[1])*60+(em[2]?+em[2]:0)):st+60; }
+  function lanePack_(list){ list.sort(function(a,b){return a.sM-b.sM||a.eM-b.eM;}); var out=[],cluster=[],cEnd=-1; function flush(){ if(!cluster.length)return; var cols=[]; cluster.forEach(function(ev){ var c=0; while(c<cols.length&&cols[c]>ev.sM)c++; cols[c]=ev.eM; ev.col=c; }); cluster.forEach(function(ev){ ev.ncol=cols.length; }); out=out.concat(cluster); cluster=[]; cEnd=-1; } list.forEach(function(ev){ if(cluster.length&&ev.sM>=cEnd)flush(); cluster.push(ev); cEnd=Math.max(cEnd,ev.eM); }); flush(); return out; }
+  function mondayOf_(){ var x=new Date(); var wd=(x.getDay()+6)%7; x.setDate(x.getDate()-wd); x.setHours(0,0,0,0); return x; }
+  function todayDi_(){ var x=new Date(); return (x.getDay()+6)%7; }
+  function addDays_(d,n){ var x=new Date(d.getTime()); x.setDate(x.getDate()+n); return x; }
+  function md_(d){ return (d.getMonth()+1)+'/'+d.getDate(); }
+  function isoOf_(dt){ return dt.getFullYear()+'-'+('0'+(dt.getMonth()+1)).slice(-2)+'-'+('0'+dt.getDate()).slice(-2); }
+  var weekMon0=null;
+  function dayGrid_(d, dateStr, iso){
+    var dc=classes.filter(function(c){ return c.day===d && (!iso || ((!c.begin||iso>=c.begin) && (!c.end||iso<=c.end))); });
+    var sum=dc.reduce(function(s,c){ return s+(+c.n||0); },0);
+    var PXMIN=0.8;
+    var mins=[]; baseTimes(d).forEach(function(t){ mins.push(timeMin_(t)); }); dc.forEach(function(c){ mins.push(classStartMin_(c)); mins.push(classEndMin_(c)); });
+    var startMin=Math.floor(Math.min.apply(null,mins)/60)*60, endMin=Math.ceil(Math.max.apply(null,mins)/60)*60; if(endMin<=startMin) endMin=startMin+60;
+    var bodyH=Math.max((endMin-startMin)*PXMIN,60);
+    var axis=''; for(var hm=startMin; hm<=endMin; hm+=60){ axis+='<div class="chr" style="top:'+((hm-startMin)*PXMIN)+'px">'+('0'+(hm/60)).slice(-2)+':00</div>'; }
+    var colsHtml=coaches.map(function(co){
+      var gl=''; for(var g=startMin; g<endMin; g+=60){ gl+='<div class="cgl" style="top:'+((g-startMin)*PXMIN)+'px"></div>'; }
+      var packed=lanePack_(dc.filter(function(c){ return c.coach===co; }).map(function(c){ var sM=classStartMin_(c), eM=classEndMin_(c); if(eM<=sM) eM=sM+60; return {c:c,sM:sM,eM:eM}; }));
+      var evs=packed.map(function(ev){
+        var c=ev.c, sM=ev.sM, eM=ev.eM; var top=(sM-startMin)*PXMIN, h=Math.max((eM-sM)*PXMIN,16);
+        var wPct=100/(ev.ncol||1), lStyle=(ev.ncol>1)?('left:calc('+(ev.col*wPct).toFixed(3)+'% + 2px);width:calc('+wPct.toFixed(3)+'% - 4px);right:auto;'):'';
+        return '<div class="cev'+(h<30?' tiny':'')+'" style="top:'+top+'px;height:'+h+'px;'+lStyle+'background:'+(colorMap[co]+'22')+';border-left:3px solid '+colorMap[co]+'"><span class="sdot g"></span><span class="cn">'+esc(c.name)+'</span><span class="cd"><span class="en">'+(c.n||0)+'명</span> · '+esc(c.d||'')+'</span></div>';
+      }).join('');
+      return '<div class="ccol">'+gl+evs+'</div>';
+    }).join('');
+    var chead=coaches.map(function(co){ return '<div class="cch" style="--cc:'+colorMap[co]+'">'+esc(co)+'</div>'; }).join('');
+    return '<div class="day-sec"><div class="day-title">'+d+'요일 <span class="dm" style="color:var(--accent);font-weight:700">'+dateStr+'</span> <span class="dm">'+dc.length+'개 반 · 등록 '+sum+'명</span></div><div class="cal-wrap"><div class="cal-inner"><div class="cal-head"><div class="cal-corner">시간</div>'+chead+'</div><div class="cal-body" style="height:'+bodyH+'px"><div class="cal-axis">'+axis+'</div>'+colsHtml+'</div></div></div></div>';
+  }
+  function renderBoard(){
+    var bd=document.getElementById('board'); bd.innerHTML=''; weekMon0=mondayOf_();
+    for(var w=0; w<3; w++){
+      var mon=addDays_(weekMon0, w*7); var lbl=md_(mon)+' ~ '+md_(addDays_(mon,6))+(w===0?' · 이번 주':w===1?' · 다음 주':'');
+      var html='<div class="week-hd">📅 '+lbl+'</div>'; var startDi=w===0?todayDi_():0;
+      DAYS.forEach(function(d,di){ if(di<startDi) return; html+=dayGrid_(d, md_(addDays_(mon,di)), isoOf_(addDays_(mon,di))); });
+      bd.insertAdjacentHTML('beforeend', html);
+    }
+  }
+  function onBoard(d){
+    if(!d || !d.ok){ document.getElementById('board').innerHTML='<div class="loading">데이터 오류: '+esc(d&&d.error||'')+'</div>'; return; }
+    classes=d.classes||[]; coachSched=d.coachSched||{};
+    var present={}; classes.forEach(function(c){ if(DAYS.indexOf(c.day)>=0) present[c.coach]=true; });
+    coaches=FIXED.filter(function(n){ return present[n]; }); Object.keys(present).sort().forEach(function(n){ if(coaches.indexOf(n)<0) coaches.push(n); });
+    coaches.forEach(function(n,i){ colorMap[n]=COACH_COLOR[n]||PALETTE[i%PALETTE.length]; });
+    var total=classes.reduce(function(s,c){ return s+(+c.n||0); },0);
+    document.getElementById('qtr').textContent=(d.label||'')+' · 빠른 읽기 뷰';
+    document.getElementById('stats').innerHTML='<div class="stat"><div class="n">'+classes.length+'</div><div class="l">개 반</div></div><div class="stat"><div class="n">'+total+'</div><div class="l">등록</div></div><div class="stat"><div class="n">'+coaches.length+'</div><div class="l">코치</div></div>';
+    renderBoard();
+    var ms=Date.now()-T0;
+    document.getElementById('perf').textContent='⚡ 로드 '+ms+'ms (Vercel 트윈 · GAS 데이터 우회)';
+  }
+  var GAS='https://script.google.com/a/macros/autus-ai.com/s/AKfycbwk5_CFSQ2OCzVcOo7Pd2o9CUOsay9z_r-gmpfXLCNvzUigfbb9kjZy2cGIkrhDyFU2iQ/exec';
+  document.getElementById('editlink').href=GAS+'?action=mgrtt';
+  document.getElementById('src').textContent='데이터 소스: GAS-20 boardjson (@310)';
+  var sc=document.createElement('script');
+  sc.src=GAS+'?action=boardjson&token=ATB-TWIN-2026&callback=onBoard&_='+Date.now();
+  sc.onerror=function(){ document.getElementById('board').innerHTML='<div class="loading">GAS 연결 실패 — autus-ai.com 로그인이 필요할 수 있습니다.</div>'; };
+  document.head.appendChild(sc);
+</script>
+</body>
+</html>
