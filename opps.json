@@ -1,16 +1,16 @@
 {
  "schema": "schema.org/MonetaryGrant",
  "source": "K-Startup",
- "updated": "2026-07-26T21:18:11.951Z",
- "count": 730,
+ "updated": "2026-08-16T21:11:38.508Z",
+ "count": 725,
  "opps": [
   {
-   "id": "ks178662",
+   "id": "ks178904",
    "group": "A",
-   "gtag": "창업",
-   "title": "창업중심대학",
-   "agency": "중소벤처기업부 장관",
-   "category": "사업화",
+   "gtag": "예비창업",
+   "title": "2026년 강북창업지원센터 8월 창업교육 프로그램 참가자 모집",
+   "agency": "강북청년창업마루",
+   "category": "창업교육",
    "elig": {
     "stage": [
      "예비",
@@ -20,26 +20,26 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-12",
+   "deadline": "2026-08-24",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178662",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178904",
    "status": "open",
-   "note": "업력 7년 이내 창업기업 또는 신산업분야의 업력 10년 이내 창업기업 * 공고문 내 '신청자격 및 요건' 참조",
-   "region": "전국",
+   "note": "수익모델 개선 및 투자 전략 수립에 관심 있는 예비·초기 창업자",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178659",
+   "id": "ks178902",
    "group": "B",
    "gtag": "글로벌·판로",
-   "title": "「2026 한국전자전(KES)」 관악S밸리관 참가기업 모집",
-   "agency": "관악중소벤처진흥원",
-   "category": "판로ㆍ해외진출",
+   "title": "디캠프 x HAX Hardtech Pre-Program US Forged",
+   "agency": "재단법인 은행권청년창업재단",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
    "elig": {
     "stage": [
      "예비",
@@ -50,25 +50,864 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-07",
+   "deadline": "2026-09-06",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178659",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178902",
    "status": "open",
-   "note": "- 관악 소재 기업 중 아래 세가지 요건을 모두 충족한 기업 ①‘2026 한국전자전(KES)’전시분야에 적합한 기업 *분야: AX(AI tran…",
-   "region": "서울",
+   "note": "미국 시장 진출 및 글로벌 투자 유치를 준비하고 있는 딥테크·하드테크 스타트업이라면 지원 가능합니다. ● Pre-Seed ~ Seed 단계 기업…",
+   "region": "전국",
    "star": false,
    "source": "공고"
   },
   {
-   "id": "ks178658",
+   "id": "ks178900",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 지역 혁신 Start-up Demo Day",
+   "agency": "차세대융합기술연구원",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-03",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178900",
+   "status": "open",
+   "note": "경기도 사업장 소재지 제조분야 (예비)창업자 또는 소재지 창업기업(7년이내)",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178899",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "Startup OI Tokyo #Physical AI",
+   "agency": "재단법인 은행권청년창업재단",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178899",
+   "status": "open",
+   "note": "아래 지원 요건 중 3개 이상을 충족하는 스타트업이라면 지원 가능합니다. ● Seed ~ Series B 단계 기업 ● PoC 경험 또는 상용화…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178898",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "도봉구 중소기업창업보육센터",
+   "agency": "도봉구청",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178898",
+   "status": "open",
+   "note": "[1센터] 공고일 기준 설립 7년 미만의 중소기업 창업자(사업자등록 必) [2센터] 예비 창업자 및 설립 7년 미만의 중소기업 창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178897",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "창업보육센터및 기업 지원",
+   "agency": "국립공주대학교 산학협력단",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178897",
+   "status": "open",
+   "note": "[ 예비창업자] ￭ 잠재력 높은 기술의 개발 단계에 있는 창업 준비자 ￭ 기술적 아이디어를 바탕으로 구체적 사업화 목적이 있는 자 ￭ 입주 후 …",
+   "region": "충남",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178896",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "모두의 창업 글로벌 프로젝트",
+   "agency": "중소벤처기업부",
+   "category": "글로벌",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-14",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178896",
+   "status": "open",
+   "note": "한국 국적을 보유하고 해외에 거주 중인 유학생 등 예비창업자 또는 업력 7년 이내 해외 진출 창업기업 [공고문 참조]",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178894",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026년 여성CEO 비즈니스 아카데미 호남권역 시즌 2",
+   "agency": "한국여성경제인협회",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "any",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178894",
+   "status": "open",
+   "note": "기업의 성장을 고민하는 여성CEO(여성임원포함) 총 80명 / 선착순마감",
+   "region": "제주",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178892",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 대전 팁스타운 제2차 팁스 링크 일본 파트너 초청 상담회",
+   "agency": "창업진흥원",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-28",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178892",
+   "status": "open",
+   "note": "일본 시장 진출에 관심있는 창업기업, 예비창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178891",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 산업전문인력 AI역량강화 지원사업",
+   "agency": "(주)글로벌창업연구소",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-10-13",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178891",
+   "status": "open",
+   "note": "글로벌 공공조달 및 수출(예비) 기업 실무자 및 중간관리급 재직자",
+   "region": "대전",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178890",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[숭실대학교 캠퍼스타운] 2026 숭실 스타트업 아카데미",
+   "agency": "숭실대학교 캠퍼스타운사업단",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178890",
+   "status": "open",
+   "note": "스타트업 대표 및 임직원, 예비 창업자 및 창업에 관심이 있는 학생 등",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178889",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 YUnicorn 지역정주형 창업스쿨 참여자 모집",
+   "agency": "영남대학교 YUnicorn창업지원단",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178889",
+   "status": "open",
+   "note": "창업에 관심이 있는 영남대학교 및 경산 지역 내 대학교 (예비)졸업자 중 (예비)창업자",
+   "region": "경북",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178888",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "IP 디딤돌 프로그램",
+   "agency": "충북지식재산센터장",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-03",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178888",
+   "status": "open",
+   "note": "충북도내 (예비)창업자,「모두의 창업」선정자 등",
+   "region": "충북",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178887",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "『2026년 창업지원센터 제3회 청년관 신규 1인창조기업 모집』공고",
+   "agency": "수원도시재단",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-06",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178887",
+   "status": "open",
+   "note": "❍ 공고일 기준 대표자가 만 19세 이상 39세 이하인 자로서 다음 각 호 중 어느 하나에 해당하는 자 ⦁예비창업자: 「1인 창조기업 육성에 관…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178886",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "경기 스타트업 아카데미 운영",
+   "agency": "경기도경제과학진흥원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178886",
+   "status": "open",
+   "note": "도내 예비·초기창업자, 창업기업 재직자, 대학(원)생, 유관기관 등",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178885",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 6회차 지식재산 무료 초청교육 수요조사",
+   "agency": "한국특허정보원",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-14",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178885",
+   "status": "open",
+   "note": "지식재산교육이 필요한 개인 신청자 (5인 미만 기업의 경우 개인 자격으로만 신청이 가능합니다)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178884",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 창업경진대회(IMPACT ON 강북 : 아이디어와 투자로 만드는 강북의 창업 무대) 참가자 모집",
+   "agency": "강북청년창업마루",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178884",
+   "status": "open",
+   "note": "서울시 강북구 거주민 또는 생활권을 둔 청년 또는 강북청년창업마루 입주기업",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178881",
    "group": "B",
    "gtag": "글로벌·판로",
-   "title": "일본 CEATEC 2026 전시회 참가기업 모집 공고",
-   "agency": "재단법인 글로벌디지털혁신네트워크",
+   "title": "2026 아트코리아랩 AI+기술융합 오픈이노베이션(2차) 참여기업 모집",
+   "agency": "예술경영지원센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178881",
+   "status": "open",
+   "note": "○ 공고일 기준 설립일로부터 업력 10년 이내 예술기업 ○ 선도기업(파트너사)과의 협업을 통해 AI, 기술을 예술분야 적용한 POC 과제 수행,…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178880",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "공공기술 기반 오픈이노베이션 밋업(with SK에코플랜트) 참여기업 모집 공고",
+   "agency": "씨엔티테크",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-01",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178880",
+   "status": "open",
+   "note": "공공기술 기반 창업 예정자 및 7년 이내 창업기업 ※ 공공기술 기반: 대학 및 출연연 기술이전, 교원창업, 실험실 창업 등",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178877",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "1인 창조기업 지원센터",
+   "agency": "㈜오피스허브 1인 창조기업 지원센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178877",
+   "status": "open",
+   "note": "예비창업자 및 창업 7년 이내 기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178876",
+   "group": "A",
+   "gtag": "창업",
+   "title": "「2026년 대구콘텐츠기업지원센터 기업 경영 상담 프로그램(2차)」 공고",
+   "agency": "(재)대구디지털혁신진흥원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178876",
+   "status": "open",
+   "note": "대구콘텐츠기업지원센터 입주기업 및 대구 지역 내 콘텐츠 산업 기업(종사자) (게임, 웹툰, 미디어, 공연, 음악, 플랫폼 제작 및 개발 등)",
+   "region": "대구",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178875",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "민관협력 오픈이노베이션 지원사업",
+   "agency": "중소벤처기업부장관",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178875",
+   "status": "open",
+   "note": "아래 ①, ②, ③요건을 모두 충족하는 창업기업 ① 모집공고문 내 신청자격에 해당하는 7년이내 창업기업 ② 공공데이터포털(www.data.go.…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178874",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026 주력산업분야 창업기업 스케일업 사업화지원",
+   "agency": "선문대학교 창업보육센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178874",
+   "status": "open",
+   "note": "충청남도 내 운영 중인 신성장동력산업 분야의 사업자등록 후 7년 이내 창업기업",
+   "region": "충남",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178873",
+   "group": "A",
+   "gtag": "창업",
+   "title": "민관협력 오픈이노베이션 지원사업",
+   "agency": "중소벤처기업부장관",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178873",
+   "status": "open",
+   "note": "공공데이터법 제2조 제1호에 해당하는 기관(국가기관, 지방자치단체 등) * 상세 내용은 공고문 내 '모집대상' 확인",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178872",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 북부 경기문화창조허브 스타트업 입주사 23기 모집 공고",
+   "agency": "경기콘텐츠진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-11",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178872",
+   "status": "open",
+   "note": "모집대상 1) 입주협약 체결 후 1개월 이내 창업 가능한 유망 예비창업자 2) 공고일 기준, 창업일로부터 7년이 경과되지 아니한 신규기업 또는 …",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178871",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "2026년 판로확대 지원 참여 소상공인 모집(셀러허브)",
+   "agency": "중소상공인희망재단",
+   "category": "판로ㆍ해외진출",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178871",
+   "status": "open",
+   "note": "판로 확대를 희망하는 소상공인",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178870",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 특허출원·등록 비용 바우처 지원사업 11차(하반기 4차)",
+   "agency": "(사)한국중소기업발전협회",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178870",
+   "status": "open",
+   "note": "스타트업, 중소기업, 1인기업, 예비창업자, 대학 및 기관 등",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178867",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 8월 KICXUP 서울 입주기업 모집공고",
+   "agency": "한국산업단지공단,씨엔티테크",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178867",
+   "status": "open",
+   "note": "설립 7년 미만 창업기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178866",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "서울창업허브 공덕 (우수기업 발굴·육성)",
+   "agency": "(재)서울경제진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178866",
+   "status": "open",
+   "note": "서울 소재 (예비) 스타트업 ※ 서울 소재 본점, 지점, 기업부설연구소 中 최소 1개 이상 필수",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178865",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "경기 스타트업 아카데미 운영",
+   "agency": "경기도경제과학진흥원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178865",
+   "status": "open",
+   "note": "1. AWS에서 활용중인 AI 개발 방법론을 경험해보고 싶으신 분 2. 본인과 팀의 아이디어를 AI를 통해 빠르게 결과물로 보고 싶으신 분 * …",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178863",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "MediA ‘X’ Challenge 2026",
+   "agency": "한국투자액셀러레이터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-08",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178863",
+   "status": "open",
+   "note": "창업 7년 이내 스타트업 (예비창업자 포함)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178862",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "2026 관광기업 베트남 오픈 이노베이션",
+   "agency": "한국관광공사 ",
    "category": "글로벌",
    "elig": {
     "stage": [
@@ -80,25 +919,658 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-04",
+   "deadline": "2026-08-18",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178658",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178862",
    "status": "open",
-   "note": "? 일본시장 진출 준비도가 우수한 디지털·ICT‧AI 분야 기업 8개사 ? 신청자격 (①~④번 사항 모두 충족) ① 시장에 출시된 제품 및 시연…",
+   "note": "관광산업 분야 스타트업 중 MVP* 이상 보유, 베트남·글로벌 진출 가능 기업 * 단, MVP(Minimum Viable Product, 최소기…",
    "region": "전국",
    "star": false,
    "source": "공고"
   },
   {
-   "id": "ks178655",
+   "id": "ks178861",
    "group": "D",
    "gtag": "기술·디지털",
-   "title": "메이커 스페이스",
-   "agency": "경북대학교 스타트업지원센터장",
+   "title": "제3회 「S.Challenge IR」 AXˑDX 분야 창업기업 모집 공고",
+   "agency": "서울지방중소벤처기업청, 서울창조경제혁신센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178861",
+   "status": "open",
+   "note": "AXˑDX(인공지능전환·디지털전환) 분야의 사업을 영위하고, 서울에 소재(본사 기준)한 창업 3년 이내 기업",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178858",
+   "group": "A",
+   "gtag": "창업",
+   "title": "제2서울핀테크랩 운영",
+   "agency": "제2서울핀테크랩",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178858",
+   "status": "open",
+   "note": "제2서울핀테크랩 현 입주·멤버십 기업* 또는 창업 3년 이내**핀테크 분야 스타트업 * 제2서울핀테크랩 현 입주·멤버십 기업 연차무관 ** 공고…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178856",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "모두의 창업 프로젝트 2기 AI 솔루션 공급기업 모집공고",
+   "agency": "창업진흥원장",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178856",
+   "status": "open",
+   "note": "범용 AI 솔루션(SaaS) 보유 스타트업(10년 이내)·벤처기업 (세부사항은 공고문 참조)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178855",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "서울창업허브 창동 운영",
+   "agency": "서울창업허브 창동",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178855",
+   "status": "open",
+   "note": "- 조이시티와의 PoC(실증) 및 공동 사업화에 대한 협업 의지를 보유한 기업 - 모집 분야의 혁신적인 기술, 제품, 서비스를 보유한 창업 7년…",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178853",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[모집] 2026년 청년 산림창업가 시너지캠프 참가자 모집",
+   "agency": "한국임업진흥원",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178853",
+   "status": "open",
+   "note": "✔ 모집인원 : 산림분야 청년 (예비·초기) 창업자 30명 (공고일 기준 만 19세 ~ 39세 이하)",
+   "region": "대전",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178852",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "예비창업패키지",
+   "agency": "광운대학교 NCI창업패키지사업단",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178852",
+   "status": "open",
+   "note": "예비창업자 및 이종창업을 준비 중인 기창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178851",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 강동 K-ISS멘토링센터 3차 교육 및 튜토링 과정 \" AI 디지털 마케팅 이해와 스킬업\"",
+   "agency": "주식회사 이노시아",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178851",
+   "status": "open",
+   "note": "창업자 예비창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178850",
+   "group": "A",
+   "gtag": "재창업",
+   "title": "한동 알럼나이 파운더스 - 한동대 출신 창업가를 찾습니다!",
+   "agency": "포항연합기술지주 ",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178850",
+   "status": "open",
+   "note": "한동대학교 출신(학사,석사,박사, 졸업, 재학 누구나) 창업자(예비/초기/폐업 포함)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178848",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "2026 Startup for All Global(Silicon Valley) Program Public Announcement for Program Service Provider",
+   "agency": "KISED Silicon Valley Office",
+   "category": "글로벌",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178848",
+   "status": "open",
+   "note": "A company(Accelerator) capable of executing the project locally in Silicon Valle…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178847",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "Request for Proposals (RFP) for the 2026 Startup for All Global (New York) Program",
+   "agency": "KISED",
+   "category": "글로벌",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178847",
+   "status": "open",
+   "note": "- As this is an overseas bid, the bidding eligibility requirements under Article…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178844",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 바른동행 3차 모집",
+   "agency": "한국투자액셀러레이터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-03",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178844",
+   "status": "open",
+   "note": "창업 3년 이내, Pre-valuation 100억 원 이하 기업 (예비창업자 포함)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178842",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 인천 ICT이노베이션스퀘어 확산사업",
+   "agency": "인천대학교 창업지원단",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-16",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178842",
+   "status": "open",
+   "note": "AWS와 생성형 AI 기술을 접목한 실무 프로젝트 경험이 필요한 (예비)창업자, 실무자 등",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178841",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "제3회 K-ROBOTICS Startup CUP 참가팀 모집(~8/31 마감)",
+   "agency": "KAIST",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178841",
+   "status": "open",
+   "note": "로보틱스 전 분야 예비창업자(팀) 및 창업 3년 이내 초기 창업기업 총 10개팀 ① Fresh Track : 예비창업자(팀) 및 창업 3년 이내…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178838",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 대전 스타트업 원스톱 지원센터 아카데미 1차",
+   "agency": "대전창조경제혁신센터",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178838",
+   "status": "open",
+   "note": "■ 모집 대상: 대전시 소재 (예비)창업기업 ■ 모집 인원: 프로그램별 30명 내외 (선착순 마감) ■ 선정 안내: 신청 후 3일 이내 개별 통…",
+   "region": "대전",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178837",
+   "group": "A",
+   "gtag": "창업",
+   "title": "Se7en on the table 전문가 멘토링 프로그램",
+   "agency": "서강대학교 판교캠퍼스사업단",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178837",
+   "status": "open",
+   "note": "7년 이내 창업기업 ※신산업 창업 분야에 관한 규정 제3조 1항에 따라 신산업 창업 분야는 창업 10년 이내",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178836",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "2026년 남동발전 창업·Start-UP 서포터스 지원사업 참가기업 모집공고",
+   "agency": "(재)경남창조경제혁신센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178836",
+   "status": "open",
+   "note": "▫업력 5년 이내(‘21.8.11.이후 창업기업) ※전국단위 [발전 분야] : 기계, 전기, 계전 등 발전설비 연관 산업 [그린 분야] : 에너…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178835",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 명지전문대학 MJC 창업보육(Ⅰ)센터 신규 입주기업 상시모집 안내",
+   "agency": "명지전문대학",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178835",
+   "status": "open",
+   "note": " 모집대상 : 창업 후 10년 이내의 중소ㆍ벤처기업(공고일 기준) 및 예비창업자  모집분야 : AI, 전기전자, 정보통신, S/W, 유통, …",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178833",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "「2026년 로봇 기반 공간컴퓨팅 창업지원사업」예비창업자(팀) 모집 추가공고",
+   "agency": "(재)대구테크노파크",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178833",
+   "status": "open",
+   "note": "○지원대상 : 예비창업자(팀) : 1차 공고일(2026.05.12) 기준 신청자 명의의 사업자등록 또는 법인 설립 등기가 없는 자들로 구성된 예…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178831",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[국비지원] AI 기반 서비스 개발·사업화 1인 창업가 캠프 7기 모집",
+   "agency": "넥스트러너스 주식회사",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178831",
+   "status": "open",
+   "note": "1. 내일배움카드 소지자 또는 발급 가능한 자 2. 아이디어는 있지만 실행·개발이 어려웠던 예비창업자 3. 개발자 없이 AI로 직접 서비스 출시…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178830",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "KAC 한국공항공사 창업 인큐베이팅 프로그램",
+   "agency": "한국공항공사",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-23",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178830",
+   "status": "open",
+   "note": "항공산업과 연계된 아이디어를 가진 전업 예비창업자 15인 (모집분야: 공항건설분야, 공항운영분야, 항공관광분야 및 기타 — 항공산업 전 분야, …",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178827",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "인뎁스 네트워킹(In-depth Networking) 2회차 모집 공고",
+   "agency": "경기창조경제혁신센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178827",
+   "status": "open",
+   "note": "기술 사업화, 투자유치 등 관련 전문분야에 컨설팅이 필요한 예비창업자 및 유망 혁신기업",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178826",
+   "group": "A",
+   "gtag": "창업",
+   "title": "[2026년 지역창업페스티벌 연계] 2026 스타트업 코리아 투자위크(SIW)",
+   "agency": "대전창조경제혁신센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178826",
+   "status": "open",
+   "note": "-투자자: AC 및 VC -유관기관(금융, 법률, 컨설팅 등) -스타트업: 밋업 또는 프로그램 참여를 원하는 스타트업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178825",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "서초창업스테이션 운영 사업",
+   "agency": "서초창업스테이션",
    "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
@@ -110,82 +1582,25 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-07",
+   "deadline": "2026-08-26",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178655",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178825",
    "status": "open",
-   "note": "제조 현장 활용 가능 AI 기술을 보유·개발한 하드웨어 제조기업",
+   "note": "컨설팅 참여를 희망하는 (예비)창업자",
    "region": "전국",
    "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178654",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "메이커 스페이스",
-   "agency": "경북대학교 스타트업지원센터장",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178654",
-   "status": "open",
-   "note": "제조 분야 예비창업자 및 제조기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178653",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "제3회 W-Venture 창업 경진대회",
-   "agency": "(사)부울경여성벤처협회",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178653",
-   "status": "open",
-   "note": "부산·울산·경남 예비 여성창업자 및 창업 후 7년 미만 여성창업기업 (투자유치 30억 미만)",
-   "region": "부산",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178652",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "롯데중앙연구소×스타트업 오픈이노베이션 챌린지 2026 참여기업 모집",
-   "agency": "부산창조경제혁신센터",
+   "id": "ks178824",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "초기창업패키지",
+   "agency": "씨엔티테크(주)",
    "category": "사업화",
    "elig": {
     "stage": [
@@ -196,24 +1611,225 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-04",
+   "deadline": "2026-08-21",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178652",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178824",
    "status": "open",
-   "note": "(공고일 기준) 전국 소재 업력 7년 미만 스타트업 * AX 기술/서비스 스타트업 우대",
+   "note": "'23년~ '26년 초기창업패키지 선정·졸업기업",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178823",
+   "group": "A",
+   "gtag": "재창업",
+   "title": "2026 대전·세종 관광 창업 역량강화교육 및 창업경진대회",
+   "agency": "대전관광공사",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-20",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178823",
+   "status": "open",
+   "note": "- 대전·세종 소재의 관광 분야 창업 5년 미만의 사업자 *휴·폐업자인 경우 관내 관광분야로 재창업 예정인 경우 신청 가능 (이전 사업장 주소 …",
+   "region": "대전",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178822",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[네스토리움] AI시대, 예비·초기창업기업 생존전략 세미나",
+   "agency": "네스토리움 주식회사",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178822",
+   "status": "open",
+   "note": "예비창업자, 초기창업기업 및 중소기업 실무자 등",
    "region": "전국",
    "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178650",
+   "id": "ks178821",
+   "group": "A",
+   "gtag": "창업",
+   "title": "민관협력 오픈이노베이션 지원사업",
+   "agency": "중소벤처기업부장관",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178821",
+   "status": "open",
+   "note": "아래 ①, ② 요건을 모두 충족하는 창업기업 ① 모집공고문 내 신청자격에 해당하는 7년 이내 창업기업 * 신산업 분야에 해당하는 창업기업은 10…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178820",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 대전 스타트업스쿨 스타트업 리딩클래스 3회차",
+   "agency": "대전창조경제혁신센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178820",
+   "status": "open",
+   "note": "스타트업 역량 강화에 관심이 있는 누구나",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178819",
    "group": "A",
    "gtag": "예비창업",
-   "title": "2026-9회 호남권 엔젤투자 피칭룸 in 전남광주 참가기업 모집 안내",
+   "title": "2026년 기술 기반 창업·스케일업 지원 액셀러레이팅 프로그램 모집 공고",
+   "agency": "(주)티비즈",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178819",
+   "status": "open",
+   "note": "경북대 교원 및 학생 (예비)창업기업, 학내 입주기업, 경북대 기술 도입기업 등 - 예비 창업자 또는 7년 이내 초기 창업자 - 재학생 및 휴학…",
+   "region": "대구",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178818",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "2026년 CKL기업지원센터 입주기업 하반기 모집 공고",
+   "agency": "한국콘텐츠진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178818",
+   "status": "open",
+   "note": "ㅇ 공고일 기준 설립일로부터 만 7년 이내 콘텐츠 스타트업 * 공고일 기준 「중소기업기본법」 제2조에 따른 중소기업 ** 콘텐츠 비즈니스(기획·…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178817",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 중소기업 동행교육",
+   "agency": "근로복지공단 인재개발원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178817",
+   "status": "open",
+   "note": "중소기업 임직원(50~100개소)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178816",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026-10회 호남권 엔젤투자 피칭룸 in 제주 참가기업 모집 안내",
    "agency": "한국엔젤투자협회 호남권 엔젤투자허브",
    "category": "멘토링ㆍ컨설팅ㆍ교육",
    "elig": {
@@ -224,54 +1840,53 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-03",
+   "deadline": "2026-09-06",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178650",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178816",
    "status": "open",
-   "note": "창업 7년 이내 전남광 소재 스타트업 및 예비창업자 * 전북, 제주 별도 운영",
-   "region": "전남광주",
+   "note": "창업 7년 이내 제주 소재 스타트업 및 예비창업자 *전남광주, 전북 별도 운영",
+   "region": "제주",
    "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178649",
+   "id": "ks178815",
    "group": "A",
-   "gtag": "창업",
-   "title": "2026년 대구 스타트업 오픈이노베이션 자율제안형(상향식) 실증 프로그램 지원기업 모집 공고",
-   "agency": "(재)대구창조경제혁신센터 대표이사",
-   "category": "사업화",
+   "gtag": "예비창업",
+   "title": "28청춘창업소 운영",
+   "agency": "고양산업진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
-     "예비",
-     "3년내"
+     "예비"
     ],
     "age": "young",
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-07",
+   "deadline": "2026-08-21",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178649",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178815",
    "status": "open",
-   "note": "○ (필수사항) 3가지 기준 모두 충족 시 지원 가능 ① 선도기업(대·중견·중소·공기업 등)과 사전 협업 협의가 완료된 창업기업 * 구체적인 실…",
-   "region": "전국",
+   "note": "고양시에 거주하는 예비창업자, 초기창업자 또는 고양시 소재 기업이나 학교에 다니는 창업에 관심 있는 직장인 및 대학생",
+   "region": "경기",
    "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178647",
+   "id": "ks178813",
    "group": "A",
    "gtag": "예비창업",
-   "title": "2026년 부산 창업기업 액셀러레이팅 프로그램 참여기업 모집 공고",
-   "agency": "(재)부산창조경제혁신센터 대표이사",
+   "title": "2026년 서울시 기후테크 3D프린팅 장비 활용 교육",
+   "agency": "서울기후테크산업지원센터장",
    "category": "멘토링ㆍ컨설팅ㆍ교육",
    "elig": {
     "stage": [
@@ -281,52 +1896,24 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-07-29",
+   "deadline": "2026-08-21",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178647",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178813",
    "status": "open",
-   "note": "- 부산지역 예비 · 초기 창업패키지 * 및 창업중심대학 ** 선정된 예비창업자 및 초기창업자 중 17 개 팀 * 부산창조경제혁신센터 예비 · …",
-   "region": "부산",
+   "note": "서울시에 주소지를 둔 기후테크 기업 및 예비창업자",
+   "region": "서울",
    "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178646",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[강동구 청년해냄센터] 전문분야 창업멘토링 8월 참가자 모집",
-   "agency": "강동구 청년해냄센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-04",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178646",
-   "status": "open",
-   "note": "예비창업자, 기창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178642",
+   "id": "ks178812",
    "group": "B",
    "gtag": "글로벌·판로",
-   "title": "2026년 성남시 북유럽 시장개척단 참여기업 모집",
+   "title": "2026년 성남시 폴란드 방산 시장개척단 참가기업 모집",
    "agency": "성남산업진흥원",
    "category": "판로ㆍ해외진출",
    "elig": {
@@ -338,13 +1925,13 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-05",
+   "deadline": "2026-08-18",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178642",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178812",
    "status": "open",
    "note": "중소기업기본법 제2조에 의한 중소기업으로 본사 또는 공장 소재지가 성남시인 기업",
    "region": "경기",
@@ -352,12 +1939,40 @@
    "source": "공고"
   },
   {
-   "id": "ks178640",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "일본 후쿠오카 진출 지원 Plug in: Fukuoka #13 참가 스타트업 모집 공고(~ 7/31 18:00)",
-   "agency": "(재)부산창조경제혁신센터 대표이사",
-   "category": "판로ㆍ해외진출",
+   "id": "ks178810",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "고양IR데이 개최",
+   "agency": "고양시장",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178810",
+   "status": "open",
+   "note": "◦ 공고일 기준, 고양시 소재 또는 고양시로 1년 이내 이전* 예정인 기업 중 업력 7년 이내 창업기업 또는 예비창업자 (설립연월일 : 2019…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178809",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 경기스타트업플랫폼 온라인 밋업위크(3차) 참가기업 모집",
+   "agency": "경기도경제과학진흥원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
    "elig": {
     "stage": [
      "예비",
@@ -367,25 +1982,53 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-07-31",
+   "deadline": "2026-08-18",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178640",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178809",
    "status": "open",
-   "note": "- TRACK 1 (부산소재) : 부산소재 AI, 피지컬 AI·로보틱스, 애그테크, 헬스케어·바이오 분야 7년이내 스타트업 (2개사 내외) ㄴ …",
-   "region": "전국",
-   "star": false,
+   "note": "경기도소재 7년(신산업분야 10년)이내 스타트업",
+   "region": "경기",
+   "star": true,
    "source": "공고"
   },
   {
-   "id": "ks178639",
+   "id": "ks178806",
    "group": "A",
    "gtag": "예비창업",
-   "title": "26년 국토교통 창업지원센터 입주기업 추가 모집공고",
-   "agency": "국토교통과학기술진흥원",
+   "title": "2026년 민간 산림복지 창업·성장 패키지 FOR:SEED [예비창업패키지]",
+   "agency": "한국산림복지진흥원 ",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178806",
+   "status": "open",
+   "note": "산림복지전문업 창업에 관심이 있는 예비창업자 또는 사업자등록 5년 미만 기업 중 산림복지전문업 미등록 기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178804",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "28청춘창업소 운영",
+   "agency": "고양산업진흥원",
    "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
@@ -395,16 +2038,1877 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-04",
+   "deadline": "2026-08-20",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178639",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178804",
    "status": "open",
-   "note": "예비창업자 및 업력 7년 이내 국토교통 분야 기업",
+   "note": "고양시에 거주하는 예비창업자, 초기창업자 또는 고양시 소재 기업이나 학교에 다니는 창업에 관심 있는 직장인 및 대학생",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178803",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 SVC Seoul Membership(Global) Recruitment Announcement",
+   "agency": "President of KISED",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-11",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178803",
+   "status": "open",
+   "note": "Prospective entrepreneurs or startup companies with less than 7 years of busines…",
    "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178802",
+   "group": "A",
+   "gtag": "재창업",
+   "title": "2026 SVC Seoul 멤버십(확장형) 모집공고",
+   "agency": "창업진흥원장",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-11",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178802",
+   "status": "open",
+   "note": "예비창업자* 및 업력 7년 이내의 창업기업* * 예비창업자의 경우, 중소벤처기업부(창업진흥원)에서 지원하는 ①2026년 예비창업패키지(사내벤처 …",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178798",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 산업전문인력 AI역량강화 지원사업",
+   "agency": "(주)글로벌창업연구소",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-14",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178798",
+   "status": "open",
+   "note": "글로벌 공공조달 및 수출(예비) 기업 실무자 및 중간관리급 재직자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178797",
+   "group": "A",
+   "gtag": "창업",
+   "title": "[강동구 청년해냄센터] 투자유치 마스터 스쿨 참가자 모집 공고",
+   "agency": "감동구 청년해냄센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178797",
+   "status": "open",
+   "note": "투자유치를 준비중이거나 IR 발표 역량 강화를 희망하는 창업팀",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178796",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "2026 오픈웨이브 with 한진",
+   "agency": "재단법인 인천창조경제혁신센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178796",
+   "status": "open",
+   "note": "한진과 사업화할 수 있는 창업 7년 이내 기업 [모집분야] 1) 공정 자동화 : 택배/물류 터미널 내 하드웨어·소프트웨어 자동화 기술 2) 업무…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178795",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 Nexus Connect 오픈이노베이션 밋업 데이",
+   "agency": "(재)충남창조경제혁신센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178795",
+   "status": "open",
+   "note": "수요기업과 협업을 희망하는 7년 이내 전국 소재 스타트업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178791",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "제2회 판다밋업 : AI 반도체 글로벌 파트너십 Innovation Bridge",
+   "agency": "경기도 4차산업혁명센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-20",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178791",
+   "status": "open",
+   "note": "1. AI·반도체 분야 종사자 2. 글로벌 공동연구 및 한·이스라엘 기술협력에 관심 있는 기업 관계자",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178788",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 경제계 주도 대국민 창업·육성 프로젝트 「더하기 창업」 참가팀 모집",
+   "agency": "머스트액셀러레이터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-28",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178788",
+   "status": "open",
+   "note": "한국경제인협회(FKI) 회원사와의 협업 및 사업 연계를 희망하는 예비창업자 또는 창업기업 - 트랙1 : 예비창업자 (아이디어 단계 포함) - 트…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178786",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "「2026년 강소특구 이노테크 발굴 및 창업지원사업」예비 창업자 사업화 지원 모집 공고",
+   "agency": "한국전력공사 강소특구 육성사업단장, 나주 강소특구 공동연구기관장",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178786",
+   "status": "open",
+   "note": "나주시 내 에너지 관련 기술 창업을 준비하는 예비창업자 ※ (예비창업) 2026. 1. 1. ~ 2026. 12. 31. 창업자 또는 창업예정자…",
+   "region": "전남광주",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178784",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "중견기업 스타트업 동행라운지(참여 스타트업 모집)",
+   "agency": "한국산업지능화협회 ",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178784",
+   "status": "open",
+   "note": "혁신 스타트업(7년 이내), AI 등 빅테크 스타트업(10년 이내)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178782",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "2026년 SaaS 전환지원센터xAWS SaaS 현대화 교육 2회차 참가자 모집 공고",
+   "agency": "정보통신산업진흥원, SaaS 전환지원센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178782",
+   "status": "open",
+   "note": "SaaS 제품을 보유하고 있거나 출시 예정인 기업의 사업·기술 담당자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178781",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "충북대학교 『글로벌(G)테크벤처센터(BI) 』 입주기업 모집",
+   "agency": "충북대학교 글로벌(G)테크벤처센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178781",
+   "status": "open",
+   "note": "- 본사 or 연구소 or 지점사업자 or 창업보육센터 졸업기업 입주 가능 - (창업자) 창업 후 7년이 경과 되지 않은 기업(창업일자기준) -…",
+   "region": "충북",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178780",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 블록체인 기업성장허브 입주기업 모집",
+   "agency": "한국인터넷진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178780",
+   "status": "open",
+   "note": "업력 10년 이내 블록체인 중소기업 또는 예비벤처확인서 보유자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178779",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "모두의 창업 글로벌 프로그램",
+   "agency": "중소벤처기업부",
+   "category": "글로벌",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178779",
+   "status": "open",
+   "note": "창업기업 사업비 관리, 현지 AC와의 협력, 창업지원 프로그램 운영 등 창업기업 지원 역량 및 전문성을 보유한 기관 [공고문 참조]",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178774",
+   "group": "A",
+   "gtag": "창업",
+   "title": "메이커 스페이스",
+   "agency": "동대문구 창업지원센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178774",
+   "status": "open",
+   "note": "3D프린터 또는 레이저커터에 관심있는 누구나",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178772",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 구미시 스타트업 필드 3차 입주기업 모집 공고",
+   "agency": "구미전자정보기술원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178772",
+   "status": "open",
+   "note": "1. 예비창업 또는 창업 후 7년 이내 창업 기업 2. 사업장 주소 : 구미소재 기업 및 구미(본사)로 이전 계획 기업 - 선정 후 60일 이내…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178771",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "창업보육센터 지원",
+   "agency": "협성대학교 창업보육센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178771",
+   "status": "open",
+   "note": "- 창업 후 7년 이내 중소기업 1) 사업개시일 : 법인등기일(법인), 사업자등록일(개인) 2) 입주조건 : 사업자등록증 내 본점을 협성대학교 …",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178769",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "구로구 청년창업지원센터_일반 창업교육",
+   "agency": "구로구 청년창업지원센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178769",
+   "status": "open",
+   "note": "19 ~ 39세 서울시 거주 청년 중 (예비)창업희망자 및 일반인",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178768",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 이천시 청년창업지원센터 입주기업 모집",
+   "agency": "청강문화산업대학교 산학협력단",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-28",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178768",
+   "status": "open",
+   "note": "■ 19세∼39세 이하 청년 창업자 또는 예비창업자 ⦁예비창업자의 경우 입주 후 3개월 이내 사업자등록이 가능한 자 ⦁기존창업자의 경우 공고일 …",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178767",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "IP 디딤돌 프로그램",
+   "agency": "인천지식재산센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178767",
+   "status": "open",
+   "note": "인천시민, (예비)창업자, 학생 등 25명 내외",
+   "region": "인천",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178766",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "창업혁신공간(동부권) 운영(하남시)",
+   "agency": "경기도경제과학진흥원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-04",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178766",
+   "status": "open",
+   "note": "하남시 소재 거주자 및 사업장 임직원",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178765",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "해외진출 기업 대상 AI 통역 서비스 「아네스노트」 이용권 지원",
+   "agency": "주식회사 팀제로코드",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178765",
+   "status": "open",
+   "note": "해외 바이어 상담, 수출 계약 협상, 해외 전시회 참가 등 해외 진출 과정에서 언어 장벽을 겪고 있는 국내 (예비)창업자 및 중소기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178763",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 한국관광공사 관광기업지원센터 관광기업 역량강화 3차 교육",
+   "agency": "한국관광공사 관광기업지원센터(서울)",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178763",
+   "status": "open",
+   "note": "관광 분야 스타트업 및 임직원, 예비 창업자 등",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178759",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "26년 8월 스타트업 언론 홍보 지원사업 참가사 모집 공고(1차)",
+   "agency": "스타트업 데일리",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-16",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178759",
+   "status": "open",
+   "note": "1. 예비창업자 2. 창업 7년 이내 초기 기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178757",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "창업혁신공간(동부권) 운영(하남시)",
+   "agency": "경기도경제과학진흥원",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178757",
+   "status": "open",
+   "note": "하남시 내 본사를 등록 또는 등록 예정인 7년 이내 기술창업 기업(예비창업자 포함) * 등록 예정에 해당하는 기업은 '26년 9월 30일까지 등…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178756",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[서울경제진흥원] 서울시 글로벌 창업행사 Try Everything 2026",
+   "agency": "재단법인 서울경제진흥원",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-08",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178756",
+   "status": "open",
+   "note": "예비창업자, 국내외 대·중견기업, 스타트업, VC/AC, 유관기관, 학생 등 창업/투자 생태계에 관심있는 누구나",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178754",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[서울과학기술대학교]SLA 3D프린터 장비교육",
+   "agency": "서울과학기술대학교",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178754",
+   "status": "open",
+   "note": "예비창업자 및 7년 이내 초기창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178752",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[혁신창업캠프]청년 창업자를 위한 창업 인사이트 캠프",
+   "agency": "관악구청",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-16",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178752",
+   "status": "open",
+   "note": "청년 예비 및 초기창업자(1987년 이후 출생자)",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178750",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "2026년 서귀포시 스타트업타운(STARTUPTOWN) 입주기업 2기 하반기 모집 (~8/18 마감)",
+   "agency": "넥스트챌린지",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178750",
+   "status": "open",
+   "note": "가. 서귀포시에 사업자 설립 또는 설립(이전) 예정인 3년 초과 7년 이내 청년사업자 ※ 창업 후 3년 초과 ~ 7년 이내 기준 - 창업일이 2…",
+   "region": "제주",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178748",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 KB스타터스 전문가 세미나",
+   "agency": "서울창조경제혁신센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178748",
+   "status": "open",
+   "note": "M&A, 세무, 회계, 투자 전문가가 필요한 투자팀",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178746",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "「2026 산업단지 오픈이노베이션 프로그램」 KICXUP 챌린지 & 로컬 스타트업 모집 공고",
+   "agency": "한국산업단지공단",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178746",
+   "status": "open",
+   "note": "산업단지 수요기업과 기술 협업을 희망하는 국 내외 스타트업 * 공고일 기준 업력 7년 이하 법인 및 예비창업자(대학 및 연구기관 포함) * 개인…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178743",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "[글로벌] 2026 BIOHEALTH GLOBAL BRIDGE : JOHNS HOPKINS / HIKMA 프로그램 참가기업 모집",
+   "agency": "서울창조경제혁신센터",
+   "category": "글로벌",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178743",
+   "status": "open",
+   "note": "공고일기준 업력 10년 이내 바이오헬스 분야 창업기업",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178741",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026년 여성CEO 비즈니스 아카데미 서울권역 시즌 2",
+   "agency": "한국여성경제인협회",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "any",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178741",
+   "status": "open",
+   "note": "기업의 성장을 고민하는 여성CEO",
+   "region": "서울",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178740",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 스타 IR 데모데이 참여기업 모집공고(4차)",
+   "agency": "스타에셋파트너스 주식회사",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178740",
+   "status": "open",
+   "note": "F&B 및 프랜차이즈 분야 예비창업자 및 7년 이내 초기 창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178738",
+   "group": "A",
+   "gtag": "재창업",
+   "title": "재도전·혁신캠퍼스 운영",
+   "agency": "(재)대전창조경제혁신센터 ",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178738",
+   "status": "open",
+   "note": "◦ 신청자격 : 예비 재창업자, 재창업 3년 미만 창업자 또는 폐업 위기 창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178737",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "2026년 하반기 화성시 벤처인증 비용 지원사업",
+   "agency": "(재)화성산업진흥원",
+   "category": "정책자금",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-10-15",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178737",
+   "status": "open",
+   "note": "(지원대상) 벤처기업 인증을 취득한* 화성시 소재** 중소기업 ※ 벤처기업 확인서 유효기간 시작일이 2026. 2. 23. 이후인 기업 * 20…",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178736",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 「차세대 반도체 패키징 산업전 시스템반도체 OSAT 전문교육(세미나)」 개최",
+   "agency": "한국나노기술원",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178736",
+   "status": "open",
+   "note": "교육(세미나) 참여 희망자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178731",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "[국토교통부 x 물류산업진흥재단] 2026 물류상생 Meet-up 행사 기술기업 모집",
+   "agency": "물류산업진흥재단",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178731",
+   "status": "open",
+   "note": "○ 사업자등록증을 보유한 법인·개인사업자 ○ 물류 현장에 적용 가능한 기술·서비스를 보유하고, 실제 적용 사례 또는 검증 이력을 보유한 기업 ○…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178730",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "한계를 뛰어넘는 연구와 기술에 투자하다 hosted by ARIA × Antler Korea 밋업",
+   "agency": "앤틀러코리아",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178730",
+   "status": "open",
+   "note": "본 행사는 일반적인 창업·네트워킹 행사가 아닌, 새로운 과학기술의 방향을 제시하고 고난도 연구개발을 주도할 수 있는 연구자, 기술 리더 및 창업…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178726",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 세종 스타트업 원스톱 지원센터 아카데미 2차",
+   "agency": "(주) 렛츠",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178726",
+   "status": "open",
+   "note": "세종시 소재 (예비)창업기업",
+   "region": "세종",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178722",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "\"스타트업이 알아야 할 스테이블코인이 바꾸는 금융의 미래\" 비대면 교육 모집",
+   "agency": "서울핀테크랩",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-06",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178722",
+   "status": "open",
+   "note": "디지털 자산 및 블록체인에 관심 있는 스타트업 등 누구나",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178721",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "2026년 2nd S.Stage 개최 안내",
+   "agency": "서울창조경제혁신센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178721",
+   "status": "open",
+   "note": "- 토스뱅크: 사업자 계좌 연계 솔루션, 포용금융, 비이자수익, 리테일자산관리, 해외뱅킹, 기타 - 한국평가데이터: 리스크 관리, 데이터 자산화…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178719",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
+   "agency": "연구개발특구진흥재단",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178719",
+   "status": "open",
+   "note": "1. 대중견기업 오픈이노베이션 프로그램 운영자 2. 중견기업 및 중소기업 신사업 스핀오프 사업부 3. 스타트업 및 중소기업 4. 투자기관/지원기…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178718",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "[KEA] IoT제품 개발 지원 및 빅데이터 분석 과제기획 수요기업 모집",
+   "agency": "한국전자정보통신산업진흥회",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178718",
+   "status": "open",
+   "note": "IoT가전 전자 디바이스 제품 개발을 준비중이거나 보유한 기업 제품 데이터 활용이 필요하지만 내부 인력이 부족한 기업 AI 데이터기반 신규 서비…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178711",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2027 서울관광플라자 신규 입주 스타트업 모집 공고",
+   "agency": "서울관광재단",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-17",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178711",
+   "status": "open",
+   "note": "「중소기업창업지원법」제2조 제3항에 따른 창업기업으로서 서울 관광 활성화 관련 사업을 영위하는 공고일 기준(26. 7. 28) 창업 7년 미만의…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178710",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[8월 창업 온라인 교육] K-2026 창업 초보를 위한 창업 A-Z 교육",
+   "agency": "하우그로우 원격평생교육원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-27",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178710",
+   "status": "open",
+   "note": "(예비)창업자, 기창업자, 교육 수강 희망자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178709",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026년 창업진흥원 정책 아이디어 공모전",
+   "agency": "창업진흥원",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-09-03",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178709",
+   "status": "open",
+   "note": "창업, 지역상생·동반성장 관련 정책 아이디어나 관심이 있는 자(개인)",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178708",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "용인시산업진흥원 2026년 제3차 창업지원센터 입주기업 모집공고(~8/19 수 16시까지)",
+   "agency": "용인시산업진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178708",
+   "status": "open",
+   "note": "□ 공고일 기준 사업 개시 7년 미만 기업 및 예비창업자 ❍ 창업지원센터(동백) : 바이오헬스 분야 (디지털 헬스케어, Age-Tech, 의료기…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178704",
+   "group": "A",
+   "gtag": "창업",
+   "title": "\"스타트업 SEO 마케팅 전략\" 비대면 교육 모집",
+   "agency": "서울핀테크랩",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-23",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178704",
+   "status": "open",
+   "note": "SEO 마케팅에 관심있는 스타트업 관계자 누구나",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178702",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 서울시 소셜벤처 임팩트 측정 사업설명회(2차) 참여기업 모집",
+   "agency": "서울소셜벤처허브",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178702",
+   "status": "open",
+   "note": "서울시 소셜벤처기업, 소셜벤처 희망기업 ※ 선착순 30명(대면교육)",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178698",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "「2026년 하반기 화성특례시 사회적경제 창업아카데미」교육생 모집",
+   "agency": "화성시사회적경제지원센터",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-10-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178698",
+   "status": "open",
+   "note": "화성시민(또는 일반시민) 포함 사회적경제기업 예비창업자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178697",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "서대문구-서울시립대학교창업지원센터 운영",
+   "agency": "서울시립대학교 창업보육센터장",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-23",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178697",
+   "status": "open",
+   "note": "예비창업자 및 창업 개시일로부터 7년 미만 기술창업기업 ○ 우대 대상: 서대문구 거주자, 벤처기업, 여성창업자, 예비기술창업자(서울시립대 관련자…",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178693",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 체육인 직업안정사업(창업열매) 참여자 추가 모집",
+   "agency": "국민체육진흥공단",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178693",
+   "status": "open",
+   "note": "- 체육인 복지법 시행령 제2~4조에 따른 체육인(선수·지도자·심판)으로서, 은퇴(예정) 또는 경력단절 체육인 중 기창업자 - 사업계획이 준비되…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178690",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "서초창업스테이션 운영 사업",
+   "agency": "서초창업스테이션",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178690",
+   "status": "open",
+   "note": "컨설팅을 희망하는 예비·초기 소상공인",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178687",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026 신용보증기금 「혁신아이콘」제16기 모집 공고",
+   "agency": "신용보증기금",
+   "category": "정책자금",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178687",
+   "status": "open",
+   "note": "2026년 8월 4일 현재 아래 요건을 모두 충족하는 기업 - 업력 : 공개모집 개시일 현재 업력 2년 이상 12년 이하 - 대상분야 : 신성장…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178686",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "28청춘창업소 운영",
+   "agency": "고양산업진흥원",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-28",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178686",
+   "status": "open",
+   "note": "- 공고일 기준 대표자 기준 39세 이하(1986.7.27.이후 출생)인 (예비)창업자 ※ 공동 대표일 경우 신청서 내 기재된 대표자 모두 신청…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178679",
+   "group": "B",
+   "gtag": "글로벌·판로",
+   "title": "[창원산업진흥원] CES2027 참가기업 지원사업 참가기업 모집 공고",
+   "agency": "(재)창원산업진흥원장",
+   "category": "글로벌",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178679",
+   "status": "open",
+   "note": "신제품을 보유한 창원시 소재 창업기업 중 CES 유레카파크 조건을 충족하는 기업 6개사",
+   "region": "경남",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178676",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2026 하반기 MARU 배치 스타트업 모집",
+   "agency": "재단법인 아산나눔재단",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-28",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178676",
+   "status": "open",
+   "note": "마루 공간, 성장 프로그램, 커뮤니티를 적극적으로 활용하여 성장할 수 있는 국내 스타트업 (최대 12인실 제공) 대표 포함 핵심인력(C레벨)이 …",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks178675",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 전주 로컬브랜딩 아이디어 해커톤 참가자 모집",
+   "agency": "전주시지역소통협력센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178675",
+   "status": "open",
+   "note": "전주 지역자원을 활용한 아이디어가 있는 누구나 총 15팀 모집(2~5인 팀 구성)",
+   "region": "전북",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178673",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[숭실대학교 캠퍼스타운] 2026 석·박사급 실험실 창업스쿨(유형1)",
+   "agency": "숭실대학교 캠퍼스타운사업단",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178673",
+   "status": "open",
+   "note": "이공계(예비)석·박사급 연구인력, 기술사업화 분야 (예비)창업자·초기창업자",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178672",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 산업전문인력 AI역량강화 지원사업",
+   "agency": "(주)글로벌창업연구소",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178672",
+   "status": "open",
+   "note": "글로벌 공공조달 및 수출(예비) 기업 실무자 및 중간관리급 재직자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178670",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "경기 서부권 기술사업화 세미나",
+   "agency": "가톨릭대학교",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-19",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178670",
+   "status": "open",
+   "note": "예비창업자, 스타트업 및 기술사업화에 관심 있는 기업 관계자, 가톨릭대 앵커사업단 GAIA센터 협의체 기관",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178666",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[숭실대학교 캠퍼스타운] 2026 숭실 스타트업 아카데미",
+   "agency": "숭실대학교 캠퍼스타운사업단",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-21",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178666",
+   "status": "open",
+   "note": "스타트업 대표 및 임직원, 예비 창업자 및 창업에 관심이 있는 학생 등",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178651",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "이노베이션 어워즈",
+   "agency": "(주)엑스코 FIX 사무국",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-08-22",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178651",
+   "status": "open",
+   "note": "미래모빌리티, AI·ICT, 로봇 분야의 혁신 기술·제품을 보유한 기업",
+   "region": "대구",
    "star": true,
    "source": "공고"
   },
@@ -438,98 +3942,11 @@
    "source": "공고"
   },
   {
-   "id": "ks178636",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 WEROUND 공유형 공간 신규 입주기업 상시 모집",
-   "agency": "서강대학교 판교캠퍼스사업단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178636",
-   "status": "open",
-   "note": "기술기반 아이템을 보유한 예비~창업 7년 이내 스타트업 ※ 신산업 창업 분야에 관한 규정 제3조 1항에 따라 신산업 창업 분야는 창업 10년 이…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178635",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 WEROUND 제3차 신규 입주기업 모집 공고 (~8/7)",
-   "agency": "서강대학교 판교캠퍼스사업단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178635",
-   "status": "open",
-   "note": "기술기반 아이템을 보유한 예비~창업 7년 이내 스타트업 ※ 신산업 창업 분야에 관한 규정 제3조 1항에 따라 신산업 창업 분야는 창업 10년 이…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178634",
+   "id": "ks178633",
    "group": "D",
    "gtag": "기술·디지털",
-   "title": "2026년 제3회 ICT콤플렉스 스타트업 투자상담회 참가기업 모집",
-   "agency": "ICT콤플렉스",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-12",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178634",
-   "status": "open",
-   "note": "ICT기술 기반의 창업 7년 이내 기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178631",
-   "group": "A",
-   "gtag": "창업",
-   "title": "[문화예술 창업지원]메이커스페이스 자개 공예 원데이클래스",
-   "agency": "관악구청",
+   "title": "「2026 기업가정신 확산 및 진흥 유공」 포상 신청 공고",
+   "agency": "한국청년기업가정신재단",
    "category": "창업교육",
    "elig": {
     "stage": [
@@ -540,44 +3957,15 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-08-04",
+   "deadline": "2026-09-11",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178631",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178633",
    "status": "open",
-   "note": "청년(1987년 이후 출생자)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178630",
-   "group": "A",
-   "gtag": "창업",
-   "title": "메이커스페이스 3D프린팅 교육/실습",
-   "agency": "관악구청",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178630",
-   "status": "open",
-   "note": "청년(1987년 이후 출생자)",
+   "note": "기업가정신 교육, 정책 개발, 연구 등 기업가정신 생태계 구축과 문화조성에 3년 이상 기여한 공적이 있는 개인 또는 단체 1) 개인 - 교사, …",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -640,65 +4028,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178625",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "[무료 웨비나] 글로벌 시장을 위한 AI 마이크로 서비스 제작 실전",
-   "agency": "The Bridge Circle (TBC)",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178625",
-   "status": "open",
-   "note": "초기 및 성장 스타트업, AI를 활용한 서비스 개발과 글로벌 시장 검증에 관심 있는 누구나",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178623",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
-   "agency": "한국산업단지공단,씨엔티테크",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178623",
-   "status": "open",
-   "note": "설립 7년 미만 창업기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178622",
    "group": "B",
    "gtag": "창업도약",
@@ -725,121 +4054,6 @@
    "note": "공고일 기준 대구 서구 소재 영업장(사업자등록증 기준)의 3년 초과 7년 이내 창업기업",
    "region": "대구",
    "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178621",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 공공기술 활용 딥테크 창업 경진대회",
-   "agency": "대전창조경제혁신센터, 나노종합기술원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-14",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178621",
-   "status": "open",
-   "note": "공공기술을 활용한 창업아이디어를 보유한 예비창업자(대학생 및 대학원생 포함), 공공기술 기반으로 창업한 창업 3년 이내 초기창업기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178620",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 투자유치설명회 및 컨설팅 지원사업 공고",
-   "agency": "한국발명진흥회장",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178620",
-   "status": "open",
-   "note": "등록된(전용실시권 포함) 특허, 실용신안, 디자인 중 1건 이상 보유한 기업(30개사 이내 지원)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178619",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "강원 바이오·헬스케어 산업 AI 대전환 지원사업",
-   "agency": "(재)강원창조경제혁신센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178619",
-   "status": "open",
-   "note": "❍ 지원대상 : 다음 요건을 모두 만족하는 7년 이내 도내 창업기업 - [지역] : 강원특별자치도내에 본점, 지점, 연구소·공장 중 1개 이상 …",
-   "region": "강원",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178616",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "서울창업허브 창동 운영",
-   "agency": "서울창업허브 창동",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178616",
-   "status": "open",
-   "note": "- 동아사이언스와의 PoC(실증) 및 공동 사업화에 대한 협업 의지를 보유한 기업 - 모집 분야의 혁신적인 기술, 제품, 서비스를 보유한 창업 …",
-   "region": "서울",
-   "star": true,
    "source": "공고"
   },
   {
@@ -872,94 +4086,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178614",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "[글로벌] 2026 Bio-Health Global Bridge: AHN 프로그램 참가기업 모집",
-   "agency": "서울창조경제혁신센터",
-   "category": "글로벌",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-06",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178614",
-   "status": "open",
-   "note": "바이오헬스, 메드테크 분야 업력 10년 미만 창업기업(공고일 기준)",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178613",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 ESG 기반 산업안전 컨설팅",
-   "agency": "협성대학교 RISE 사업단",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178613",
-   "status": "open",
-   "note": "화성시 관내 제조업 기업(뿌리기술 또는 관련 사업 분야)",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178611",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "IP 디딤돌 프로그램",
-   "agency": "충남지식재산센터장",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178611",
-   "status": "open",
-   "note": "충남 지역 여성(예비창업자, 3년 이내 초기 창업기업)",
-   "region": "충남",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178610",
    "group": "B",
    "gtag": "창업도약",
@@ -984,153 +4110,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178610",
    "status": "open",
    "note": "- 제조업(스마트제조, 제조AI 등) - 지식기반산업(지식산업, 첨단기술활용 산업) - 정보통신산업 - 전문, 과학 및 기술 서비스업 등",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178609",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집",
-   "agency": "(재)충남창조경제혁신센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-10",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178609",
-   "status": "open",
-   "note": "수요기업과 협업을 희망하는 7년 이내 전국 소재 스타트업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178608",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "2026년 하반기 SBA-신용보증기금 혁신 스타트업 보증지원 사업",
-   "agency": "서울경제진흥원",
-   "category": "정책자금",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178608",
-   "status": "open",
-   "note": "1. 사업장: 본사 또는 주사업장이 서울시에 소재한 기업 2. 업력: 2020. 1. 1. 이후 설립된 창업기업 3. 분야: 혁신성장산업 또는 …",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178606",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "2026 대구특구 글로벌 딥테크 지원사업 DEEP-BOUND 참가자 모집",
-   "agency": "와이앤아처(주)",
-   "category": "글로벌",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-10",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178606",
-   "status": "open",
-   "note": "대구 5대 미래 신산업 분야 딥테크 대구시 소재 기업* 또는 연구개발특구 공공기술 이전·사업화를 추진하는 대구시 소재 기업 * 바이오·헬스케어,…",
-   "region": "대구",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178605",
-   "group": "A",
-   "gtag": "창업",
-   "title": "민관협력 오픈이노베이션 지원사업",
-   "agency": "창업진흥원장",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178605",
-   "status": "open",
-   "note": "'26년 제2차 '민간 선별추천형'에 선정된 수요기업의 추천 기업이며, 공고일 기준으로 「중소기업창업 지원법」의 창업에 해당하는 기업으로 동 공…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178604",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "2026 창조경제혁신센터 글로벌오픈이노베이션 프로그램 참여기업 모집공고",
-   "agency": "(재)경기창조경제혁신센터",
-   "category": "글로벌",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178604",
-   "status": "open",
-   "note": "전국 창조경제혁신센터 보육기업",
    "region": "전국",
    "star": false,
    "source": "공고"
@@ -1164,92 +4143,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178601",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "강동50+센터 공유사무실 입주자 추가모집",
-   "agency": "강동50플러스센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "any",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178601",
-   "status": "open",
-   "note": "모집공고일(26.4.27.) 기준, 대표자가 40~64세인 서울시 거주자 또는 사업자등록증 상 주소지가 서울시인 예비·초기창업자 및 단체",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178599",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 세종특별자치시 나성동 AI융합창업보육센터2차 입주기업(인큐베이팅룸) 모집 공고",
-   "agency": "(재)세종창조경제혁신센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178599",
-   "status": "open",
-   "note": "◦ 예비창업자 - 단, 최종 선정 시 입주 개시일로부터 6개월 이내에 본 센터로 사업자등록 필수 ◦ 업력 7년 이내(공고일 기준 )의 스타트업 …",
-   "region": "세종",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178598",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "2026년 대구 콘텐츠 스케일업 액셀러레이팅 프로그램 지원사업 참여기업 모집 공고",
-   "agency": "(재)대구디지털혁신진흥원",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-13",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178598",
-   "status": "open",
-   "note": "- 본점 소재지가 대구인 업력 7년 미만(공고시작일 기준) 콘텐츠 기업 - 투자유치를 통한 사업 확장 및 글로벌 시장 진출을 희망하는 기업",
-   "region": "대구",
-   "star": false,
-   "source": "공고"
-  },
-  {
    "id": "ks178597",
    "group": "A",
    "gtag": "창업",
@@ -1277,122 +4170,6 @@
    "note": "의왕시 시민, 기업 재직자, 학생 등 ESG에 관심 있는 누구나 참여 가능",
    "region": "경기",
    "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178595",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "마을?청년 공유 플랫폼",
-   "agency": "중원유스센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178595",
-   "status": "open",
-   "note": "창업분야 무관 예비창업자(만19세~만39세, 창업이력 3년 이내 참여 가능) 1) 성남시 거주 청년 2) 성남시 소재 대학 재학생 또는 휴학생 …",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178594",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업보육센터 지원",
-   "agency": "충남대학교 미래창업원",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178594",
-   "status": "open",
-   "note": "가. 중소기업창업 지원법 제2조에 따른 ‘창업자’ 또는 예비창업자 나. 입주 후 1개월 이내 창업보육센터로 본사 소재지 이전이 가능한 기업 다.…",
-   "region": "대전",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178592",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "2026 콘텐츠 스타트업 글로벌 엑셀러레이팅 프로그램(론치패드) 참가기업 추가 모집",
-   "agency": "한국콘텐츠진흥원",
-   "category": "판로ㆍ해외진출",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178592",
-   "status": "open",
-   "note": "글로벌 비즈니스 모델을 갖춘 2019년 이후 국내 법인 등기를 완료한 콘텐츠 스타트업 ※ 법인 등기부등본상의 회사설립 연원일이 2019년 이후여…",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178590",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "[MYSC] 2026 FIN:NECT 해외 데모데이 참가기업 모집 (~8/2)",
-   "agency": "엠와이소셜컴퍼니",
-   "category": "판로ㆍ해외진출",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-02",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178590",
-   "status": "open",
-   "note": "싱가포르 등 해외시장 기진출 또는 진출 희망 핀테크 기업 8개사내외 / 금융사회 안전망 구축 관련 기술 보유 기업 (세부 신청자격은 공고문 참고…",
-   "region": "전국",
-   "star": false,
    "source": "공고"
   },
   {
@@ -1424,39 +4201,11 @@
    "source": "공고"
   },
   {
-   "id": "ks178587",
-   "group": "A",
-   "gtag": "재창업",
-   "title": "2026 성공 창업 스쿨 모집 공고 (재도전 과정)",
-   "agency": "강동구 청년해냄센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178587",
-   "status": "open",
-   "note": "정부지원사업 재도전을 희망하는 예비창업자 또는 기창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178585",
+   "id": "ks178575",
    "group": "A",
    "gtag": "예비창업",
-   "title": "[국민대학교 캠퍼스타운사업단] 2026 지역 현안 문제해결 연계 \"성북 ON 창업교육 프로그램\" 참가자 모집 (~7/29)",
-   "agency": "국민대학교 캠퍼스타운사업단",
+   "title": "예비창업패키지",
+   "agency": "광운대학교 NCI창업패키지사업단",
    "category": "사업화",
    "elig": {
     "stage": [
@@ -1466,283 +4215,15 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-07-29",
+   "deadline": "2026-09-05",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178585",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178575",
    "status": "open",
-   "note": "○ (사업분야) 라이프스타일․로컬 소상공인(라이콘, LICORN) 분야 창업기업 ○ (지원자격) ① 대학생, 일반인 등 누구나 (지역·업종·연령…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178584",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "2026 북경대창업훈련캠프 글로벌 창업대회",
-   "agency": "BoxLadder",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178584",
-   "status": "open",
-   "note": "○ 중국 시장 진출, 중국 투자유치, 중국 지방 정부의 정책 자금에 관심이 있는 창업자/스타트업 ○ 중국 스타트업, 벤처캐피탈, 창업에 관심이 …",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178582",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "(재)여성기업종합지원센터 제주센터 제2차 입주기업 모집 공고(~7/31)",
-   "agency": "(재)여성기업종합지원센터 제주센",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178582",
-   "status": "open",
-   "note": "「여성기업지원에관한법률」제2조에 의한 여성기업으로 창업 7년 미만의 여성기업확인서 보유한 여성기업 또는 입주 후 3개월 내 사업자등록 가능한 예…",
-   "region": "제주",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178581",
-   "group": "A",
-   "gtag": "창업",
-   "title": "「2026년 경기 레벨업 프로그램(하반기)」 지원기업 통합 모집공고",
-   "agency": "(재)경기콘텐츠진흥원",
-   "category": "정책자금",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-10",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178581",
-   "status": "open",
-   "note": "도내(이전예정) 콘텐츠/IP 기업 ※ 프로그램 별 상이, 자세한 사항은 모집공고문 참고",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178580",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "마포청년창업취업지원센터 나루 2026",
-   "agency": "마포청년창업취업지원센터 나루",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-05",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178580",
-   "status": "open",
-   "note": "예비 및 초기 청년(만 19세~39세) 창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178579",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "마포청년창업취업지원센터 나루 2026",
-   "agency": "마포청년창업취업지원센터 나루",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-14",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178579",
-   "status": "open",
-   "note": "예비 및 초기 청년(만 19세~39세) 창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178578",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "마포청년창업취업지원센터 나루 2026",
-   "agency": "마포청년창업취업지원센터 나루",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-11",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178578",
-   "status": "open",
-   "note": "예비 및 초기 청년(만 19세~39세) 창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178577",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "강북창업지원센터 [브랜드 창업 아카데미] 교육 참여자 모집",
-   "agency": "강북창업지원센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178577",
-   "status": "open",
-   "note": "예비 및 초기 창업자",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178576",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "마포청년창업취업지원센터 나루 2026",
-   "agency": "마포청년창업취업지원센터 나루",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-04",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178576",
-   "status": "open",
-   "note": "예비 및 초기 청년(만 19세~39세) 창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178574",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "ESG × AI 챌린지 해커톤 참가자 모집",
-   "agency": "경기창조경제혁신센터",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178574",
-   "status": "open",
-   "note": "AI 및 DX(디지털 전환) 기술에 관심 있는 고등학생·대학생·일반인 누구나 (3~5인팀 또는 개인 지원 가능)",
+   "note": "창업에 관심이 있는 누구나",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -1777,122 +4258,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178570",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 전북콘텐츠코리아랩 콘텐츠 제작지원사업 2차 추가모집 공고",
-   "agency": "(재)전북특별자치도 콘텐츠융합진흥원",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-28",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178570",
-   "status": "open",
-   "note": "예비 창업자",
-   "region": "전북",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178569",
-   "group": "A",
-   "gtag": "창업",
-   "title": "서울창업허브 창동 운영",
-   "agency": "서울창업허브 창동",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
-   "status": "open",
-   "note": "투자자와 IR 미팅을 희망하는 서울시 소재 스타트업 * 서울창업허브 창동 입주기업 또는 IR 고도화 과정(IR 기초교육, IR 전문가 컨설팅),…",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178566",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "서울창업허브 창동 운영",
-   "agency": "서울창업허브 창동",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178566",
-   "status": "open",
-   "note": "- 조이시티와의 PoC(실증) 및 공동 사업화에 대한 협업 의지를 보유한 기업 - 모집 분야의 혁신적인 기술, 제품, 서비스를 보유한 창업 7년…",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178564",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "강원 바이오·헬스케어 산업 AI 대전환 지원사업",
-   "agency": "(재)강원창조경제혁신센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178564",
-   "status": "open",
-   "note": "❍ 지원대상 : 다음 요건을 모두 만족하는 7년 이내 도내 창업기업 - [지역] : 강원특별자치도내에 본점, 지점, 연구소·공장 중 1개 이상 …",
-   "region": "강원",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178561",
    "group": "A",
    "gtag": "예비창업",
@@ -1921,64 +4286,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178559",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "「2026년 공공데이터 활용기업 AI연계 맞춤형 성장 지원사업」 참여기업 모집 안내",
-   "agency": "한국지능정보사회진흥원",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-14",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178559",
-   "status": "open",
-   "note": "공공데이터와 AI를 활용한 서비스를 제공하고 있거나 개발하고자 하는 기업 또는 예비창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178557",
-   "group": "C",
-   "gtag": "고용·인력",
-   "title": "2026 서울시 중장년 채용박람회 권역별 참여기업 모집",
-   "agency": "서울시50플러스재단",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-14",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178557",
-   "status": "open",
-   "note": "중장년 대상 채용, 홍보에 관심있는 기업",
-   "region": "서울",
-   "star": false,
-   "source": "공고"
-  },
-  {
    "id": "ks178555",
    "group": "A",
    "gtag": "창업",
@@ -2004,122 +4311,6 @@
    "status": "open",
    "note": "1. 5년 이상 중·장기복무 제대(예정) 군인 2. 의무복무 제대군인 중 전역 후 3년 이내의 취업맞춤특기병, 저소득·모범장병, 등급미달 경상이…",
    "region": "전남광주",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178553",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "[2026년 경기 AI 혁신클러스터] AI 클러스터 오픈이노베이션 연계·실증 프로그램 참가기업 모집",
-   "agency": "경기도경제과학진흥원",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178553",
-   "status": "open",
-   "note": "□ 신청자격 : 경기도 소재 AI 기술 보유 스타트업(공고일 기준, ’26.7.15.) ○ 경기도 소재 관내기업 : 본사, 지사, 지점, 연구소…",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178551",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026년 청년창업 아이디에이션 4.0 참가자 모집 공고",
-   "agency": "성남시청소년청년재단",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-13",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178551",
-   "status": "open",
-   "note": "혁신 기술 기반 창업을 희망하는 성남시 청년(개인 또는 3인 이하의 팀) ※ 세부 지원조건 모집공고문 지원자격 및 지원조건 확인",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178549",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "경기 스타트업 글로벌 성장지원",
-   "agency": "씨엔티테크(주)",
-   "category": "글로벌",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178549",
-   "status": "open",
-   "note": "본점 주소지가 경기도에 소재한 7년 이내 창업기업 ※ 단, 신산업 창업 분야에 해당 시 10년 이내",
-   "region": "경기",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178548",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 논산시 사회적경제 창업 아카데미 교육생 모집",
-   "agency": "논산시 사회적경제통합지원센터",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-13",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178548",
-   "status": "open",
-   "note": "사회문제 해결 아이디어를 가진 시민 및 창업3년 이내 기업 등",
-   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -2153,92 +4344,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178546",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 특허출원·등록 비용 바우처 지원사업 9차(하반기 2차)",
-   "agency": "(사)한국중소기업발전협회",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178546",
-   "status": "open",
-   "note": "o 연구개발 활동을 수행하고 있는 스타트업 및 중소·중견기업 o 1인 창업가, 예비 창업자, 개인사업자 등",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178545",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "제 7회 DDM 벤처스타트업 아카데미 모집",
-   "agency": "광운대학교산학협력단",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-28",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178545",
-   "status": "open",
-   "note": "창업 및 투자 유치에 관심이 있는 (예비)창업자 및 동일 분야에 관심이 있는 자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178544",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "조선대학교 앵커사업단 2026학년도 문화예술분야 스타트업 지원 참여기업 모집",
-   "agency": "조선대학교 앵커사업단",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178544",
-   "status": "open",
-   "note": "전남광주통합특별시 소재의 문화예술 콘텐츠 기반 스타트업(사업자등록일로부터 7년 이내) 및 지원기간 내 전남광주통합특별시에 사업자등록이 가능한 예…",
-   "region": "전남광주",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178543",
    "group": "A",
    "gtag": "예비창업",
@@ -2262,151 +4367,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178543",
    "status": "open",
    "note": "예비창업자, 기창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178542",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[무료/선착순] 대구데이터역량강화교육 AI Agent 개발",
-   "agency": "메타코드에이치",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-10",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178542",
-   "status": "open",
-   "note": "대학생,취업준비생,예비창업자 및 예비 개발자, 현직실무자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178541",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "청년창업 아이디어 경진대회 개최",
-   "agency": "전남광주통합특별시 북구청",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178541",
-   "status": "open",
-   "note": "공고일 기준 전남광주통합특별시에 생활권을 둔 15세~39세 청년(1986. 7. 10. ~ 2011. 7. 9. 출생자) - (루키리그) 예비창…",
-   "region": "전남광주",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178540",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "IBS(기초과학연구원) Research Connect",
-   "agency": "(주)아이비유",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178540",
-   "status": "open",
-   "note": "유전체 교정 연구자, 바이오·제약·AI·디지털 헬스 기업 등",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178538",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026년 규제혁신 로봇 실증사업 2차 공고",
-   "agency": "한국로봇산업진흥원",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-04",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178538",
-   "status": "open",
-   "note": "규제 애로사항을 보유하고 있는 서비스 로봇 기업 및 수요처",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178537",
-   "group": "A",
-   "gtag": "창업",
-   "title": "『SMART-X LAB 14기』 참여기업 모집",
-   "agency": "재단법인 인천창조경제혁신센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-02",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178537",
-   "status": "open",
-   "note": "정보보안(자산관리, 침해예방, 탐지대응, 개인정보, 거버넌스) 분야에서 KT와 협업할 수 있고, 일본 ILS 2026 참가가 가능한 창업기업 및…",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -2442,209 +4402,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178535",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "26년 7월 스타트업 언론 홍보 지원사업 참가사 모집 공고(2차)",
-   "agency": "스타트업 데일리",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178535",
-   "status": "open",
-   "note": "1. 예비창업자 2. 창업 7년 이내 초기 기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178534",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 서울핀테크랩 FIN-오픈이노베이션 Meep-up Day 8회차 - KB Innovation HUB",
-   "agency": "서울핀테크랩",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178534",
-   "status": "open",
-   "note": "서울 소재 핀테크 기업",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178533",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업보육센터 지원",
-   "agency": "한국외국어대학교 연구산학협력단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178533",
-   "status": "open",
-   "note": "- 예비창업자, 3년미만 창업기업",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178532",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 경기 스타트업 서밋 Invest Connect 2차 참가기업 모집",
-   "agency": "(재)경기도경제과학진흥원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178532",
-   "status": "open",
-   "note": "공고일 기준 참가분야 업력 7년 이내 스타트업(신산업 분야 10년 이내) - 참가분야 : AI·로봇·반도체·바이오·기후테크·기타(신산업) * 「…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178531",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 광주투자액셀러레이팅 G-IN Next Level 13기 참여기업 모집공고",
-   "agency": "광주창조경제혁신센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-06",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178531",
-   "status": "open",
-   "note": "1.전남광주통합특별시 본사 소재 7년이내 창업기업 2.직전연도 매출이 20억 미만인 기업",
-   "region": "전남광주",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178530",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "[스터디/강의 무료 제공] 임팩트 스타트업 성장 방법과 경로 (총 3회, 성수동)",
-   "agency": "임팩트서클",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178530",
-   "status": "open",
-   "note": "임팩트 비즈니스와 성장 방법에 대해 함께 스터디 하고 싶은 1인 창업가(초기)와 대학생, KT&G 상상플래닛 입주사",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178529",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "[KT&G 상상플래닛] 임팩트 조직 x 개발자 1:1 매칭 밋업 (8/4, 성수동)",
-   "agency": "KT&G 상상플래닛 운영",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-02",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178529",
-   "status": "open",
-   "note": "사회혁신가(소셜벤처, 비영리 스타트업, 중간지원조직 등) 및 개발자 각 15명씩 (선착순)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178526",
    "group": "A",
    "gtag": "창업",
@@ -2674,65 +4431,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178525",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "청년 창업아카데미(G-Space@East) 운영",
-   "agency": "(재)경남창조경제혁신센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178525",
-   "status": "open",
-   "note": "업력 7년 이내 (예비) 창업기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178523",
-   "group": "A",
-   "gtag": "창업",
-   "title": "서초창업스테이션 운영 사업",
-   "agency": "서초창업스테이션",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-28",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178523",
-   "status": "open",
-   "note": "센터 멤버십 회원, 해당 교육 희망자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178519",
    "group": "D",
    "gtag": "기술·디지털",
@@ -2757,64 +4455,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178519",
    "status": "open",
    "note": "업력 7년 미만 창업기업 - 중점분야: 바이오·헬스, AI·빅데이터 - 우대분야: 강원 7대 전략산업(바이오·헬스/반도체/미래에너지/미래모빌리티…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178516",
-   "group": "A",
-   "gtag": "창업",
-   "title": "민관협력 오픈이노베이션 지원사업",
-   "agency": "중소벤처기업부장관",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-04",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178516",
-   "status": "open",
-   "note": "모집공고일 기준 창업 7년 이내 창업기업 ※신산업 분야에 해당하는 창업기업은 10년 이내, 상세내용은 공고문 내 '신청 자격' 확인",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178515",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 5회차 지식재산 무료 초청교육 수요조사",
-   "agency": "한국특허정보원",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178515",
-   "status": "open",
-   "note": "지식재산교육이 필요한 개인 신청자 (5인 미만 기업의 경우 개인 자격으로만 신청이 가능합니다)",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -2850,41 +4490,11 @@
    "source": "공고"
   },
   {
-   "id": "ks178512",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "dcamp startup OI #지역실증 스타트업 모집",
-   "agency": "재단법인 은행권청년창업재단",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178512",
-   "status": "open",
-   "note": "지역 현장 실증을 통해 협력·도입 가능성을 검증하고자 하는 초기 단계 스타트업 - 올해 출장, 미팅 등을 통해 협력·도입 수요를 실제 확인할 수…",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178511",
+   "id": "ks178506",
    "group": "A",
-   "gtag": "창업",
-   "title": "2026년 대학연대 창업 네트워크 캠프",
-   "agency": "와이앤아처 주식회사",
+   "gtag": "재창업",
+   "title": "재도전성공패키지",
+   "agency": "중소벤처기업부 장관",
    "category": "행사ㆍ네트워크",
    "elig": {
     "stage": [
@@ -2895,45 +4505,15 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-07-28",
+   "deadline": "2026-08-26",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178511",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178506",
    "status": "open",
-   "note": "전국 대학(원)생",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178510",
-   "group": "A",
-   "gtag": "창업",
-   "title": "[강동구 청년해냄센터] 스타트업 영 그라운드 MVP 개발 해커톤 참가자 모집",
-   "agency": "강동구 청년해냄센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178510",
-   "status": "open",
-   "note": "실전 창업 아이템 구현 및 창업 팀과의 협업에 관심 있는 누구나 (고등학생 이상의 청년) - PM, UX/UI디자인, 개발 직군 - 개인 혹은 …",
+   "note": "1. 재창업기업 부문: 재창업 활성화 및 국가 경제에 기여한 공로가 있는 재창업기업 대표(공고일 기준 업력 7년 이내) 2. 재창업 지원 부문:…",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -2967,125 +4547,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178501",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 창조경제혁신센터 공동 Open Innovation 프로그램",
-   "agency": "서울창조경제혁신센터",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178501",
-   "status": "open",
-   "note": "- 더존비즈온: B2B Tech 플랫폼, AI, 빅데이터, 스마트팩토리, 핀테크, Web3/메타버스 - 두산에너빌리티: 전 사업분야 - SK텔레…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178499",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 아트코리아랩 입주기업 모집 공모",
-   "agency": "예술경영지원센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178499",
-   "status": "open",
-   "note": "공고일 기준 설립일로부터 만 10년 이내 예술X기술 융합 기업 * 문화예술의 창작물 또는 문화예술 용품을 산업 수단에 의하여 기획·제작·공연·전…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178498",
-   "group": "A",
-   "gtag": "창업",
-   "title": "고속도로 무형자산 활용 사업화 지원사업",
-   "agency": "한국도로공사",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178498",
-   "status": "open",
-   "note": "중소기업기본법 제2조 제1항 제1호에 따른 중소기업(대기업, 중견기업 제외)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178497",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 경기 스타트업 서밋(G-SUMMIT 2026) 전시부스 참가기업 모집",
-   "agency": "경기도경제과학진흥원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-13",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178497",
-   "status": "open",
-   "note": "설립 7년 이내 혁신 기술 스타트업(신산업분야 10년 이내)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178493",
    "group": "A",
    "gtag": "재창업",
@@ -3100,7 +4561,7 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-07-31",
+   "deadline": "2026-08-21",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
@@ -3110,298 +4571,6 @@
    "status": "open",
    "note": "전공·지역 무관, 만 34세 이하 미취업 청년 □ 취업준비생 □ 예비창업자 □ 장기 휴학생(1년 이상) 및 졸업 유예자 이런 분께 추천합니다 □…",
    "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178491",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "바이오·메디컬 연구인프라 활용 지원사업",
-   "agency": "동국대학교 BMC창업보육센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178491",
-   "status": "open",
-   "note": "- 바이오·메디컬 분야에서 혁신적인 기술 또는 아이디어를 기반으로 제품 을 생산하거나 서비스를 제공하는 기업 - 본사, 공장등록증, 기업부설연구…",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178488",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "(재)여성기업종합지원센터 전북센터 2026년 제2차 BI입주기업 신규 모집공고",
-   "agency": "(재)여성기업종합지원센터 전북센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178488",
-   "status": "open",
-   "note": "예비여성창업자, 창업 3년이내 여성기업",
-   "region": "전북",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178484",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026년 충청권 ICT이노베이션스퀘어 개발 역량 강화 멘토링",
-   "agency": "더함협동조합",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178484",
-   "status": "open",
-   "note": "ICT/SW 분야 아이디어 또는 프로젝트를 보유한 충청권 소재 디지털 인재",
-   "region": "충남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178481",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "민관공동창업자발굴육성사업",
-   "agency": "중소벤처기업부 장관",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-10",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178481",
-   "status": "open",
-   "note": "투자기관으로부터 1천만원 이상 투자를 받은 비수도권 소재 3년 이내의 초기 창업기업",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178476",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "수원시 기업지원센터 중소벤처기업 신규 모집",
-   "agency": "수원도시재단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178476",
-   "status": "open",
-   "note": "❍ 기술기반 창업 10년 이내의 중소·벤처기업(공고일 기준) ·입주 후 3개월 이내 사업자 주소지 이전",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178475",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "수원시 기업지원센터 1인창조기업 신규모집",
-   "agency": "수원도시재단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-07",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178475",
-   "status": "open",
-   "note": "기술기반 1인창조기업 및 창업 7년 이내의 스타트업(공고일 기준) ❍ 1인 창조기업’에 대한 정의 「1인 창조기업 육성에 관한 법률」 제2조에 …",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178473",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업보육센터 지원",
-   "agency": "동국대학교 창업보육센",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178473",
-   "status": "open",
-   "note": "- 우수한 기술 또는 아이템을 보유한 플랫폼·AI 분야 예비창업자 또는 창업 7년 이내 초기 창업기업 ※ 공고일 기준이며, 예비창업자는 입주 후…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178471",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 진주시 창업아이디어 경진대회",
-   "agency": "알에이치테크",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178471",
-   "status": "open",
-   "note": "진주소재 예비창업자 및 3년이내 창업기업(공고일 기준 진주소재 예비창업자 및 기업에 한함)",
-   "region": "경남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178470",
-   "group": "A",
-   "gtag": "창업",
-   "title": "커머스빌딩 UP",
-   "agency": "동명청년창작소",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178470",
-   "status": "open",
-   "note": "광주·전남 소재 청년 창업기업 중 아래 조건을 충족하는 15개 기업 1) 온라인 커머스를 운영하고 있는 기업 2) 광고 집행 경험이 있는 기업 …",
-   "region": "전남광주",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178466",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026 하반기 오렌지플래닛 정기모집(~7/27 14:00)",
-   "agency": "오렌지플래닛 창업재단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178466",
-   "status": "open",
-   "note": "2인 이상 스타트업(전 분야/전 단계)",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3434,64 +4603,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178458",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "해외 로드쇼 참가, 『신한 스퀘어브릿지』 2026 글로벌 참여 스타트업 모집(~8/13)",
-   "agency": "신한금융희망재단",
-   "category": "글로벌",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-13",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178458",
-   "status": "open",
-   "note": "인공지능/머신러닝, 헬스 & 웰니스, 엔터프라이즈 테크, 컨슈머/에듀테크, 클린테크/에너지, 사이버보안 등 최신 트렌드 산업 분야 혁신적 솔루션…",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178456",
-   "group": "A",
-   "gtag": "창업",
-   "title": "국내 대기업 협업 연계, 신한 오픈이노베이션 12기 모집(~8/3)",
-   "agency": "신한금융희망재단",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178456",
-   "status": "open",
-   "note": "대기업·중견기업과 협업을 희망하는 설립 7년 이내 법인사업자 (공고마감일 26. 8. 3. 기준, 지역 제한 없음)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178453",
    "group": "A",
    "gtag": "예비창업",
@@ -3520,35 +4631,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178450",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 중소기업 동행교육",
-   "agency": "근로복지공단 인재개발원",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178450",
-   "status": "open",
-   "note": "중소기업 임직원 및 소상공인",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178445",
    "group": "A",
    "gtag": "예비창업",
@@ -3572,152 +4654,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178445",
    "status": "open",
    "note": "서울시 소재 녹색분야 중소기업 및 예비창업자 ① 「중소기업기본법」 제2조의 중소기업으로서, 본사 또는 지사 (예비창업자의 경우 주소지) 의 서울…",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178439",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 대전 스타트업스쿨 스타트업 리딩클래스 2회차",
-   "agency": "대전창조경제혁신센터",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-28",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178439",
-   "status": "open",
-   "note": "스타트업 역량 강화에 관심이 있는 누구나",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178438",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "NOROO Industrial Bio CONNECT 2026",
-   "agency": "(주)아이비유",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178438",
-   "status": "open",
-   "note": "3-HP 소재 응용, 기술을 보유한 중소·벤처기업 및 공공연구기관",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178436",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 대구콘텐츠코리아랩 추경 사업 미드폼 콘텐츠 제작지원 참가기업 모집",
-   "agency": "(재)대구디지털혁신진흥원",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178436",
-   "status": "open",
-   "note": "대구 소재 콘텐츠 기업(업력 무관)",
-   "region": "대구",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178435",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "지역창업특화지원",
-   "agency": "제주 중장년 기술창업센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178435",
-   "status": "open",
-   "note": "만 40세 이상 예비 및 3년 이내 초기 창업자 ※ 일부 좌석은 7년 이내 창업기업 입주가능(연령 무관)",
-   "region": "제주",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178432",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 서울시 프렙 아카데미 하반기 11기 교육생 모집(7/6~8/3)",
-   "agency": "서울신용보증재단",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-03",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178432",
-   "status": "open",
-   "note": "서울시 거주 외식업 창업 희망 청년(만 19세~39세, 신청일 기준) ※ 의무복무 제대군인의 경우 모집대상 연령 기준에 최대 3년 가산",
    "region": "서울",
    "star": true,
    "source": "공고"
@@ -3752,91 +4688,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178424",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[벙커샷 파트너스] 컴퍼니빌딩 프로그램 참가기업 모집 공고",
-   "agency": "(주)벙커샷컴퍼니",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178424",
-   "status": "open",
-   "note": "예비창업자, 1년미만 초기 기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178422",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "중앙대-금천구 창업 협력공간(창업교육스튜디오) 입주자 모집 공고",
-   "agency": "중앙대학교 산학협력단",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-02",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178422",
-   "status": "open",
-   "note": "아래 두가지 요건을 모두 충족하는 (예비)창업자 및 기업 1) 중앙대학교 교원, 중앙대학교 교원 및 학생 창업기업, 중앙대학교 산학협력단 가족회…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178418",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "충북대학교 『글로벌(G)테크벤처센터(BI) 』 입주기업 모집",
-   "agency": "충북대학교 글로벌(G)테크벤처센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178418",
-   "status": "open",
-   "note": "- 본사 or 연구소 or 지점사업자 or 창업보육센터 졸업기업 입주 가능 - (창업자) 창업 후 7년이 경과 되지 않은 기업(창업일자기준) -…",
-   "region": "충북",
-   "star": false,
-   "source": "공고"
-  },
-  {
    "id": "ks178408",
    "group": "A",
    "gtag": "창업",
@@ -3863,63 +4714,6 @@
    "status": "open",
    "note": "경기도 도민, 도내 기업 재직자, 학생 등 ESG에 관심 있는 누구나 참여 가능",
    "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178394",
-   "group": "A",
-   "gtag": "창업",
-   "title": "'Slush 2026' 참가 지원 모집",
-   "agency": "서울경제진흥원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-04",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178394",
-   "status": "open",
-   "note": "서울소재 창업 7년 이내 스타트업(신산업 창업분야 해당 기업은 창업 10년 이내)",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178390",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "화성시 소셜벤처창업 아이디어경진대회(화성시 소셜벤처 창업·육성 프로그램)",
-   "agency": "화성특례시",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178390",
-   "status": "open",
-   "note": "예비창업자 또는 5년미만 기창업자",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3954,498 +4748,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178388",
-   "group": "A",
-   "gtag": "창업",
-   "title": "「2026 전북특구 이노폴리스 캠퍼스(액셀러레이팅 지원) 사업」배치프로그램 2기 참여기업 모집",
-   "agency": "주식회사 베타랩",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178388",
-   "status": "open",
-   "note": "탄소·복합소재, 친환경·에너지 소재, 전기·전자 및 기계 부품 등 융·복합 소재부품 분야",
-   "region": "전북",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178384",
-   "group": "A",
-   "gtag": "재창업",
-   "title": "2026년 07월 초기 창업기업 대상 벤처기업 인증 행정자문&전략 수립 기업모집",
-   "agency": "박준범행정사사무소",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178384",
-   "status": "open",
-   "note": "- 중소기업 - 벤처기업 인증을 준비 중이거나, 재도전이 필요한 기업 (신규 신청, 탈락 후 재신청, 유형 변경 등 포함) - 투자유치, 정책자…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178372",
-   "group": "A",
-   "gtag": "창업",
-   "title": "[현직 엔지니어 1:1] 금형·단가·양산성에 막힌 하드웨어 스타트업 무료 코칭",
-   "agency": "인탑스(주)",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-11",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178372",
-   "status": "open",
-   "note": "· 국내외 중소벤처기업 , 제품 관련 제조 컨설팅이 필요한 스타트업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178371",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[윤민창의투자재단] 굿스타터 20기 모집",
-   "agency": "재단법인 윤민창의투자재단",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-09",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178371",
-   "status": "open",
-   "note": "법인 또는 법인 설립 예정인 예비 창업팀",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178369",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 대학(원)생 한의약 창업 아이디어 공모전",
-   "agency": "한국한의약진흥원",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178369",
-   "status": "open",
-   "note": "한의약 분야에 관심있는 대학(원)생 개인 또는 팀 *전공 무관, 타 대학교(원) 연합 가능, 휴학생 참여 가능, 팀당 1~2인",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178368",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "( ?투자금 3억원!?)제8회 창업투자경진대회 B-스타트업챌린지",
-   "agency": "(재)부산기술창업투자원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178368",
-   "status": "open",
-   "note": "예비창업자 및 창업 5년 이내 업체(지역제한 없음, `21. 1. 1 이후 등록 업체) ※ 개인사업자 및 예비창업자의 경우도 신청 가능 (대회 …",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178358",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업보육센터 지원",
-   "agency": "협성대학교 창업보육센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178358",
-   "status": "open",
-   "note": "- 창업 후 7년 이내 중소기업 1) 사업개시일 : 법인등기일(법인), 사업자등록일(개인) 2) 입주조건 : 사업자등록증 내 본점을 협성대학교 …",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178357",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "서울용산시제품제작소 운영",
-   "agency": "한국전자정보통신산업진흥회",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178357",
-   "status": "open",
-   "note": "메이커장비를 활용하여 시제품 제작을 원하는 스타트업/예비창업자/기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178355",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "아시아창업엑스포FLY ASIA 2026",
-   "agency": "부산기술창업투자원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178355",
-   "status": "open",
-   "note": "- 글로벌 진출 역량 및 계획이 있는 해외 혁신 스타트업으로 일반 Track과 추천 Track으로 구분하여 2-Track 모집 ┏(일반 Trac…",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178349",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "아시아창업엑스포FLY ASIA 2026",
-   "agency": "부산기술창업투자원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178349",
-   "status": "open",
-   "note": "❍ 글로벌 진출을 희망하는 부산 창업기업(본사기준)",
-   "region": "부산",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178347",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[국비지원] AI 기반 서비스 개발·사업화 1인 창업가 캠프 6기 모집",
-   "agency": "넥스트러너스 주식회사",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178347",
-   "status": "open",
-   "note": "1. 내일배움카드 소지자 또는 발급 가능한 자 2. 아이디어는 있지만 실행·개발이 어려웠던 예비창업자 3. 개발자 없이 AI로 직접 서비스 출시…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178343",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 스타 IR 데모데이 참여기업 모집공고(3차)",
-   "agency": "스타에셋파트너스 주식회사",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178343",
-   "status": "open",
-   "note": "F&B 및 프랜차이즈 분야 예비창업자 및 7년 이내 초기 창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178334",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 하반기 청년식품 창업캠프 참여자 모집 공고",
-   "agency": "한국식품산업클러스터진흥원",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178334",
-   "status": "open",
-   "note": "창업에 관심있는 만 20세 이상 ~ 만 39세 미만의 예비창업자 누구나!",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178332",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 산업전문인력 AI역량강화 지원사업",
-   "agency": "(주)글로벌창업연구소",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-04",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178332",
-   "status": "open",
-   "note": "AI 도입 및 디지털 전환을 추진하는 실무자 및 중간 관리자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178328",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "제 32기 포스코 아이디어 마켓플레이스(POSCO IMP) 투자트랙 기업 모집 연장 공고(~7/26 23:59)",
-   "agency": "POSCO IMP",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178328",
-   "status": "open",
-   "note": "포스코그룹과 협업을 희망하는 모든 스타트업 (Part A) 시드 단계의 예비/초기 스타트업 (Part B) Pre-A 라운드 이상의 스타트업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178325",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "판교 제2테크노밸리 소프트웨어드림센터 스타트업 입주기업 모집 공고",
-   "agency": "소프트웨어공제조합",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-02",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178325",
-   "status": "open",
-   "note": "산업집적법 제38조의5(지식산업센터에의 입주)제1항 제1호 및 제2호, 동법 시행령 제6조(산업단지의 입주자격), 제36조의4(지식산업센터에의 …",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178319",
-   "group": "A",
-   "gtag": "창업",
-   "title": "메이커 스페이스",
-   "agency": "동대문구 창업지원센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-28",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178319",
-   "status": "open",
-   "note": "3D프린터 또는 레이저커터에 관심있는 누구나",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178295",
    "group": "B",
    "gtag": "글로벌·판로",
@@ -4475,64 +4777,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178292",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "2026 산업전문인력 AI역량강화 지원사업",
-   "agency": "(주)글로벌창업연구소",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-05",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178292",
-   "status": "open",
-   "note": "AI 기술 도입을 추진하는 기업의 최고 경영자 및 임원, 본부장 해외사업 ·수출 총괄 기획 임원 및 본부장",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks178286",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[국비지원] k-스타일 비주얼커머스 크리에이터",
-   "agency": "종로여성인력개발센터",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178286",
-   "status": "open",
-   "note": "▶ 대상 : 패션, 뷰티, 주얼리 디자인 이커머스 분야로 취창업을 희망하는 미취업 구직여성 및 예비 창업자 (교육에 적극적으로 참여하고, 취업의…",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178283",
    "group": "A",
    "gtag": "창업",
@@ -4557,34 +4801,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178283",
    "status": "open",
    "note": "전국 만 7년 이내 창업기업(개인, 법인)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178275",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "수원도시재단 「2026 창업오디션」 모집",
-   "agency": "수원도시재단",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178275",
-   "status": "open",
-   "note": "혁신적인 창업아이템을 보유한 (예비)창업자 및 창업기업 - 아이디어 분야: 공고일 기준 사업자등록이 없는 예비창업자 - 사업화 분야: 공고일 기…",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -4618,34 +4834,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178241",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "전담멘티 3기",
-   "agency": "주식회사 이노시아",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-29",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178241",
-   "status": "open",
-   "note": "예비창업자 및 창업 후, 5년 이내의 창업기업 대표",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178234",
    "group": "A",
    "gtag": "예비창업",
@@ -4675,35 +4863,6 @@
    "source": "공고"
   },
   {
-   "id": "ks178232",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026년 Agri-ESG Innovation Day 개최 안내",
-   "agency": "서울창조경제혁신센터",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-26",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178232",
-   "status": "open",
-   "note": "- 농심 : 포장용기, 포장재, 식품소재 - 유한킴벌리 : Planet, Health, Life - 하이트진로 : Food-Tech, AI/빅데…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks178214",
    "group": "A",
    "gtag": "예비창업",
@@ -4728,91 +4887,6 @@
    "status": "open",
    "note": "예비창업자 또는 창업3년 미만의 개인, 법인",
    "region": "인천",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178192",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "출연연, 대학 연구소기업 Business Development 프로그램 참여 예비창업자 모집",
-   "agency": "연구개발특구진흥재단",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178192",
-   "status": "open",
-   "note": "출연(연) 및 대학에 재직 중이며, 본인이 개발한 기술의 사업화를 희망하는 연구자 대덕특구 내 연구소기업 희망 연구자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178189",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "[우리금융그룹] 2026 디노랩 Tech센터 1기 모집",
-   "agency": "우리금융지주",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-02",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178189",
-   "status": "open",
-   "note": "우리금융 그룹사 금융 AX 과제 수행 가능 스타트업 ※ 공고 마감일 기준 업력 7년 이내 창업기업 (개인사업자 제외) ※ 기존 디노랩 기업 지원…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178188",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[강동구 청년해냄센터] 취약분야 상시 컨설팅 7월 참가자 모집 공고",
-   "agency": "강동구 청년해냄센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-30",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178188",
-   "status": "open",
-   "note": "예비창업자 및 기창업자",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4872,34 +4946,6 @@
    "status": "open",
    "note": "투자유치에 관심있는 스타트업 누구나 (업력/분야제한 無)",
    "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178106",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[성동구 관내기업] 2026년도 정부지원사업 및 베트남 현지진출 컨설팅 지원기업 모집",
-   "agency": "성동구청",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178106",
-   "status": "open",
-   "note": "(성동구 관내 법인 기업) 예비창업자 및 창업기업 정부지원사업 참여를 준비 중인 기업 정부 R&D 및 사업화 과제를 준비 중인 기업 투자유치 및…",
-   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -4989,92 +5035,6 @@
    "status": "open",
    "note": "특강, 교육, 세미나, 워크숍, 네트워킹 등 스타트업 지원 관련 프로그램을 기획·운영할 수 있는 기업, 전문기관, 협회·단체 등",
    "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks178016",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 울산 여성 창업기업 육성 지원 참가자 모집 공고",
-   "agency": "재단법인 여성기업종합지원센터 울산센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178016",
-   "status": "open",
-   "note": "창업 아이디어를 보유한 예비 여성창업자 창업 7년 미만 여성기업",
-   "region": "울산",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks177978",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "12대 국가전략기술 분야 기술이전 수요 모집",
-   "agency": "(주)윕스",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177978",
-   "status": "open",
-   "note": "공공기술 활용 및 도입을 희망하는 전국 중소·중견기업 및 예비창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks177974",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "「2026년 연구개발특구 딥테크 스타트업 챌린지」 참여기업 모집 공고",
-   "agency": "주식회사 리벤처스",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177974",
-   "status": "open",
-   "note": "연구소기업 / 첨단기술기업 / 규제특례기업 /공공기술기반 딥테크 기업 등 12대 국가전략기술 등 딥테크분야 기업(상세 조건은 공고문 참조)",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5197,34 +5157,6 @@
    "source": "공고"
   },
   {
-   "id": "ks177928",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년『제6회 대구 여성창업스타전』 공고",
-   "agency": "달구벌여성인력개발센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-08-06",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177928",
-   "status": "open",
-   "note": "◦ 공고일('26. 6. 1)기준 전국의 여성 예비창업자 또는 초기창업자(창업 후 1년 이내인자) ※ 개인 또는 팀(최대 3명)으로 지원 가능.…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks177899",
    "group": "D",
    "gtag": "기술·디지털",
@@ -5250,64 +5182,6 @@
    "status": "open",
    "note": "❍ 공고일 기준 창업 7년 이내로 연구개발 활동을 통해 기술을 보유한 김해소재(본사)의 스타트업 - 개인 사업자인 경우 사업자등록증의 개업연월일…",
    "region": "경남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks177882",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "2026 대덕특구 딥테크 혁신성장 플랫폼(전략기술 발굴 및 매칭)",
-   "agency": "연구개발특구진흥재단",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177882",
-   "status": "open",
-   "note": "1. 대중견기업 오픈이노베이션 프로그램 운영자 2. 중견기업 및 중소기업 신사업 스핀오프 사업부 3. 스타트업 및 중소기업 4. 투자기관/지원기…",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks177877",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "서울바이오허브 '2026 서울-BMS 이노베이션 스퀘어 챌린지' 참여기업 모집공고",
-   "agency": "한국과학기술연구원 서울바이오허브",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177877",
-   "status": "open",
-   "note": "바이오·헬스케어 분야 혁신기술을 보유한, 업력 10년 미만 창업기업 및 예비창업자",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5424,36 +5298,6 @@
    "status": "open",
    "note": "◼ 충남 도내 유망 스타트업(또는 26년 내 충남 이전 예정 기업) ① 디스플레이 ② 모빌리티 ③ 에너지 ④ 바이오 ⑤ 기타 충남 주력산업 및 …",
    "region": "충남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks177673",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업교육|광역/지자체|김해청년창업|김해시청|김해의생명산업진흥원",
-   "agency": "김해의생명산업진흥원",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-07-27",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177673",
-   "status": "open",
-   "note": "김해시 거주 또는 활동 중인 19~45세 예비 청년 창업자",
-   "region": "경남",
    "star": true,
    "source": "공고"
   },
