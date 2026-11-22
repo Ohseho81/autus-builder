@@ -1,16 +1,73 @@
 {
  "schema": "schema.org/MonetaryGrant",
  "source": "K-Startup",
- "updated": "2026-11-15T21:02:43.471Z",
- "count": 678,
+ "updated": "2026-11-22T21:03:23.170Z",
+ "count": 666,
  "opps": [
   {
-   "id": "ks179795",
+   "id": "ks179839",
    "group": "A",
    "gtag": "예비창업",
-   "title": "마포청년창업취업지원센터 나루 2026",
-   "agency": "마포청년창업취업지원센터 나루",
-   "category": "창업교육",
+   "title": "창업보육센터 지원",
+   "agency": "경기도일자리재단 남부사업본부장",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-04",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179839",
+   "status": "open",
+   "note": "○입주모집 공고일 현재 경기도 내에 주소를 둔 여성 예비창업자 ○입주모집 공고일 현재 경기도 내에 주된 사무소를 둔 창업 후 3년 이내의 여성기…",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179836",
+   "group": "A",
+   "gtag": "창업",
+   "title": "대전 팁스타운 26년 제3차 팁스아카데미 : 스타트업의 새로운 기회, 오픈이노베이션",
+   "agency": "창업진흥원",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-24",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179836",
+   "status": "open",
+   "note": "대전 팁스타운 입주기업 및 지역 내 창업기업 등",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179835",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "예비, 초기 창업자가 반드시 알아야 할 스타트업 마케팅 방법론 - 제11차 DDM 벤처스타트업 아카데미",
+   "agency": "DDM 청년창업센터 유니콘",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
    "elig": {
     "stage": [
      "예비",
@@ -21,15 +78,763 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-11-20",
+   "deadline": "2026-11-27",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179795",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179835",
    "status": "open",
-   "note": "예비 및 신입 청년 디자이너",
+   "note": "스타트업 마케팅에 관심이 있는 누구나",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179834",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2027년 상반기「IBK창공(創工) UNIST캠프」모집 공고",
+   "agency": "IBK기업은행",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-10",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179834",
+   "status": "open",
+   "note": "- 공고 마감일 기준 (예비)창업팀, 업종 제한 없음 - (학생창업) 업력 7년 이내 경상권* 소재 대학(원)생 창업기업 - (예비창업) 대표자…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179833",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "Startup OI Osaka #Beauty & Wellness Tech",
+   "agency": "재단법인 은행권청년창업재단",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-07",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179833",
+   "status": "open",
+   "note": "K-뷰티 테크, 이너뷰티 및 마이크로바이옴 분야에서 아래 요건 중 3개 이상을 충족하는 스타트업 - Seed~Series B 단계 기업 - Po…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179832",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "「Next OI 기술 커넥트(Pre-meetup)」참여 스타트업 모집",
+   "agency": "(재)대구창조경제혁신센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179832",
+   "status": "open",
+   "note": "수요기업과 기술협력을 희망하는 업력 7년 이내 스타트업 (신산업 분야 10년 이내, 지역 제한 없음)",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179830",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 위치정보 보호조치 교육 (8차)",
+   "agency": "(주)아이전스",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-02",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179830",
+   "status": "open",
+   "note": "위치정보사업자, 위치기반서비스사업자 및 예비사업자 등 위치정보와 관련된 일을 하시는 모든 분들",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179829",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2027년 농촌창업 경진대회 참가자 모집",
+   "agency": "농림축산식품부장관",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-10",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179829",
+   "status": "open",
+   "note": "농촌에 기반을 두고 농촌 지역의 다양한 유무형 자원을 활용하여 사업을 운영하는 창업자 또는 예비창업자 (창업자 : 공고일 기준 7년 이내 창업(…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179828",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2027년 상반기 KDB NextONE 대구 1기 스타트업 모집",
+   "agency": "씨엔티테크",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179828",
+   "status": "open",
+   "note": "□ 모집대상 : 혁신성장산업*을 영위하는 창업 7년 이내 유망 스타트업(14기, 부산6기, 광주 2기, 전북 1기 중복지원 불가) *「혁신성장 …",
+   "region": "서울",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks179827",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026 DDM Startup Home Coming (우리의 성장이 만드는 변화)",
+   "agency": "DDM 청년창업센터 유니콘 ",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-10",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179827",
+   "status": "open",
+   "note": "- 이 포스터를 본 스타트업 임직원 모두 - 본인 아이템이 시장에서 먹히는 아이템인지 확신이 없는 창업자 - 아이디어는 있는데 시작을 못하고 있…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179826",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2027 스타트업베이 입주기업 9기 모집",
+   "agency": "서귀포시 스타트업베이",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-07",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179826",
+   "status": "open",
+   "note": "만 39세 이하 초기(예비) 창업자 *예비 창업자 및 3년 이내 초기 창업자 (2024.01.01. 이후 사업자 등록) *모집규모 30% 이내 …",
+   "region": "제주",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179825",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "소버린 AX 얼라이언스 참여 스타트업 모집",
+   "agency": "서울창조경제혁신센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-16",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179825",
+   "status": "open",
+   "note": "10년 미만 AI 역량 보유 국내 스타트업, 2025년 AI 관련 연매출 10억 원 이상 or 2026년 10월까지 누적 투자유치 5억 원 이상…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179824",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "송파ICT청년창업 지원센터 운영",
+   "agency": "송파ICT청년창업지원센터장",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-13",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179824",
+   "status": "open",
+   "note": "☆ ICT, AI, 빅데이터 등 4차산업 분야에 창의적 아이디어를 가진 3년 이하 창업(벤처)기업 또는 예비창업자(만39세 이하) ☆ - 만 3…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179823",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026-6회 호남권 엔젤투자 설명회 in 전북 엔젤투자 상담부스 참여기업 모집",
+   "agency": "한국엔젤투자협회 호남권 엔젤투자허브",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179823",
+   "status": "open",
+   "note": "전북 소재 스타트업 및 예비창업자",
+   "region": "전북",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179822",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 강원권 LIPS 민간운영사 연합 INVESTOR DAY 12월",
+   "agency": "(재)강원창조경제혁신센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179822",
+   "status": "open",
+   "note": "투자검토 및 LIPS 연계를 희망하는 업력 1년 이상 창업기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179819",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "창업보육센터및 기업 지원",
+   "agency": "국립공주대학교 산학협력",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-08",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179819",
+   "status": "open",
+   "note": "[ 예비창업자] ￭ 잠재력 높은 기술의 개발 단계에 있는 창업 준비자 ￭ 기술적 아이디어를 바탕으로 구체적 사업화 목적이 있는 자 ￭ 입주 후 …",
+   "region": "충남",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179818",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2027년 상반기 KDB NextONE 14기 스타트업 모집",
+   "agency": "씨엔티테크",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179818",
+   "status": "open",
+   "note": "□ 모집대상 : 혁신성장산업*을 영위하는 창업 7년 이내 유망 스타트업(부산6기, 광주 2기, 대구 1기, 전북 1기 중복지원 불가) *「혁신성…",
+   "region": "서울",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks179816",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "앤틀러 이노베이션 포럼 : Breakthrough & Scale",
+   "agency": "앤틀러코리아 주식회사 ",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-11",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179816",
+   "status": "open",
+   "note": "- 유망 스타트업 팀과 직접 만나 협업·투자·커리어 기회를 모색하고 싶은 분 ​- AI가 산업별 문제를 어떻게 풀고 있는지 구체적인 사례가 궁금…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179815",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "2027년 상반기 KDB NextONE 부산 6기 기업 모집",
+   "agency": "한국산업은행 지역성장부문장",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-18",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179815",
+   "status": "open",
+   "note": "혁신성장산업*을 영위하는 창업 7년 이내 유망 스타트업 (KDB NextONE 14기, 광주 2기, 대구 1기, 전북 1기와 중복지원 불가) *…",
+   "region": "전국",
+   "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks179814",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2027년 상반기 「IBK창공(創工) 서울대캠프」 모집 공고",
+   "agency": "IBK기업은행 IBK창공(創工) 서울대캠프",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-10",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179814",
+   "status": "open",
+   "note": "서울대학교 대학(원)생*으로 구성된 (예비)창업자 (업종 제한 없음) - 학생창업: 서울대학교 대학(원)생*이 설립한 창업 3년 이내 기업 - …",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179813",
+   "group": "A",
+   "gtag": "창업",
+   "title": "서울창업허브 창동 운영",
+   "agency": "서울창업허브 창동",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179813",
+   "status": "open",
+   "note": "- 창업 7년 이내 창업기업 - 신산업 분야 10년 이내 가능",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179808",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "올해의 K-스타트업(舊. 도전! K-스타트업)",
+   "agency": "창업진흥원",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-23",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179808",
+   "status": "open",
+   "note": "1. 왕중왕전 발표평가(12월 10일, 목) 전체 일정 평가 참여 가능한 자(대리 참석 불가) 2. 최소 경력 2년 이상의 창업, 투자, 기술경…",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179807",
+   "group": "A",
+   "gtag": "창업",
+   "title": "제4회 판다밋업 : 기후테크 Policy to Business",
+   "agency": "경기도 4차산업혁명센터",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-25",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179807",
+   "status": "open",
+   "note": "기후테크 관련 분야 종사자 및 강연에 관심 있는 모든 신청자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179806",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "<2026년 제조공정 마스터 클래스> 프로그램 참여자 모집",
+   "agency": "충북Pro메이커센터",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-09",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179806",
+   "status": "open",
+   "note": "- 제조·설계·메이커 분야에 관심 있는 (예비)창업자 및 대학(원)생, 일반인 - 시제품 제작 및 제조 기술 역량 강화를 희망하는 (예비)창업자…",
+   "region": "충북",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179802",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "마포청년창업취업지원센터 나루 2026",
+   "agency": "마포청년창업취업지원센터 나루",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-26",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179802",
+   "status": "open",
+   "note": "예비 및 초기 청년(만 19세~39세) 창업가",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179799",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "청년 창업아카데미(G-Space@East) 운영",
+   "agency": "(재)경남창조경제혁신센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-04",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179799",
+   "status": "open",
+   "note": "업력 7년 이내 (예비) 창업기업",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179798",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "성남시 여성플러스센터 창업지원실 입주기업 모집공고",
+   "agency": "성남시청",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179798",
+   "status": "open",
+   "note": "공고일 현재 성남시에 거주하거나 사업장 주소를 둔 예비 또는 창업 후 3년 이내의 여성창업자(팀당 1~4인, 남성팀원 포함 가능)",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179797",
+   "group": "A",
+   "gtag": "창업",
+   "title": "모두의 창업 등 정부지원사업 완벽 대비! 「1:1 맞춤형 창업 멘토링」 참가자 모집",
+   "agency": "강남구여성능력개발센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-29",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179797",
+   "status": "open",
+   "note": "3개월 이내 창업 예정자, 6개월 미만 기창업자",
+   "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks179796",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "[우리금융그룹] 디노랩 서울8기/경남4기/부산3기 모집",
+   "agency": "우리금융지주",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-06",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179796",
+   "status": "open",
+   "note": "혁신적인 기술 또는 서비스를 보유한 기업 ※ 공고 마감일 기준 업력 7년 이내의 창업기업 (개인사업자 제외) (세부내용 공고문 참고)",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -236,6 +1041,36 @@
    "source": "공고"
   },
   {
+   "id": "ks179785",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 펨테크 산업 육성사업",
+   "agency": "씨엔티테크",
+   "category": "행사ㆍ네트워크",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-23",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179785",
+   "status": "open",
+   "note": "- 펨테크 분야에 관심있는 창업자/투자자 - 펨테크 프로그램 우수 스타트업 발굴을 희망하는 투자자",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
    "id": "ks179784",
    "group": "A",
    "gtag": "예비창업",
@@ -266,31 +1101,33 @@
    "source": "공고"
   },
   {
-   "id": "ks179781",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 대학연합 지역관광 창업경진대회(K-TOURISM STARTUP CHALLENGE)",
-   "agency": "한양대 창업지원단",
-   "category": "사업화",
+   "id": "ks179783",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "판교제2테크노밸리 기업성장센터 산업시설 입점기업 모집공고",
+   "agency": "한국토지주택공사",
+   "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
-     "예비"
+     "예비",
+     "3년내",
+     "운영중"
     ],
     "age": "young",
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-11-15",
+   "deadline": "2026-12-04",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179781",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179783",
    "status": "open",
-   "note": "예비창업자",
-   "region": "서울",
-   "star": true,
+   "note": "- 민간기업 : 「본사 또는 전체사업장」이 수도권에 소재한 기업으로서 창업(개인, 법인) 후 사업개시일로 부터 「10년차 이하(신청접수일자 기준…",
+   "region": "경기",
+   "star": false,
    "source": "공고"
   },
   {
@@ -381,34 +1218,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179776",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업보육센터 지원",
-   "agency": "호서대학교 서울창업보육센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179776",
-   "status": "open",
-   "note": "1) 신청일 현재 예비기술창업자 또는 창업 5년 미만인 기업 2) 3개월 내 창업이 가능한 예비창업자 3) 입주 후 주사업장(소재지)을 호서대학…",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179775",
    "group": "A",
    "gtag": "예비창업",
@@ -437,12 +1246,12 @@
    "source": "공고"
   },
   {
-   "id": "ks179774",
+   "id": "ks179773",
    "group": "A",
    "gtag": "예비창업",
-   "title": "2026 인수창업 설명회",
-   "agency": "주식회사 디유파트너스",
-   "category": "행사ㆍ네트워크",
+   "title": "공공임대주택 청년창업공간 운영",
+   "agency": "전남광주통합특별시 북구청장",
+   "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
      "예비"
@@ -451,16 +1260,16 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-11-19",
+   "deadline": "2026-12-04",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179774",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179773",
    "status": "open",
-   "note": "인수창업(ETA)에 관심 있는 예비창업자·창업자, 투자자, 기업승계를 고민하는 중소기업 대표 및 관계자",
-   "region": "전국",
+   "note": "공고일 기준(2026.11.9.) 19세 이상 35세 이하 예비·초기 3년미만 청년창업기업 ○ (연령 기준)공고일 기준 1990. 11. 10.…",
+   "region": "전남광주",
    "star": true,
    "source": "공고"
   },
@@ -491,62 +1300,6 @@
    "status": "open",
    "note": "도내 청년 15명",
    "region": "전북",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179771",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "강남구청 미래산업 기반기업 활성화 지원사업 데모데이",
-   "agency": "더인벤션랩",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179771",
-   "status": "open",
-   "note": "유망 스타트업 발굴이 필요한 투자자·VC, PoC·협업 파트너를 찾는 대·중견기업 담당자, 미래산업 분야 창업가·예비창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179769",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "스타트업을 위한 B2B 영업 전략 특강",
-   "agency": "한국기술교육대학교 앵커사업단",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179769",
-   "status": "open",
-   "note": "교육에 관심 있는 충남 지역 예비창업자 및 초기창업자",
-   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -607,122 +1360,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179765",
-   "group": "A",
-   "gtag": "창업",
-   "title": "서울창업허브 공덕 (우수기업 발굴·육성)",
-   "agency": "(재)서울경제진흥원",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179765",
-   "status": "open",
-   "note": "서울 소재 스타트업",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179764",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "「2026 충청 스타트업 벤처포럼」 2회차-오픈이노베이션 교류회 참가 안내의 건",
-   "agency": "알파브라더스",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179764",
-   "status": "open",
-   "note": "- 모집대상 : 전국에 있는 오픈이노베이션에 관심있는 기업 및 관계자 (선착순) ※ 충청남도 소재 기업 및 예비(초기) 창업자 우대",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179763",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 경기도 R&D 성과공유회",
-   "agency": "주식회사 내비온파트너스",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179763",
-   "status": "open",
-   "note": "경기도 R&D 지원사업 및 최신 AGI 기술 트렌드, 기업 간 네트워킹에 관심 있는 유관기관·투자사, 스타트업 및 예비창업자",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179762",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "스타트업법률지원",
-   "agency": "창업진흥원 원스톱지원실",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179762",
-   "status": "open",
-   "note": "예비창업자 및 창업기업(신산업의 경우 10년 이내)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179761",
    "group": "A",
    "gtag": "예비창업",
@@ -747,36 +1384,6 @@
    "status": "open",
    "note": "신기술 및 아이디어를 가진 예비창업자 또는 창업한지 7년 미만 창업자(개인 또는 법인사업자) ※ 예비창업자인 경우 입주 후 3개월 이내 사업자등…",
    "region": "강원",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179759",
-   "group": "A",
-   "gtag": "창업",
-   "title": "소공인 역량강화 아카데미 5기 공고",
-   "agency": "서울시 강동가죽제조지원센터",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179759",
-   "status": "open",
-   "note": "○ 모집대상 - 서울시 소재의 가죽·패션 사업을 영위하는 브랜드 - 서울시 소재의 가죽·패션산업 소상공인, 창업예정자",
-   "region": "서울",
    "star": true,
    "source": "공고"
   },
@@ -809,34 +1416,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179757",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "3D프린터 장비교육",
-   "agency": "서울과학기술대학교",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179757",
-   "status": "open",
-   "note": "예비창업자 , 초기창업자",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179756",
    "group": "A",
    "gtag": "예비창업",
@@ -862,64 +1441,6 @@
    "status": "open",
    "note": "청년 예비 및 초기창업자(1987년 이후 출생자)",
    "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179754",
-   "group": "A",
-   "gtag": "창업",
-   "title": "제79회 단디벤처포럼 [2026 단디벤처 투자로드쇼] 1:1 투자상담회·IR 피칭기업 모집",
-   "agency": "단디벤처포럼",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179754",
-   "status": "open",
-   "note": "✔ 프리시드~시드 단계 투자 유치 희망 스타트업",
-   "region": "부산",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179752",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "\"딸깍 한 번으로 완성하는 AI 업무 자동화\" 실전 워크숍 참여자 모집 (『신한 스퀘어브릿지』 11월 브릿지 클럽)",
-   "agency": "신한금융희망재단",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179752",
-   "status": "open",
-   "note": "스타트업 임직원, 예비창업자, 스타트업 유관기관 관계자 등",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -954,35 +1475,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179749",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 11월 전북 IR피칭 & 오피스아워 by KRYPTON 신청 접수",
-   "agency": "(주)크립톤 전북지사",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179749",
-   "status": "open",
-   "note": "전북권 소재 또는 전북권으로 이전을 희망하는 (예비)스타트업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179748",
    "group": "A",
    "gtag": "예비창업",
@@ -1006,65 +1498,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179748",
    "status": "open",
    "note": "예비창업자 및 1인 창조기업 범위에 포함되는 창업 7년 이내 기업 ˙1인 창조기업 육성에 관한 법률 제2조의 (예비)1인 창조기업 ˙지원대상 중…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179747",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 경기스타트업플랫폼 투자연계 지원 프로그램",
-   "agency": "주식회사 내비온파트너스",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179747",
-   "status": "open",
-   "note": "국내 AC · VC · CVC 등 투자기관",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179745",
-   "group": "A",
-   "gtag": "창업",
-   "title": "임팩트 페스타 2026 참관객 모집",
-   "agency": "서울소셜벤처허브",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179745",
-   "status": "open",
-   "note": "소셜벤처에 관심있는 누구나",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -1157,35 +1590,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179741",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년도 제4차 북부창업아카데미 및 북부창업멘토링 DAY 참가자 모집(주제 : 2027 정부지원사업 합격을 위한 실전 전략)",
-   "agency": "북부여성새일센터",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179741",
-   "status": "open",
-   "note": "정부지원사업 지원(예정) 여성(예비)창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179740",
    "group": "A",
    "gtag": "예비창업",
@@ -1239,93 +1643,6 @@
    "note": "공고일 기준 관광 분야 예비창업자 및 창업 7년 이하의 개인사업자 또는 법인사업자",
    "region": "인천",
    "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179736",
-   "group": "A",
-   "gtag": "창업",
-   "title": "제8차 충남 오픈이노베이션 포럼",
-   "agency": "한국기술교육대학교 앵커사업단",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179736",
-   "status": "open",
-   "note": "오픈이노베이션에 관심이 있는 스타트업 대표자, 유관기관 관계자 등",
-   "region": "충남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179733",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "NEST G밸리 4기 입주기업 모집",
-   "agency": "신용보증기금 스케일업금융센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179733",
-   "status": "open",
-   "note": "창업 4년 이내 기업 중 혁신 스타트업*(예비창업자 포함) *모집공고문 [별표1]참조",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179732",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "2027년 팁스 추천 화성산업진흥원 성장 자원 확보 패키지 지원 프로그램 신청 안내",
-   "agency": "화성산업진흥원",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179732",
-   "status": "open",
-   "note": " 화성시에 본사·공장·연구소 중 하나 이상을 소재하고 있는 중소기업 또는  공고일 현재 타 지역 소재 기업으로서 2026년 12월까지 화성시…",
-   "region": "전국",
-   "star": false,
    "source": "공고"
   },
   {
@@ -1414,36 +1731,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179728",
-   "group": "A",
-   "gtag": "창업",
-   "title": "[\"Beyond Silicon 2026\" 화합물반도체 미래를 여는 길] 개최",
-   "agency": "한국나노기술원",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179728",
-   "status": "open",
-   "note": "행사 참여 희망자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179727",
    "group": "A",
    "gtag": "창업",
@@ -1467,36 +1754,6 @@
     "대표자 신분증"
    ],
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179727",
-   "status": "open",
-   "note": "창업에 관심있는 누구나",
-   "region": "강원",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179726",
-   "group": "A",
-   "gtag": "창업",
-   "title": "사례에서 배우는 지역 창업 추진 전략 수립 교육",
-   "agency": "상지대학교 벤처창업본부 ",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179726",
    "status": "open",
    "note": "창업에 관심있는 누구나",
    "region": "강원",
@@ -1794,34 +2051,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179702",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[온라인·무료] 코딩·사업자 없이 여는 내 강의·전자책 판매 사이트",
-   "agency": "스쿨모아 주식회사",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179702",
-   "status": "open",
-   "note": "- 내 경험·지식(강의, 상담, 전자책 등)을 온라인으로 판매하고 싶은 개인 - 사업자 등록 전, 먼저 판매를 시작해 보고 싶은 예비 창업자 -…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179701",
    "group": "A",
    "gtag": "예비창업",
@@ -2024,91 +2253,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179692",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[무료] 제 9회 2026 최신 기술 컨퍼런스:Practical Physical Process 과학을 현실로, 혁신을 확장으로 (11/17~18)",
-   "agency": "써모 피셔 사이언티픽 코리아",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179692",
-   "status": "open",
-   "note": "AI 기술 활용 연구자, 스타트업 종사자 및 예비 창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179690",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 경희대학교 캠퍼스타운 제6회 데모데이: 刮目相對괄목상대",
-   "agency": "경희대학교 (서울)앵커사업단 캠퍼스타운센터",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179690",
-   "status": "open",
-   "note": "창업관계자 및 투자자, 서울시민 등",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179688",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 맞춤형 창업과정 교육생 모집",
-   "agency": "김해시중장년기술창업센터장",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179688",
-   "status": "open",
-   "note": "기술창업 아이템을 보유한 예비창업자(퇴직 예정자)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179685",
    "group": "A",
    "gtag": "창업",
@@ -2168,36 +2312,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179683",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 KOREA LBS DAY",
-   "agency": "한국능률협회컨설팅",
-   "category": "행사ㆍ네트워크",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179683",
-   "status": "open",
-   "note": "위치정보 산업과 창업·투자에 관심 있는 누구나 ※ 1:1 비즈니스 미팅·전문가 상담은 관련 기술·서비스를 보유한 스타트업·중소기업 등을 대상으로…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179682",
    "group": "A",
    "gtag": "창업",
@@ -2224,35 +2338,6 @@
    "status": "open",
    "note": "아래 주제 중 1개에 해당하는 기업 / 기관 / 개인 - 한국문화(K-POP, 미디어, 국가유산 등)를 알리는 방탈출 - 브랜드 스토리를 알리는…",
    "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179680",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "<2026년 AI 활용 온라인 플랫폼 제작 교육> 참여자 모집",
-   "agency": "충북Pro메이커센터",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179680",
-   "status": "open",
-   "note": "- AI를 활용해 온라인 플랫폼을 제작하고자 하는 (예비)창업자 - AI를 활용한 웹페이지 제작에 관심 있는 일반인 등",
-   "region": "충북",
    "star": true,
    "source": "공고"
   },
@@ -2315,6 +2400,36 @@
    "source": "공고"
   },
   {
+   "id": "ks179663",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026 벤처확인 인증준비기업 맞춤형 무료 진단 지원사업",
+   "agency": "(주)엠비즈플래닛 산하 혁신기술경영인증지원센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179663",
+   "status": "open",
+   "note": "- 벤처기업확인 인증을 준비하는 스타트업 및 중소기업 - 벤처확인 신청을 준비하면서, 실질적인 서류 작성 방법과 현장 실사 대응 전략이 필요한 …",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
    "id": "ks179662",
    "group": "B",
    "gtag": "창업도약",
@@ -2345,35 +2460,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179661",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "초기창업패키지",
-   "agency": "씨엔티테크(주)",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179661",
-   "status": "open",
-   "note": "2023년~2026년 초기창업패키지 선정·졸업기업",
-   "region": "전국",
-   "star": false,
-   "source": "공고"
-  },
-  {
    "id": "ks179659",
    "group": "B",
    "gtag": "창업도약",
@@ -2400,35 +2486,6 @@
    "note": "전국 만 19 ~ 39세 저신용, 저소득 청년사업자(개인 명의 사업자 등록증 소지자)",
    "region": "전국",
    "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks179658",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "[ZUZU X 삼성화재 집중검토] 헬스케어·모빌리티·AI·홈/라이프 Seed·Pre-A 투자 검토 모집",
-   "agency": "(주) 코드박스 Kodebox",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179658",
-   "status": "open",
-   "note": "※모집 조건 - 산업 분야: 헬스케어, 모빌리티, AI, 홈/라이프 - 투자 단계: Seed 또는 Pre-A - 설립 시기: 2021년 1월 이…",
-   "region": "전국",
-   "star": true,
    "source": "공고"
   },
   {
@@ -2485,35 +2542,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179655",
    "status": "open",
    "note": "- 중소기업 - 벤처기업 인증을 준비 중이거나, 재도전이 필요한 기업 (신규 신청, 탈락 후 재신청, 유형 변경 등 포함) - 투자유치, 정책자…",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179654",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026년 K-바이오랩허브 멤버십기업 모집공고",
-   "agency": "인천창조경제혁신센터",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179654",
-   "status": "open",
-   "note": "모집공고일 기준 업력 10년 미만의 의약바이오 분야 창업기업으로, K-바이오랩허브 멤버십 프로그램에 적극적으로 참여할 의사가 있는 기업",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -2578,40 +2606,12 @@
    "source": "공고"
   },
   {
-   "id": "ks179644",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "26년 11월 스타트업 언론 홍보 지원사업 참가사 모집 공고(1차)",
-   "agency": "스타트업 데일리",
+   "id": "ks179647",
+   "group": "B",
+   "gtag": "창업도약",
+   "title": "「벤처·이노비즈·메인비즈 스케일업 밋업」 참여기업 모집",
+   "agency": "(주)엠비즈플래닛 산하 혁신기술경영인증지원센터",
    "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179644",
-   "status": "open",
-   "note": "1. 예비창업자 2. 창업 7년 이내 초기 기업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179642",
-   "group": "A",
-   "gtag": "창업",
-   "title": "[한국국제협력단]「 KOICA IMPACT TOGETHER 2026 」 행사",
-   "agency": "한국국제협력단",
-   "category": "행사ㆍ네트워크",
    "elig": {
     "stage": [
      "예비",
@@ -2622,102 +2622,17 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-11-16",
+   "deadline": "2026-11-30",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179642",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179647",
    "status": "open",
-   "note": "KOICA 기업협력사업 참여기업, KOICA 타 사업 참여기업, 관심 기업, 공공기관, NGO 등",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179641",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026년 특허출원·등록 비용 바우처 지원사업 16차(하반기 9차)",
-   "agency": "(사)한국중소기업발전협회",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179641",
-   "status": "open",
-   "note": "스타트업, 중소기업, 1인기업, 예비창업자 등",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179639",
-   "group": "B",
-   "gtag": "창업도약",
-   "title": "[킹고스프링] KINGO SPRINGBOARD PROGRAM 9기",
-   "agency": "킹고스프링",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179639",
-   "status": "open",
-   "note": "전국 소재 창업 7년 이내 기업 (우대: 로봇·항공·미래차·반도체·디지털/데이터·AI 분야 기업, 초기창업기업, R&D 역량 보유 기업)",
+   "note": "• 벤처기업확인 · 이노비즈 · 메인비즈 인증 중 1개 이상 보유한 중소기업 • 벤처기업확인 · 이노비즈 · 메인비즈 인증에 도전하는 중소기업",
    "region": "전국",
    "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks179638",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "2026 서구토탈창업아카데미",
-   "agency": "온랩",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179638",
-   "status": "open",
-   "note": "예비창업자 및 업력 3년 이내 초기창업기업 관계자 등",
-   "region": "전국",
-   "star": true,
    "source": "공고"
   },
   {
@@ -2809,34 +2724,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179623",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "창업보육센터 운영지원",
-   "agency": "경기과학기술대학교 창업보육센터",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179623",
-   "status": "open",
-   "note": "창업 후 7년 미만 중소기업 또는 예비창업자",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179618",
    "group": "A",
    "gtag": "예비창업",
@@ -2897,63 +2784,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179614",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "선문대학교 맞춤형 창업멘토링 참가자 모집",
-   "agency": "조슈아파트너스(주)",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-20",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179614",
-   "status": "open",
-   "note": "• 아산시 소재 7년 이내 창업기업 및 예비창업자 • 2027년 1월까지 아산시 이전 예정인 7년 이내 창업기업 • 2027년 1월까지 창업 예…",
-   "region": "충남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179611",
-   "group": "A",
-   "gtag": "창업",
-   "title": "청년 취창업 특강",
-   "agency": "관악구청",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179611",
-   "status": "open",
-   "note": "만 19세~ 만 39세 청년 (1987년 이후 출생자)",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179595",
    "group": "A",
    "gtag": "창업",
@@ -2980,93 +2810,6 @@
    "status": "open",
    "note": "충청남도에 거주하며 로컬창업에 관심 있는 청년·중장년 누구나",
    "region": "충남",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179591",
-   "group": "A",
-   "gtag": "창업",
-   "title": "2026 논산시 사회적경제 창업 아카데미 참여자 모집",
-   "agency": "논산시 사회적경제통합지원센터",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179591",
-   "status": "open",
-   "note": "사회문제 해결 아이디어를 가진 시민 및 창업3년 이내 기업 등",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179586",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "서초창업스테이션 운영 사업",
-   "agency": "서초창업스테이션",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179586",
-   "status": "open",
-   "note": "컨설팅을 희망하는 예비·초기 소상공인 * 서초구 거주자, 서초구 소재지 사업장 우대",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179582",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "관악S밸리 창업공간 운영",
-   "agency": "재단법인 관악중소벤처진흥원",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179582",
-   "status": "open",
-   "note": "- 「벤처기업 육성에 관한 특별법」에 따른 벤처기업 - 예비창업자 - 「중소기업창업 지원법」에 따른 창업기업(중소기업을 창업하여 사업을 개시한 …",
-   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3101,64 +2844,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179562",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "서울창업허브 창동 운영",
-   "agency": "서울창업허브 창동",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-18",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179562",
-   "status": "open",
-   "note": "(예비)창업자, 투자자(VC/AC), 창업 유관 기관 및 창업에 관심 있는 자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179559",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[국민대학교] \"AI 실무 교육\" 국민대학교 청년도약 인재양성 부트캠프 2기 모집(~11/19)",
-   "agency": "국민대학교 글로벌창업벤처대학원",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-19",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179559",
-   "status": "open",
-   "note": "전공·지역 무관, 만 19세 ~ 34세 이하 미취업 청년(군 복무시간 산정 시 39세까지 가능) □ 취업준비생 □ 예비창업자 □ 장기 휴학생(1…",
-   "region": "서울",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179558",
    "group": "B",
    "gtag": "창업도약",
@@ -3189,93 +2874,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179555",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "서울창업허브 창동 운영",
-   "agency": "서울창업허브 창동",
-   "category": "시설ㆍ공간ㆍ보육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-17",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179555",
-   "status": "open",
-   "note": "글로벌 시장 진출 및 해외 네트워크 확장을 희망하는 서울시 소재 스타트업",
-   "region": "서울",
-   "star": false,
-   "source": "공고"
-  },
-  {
-   "id": "ks179530",
-   "group": "A",
-   "gtag": "창업",
-   "title": "ENSL TECH LAB 13기 모집",
-   "agency": "(주)엔슬파트너스",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179530",
-   "status": "open",
-   "note": "창업 7년 이내 스타트업",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179528",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "KETI 파트너쉽 대덕특구 연구소기업",
-   "agency": "연구개발특구진흥재단",
-   "category": "사업화",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179528",
-   "status": "open",
-   "note": "KETI 기술이전/출자를 통한 대덕특구 내 연구소기업 설립 희망기업(예비창업자 가능)",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks179514",
    "group": "A",
    "gtag": "예비창업",
@@ -3299,34 +2897,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179514",
    "status": "open",
    "note": "예비창업자, 기창업자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179430",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "[마감] AI 기반 서비스 개발·사업화 1인 창업가 캠프 8기 모집",
-   "agency": "넥스트러너스 주식회사",
-   "category": "정책자금",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-15",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179430",
-   "status": "open",
-   "note": "1. 내일배움카드 소지자 또는 발급 가능한 자 2. 아이디어는 있지만 실행·개발이 어려웠던 예비창업자 3. 개발자 없이 AI로 직접 서비스 출시…",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -3413,34 +2983,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179365",
    "status": "open",
    "note": "예비창업가 및 기업실무자",
-   "region": "전국",
-   "star": true,
-   "source": "공고"
-  },
-  {
-   "id": "ks179353",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "AI 올라운더(기획,개발,마케팅) 창업가육성과정 8기 모집",
-   "agency": "디지플래닛",
-   "category": "창업교육",
-   "elig": {
-    "stage": [
-     "예비"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-16",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179353",
-   "status": "open",
-   "note": "1. 내일배움카드 소지자 또는 발급 가능한 자 2. 창업을 준비 중이지만 어디서부터 시작할지 막막한 예비창업자 3. 사업계획서·IR 피칭을 제대…",
    "region": "전국",
    "star": true,
    "source": "공고"
@@ -3674,35 +3216,6 @@
    "source": "공고"
   },
   {
-   "id": "ks179018",
-   "group": "B",
-   "gtag": "글로벌·판로",
-   "title": "2026년 중동상황 대응 「수출위기 극복 물류지원금」지원사업 모집(지원국가 확대)",
-   "agency": "서울경제진흥원",
-   "category": "판로ㆍ해외진출",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-12-31",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179018",
-   "status": "open",
-   "note": "서울 소재 수출기업으로서, 아래의 ①, ② 요건을 모두 충족하는 기업 - 기업소재지 : 「중소기업기본법」 제2조에 따른 중소기업으로서, 본사 또…",
-   "region": "서울",
-   "star": false,
-   "source": "공고"
-  },
-  {
    "id": "ks178990",
    "group": "A",
    "gtag": "예비창업",
@@ -3847,11 +3360,11 @@
    "source": "공고"
   },
   {
-   "id": "ks178799",
+   "id": "ks178527",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터 지원",
-   "agency": "삼육대학교 창업보육센터",
+   "agency": "안양대학교 창업보육센터",
    "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
@@ -3861,16 +3374,46 @@
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-11-15",
+   "deadline": "2026-12-31",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178799",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178527",
    "status": "open",
-   "note": "가. 예비창업자 또는 창업 7년 이내 기업 나. 입주 후 주사업장을 우리대학교의 창업보육센터로 이전(주소이전)",
-   "region": "서울",
+   "note": "￭ 예비창업자(입주 후 6개월 이내 사업자 등록이 가능한 자) ￭ 창업 7년 미만 창업자(개인 또는 법인사업자) ￭ 입주 후 사업장 본점 소재지…",
+   "region": "경기",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178489",
+   "group": "D",
+   "gtag": "기술·디지털",
+   "title": "[제주창조경제혁신센터]「상시매칭 오픈이노베이션 플랫폼」수요기업 및 스타트업 상시 모집",
+   "agency": "제주창조경제혁신센터",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내",
+     "운영중"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178489",
+   "status": "open",
+   "note": "국내·외 대기업(CVC 포함), 중견기업, 공공기관 및 스타트업",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -3927,6 +3470,34 @@
    "status": "open",
    "note": "서울시 소재 녹색분야 중소기업 및 예비창업자 ① 「중소기업기본법」 제2조의 중소기업으로서, 본사 또는 지사 (예비창업자의 경우 주소지) 의 서울…",
    "region": "서울",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks178289",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "지역창업특화지원",
+   "agency": "(주)미래서비스 1인창조기업지원센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178289",
+   "status": "open",
+   "note": "- 1인 또는 5인 미만의 공동 사업자로서 상시근로자 없이 사업을 운영하는 기업 - 입주 후 3개월 이내에 사업자 등록이 가능한 예비창업자",
+   "region": "인천",
    "star": true,
    "source": "공고"
   },
@@ -4165,6 +3736,34 @@
    "source": "공고"
   },
   {
+   "id": "ks177922",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "[경기도 중장년 최초 창업 지원] 2026년 생애 최초 경영안정화 교육지원 사업",
+   "agency": "경기도시장상권진흥원",
+   "category": "창업교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177922",
+   "status": "open",
+   "note": "◆ 공고일('26. 5. 22.) 기준 경기도 거주하며, 도내 창업을 희망하는 만 40세 이상 중장년인 자 ◆ (예비창업자*) 국세청(세무서) …",
+   "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
    "id": "ks177864",
    "group": "A",
    "gtag": "예비창업",
@@ -4394,6 +3993,34 @@
    "status": "open",
    "note": "초기창업자, 재창업자, 창업자",
    "region": "전국",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks177357",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "창업보육센터및 기업 지원",
+   "agency": "남서울대학교 창업보육센터",
+   "category": "시설ㆍ공간ㆍ보육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177357",
+   "status": "open",
+   "note": "예비창업자 및 창업 7년미만 기업 (단, 업력 3년 초과 ~ 7년 이내의 경우 유선 문의 필요)",
+   "region": "충남",
    "star": true,
    "source": "공고"
   },
@@ -4683,6 +4310,35 @@
    "status": "open",
    "note": "대구시 소재 50인 미만 사업장",
    "region": "대구",
+   "star": true,
+   "source": "공고"
+  },
+  {
+   "id": "ks176940",
+   "group": "A",
+   "gtag": "창업",
+   "title": "2026년 소상공인 투자연계 지원사업 립스 프로그램 참여 소상공인 모집 공고",
+   "agency": "소상공인시장진흥공단",
+   "category": "사업화",
+   "elig": {
+    "stage": [
+     "예비",
+     "3년내"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-12-31",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176940",
+   "status": "open",
+   "note": "소상공인",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -4977,36 +4633,6 @@
    "source": "공고"
   },
   {
-   "id": "ks176494",
-   "group": "A",
-   "gtag": "예비창업",
-   "title": "경기도경제과학진흥원 스타트업 지원센터 일반상담",
-   "agency": "경기도경제과학진흥원",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
-   "elig": {
-    "stage": [
-     "예비",
-     "3년내",
-     "운영중"
-    ],
-    "age": "young",
-    "hire": false
-   },
-   "amount": "공고 참조",
-   "deadline": "2026-11-25",
-   "docs": [
-    "사업계획서(PSST)",
-    "사업자등록증(해당시)",
-    "대표자 신분증"
-   ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176494",
-   "status": "open",
-   "note": "경기도 내 예비·초기 (재)창업자 및 기술창업기업",
-   "region": "경기",
-   "star": true,
-   "source": "공고"
-  },
-  {
    "id": "ks176442",
    "group": "A",
    "gtag": "예비창업",
@@ -5035,31 +4661,30 @@
    "source": "공고"
   },
   {
-   "id": "ks176406",
-   "group": "D",
-   "gtag": "기술·디지털",
-   "title": "2026 대경권 엔젤투자 피칭룸 참여기업 모집 공고",
-   "agency": "(사)한국엔젤투자협회 대경권엔젤투자허브",
-   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "id": "ks176316",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "2026년 창업·벤처 녹색융합클러스터 그린아이디어랩 비상주오피스 이용자 모집",
+   "agency": "한국환경산업기술원",
+   "category": "시설ㆍ공간ㆍ보육",
    "elig": {
     "stage": [
-     "예비",
-     "3년내"
+     "예비"
     ],
     "age": "young",
     "hire": false
    },
    "amount": "공고 참조",
-   "deadline": "2026-11-20",
+   "deadline": "2026-11-30",
    "docs": [
     "사업계획서(PSST)",
     "사업자등록증(해당시)",
     "대표자 신분증"
    ],
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176406",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176316",
    "status": "open",
-   "note": "대구·경북 소재* 7년 미만 창업·벤처기업으로서 투자유치를 희망하는 기업 * 대구경북 내 본사 또는 지사/연구소/공장 소재지 기업",
-   "region": "경북",
+   "note": "(그린아이디어랩 비상주오피스) 녹색산업 및 녹색연관사업을 연구·개발하거나 사업을 영위할 계획인 예비창업자",
+   "region": "전국",
    "star": true,
    "source": "공고"
   },
@@ -5118,6 +4743,34 @@
    "note": "■ 지원대상 (아래 요건을 모두 충족해야 하며, 세부 자격은 담당자에 문의) 1. 수원, 용인, 화성 소재 기업 2. 기준 피보험자 수 5인 이…",
    "region": "경기",
    "star": false,
+   "source": "공고"
+  },
+  {
+   "id": "ks176208",
+   "group": "A",
+   "gtag": "예비창업",
+   "title": "신개념 세대융합청년창업 지원",
+   "agency": "인천창조경제혁신센터",
+   "category": "멘토링ㆍ컨설팅ㆍ교육",
+   "elig": {
+    "stage": [
+     "예비"
+    ],
+    "age": "young",
+    "hire": false
+   },
+   "amount": "공고 참조",
+   "deadline": "2026-11-30",
+   "docs": [
+    "사업계획서(PSST)",
+    "사업자등록증(해당시)",
+    "대표자 신분증"
+   ],
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176208",
+   "status": "open",
+   "note": "- 연령: 만39세 이하 (1987년 1월 1일 이후 출생) - 기업업력: 예비창업자 또는 3년 이내 (2023년 2월 이후 창업) 창업자 (예…",
+   "region": "인천",
+   "star": true,
    "source": "공고"
   },
   {
@@ -5353,7 +5006,7 @@
    "source": "공고"
   },
   {
-   "id": "ks1",
+   "id": "ksb0",
    "group": "A",
    "gtag": "예비창업",
    "title": "충남창업마루나비",
@@ -5381,7 +5034,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks2",
+   "id": "ksb1",
    "group": "B",
    "gtag": "창업도약",
    "title": "그린스타트업타운 지원",
@@ -5410,7 +5063,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks3",
+   "id": "ksb2",
    "group": "A",
    "gtag": "예비창업",
    "title": "충남창조경제혁신센터 지원",
@@ -5438,7 +5091,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks4",
+   "id": "ksb3",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업중심대학지원사업",
@@ -5468,7 +5121,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks6",
+   "id": "ksb5",
    "group": "A",
    "gtag": "창업",
    "title": "창업 청년 임대료 지원사업",
@@ -5498,7 +5151,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks7",
+   "id": "ksb6",
    "group": "A",
    "gtag": "창업",
    "title": "경북 청년농산업 창업지원센터 운영",
@@ -5528,7 +5181,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks8",
+   "id": "ksb7",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "경북창조경제혁신센터 기업 운영",
@@ -5558,7 +5211,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks9",
+   "id": "ksb8",
    "group": "B",
    "gtag": "창업도약",
    "title": "포항창조경제혁신센터 사업운영",
@@ -5588,7 +5241,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks10",
+   "id": "ksb9",
    "group": "A",
    "gtag": "예비창업",
    "title": "안동시 청년전용 지식산업센터 운영",
@@ -5617,7 +5270,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks11",
+   "id": "ksb10",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "청년창업지원센터 운영 지원",
@@ -5646,7 +5299,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks12",
+   "id": "ksb11",
    "group": "A",
    "gtag": "예비창업",
    "title": "김천시 청년 창업 공간 지원사업",
@@ -5674,7 +5327,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks13",
+   "id": "ksb12",
    "group": "A",
    "gtag": "창업",
    "title": "청년 창업아카데미(G-Space@East) 운영",
@@ -5703,7 +5356,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks14",
+   "id": "ksb13",
    "group": "A",
    "gtag": "창업",
    "title": "경남 창업 수도권 거점(G-Space@TIPS) 운영",
@@ -5733,7 +5386,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks15",
+   "id": "ksb14",
    "group": "A",
    "gtag": "예비창업",
    "title": "창원시 창업지원센터",
@@ -5763,7 +5416,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks16",
+   "id": "ksb15",
    "group": "A",
    "gtag": "예비창업",
    "title": "창원시 1인 창조기업 지원센터",
@@ -5793,7 +5446,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks17",
+   "id": "ksb16",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터 운영 지원",
@@ -5822,7 +5475,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks18",
+   "id": "ksb17",
    "group": "A",
    "gtag": "예비창업",
    "title": "진주창업지원센터 운영사업",
@@ -5850,7 +5503,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks19",
+   "id": "ksb18",
    "group": "A",
    "gtag": "창업",
    "title": "진주형 창업사관학교 운영사업",
@@ -5879,7 +5532,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks20",
+   "id": "ksb19",
    "group": "A",
    "gtag": "예비창업",
    "title": "진주형 1인창조기업 운영사업",
@@ -5907,7 +5560,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks21",
+   "id": "ksb20",
    "group": "A",
    "gtag": "예비창업",
    "title": "중장년기술창업센터 운영사업",
@@ -5936,7 +5589,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks22",
+   "id": "ksb21",
    "group": "A",
    "gtag": "예비창업",
    "title": "김해시 1인 창조기업 지원센터 운영사업",
@@ -5964,7 +5617,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks23",
+   "id": "ksb22",
    "group": "A",
    "gtag": "예비창업",
    "title": "김해창업카페 및 메이커팩토리 운영",
@@ -5994,7 +5647,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks24",
+   "id": "ksb23",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터 운영 지원사업",
@@ -6023,7 +5676,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks25",
+   "id": "ksb24",
    "group": "A",
    "gtag": "창업",
    "title": "창업보육센터 입주기업 임차료 지원사업",
@@ -6053,7 +5706,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks26",
+   "id": "ksb25",
    "group": "A",
    "gtag": "창업",
    "title": "거제시 청년창업공간(내꿈공간) 운영",
@@ -6083,7 +5736,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks27",
+   "id": "ksb26",
    "group": "A",
    "gtag": "예비창업",
    "title": "봄내여성복합커뮤니티센터 운영",
@@ -6111,7 +5764,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks28",
+   "id": "ksb27",
    "group": "A",
    "gtag": "예비창업",
    "title": "공연예술창업지원센터 운영",
@@ -6139,7 +5792,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks29",
+   "id": "ksb28",
    "group": "A",
    "gtag": "창업",
    "title": "화동2571 운영",
@@ -6169,7 +5822,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks30",
+   "id": "ksb29",
    "group": "A",
    "gtag": "예비창업",
    "title": "양구군 소상공인 예비창업자 지원사업",
@@ -6197,7 +5850,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks31",
+   "id": "ksb30",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터 입주기업 지원사업",
@@ -6225,7 +5878,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks32",
+   "id": "ksb31",
    "group": "A",
    "gtag": "창업",
    "title": "스타트업 라운지 키움공간",
@@ -6255,7 +5908,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks33",
+   "id": "ksb32",
    "group": "A",
    "gtag": "예비창업",
    "title": "중장년 기술창업센터 운영사업 지원",
@@ -6285,7 +5938,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks34",
+   "id": "ksb33",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터 활성화 지원사업",
@@ -6314,7 +5967,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks35",
+   "id": "ksb34",
    "group": "A",
    "gtag": "창업",
    "title": "청년뜰(창업센터) 운영·지원",
@@ -6344,7 +5997,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks36",
+   "id": "ksb35",
    "group": "A",
    "gtag": "예비창업",
    "title": "수제창작플랫폼 운영·지원사업",
@@ -6374,7 +6027,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks37",
+   "id": "ksb36",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업플랫폼(청춘미가)",
@@ -6402,7 +6055,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks38",
+   "id": "ksb37",
    "group": "A",
    "gtag": "예비창업",
    "title": "군산 STAY 창업가 주거지원사업",
@@ -6432,7 +6085,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks39",
+   "id": "ksb38",
    "group": "A",
    "gtag": "예비창업",
    "title": "정읍시 청년창업 챌린지숍 운영",
@@ -6462,7 +6115,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks40",
+   "id": "ksb39",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터 지원사업",
@@ -6490,7 +6143,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks41",
+   "id": "ksb40",
    "group": "A",
    "gtag": "창업",
    "title": "청년기업 안정화 임대료 지원",
@@ -6519,7 +6172,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks44",
+   "id": "ksb43",
    "group": "A",
    "gtag": "재창업",
    "title": "소상공인경영지원센터 운영",
@@ -6547,7 +6200,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks45",
+   "id": "ksb44",
    "group": "A",
    "gtag": "예비창업",
    "title": "탐나는 디지털 창작소 운영사업",
@@ -6577,7 +6230,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks46",
+   "id": "ksb45",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업보육센터및 기업 지원",
@@ -6605,7 +6258,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks47",
+   "id": "ksb46",
    "group": "A",
    "gtag": "예비창업",
    "title": "충북 중장년 기술창업센터지원사업",
@@ -6633,7 +6286,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks48",
+   "id": "ksb47",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업기획자(액셀러레이터)운영",
@@ -6662,7 +6315,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks49",
+   "id": "ksb48",
    "group": "A",
    "gtag": "예비창업",
    "title": "성남창업센터 (정글ON)",
@@ -6691,7 +6344,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks50",
+   "id": "ksb49",
    "group": "A",
    "gtag": "예비창업",
    "title": "지역창업 특화지원",
@@ -6720,7 +6373,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks51",
+   "id": "ksb50",
    "group": "A",
    "gtag": "창업",
    "title": "평택시 청년창업지원센터",
@@ -6750,7 +6403,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks52",
+   "id": "ksb51",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년오피스",
@@ -6778,7 +6431,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks53",
+   "id": "ksb52",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 오피스지원",
@@ -6806,7 +6459,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks54",
+   "id": "ksb53",
    "group": "A",
    "gtag": "예비창업",
    "title": "구리시 청년내일센터 운영",
@@ -6834,7 +6487,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks55",
+   "id": "ksb54",
    "group": "A",
    "gtag": "예비창업",
    "title": "과천시 창업지원센터 운영",
@@ -6864,7 +6517,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks56",
+   "id": "ksb55",
    "group": "A",
    "gtag": "예비창업",
    "title": "충북 창업 스타티움 운영",
@@ -6892,7 +6545,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks57",
+   "id": "ksb56",
    "group": "A",
    "gtag": "예비창업",
    "title": "1인 창조기업 지원센터 운영",
@@ -6920,7 +6573,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks58",
+   "id": "ksb57",
    "group": "A",
    "gtag": "예비창업",
    "title": "한국항공대 창업보육센터 운영지원",
@@ -6948,7 +6601,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks59",
+   "id": "ksb58",
    "group": "A",
    "gtag": "예비창업",
    "title": "동국대 창업보육센터 운영지원",
@@ -6976,7 +6629,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks60",
+   "id": "ksb59",
    "group": "A",
    "gtag": "예비창업",
    "title": "28청춘창업소 운영",
@@ -7004,7 +6657,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks61",
+   "id": "ksb60",
    "group": "A",
    "gtag": "예비창업",
    "title": "고양 1인 창조기업 지원센터 운영",
@@ -7032,7 +6685,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks62",
+   "id": "ksb61",
    "group": "A",
    "gtag": "예비창업",
    "title": "고양 중장년 기술창업센터 운영",
@@ -7061,7 +6714,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks63",
+   "id": "ksb62",
    "group": "A",
    "gtag": "예비창업",
    "title": "「고양시 청년공간 내일꿈제작소」 입주공간 지원",
@@ -7089,7 +6742,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks64",
+   "id": "ksb63",
    "group": "A",
    "gtag": "예비창업",
    "title": "화성시 창업지원플랫폼",
@@ -7117,7 +6770,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks65",
+   "id": "ksb64",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "화성시 창업지원플랫폼+PLUS(플러스",
@@ -7146,7 +6799,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks66",
+   "id": "ksb65",
    "group": "A",
    "gtag": "예비창업",
    "title": "일자리종합센터 입주기업 지원",
@@ -7174,7 +6827,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks67",
+   "id": "ksb66",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 창의차고 운영",
@@ -7203,7 +6856,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks68",
+   "id": "ksb67",
    "group": "A",
    "gtag": "예비창업",
    "title": "울산 북구 청년창업지원센터",
@@ -7232,7 +6885,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks69",
+   "id": "ksb68",
    "group": "A",
    "gtag": "예비창업",
    "title": "세종 보육공간 운영사업",
@@ -7260,7 +6913,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks70",
+   "id": "ksb69",
    "group": "A",
    "gtag": "예비창업",
    "title": "세종 창업키움센터 운영",
@@ -7288,7 +6941,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks71",
+   "id": "ksb70",
    "group": "A",
    "gtag": "예비창업",
    "title": "세종 창업보육 지원사업",
@@ -7316,7 +6969,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks72",
+   "id": "ksb71",
    "group": "A",
    "gtag": "창업",
    "title": "창업보육센터 운영지원",
@@ -7346,7 +6999,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks73",
+   "id": "ksb72",
    "group": "A",
    "gtag": "창업",
    "title": "특화역량 창업보육 육성지원",
@@ -7376,7 +7029,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks74",
+   "id": "ksb73",
    "group": "A",
    "gtag": "예비창업",
    "title": "안산시 청년 사업가 육성을 위한 인큐베이팅",
@@ -7404,7 +7057,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks75",
+   "id": "ksb74",
    "group": "A",
    "gtag": "예비창업",
    "title": "파주시 창업캠퍼스 운영",
@@ -7432,7 +7085,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks76",
+   "id": "ksb75",
    "group": "A",
    "gtag": "예비창업",
    "title": "경기창업혁신공간 운영",
@@ -7460,7 +7113,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks77",
+   "id": "ksb76",
    "group": "B",
    "gtag": "창업도약",
    "title": "여성창업지원센터·성장센터 운영",
@@ -7489,7 +7142,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks78",
+   "id": "ksb77",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업지원센터 통합운영",
@@ -7517,7 +7170,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks79",
+   "id": "ksb78",
    "group": "A",
    "gtag": "예비창업",
    "title": "민관 협력 AC 프로그램 운영",
@@ -7545,7 +7198,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks80",
+   "id": "ksb79",
    "group": "A",
    "gtag": "예비창업",
    "title": "울주군 중장년기술창업센터",
@@ -7573,7 +7226,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks81",
+   "id": "ksb80",
    "group": "A",
    "gtag": "창업",
    "title": "동구 창업지원센터 입주기업 운영",
@@ -7603,7 +7256,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks82",
+   "id": "ksb81",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "창업생태계 조성 및 스타트업파크 운영",
@@ -7633,7 +7286,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks83",
+   "id": "ksb82",
    "group": "A",
    "gtag": "예비창업",
    "title": "소셜벤처 창업 플랫폼 운영 활성화",
@@ -7661,7 +7314,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks84",
+   "id": "ksb83",
    "group": "B",
    "gtag": "창업도약",
    "title": "소셜벤처 성장 플랫폼 운영 활성화",
@@ -7690,7 +7343,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks85",
+   "id": "ksb84",
    "group": "B",
    "gtag": "창업도약",
    "title": "대전 창업성장캠퍼스 활성화 사업",
@@ -7719,7 +7372,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks86",
+   "id": "ksb85",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "카이스트 글로벌 스튜디오 운영",
@@ -7749,7 +7402,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks87",
+   "id": "ksb86",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업가 비즈니스센터 운영",
@@ -7779,7 +7432,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks88",
+   "id": "ksb87",
    "group": "A",
    "gtag": "예비창업",
    "title": "대전 서구 창업허브센터 입주기업 모집",
@@ -7809,7 +7462,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks89",
+   "id": "ksb88",
    "group": "A",
    "gtag": "예비창업",
    "title": "대전광역시 서구 청년창업지원센터 운영",
@@ -7839,7 +7492,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks90",
+   "id": "ksb89",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "창업보육 경쟁력 강화사업",
@@ -7869,7 +7522,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks91",
+   "id": "ksb90",
    "group": "A",
    "gtag": "재창업",
    "title": "재도전·혁신캠퍼스 운영",
@@ -7898,7 +7551,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks92",
+   "id": "ksb91",
    "group": "A",
    "gtag": "예비창업",
    "title": "울주군 꿈꾸는 청년대장간",
@@ -7927,7 +7580,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks93",
+   "id": "ksb92",
    "group": "B",
    "gtag": "창업도약",
    "title": "울주군 기술창업 생태계지원사업",
@@ -7956,7 +7609,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks94",
+   "id": "ksb93",
    "group": "A",
    "gtag": "예비창업",
    "title": "서울시 청년 쿡 비즈니스‧푸드테크 센터",
@@ -7986,7 +7639,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks95",
+   "id": "ksb94",
    "group": "B",
    "gtag": "창업도약",
    "title": "서울창업허브 공덕 (우수기업 발굴·육성)",
@@ -8015,7 +7668,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks96",
+   "id": "ksb95",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "서울창업허브 M+ 운영",
@@ -8045,7 +7698,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks97",
+   "id": "ksb96",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "서울창업허브 창동 운영",
@@ -8074,7 +7727,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks98",
+   "id": "ksb97",
    "group": "A",
    "gtag": "창업",
    "title": "서울창업허브 성수 운영",
@@ -8103,7 +7756,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks99",
+   "id": "ksb98",
    "group": "A",
    "gtag": "창업",
    "title": "서울용산시제품제작소 운영",
@@ -8132,7 +7785,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks100",
+   "id": "ksb99",
    "group": "B",
    "gtag": "창업도약",
    "title": "서울창업성장센터",
@@ -8161,7 +7814,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks101",
+   "id": "ksb100",
    "group": "A",
    "gtag": "예비창업",
    "title": "서울창업디딤터",
@@ -8189,7 +7842,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks102",
+   "id": "ksb101",
    "group": "B",
    "gtag": "창업도약",
    "title": "서울창업센터 관악",
@@ -8218,7 +7871,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks103",
+   "id": "ksb102",
    "group": "A",
    "gtag": "예비창업",
    "title": "서울창업센터 동작",
@@ -8247,7 +7900,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks104",
+   "id": "ksb103",
    "group": "B",
    "gtag": "창업도약",
    "title": "서울핀테크랩 운영",
@@ -8276,7 +7929,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks105",
+   "id": "ksb104",
    "group": "B",
    "gtag": "창업도약",
    "title": "제2서울핀테크랩 운영",
@@ -8306,7 +7959,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks106",
+   "id": "ksb105",
    "group": "B",
    "gtag": "창업도약",
    "title": "G밸리 창업큐브 운영",
@@ -8335,7 +7988,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks107",
+   "id": "ksb106",
    "group": "A",
    "gtag": "예비창업",
    "title": "서울디자인창업센터 운영",
@@ -8363,7 +8016,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks108",
+   "id": "ksb107",
    "group": "A",
    "gtag": "예비창업",
    "title": "성동구 창업보육실 운영",
@@ -8391,7 +8044,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks109",
+   "id": "ksb108",
    "group": "A",
    "gtag": "창업",
    "title": "광진경제허브센터 운영",
@@ -8421,7 +8074,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks110",
+   "id": "ksb109",
    "group": "A",
    "gtag": "예비창업",
    "title": "중랑창업지원센터",
@@ -8449,7 +8102,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks111",
+   "id": "ksb110",
    "group": "A",
    "gtag": "예비창업",
    "title": "1인창조기업지원센터",
@@ -8477,7 +8130,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks112",
+   "id": "ksb111",
    "group": "B",
    "gtag": "창업도약",
    "title": "벤처창업지원센터",
@@ -8506,7 +8159,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks113",
+   "id": "ksb112",
    "group": "A",
    "gtag": "예비창업",
    "title": "중장년기술창업센터",
@@ -8534,7 +8187,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks114",
+   "id": "ksb113",
    "group": "A",
    "gtag": "예비창업",
    "title": "도봉구 중소기업창업보육센터",
@@ -8563,7 +8216,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks115",
+   "id": "ksb114",
    "group": "A",
    "gtag": "예비창업",
    "title": "은평창업지원센터 입주기업 모집",
@@ -8591,7 +8244,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks116",
+   "id": "ksb115",
    "group": "A",
    "gtag": "예비창업",
    "title": "서대문구-서울시립대학교창업지원센터 운영",
@@ -8619,7 +8272,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks117",
+   "id": "ksb116",
    "group": "A",
    "gtag": "예비창업",
    "title": "마포비즈니스센터",
@@ -8647,7 +8300,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks118",
+   "id": "ksb117",
    "group": "A",
    "gtag": "예비창업",
    "title": "마포구 중장년 기술창업센터",
@@ -8675,7 +8328,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks119",
+   "id": "ksb118",
    "group": "A",
    "gtag": "예비창업",
    "title": "마포구 1인창조기업 지원센터",
@@ -8704,7 +8357,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks120",
+   "id": "ksb119",
    "group": "A",
    "gtag": "창업",
    "title": "양천창업지원센터 운영",
@@ -8734,7 +8387,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks121",
+   "id": "ksb120",
    "group": "A",
    "gtag": "예비창업",
    "title": "영등포구 중소기업 창업지원센터",
@@ -8762,7 +8415,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks122",
+   "id": "ksb121",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업지원센터 운영",
@@ -8791,7 +8444,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks123",
+   "id": "ksb122",
    "group": "A",
    "gtag": "예비창업",
    "title": "관악S밸리 창업공간 운영",
@@ -8820,7 +8473,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks124",
+   "id": "ksb123",
    "group": "A",
    "gtag": "예비창업",
    "title": "강동구 청년해냄센터 운영",
@@ -8849,7 +8502,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks125",
+   "id": "ksb124",
    "group": "A",
    "gtag": "창업",
    "title": "청년창업지원센터 운영",
@@ -8879,7 +8532,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks126",
+   "id": "ksb125",
    "group": "A",
    "gtag": "예비창업",
    "title": "서초창업스테이션 운영 사업",
@@ -8909,7 +8562,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks127",
+   "id": "ksb126",
    "group": "B",
    "gtag": "창업도약",
    "title": "청년 창업자 임차료 지원 사업",
@@ -8938,7 +8591,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks128",
+   "id": "ksb127",
    "group": "B",
    "gtag": "창업도약",
    "title": "부산 기술창업기업 투자지원 프로그램",
@@ -8968,7 +8621,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks129",
+   "id": "ksb128",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업공간100 운영",
@@ -8996,7 +8649,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks130",
+   "id": "ksb129",
    "group": "B",
    "gtag": "창업도약",
    "title": "부산 기술창업기업 인프라",
@@ -9026,7 +8679,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks131",
+   "id": "ksb130",
    "group": "A",
    "gtag": "예비창업",
    "title": "금사 푸드앤파크 창업지원시설 운영",
@@ -9054,7 +8707,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks132",
+   "id": "ksb131",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창조발전소 꿈터+ 운영",
@@ -9082,7 +8735,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks133",
+   "id": "ksb132",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업문화촌 운영",
@@ -9110,7 +8763,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks134",
+   "id": "ksb133",
    "group": "B",
    "gtag": "창업도약",
    "title": "수영구 청년창업둥지 사업",
@@ -9139,7 +8792,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks135",
+   "id": "ksb134",
    "group": "A",
    "gtag": "창업",
    "title": "수영구 창업육성센터 사업",
@@ -9168,7 +8821,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks136",
+   "id": "ksb135",
    "group": "A",
    "gtag": "예비창업",
    "title": "디딤스페이스 입주자 공개 모집",
@@ -9198,7 +8851,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks137",
+   "id": "ksb136",
    "group": "B",
    "gtag": "창업도약",
    "title": "비상스페이스 입주자 공개 모집",
@@ -9227,7 +8880,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks138",
+   "id": "ksb137",
    "group": "B",
    "gtag": "창업도약",
    "title": "전포메트로 청춘드림센터 입주자 모집",
@@ -9256,7 +8909,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks139",
+   "id": "ksb138",
    "group": "A",
    "gtag": "예비창업",
    "title": "부산창조경제혁신센터 지원",
@@ -9284,7 +8937,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks140",
+   "id": "ksb139",
    "group": "B",
    "gtag": "창업도약",
    "title": "대구스케일업허브 운영",
@@ -9313,7 +8966,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks141",
+   "id": "ksb140",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업카페 운영",
@@ -9343,7 +8996,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks142",
+   "id": "ksb141",
    "group": "A",
    "gtag": "예비창업",
    "title": "남동구 청년창업지원센터 입주기업 모집",
@@ -9372,7 +9025,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks143",
+   "id": "ksb142",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "바이오 클러스터 조성 지원사업",
@@ -9402,7 +9055,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks144",
+   "id": "ksb143",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "개방형 실험실 운영지원",
@@ -9432,7 +9085,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks145",
+   "id": "ksb144",
    "group": "C",
    "gtag": "고용·인력",
    "title": "스포츠산업 창업지원 운영사업",
@@ -9461,7 +9114,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks146",
+   "id": "ksb145",
    "group": "A",
    "gtag": "예비창업",
    "title": "정서진 아라뱃길 청년창업공간 운영",
@@ -9489,7 +9142,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks147",
+   "id": "ksb146",
    "group": "B",
    "gtag": "창업도약",
    "title": "청년 창업자 임대료 지원사업",
@@ -9518,7 +9171,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks148",
+   "id": "ksb147",
    "group": "A",
    "gtag": "예비창업",
    "title": "서구 스타트업센터 입주기업 모집",
@@ -9547,7 +9200,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks149",
+   "id": "ksb148",
    "group": "A",
    "gtag": "예비창업",
    "title": "공공임대주택 청년창업공간 운영",
@@ -9576,7 +9229,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks150",
+   "id": "ksb149",
    "group": "A",
    "gtag": "창업",
    "title": "메이커 스페이스",
@@ -9605,7 +9258,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks151",
+   "id": "ksb150",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업존",
@@ -9633,7 +9286,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks152",
+   "id": "ksb151",
    "group": "A",
    "gtag": "예비창업",
    "title": "창조경제혁신센터",
@@ -9661,7 +9314,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks153",
+   "id": "ksb152",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "글로벌 창업허브 사업",
@@ -9690,7 +9343,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks154",
+   "id": "ksb153",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업보육센터 지원",
@@ -9720,7 +9373,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks155",
+   "id": "ksb154",
    "group": "A",
    "gtag": "예비창업",
    "title": "지역창업특화지원",
@@ -9750,7 +9403,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks156",
+   "id": "ksb155",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "공간정보 창업지원사업",
@@ -9780,7 +9433,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks157",
+   "id": "ksb156",
    "group": "A",
    "gtag": "예비창업",
    "title": "국토교통 창업 및 기업지원 사업",
@@ -9809,7 +9462,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks158",
+   "id": "ksb157",
    "group": "A",
    "gtag": "예비창업",
    "title": "혁신창업멤버스",
@@ -9837,7 +9490,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks159",
+   "id": "ksb158",
    "group": "A",
    "gtag": "예비창업",
    "title": "1인 창조기업 지원센터",
@@ -9867,7 +9520,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks160",
+   "id": "ksb159",
    "group": "A",
    "gtag": "창업",
    "title": "소상공인 비즈플러스카드 지원사업",
@@ -9896,7 +9549,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks161",
+   "id": "ksb160",
    "group": "A",
    "gtag": "창업",
    "title": "청년창업특례보증",
@@ -9925,7 +9578,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks162",
+   "id": "ksb161",
    "group": "A",
    "gtag": "창업",
    "title": "거제시 소상공인육성자금 융자지원",
@@ -9955,7 +9608,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks163",
+   "id": "ksb162",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "양산시 소상공인 육성자금 지원",
@@ -9985,7 +9638,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks164",
+   "id": "ksb163",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "중소기업육성자금 융자지원(기술창업기업자금)",
@@ -10014,7 +9667,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks165",
+   "id": "ksb164",
    "group": "A",
    "gtag": "창업",
    "title": "합천군 중소기업 및 소상공인 육성기금 융자지원",
@@ -10043,7 +9696,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks166",
+   "id": "ksb165",
    "group": "A",
    "gtag": "창업",
    "title": "청년창업자금 무이자 대출 지원",
@@ -10072,7 +9725,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks167",
+   "id": "ksb166",
    "group": "A",
    "gtag": "창업",
    "title": "중소기업 창업지원자금 지원",
@@ -10101,7 +9754,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks168",
+   "id": "ksb167",
    "group": "A",
    "gtag": "창업",
    "title": "창업 두드림 특별보증",
@@ -10130,7 +9783,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks169",
+   "id": "ksb168",
    "group": "A",
    "gtag": "창업",
    "title": "청년기업 창업 두드림 보증료 제로사업",
@@ -10159,7 +9812,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks170",
+   "id": "ksb169",
    "group": "B",
    "gtag": "창업도약",
    "title": "청년창업기업 경영안정자금 금리 확대 지원",
@@ -10188,7 +9841,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks171",
+   "id": "ksb170",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업기반지원자금",
@@ -10217,7 +9870,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks172",
+   "id": "ksb171",
    "group": "A",
    "gtag": "재창업",
    "title": "재창업자금",
@@ -10246,7 +9899,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks173",
+   "id": "ksb172",
    "group": "B",
    "gtag": "창업도약",
    "title": "기술보증기금창업보증",
@@ -10275,7 +9928,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks174",
+   "id": "ksb173",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업기업에 대한 보증프로그램(지역성장형)",
@@ -10304,7 +9957,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks175",
+   "id": "ksb174",
    "group": "C",
    "gtag": "고용·인력",
    "title": "창업기업에 대한 보증프로그램(고용확산형)",
@@ -10333,7 +9986,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks176",
+   "id": "ksb175",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업기업에 대한 보증프로그램(전문기술형)",
@@ -10361,7 +10014,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks177",
+   "id": "ksb176",
    "group": "B",
    "gtag": "창업도약",
    "title": "청년·중년 창업기업보증",
@@ -10390,7 +10043,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks178",
+   "id": "ksb177",
    "group": "A",
    "gtag": "예비창업",
    "title": "Try Everything 2026",
@@ -10418,7 +10071,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks179",
+   "id": "ksb178",
    "group": "A",
    "gtag": "창업",
    "title": "창업기업 네트워크·교류 활성화 프로그램",
@@ -10448,7 +10101,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks180",
+   "id": "ksb179",
    "group": "A",
    "gtag": "예비창업",
    "title": "아시아창업엑스포FLY ASIA 2026",
@@ -10476,7 +10129,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks181",
+   "id": "ksb180",
    "group": "A",
    "gtag": "창업",
    "title": "스타트업어워즈",
@@ -10505,7 +10158,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks182",
+   "id": "ksb181",
    "group": "A",
    "gtag": "창업",
    "title": "대구 스타트업 리더스포럼",
@@ -10534,7 +10187,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks183",
+   "id": "ksb182",
    "group": "A",
    "gtag": "창업",
    "title": "대구 메이커페스타",
@@ -10564,7 +10217,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks184",
+   "id": "ksb183",
    "group": "B",
    "gtag": "창업도약",
    "title": "입주기업 네트워킹 및 간담회",
@@ -10593,7 +10246,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks185",
+   "id": "ksb184",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업 아이디어 경진대회 개최",
@@ -10621,7 +10274,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks186",
+   "id": "ksb185",
    "group": "A",
    "gtag": "창업",
    "title": "2026 광주 창업 페스티벌",
@@ -10650,7 +10303,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks187",
+   "id": "ksb186",
    "group": "B",
    "gtag": "창업도약",
    "title": "CES 참가 지원 사업",
@@ -10680,7 +10333,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks188",
+   "id": "ksb187",
    "group": "A",
    "gtag": "예비창업",
    "title": "4차산업 창업아이디어 오디션",
@@ -10708,7 +10361,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks189",
+   "id": "ksb188",
    "group": "A",
    "gtag": "예비창업",
    "title": "세종 창업지원기관 협업 프로그램 운영",
@@ -10736,7 +10389,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks190",
+   "id": "ksb189",
    "group": "A",
    "gtag": "창업",
    "title": "부천창업리그 운영",
@@ -10765,7 +10418,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks191",
+   "id": "ksb190",
    "group": "A",
    "gtag": "예비창업",
    "title": "ANSAN START UP 청년창업 경진대회",
@@ -10793,7 +10446,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks192",
+   "id": "ksb191",
    "group": "A",
    "gtag": "예비창업",
    "title": "화성시 소셜벤처창업 아이디어경진대회(화성시 소셜벤처 창업·육성 프로그램)",
@@ -10821,7 +10474,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks193",
+   "id": "ksb192",
    "group": "A",
    "gtag": "예비창업",
    "title": "경기 여성 창업경진대회",
@@ -10850,7 +10503,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks194",
+   "id": "ksb193",
    "group": "A",
    "gtag": "창업",
    "title": "고양스타트업 팝업스토어",
@@ -10879,7 +10532,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks195",
+   "id": "ksb194",
    "group": "A",
    "gtag": "창업",
    "title": "고양IR데이 개최",
@@ -10908,7 +10561,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks196",
+   "id": "ksb195",
    "group": "A",
    "gtag": "예비창업",
    "title": "2026 성남 챔프 (CHAMP)",
@@ -10936,7 +10589,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks197",
+   "id": "ksb196",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 CHAT 365",
@@ -10964,7 +10617,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks198",
+   "id": "ksb197",
    "group": "A",
    "gtag": "예비창업",
    "title": "과천시 창업경진대회",
@@ -10993,7 +10646,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks199",
+   "id": "ksb198",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "충청북도 공공데이터 활용 창업경진대회",
@@ -11023,7 +10676,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks200",
+   "id": "ksb199",
    "group": "A",
    "gtag": "예비창업",
    "title": "충북 창업 노마드포럼 운영",
@@ -11053,7 +10706,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks201",
+   "id": "ksb200",
    "group": "A",
    "gtag": "창업",
    "title": "천안 C-STAR 어워즈",
@@ -11082,7 +10735,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks202",
+   "id": "ksb201",
    "group": "A",
    "gtag": "예비창업",
    "title": "경북관광 스타트업 공모전",
@@ -11110,7 +10763,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks203",
+   "id": "ksb202",
    "group": "A",
    "gtag": "창업",
    "title": "창업·벤처투자 유치 지원사업",
@@ -11140,7 +10793,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks204",
+   "id": "ksb203",
    "group": "A",
    "gtag": "창업",
    "title": "CES 참가기업 지원",
@@ -11170,7 +10823,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks205",
+   "id": "ksb204",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "창스타 테크쇼",
@@ -11200,7 +10853,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks206",
+   "id": "ksb205",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "기술창업 아이디어 경진대회",
@@ -11229,7 +10882,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks207",
+   "id": "ksb206",
    "group": "A",
    "gtag": "예비창업",
    "title": "김해형 액셀러레이팅 지원사업",
@@ -11257,7 +10910,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks208",
+   "id": "ksb207",
    "group": "A",
    "gtag": "예비창업",
    "title": "김해스타트업 포럼",
@@ -11285,7 +10938,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks209",
+   "id": "ksb208",
    "group": "A",
    "gtag": "예비창업",
    "title": "제3회 춘천창업엑스포 개최",
@@ -11314,7 +10967,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks210",
+   "id": "ksb209",
    "group": "A",
    "gtag": "창업",
    "title": "청년창업 토크콘서트",
@@ -11344,7 +10997,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks211",
+   "id": "ksb210",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업보육센터 입주기업 지원사업 (네트워크 지원)",
@@ -11374,7 +11027,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks212",
+   "id": "ksb211",
    "group": "A",
    "gtag": "창업",
    "title": "영월군 창업보육센터 입주기업 지원사업 (전시회 지원)",
@@ -11404,7 +11057,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks213",
+   "id": "ksb212",
    "group": "A",
    "gtag": "창업",
    "title": "청년의 날 행사",
@@ -11434,7 +11087,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks214",
+   "id": "ksb213",
    "group": "A",
    "gtag": "창업",
    "title": "청년 창업박람회 운영",
@@ -11464,7 +11117,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks215",
+   "id": "ksb214",
    "group": "A",
    "gtag": "창업",
    "title": "전주창업 경진대회",
@@ -11494,7 +11147,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks216",
+   "id": "ksb215",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "청년창업 판로개척 프로그램",
@@ -11523,7 +11176,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks217",
+   "id": "ksb216",
    "group": "A",
    "gtag": "창업",
    "title": "경기 창업 공모",
@@ -11552,7 +11205,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks218",
+   "id": "ksb217",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 성장 지원사업",
@@ -11580,7 +11233,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks219",
+   "id": "ksb218",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "컴업(COMEUP) 2026",
@@ -11610,7 +11263,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks220",
+   "id": "ksb219",
    "group": "A",
    "gtag": "창업",
    "title": "올해의 K-스타트업(舊. 도전! K-스타트업)",
@@ -11639,7 +11292,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks221",
+   "id": "ksb220",
    "group": "B",
    "gtag": "창업도약",
    "title": "민관협력 오픈이노베이션 지원사업",
@@ -11669,7 +11322,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks222",
+   "id": "ksb221",
    "group": "B",
    "gtag": "창업도약",
    "title": "오픈이노베이션 후속성과 창출지원사업",
@@ -11699,7 +11352,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks223",
+   "id": "ksb222",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "딥테크 밸류업 프로그램",
@@ -11729,7 +11382,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks224",
+   "id": "ksb223",
    "group": "A",
    "gtag": "예비창업",
    "title": "여성창업 액셀러레이팅",
@@ -11757,7 +11410,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks225",
+   "id": "ksb224",
    "group": "A",
    "gtag": "예비창업",
    "title": "환경창업대전",
@@ -11785,7 +11438,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks226",
+   "id": "ksb225",
    "group": "A",
    "gtag": "예비창업",
    "title": "농식품 창업 콘테스트",
@@ -11813,7 +11466,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks227",
+   "id": "ksb226",
    "group": "A",
    "gtag": "예비창업",
    "title": "국방기술을 활용한 창업경진대회",
@@ -11841,7 +11494,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks229",
+   "id": "ksb228",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년 해외 진출 기지 지원",
@@ -11870,7 +11523,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks230",
+   "id": "ksb229",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "I-스타트업 유니콘드림사업",
@@ -11899,7 +11552,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks231",
+   "id": "ksb230",
    "group": "B",
    "gtag": "창업도약",
    "title": "G-유니콘 육성지원",
@@ -11928,7 +11581,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks232",
+   "id": "ksb231",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "울산창업 N 시리즈",
@@ -11957,7 +11610,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks233",
+   "id": "ksb232",
    "group": "B",
    "gtag": "창업도약",
    "title": "경기 스타트업 글로벌 성장지원",
@@ -11986,7 +11639,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks234",
+   "id": "ksb233",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "글로벌 스타트업이륙작전",
@@ -12015,7 +11668,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks235",
+   "id": "ksb234",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "투자활성화 지원",
@@ -12044,7 +11697,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks237",
+   "id": "ksb236",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "의료기기 글로벌 진출지원",
@@ -12073,7 +11726,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks238",
+   "id": "ksb237",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "천안 글로벌 액셀러레이팅 프로그램",
@@ -12102,7 +11755,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks239",
+   "id": "ksb238",
    "group": "B",
    "gtag": "창업도약",
    "title": "2026 경북 글로벌 스타트업 패키지 성장지원",
@@ -12131,7 +11784,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks240",
+   "id": "ksb239",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "구미시 스타트업 해외시장 개척 지원사업",
@@ -12160,7 +11813,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks241",
+   "id": "ksb240",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "해외스타트업 유치 지원사업",
@@ -12189,7 +11842,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks242",
+   "id": "ksb241",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "인바운드(In-Bound) 창업 지원",
@@ -12219,7 +11872,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks243",
+   "id": "ksb242",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "스타트업 글로벌 진출 지원",
@@ -12249,7 +11902,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks244",
+   "id": "ksb243",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "MWC참가를 통한 글로벌 진출지원",
@@ -12279,7 +11932,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks245",
+   "id": "ksb244",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "글로벌 교류·투자유치 지원사업",
@@ -12309,7 +11962,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks246",
+   "id": "ksb245",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "글로벌진출지원",
@@ -12338,7 +11991,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks247",
+   "id": "ksb246",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "대구 글로벌 벤처·스타트업 육성사업",
@@ -12367,7 +12020,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks248",
+   "id": "ksb247",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "K-글로벌 경쟁력 향상 지원사업",
@@ -12397,7 +12050,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks249",
+   "id": "ksb248",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "글로벌 기업 협업 프로그램",
@@ -12426,7 +12079,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks250",
+   "id": "ksb249",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "스타트업 해외전시회 지원",
@@ -12455,7 +12108,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks251",
+   "id": "ksb250",
    "group": "A",
    "gtag": "예비창업",
    "title": "K-스타트업그랜드 챌린지",
@@ -12483,7 +12136,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks252",
+   "id": "ksb251",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "글로벌 액셀러레이팅 지원사업",
@@ -12512,7 +12165,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks253",
+   "id": "ksb252",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "K-스타트업 센터(KSC) 사업",
@@ -12541,7 +12194,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks254",
+   "id": "ksb253",
    "group": "A",
    "gtag": "예비창업",
    "title": "글로벌 스타트업센터(GSC) 운영",
@@ -12570,7 +12223,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks255",
+   "id": "ksb254",
    "group": "B",
    "gtag": "창업도약",
    "title": "디지털 혁신기업 글로벌 성장 바우처 지원 사업",
@@ -12600,7 +12253,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks256",
+   "id": "ksb255",
    "group": "B",
    "gtag": "창업도약",
    "title": "글로벌 ICT 미래 유니콘 육성(ICT GROWTH)",
@@ -12629,7 +12282,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks257",
+   "id": "ksb256",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "K-Global 해외진출지원사업(글로벌 창업 활성화기반 조성)",
@@ -12659,7 +12312,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks258",
+   "id": "ksb257",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "DNA 융합 제품·서비스 해외진출 지원사업",
@@ -12689,7 +12342,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks259",
+   "id": "ksb258",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "AI·디지털전환 혁신기업 해외실증 지원사업",
@@ -12719,7 +12372,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks260",
+   "id": "ksb259",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "창업이민 인재양성 프로그램(OASIS)",
@@ -12749,7 +12402,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks261",
+   "id": "ksb260",
    "group": "C",
    "gtag": "고용·인력",
    "title": "창업기업 우수인력 인건비 지원",
@@ -12778,7 +12431,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks262",
+   "id": "ksb261",
    "group": "B",
    "gtag": "창업도약",
    "title": "고용유지 지원사업",
@@ -12808,7 +12461,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks263",
+   "id": "ksb262",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "창업기업신규 고용인력보조금 지원사업",
@@ -12837,7 +12490,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks264",
+   "id": "ksb263",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업기업 스케일업 지원",
@@ -12866,7 +12519,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks266",
+   "id": "ksb265",
    "group": "A",
    "gtag": "예비창업",
    "title": "경기도 시스템반도체 OSAT 분야 기술개발 지원사업",
@@ -12894,7 +12547,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks267",
+   "id": "ksb266",
    "group": "B",
    "gtag": "창업도약",
    "title": "기후테크 창업기업 성장지원",
@@ -12924,7 +12577,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks268",
+   "id": "ksb267",
    "group": "B",
    "gtag": "창업도약",
    "title": "스케일업 공공실증 지원",
@@ -12954,7 +12607,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks269",
+   "id": "ksb268",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "데이터 분야 서비스‧기술기업 창업지원",
@@ -12983,7 +12636,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks270",
+   "id": "ksb269",
    "group": "A",
    "gtag": "예비창업",
    "title": "공공기술기반 시장연계 창업탐색지원",
@@ -13011,7 +12664,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks271",
+   "id": "ksb270",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "실험실 특화형 창업선도대학 사업",
@@ -13041,7 +12694,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks272",
+   "id": "ksb271",
    "group": "A",
    "gtag": "창업",
    "title": "딥사이언스 창업 활성화 지원",
@@ -13071,7 +12724,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks273",
+   "id": "ksb272",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업성장기술개발",
@@ -13100,7 +12753,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks274",
+   "id": "ksb273",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "AX혁신기업창의기술개발",
@@ -13130,7 +12783,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks275",
+   "id": "ksb274",
    "group": "A",
    "gtag": "예비창업",
    "title": "전남으뜸창업 운영 사업",
@@ -13158,7 +12811,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks276",
+   "id": "ksb275",
    "group": "A",
    "gtag": "예비창업",
    "title": "데모데이 및 투자자 매칭데이 운영",
@@ -13187,7 +12840,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks277",
+   "id": "ksb276",
    "group": "A",
    "gtag": "예비창업",
    "title": "부산창업촉진지구 지원",
@@ -13215,7 +12868,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks278",
+   "id": "ksb277",
    "group": "A",
    "gtag": "예비창업",
    "title": "금사 공업지역 기반 봉제기술 융합‧혁신생태계 조성 프로젝트",
@@ -13243,7 +12896,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks279",
+   "id": "ksb278",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "신산업 유망스타트업",
@@ -13272,7 +12925,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks280",
+   "id": "ksb279",
    "group": "B",
    "gtag": "창업도약",
    "title": "스케일업 투자 유치 지원",
@@ -13301,7 +12954,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks281",
+   "id": "ksb280",
    "group": "B",
    "gtag": "창업도약",
    "title": "스케일업 컨설팅 지원",
@@ -13330,7 +12983,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks282",
+   "id": "ksb281",
    "group": "A",
    "gtag": "예비창업",
    "title": "신개념 세대융합청년창업 지원",
@@ -13359,7 +13012,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks283",
+   "id": "ksb282",
    "group": "A",
    "gtag": "창업",
    "title": "민간주도 스타트업육성 지원사업",
@@ -13389,7 +13042,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks284",
+   "id": "ksb283",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "지피지기 투자유치지원사업",
@@ -13418,7 +13071,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks285",
+   "id": "ksb284",
    "group": "A",
    "gtag": "예비창업",
    "title": "동구 창업스쿨 운영",
@@ -13446,7 +13099,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks286",
+   "id": "ksb285",
    "group": "A",
    "gtag": "예비창업",
    "title": "동구 맞춤형 컨설팅",
@@ -13474,7 +13127,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks287",
+   "id": "ksb286",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업지원사업",
@@ -13502,7 +13155,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks288",
+   "id": "ksb287",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업가 육성 교육 및 컨설팅 지원",
@@ -13532,7 +13185,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks289",
+   "id": "ksb288",
    "group": "B",
    "gtag": "창업도약",
    "title": "세종 창업성장 투자지원",
@@ -13561,7 +13214,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks290",
+   "id": "ksb289",
    "group": "A",
    "gtag": "창업",
    "title": "경기 스타트업 아카데미 운영",
@@ -13591,7 +13244,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks291",
+   "id": "ksb290",
    "group": "A",
    "gtag": "예비창업",
    "title": "사회적경제 시·군창업지원",
@@ -13619,7 +13272,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks292",
+   "id": "ksb291",
    "group": "A",
    "gtag": "창업",
    "title": "여성창업플랫폼 ｢꿈마루｣ 운영",
@@ -13649,7 +13302,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks293",
+   "id": "ksb292",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업 아카데미 운영",
@@ -13677,7 +13330,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks294",
+   "id": "ksb293",
    "group": "A",
    "gtag": "예비창업",
    "title": "혁신창업 스타트업 아카데미",
@@ -13705,7 +13358,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks296",
+   "id": "ksb295",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 점프업스쿨",
@@ -13733,7 +13386,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks297",
+   "id": "ksb296",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업성공사관학교 및 AI창업교육",
@@ -13763,7 +13416,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks298",
+   "id": "ksb297",
    "group": "A",
    "gtag": "예비창업",
    "title": "광명 혁신스타트업 액셀러레이팅",
@@ -13792,7 +13445,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks299",
+   "id": "ksb298",
    "group": "A",
    "gtag": "창업",
    "title": "안성 맞춤형 창업 원스톱 프로젝트",
@@ -13822,7 +13475,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks300",
+   "id": "ksb299",
    "group": "A",
    "gtag": "창업",
    "title": "안성시 사회적경제 창업교육",
@@ -13852,7 +13505,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks302",
+   "id": "ksb301",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "충청권 엔젤투자 허브 운영지원",
@@ -13882,7 +13535,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks303",
+   "id": "ksb302",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업여성컨설팅 및 인큐베이팅 지원",
@@ -13911,7 +13564,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks304",
+   "id": "ksb303",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업아카데미",
@@ -13939,7 +13592,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks305",
+   "id": "ksb304",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "경남형 스타트업 액셀러레이팅",
@@ -13968,7 +13621,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks306",
+   "id": "ksb305",
    "group": "A",
    "gtag": "창업",
    "title": "벤처기업 인증 획득 지원사업",
@@ -13998,7 +13651,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks307",
+   "id": "ksb306",
    "group": "A",
    "gtag": "예비창업",
    "title": "거제시 창업아카데미 운영",
@@ -14026,7 +13679,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks308",
+   "id": "ksb307",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업가 멘토링 운영",
@@ -14056,7 +13709,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks309",
+   "id": "ksb308",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "영월군 창업허브 기술 지원",
@@ -14085,7 +13738,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks310",
+   "id": "ksb309",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "민간투자주도형 기술창업 활성화 지원",
@@ -14115,7 +13768,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks311",
+   "id": "ksb310",
    "group": "A",
    "gtag": "예비창업",
    "title": "창창한 창업스쿨",
@@ -14143,7 +13796,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks312",
+   "id": "ksb311",
    "group": "B",
    "gtag": "창업도약",
    "title": "전북특별자치도 농생명분야 대표 기업 육성",
@@ -14172,7 +13825,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks313",
+   "id": "ksb312",
    "group": "A",
    "gtag": "창업",
    "title": "식품기업 창업 프로그램 지원",
@@ -14201,7 +13854,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks314",
+   "id": "ksb313",
    "group": "A",
    "gtag": "예비창업",
    "title": "제주자원 활용형 창업지원사업",
@@ -14229,7 +13882,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks317",
+   "id": "ksb316",
    "group": "A",
    "gtag": "창업",
    "title": "여성공동체 창업 인큐베이팅지원",
@@ -14259,7 +13912,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks318",
+   "id": "ksb317",
    "group": "A",
    "gtag": "예비창업",
    "title": "사회적기업 창업인큐베이팅지원사업",
@@ -14287,7 +13940,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks320",
+   "id": "ksb319",
    "group": "A",
    "gtag": "창업",
    "title": "청소년비즈쿨",
@@ -14317,7 +13970,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks321",
+   "id": "ksb320",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업법률지원",
@@ -14345,7 +13998,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks322",
+   "id": "ksb321",
    "group": "A",
    "gtag": "예비창업",
    "title": "K-Global 창업멘토링(ICT 혁신기업 멘토링)",
@@ -14373,7 +14026,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks323",
+   "id": "ksb322",
    "group": "A",
    "gtag": "예비창업",
    "title": "학생창업팀 육성",
@@ -14402,7 +14055,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks324",
+   "id": "ksb323",
    "group": "A",
    "gtag": "예비창업",
    "title": "농식품 크라우드펀딩활성화",
@@ -14430,7 +14083,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks325",
+   "id": "ksb324",
    "group": "A",
    "gtag": "예비창업",
    "title": "농식품 벤처창업센터",
@@ -14458,7 +14111,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks326",
+   "id": "ksb325",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "특허전략 컨설팅 지원사업",
@@ -14488,7 +14141,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks327",
+   "id": "ksb326",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "인·허가 컨설팅 지원사업",
@@ -14518,7 +14171,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks328",
+   "id": "ksb327",
    "group": "A",
    "gtag": "예비창업",
    "title": "IP 디딤돌 프로그램",
@@ -14546,7 +14199,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks329",
+   "id": "ksb328",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "IP 나래 프로그램",
@@ -14575,7 +14228,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks330",
+   "id": "ksb329",
    "group": "A",
    "gtag": "예비창업",
    "title": "경영컨설팅 지원사업",
@@ -14605,7 +14258,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks331",
+   "id": "ksb330",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "스타트업 AI 기술 인력 양성(이어드림 스쿨)",
@@ -14635,7 +14288,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks332",
+   "id": "ksb331",
    "group": "A",
    "gtag": "예비창업",
    "title": "지역연계형 청년 창업지원 사업(넥스트로컬)",
@@ -14663,7 +14316,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks333",
+   "id": "ksb332",
    "group": "A",
    "gtag": "예비창업",
    "title": "산업스마트화공모사업",
@@ -14691,7 +14344,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks334",
+   "id": "ksb333",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업기업 단계별 성장지원",
@@ -14720,7 +14373,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks335",
+   "id": "ksb334",
    "group": "C",
    "gtag": "고용·인력",
    "title": "사회적경제 문화예술 청년 창업지원 프로젝트",
@@ -14750,7 +14403,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks336",
+   "id": "ksb335",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업기업 성장단계별 지원사업",
@@ -14778,7 +14431,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks337",
+   "id": "ksb336",
    "group": "B",
    "gtag": "창업도약",
    "title": "부산대표 기술창업기업 지원사업",
@@ -14807,7 +14460,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks338",
+   "id": "ksb337",
    "group": "A",
    "gtag": "창업",
    "title": "벤처ㆍ창업 ESG선도기업 지원사업",
@@ -14837,7 +14490,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks339",
+   "id": "ksb338",
    "group": "A",
    "gtag": "창업",
    "title": "차세대 부산 디자인 융합 산업육성 지원사업(창업 트랙)",
@@ -14866,7 +14519,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks340",
+   "id": "ksb339",
    "group": "A",
    "gtag": "예비창업",
    "title": "부산진구 창업 키워드림 지원사업",
@@ -14896,7 +14549,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks341",
+   "id": "ksb340",
    "group": "A",
    "gtag": "창업",
    "title": "대구 C-Lab",
@@ -14925,7 +14578,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks342",
+   "id": "ksb341",
    "group": "B",
    "gtag": "창업도약",
    "title": "스타트업 오픈이노베이션",
@@ -14954,7 +14607,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks343",
+   "id": "ksb342",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "대구 투자 및 상장(IPO) 활성화 지원",
@@ -14984,7 +14637,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks344",
+   "id": "ksb343",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "대구스타벤처 육성사업",
@@ -15013,7 +14666,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks345",
+   "id": "ksb344",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "신기술사업화 프로젝트 사업",
@@ -15042,7 +14695,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks346",
+   "id": "ksb345",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "소공인 제품 기술경쟁력 향상 지원사업",
@@ -15072,7 +14725,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks347",
+   "id": "ksb346",
    "group": "B",
    "gtag": "창업도약",
    "title": "스케일업 활성화 지원",
@@ -15101,7 +14754,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks348",
+   "id": "ksb347",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년 소셜벤처 기업 육성사업",
@@ -15130,7 +14783,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks349",
+   "id": "ksb348",
    "group": "A",
    "gtag": "창업",
    "title": "대·중견기업 협업오픈이노베이션 지원",
@@ -15159,7 +14812,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks350",
+   "id": "ksb349",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업 재정지원 사업",
@@ -15189,7 +14842,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks351",
+   "id": "ksb350",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "TRYOUT 실증제품 시범구매",
@@ -15218,7 +14871,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks352",
+   "id": "ksb351",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "창업기업제품 실증지원",
@@ -15247,7 +14900,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks353",
+   "id": "ksb352",
    "group": "A",
    "gtag": "예비창업",
    "title": "맞춤형 예비창업가 발굴·육성",
@@ -15275,7 +14928,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks354",
+   "id": "ksb353",
    "group": "A",
    "gtag": "재창업",
    "title": "창업재도전 지원",
@@ -15304,7 +14957,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks355",
+   "id": "ksb354",
    "group": "A",
    "gtag": "예비창업",
    "title": "여성창업지원",
@@ -15333,7 +14986,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks356",
+   "id": "ksb355",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업 아이디어 공모 및 지원계획",
@@ -15363,7 +15016,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks357",
+   "id": "ksb356",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업기업 마케팅 지원",
@@ -15392,7 +15045,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks358",
+   "id": "ksb357",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "혁신기술사업화 지원사업",
@@ -15422,7 +15075,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks359",
+   "id": "ksb358",
    "group": "B",
    "gtag": "창업도약",
    "title": "D-유니콘 프로젝트",
@@ -15451,7 +15104,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks360",
+   "id": "ksb359",
    "group": "A",
    "gtag": "예비창업",
    "title": "울산창업 U 시리즈",
@@ -15479,7 +15132,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks361",
+   "id": "ksb360",
    "group": "A",
    "gtag": "예비창업",
    "title": "울산창업 L 시리즈",
@@ -15508,7 +15161,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks362",
+   "id": "ksb361",
    "group": "A",
    "gtag": "예비창업",
    "title": "울산창업 S 시리즈",
@@ -15537,7 +15190,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks363",
+   "id": "ksb362",
    "group": "A",
    "gtag": "창업",
    "title": "울산창업 A 시리즈",
@@ -15566,7 +15219,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks364",
+   "id": "ksb363",
    "group": "B",
    "gtag": "창업도약",
    "title": "울주군 청년 창업아카데미",
@@ -15595,7 +15248,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks365",
+   "id": "ksb364",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업점포 지원사업 운영",
@@ -15625,7 +15278,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks366",
+   "id": "ksb365",
    "group": "A",
    "gtag": "예비창업",
    "title": "세종 창업벤처패키지 운영",
@@ -15654,7 +15307,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks367",
+   "id": "ksb366",
    "group": "A",
    "gtag": "예비창업",
    "title": "경기도 대학생 융합기술 창업지원",
@@ -15683,7 +15336,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks368",
+   "id": "ksb367",
    "group": "B",
    "gtag": "창업도약",
    "title": "민간주도 오픈이노베이션 지원",
@@ -15712,7 +15365,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks369",
+   "id": "ksb368",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "민간투자연계형 기술창업지원",
@@ -15741,7 +15394,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks370",
+   "id": "ksb369",
    "group": "A",
    "gtag": "예비창업",
    "title": "예비ㆍ초기기술창업지원",
@@ -15770,7 +15423,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks371",
+   "id": "ksb370",
    "group": "A",
    "gtag": "예비창업",
    "title": "맞춤형 창업지원사업",
@@ -15798,7 +15451,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks372",
+   "id": "ksb371",
    "group": "B",
    "gtag": "창업도약",
    "title": "고양시 초기창업기업 지원프로그램 운영",
@@ -15827,7 +15480,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks373",
+   "id": "ksb372",
    "group": "A",
    "gtag": "예비창업",
    "title": "WoW! Makers 시제품 제작지원사업 (화성시 WoW! Makers 시제품 제작지원 사업)",
@@ -15855,7 +15508,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks374",
+   "id": "ksb373",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "성남오픈이노베이션",
@@ -15884,7 +15537,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks375",
+   "id": "ksb374",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "성남 융복합 로컬크리에이터",
@@ -15913,7 +15566,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks376",
+   "id": "ksb375",
    "group": "A",
    "gtag": "창업",
    "title": "창업기업 사업화 지원",
@@ -15943,7 +15596,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks377",
+   "id": "ksb376",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "창업기업민간투자연계지원",
@@ -15972,7 +15625,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks378",
+   "id": "ksb377",
    "group": "A",
    "gtag": "창업",
    "title": "IP-C&D 전략지원",
@@ -16001,7 +15654,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks379",
+   "id": "ksb378",
    "group": "A",
    "gtag": "예비창업",
    "title": "마을?청년 공유 플랫폼",
@@ -16029,7 +15682,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks380",
+   "id": "ksb379",
    "group": "A",
    "gtag": "예비창업",
    "title": "성남청년 창업 역량강화프로젝트『THE 와플』",
@@ -16057,7 +15710,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks381",
+   "id": "ksb380",
    "group": "A",
    "gtag": "창업",
    "title": "청년창업기업 액셀러레이팅 지원",
@@ -16086,7 +15739,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks382",
+   "id": "ksb381",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 육성을 위한 창업자금 지원",
@@ -16115,7 +15768,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks383",
+   "id": "ksb382",
    "group": "A",
    "gtag": "예비창업",
    "title": "안성맞춤 창업 통합지원사업",
@@ -16144,7 +15797,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks384",
+   "id": "ksb383",
    "group": "A",
    "gtag": "창업",
    "title": "가평군 첫 출발 응원 창업 소상공인 지원 사업",
@@ -16173,7 +15826,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks385",
+   "id": "ksb384",
    "group": "A",
    "gtag": "예비창업",
    "title": "가평 사회적경제 창업팀 육성사업",
@@ -16201,7 +15854,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks386",
+   "id": "ksb385",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업중심대학 지원사업",
@@ -16230,7 +15883,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks387",
+   "id": "ksb386",
    "group": "A",
    "gtag": "예비창업",
    "title": "2026년 예비창업패키지 지원사업",
@@ -16258,7 +15911,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks388",
+   "id": "ksb387",
    "group": "A",
    "gtag": "예비창업",
    "title": "2026년 창업도약패키지 지원사업",
@@ -16287,7 +15940,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks389",
+   "id": "ksb388",
    "group": "A",
    "gtag": "예비창업",
    "title": "Monday Batch 100 프로그램",
@@ -16315,7 +15968,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks390",
+   "id": "ksb389",
    "group": "A",
    "gtag": "예비창업",
    "title": "이차전지 스타트업 육성 플랫폼 구축 사업",
@@ -16343,7 +15996,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks391",
+   "id": "ksb390",
    "group": "A",
    "gtag": "창업",
    "title": "창업BUS 프로그램 운영",
@@ -16372,7 +16025,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks392",
+   "id": "ksb391",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "2026년 충북 스타트업 액셀러레이팅 지원사업",
@@ -16401,7 +16054,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks393",
+   "id": "ksb392",
    "group": "A",
    "gtag": "예비창업",
    "title": "충북 콘텐츠코리아랩 운영",
@@ -16429,7 +16082,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks394",
+   "id": "ksb393",
    "group": "A",
    "gtag": "창업",
    "title": "청년 창업 우수기업맞춤형 지원",
@@ -16459,7 +16112,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks396",
+   "id": "ksb395",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년 창업·창직 지원사업",
@@ -16489,7 +16142,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks397",
+   "id": "ksb396",
    "group": "A",
    "gtag": "예비창업",
    "title": "충남 청년 로컬창업 생태계 구축 프로젝트 Y:LOCAL",
@@ -16518,7 +16171,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks398",
+   "id": "ksb397",
    "group": "A",
    "gtag": "예비창업",
    "title": "중장년 재도약 창업지원사업",
@@ -16546,7 +16199,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks400",
+   "id": "ksb399",
    "group": "A",
    "gtag": "예비창업",
    "title": "해양수산 창업투자 지원사업",
@@ -16574,7 +16227,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks401",
+   "id": "ksb400",
    "group": "A",
    "gtag": "예비창업",
    "title": "여수시 청년 도전 창업 지원",
@@ -16602,7 +16255,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks402",
+   "id": "ksb401",
    "group": "A",
    "gtag": "창업",
    "title": "여수시 청년 소상공인 맞춤형 방문 컨설팅",
@@ -16631,7 +16284,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks403",
+   "id": "ksb402",
    "group": "A",
    "gtag": "창업",
    "title": "강진군 청년 창업 지원사업",
@@ -16661,7 +16314,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks404",
+   "id": "ksb403",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "경북 TIPS(기술창업)지원 프로그램",
@@ -16690,7 +16343,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks405",
+   "id": "ksb404",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "경북의 저력 딥테크부스터 프로그램",
@@ -16719,7 +16372,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks406",
+   "id": "ksb405",
    "group": "B",
    "gtag": "창업도약",
    "title": "경북 개방형 혁신 스타트업 지원",
@@ -16748,7 +16401,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks407",
+   "id": "ksb406",
    "group": "A",
    "gtag": "예비창업",
    "title": "2026 경북 예비유니콘 성장지원",
@@ -16777,7 +16430,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks408",
+   "id": "ksb407",
    "group": "B",
    "gtag": "창업도약",
    "title": "경북 로컬 체인지업",
@@ -16807,7 +16460,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks409",
+   "id": "ksb408",
    "group": "B",
    "gtag": "창업도약",
    "title": "2026 경북 소셜벤처 활성화 사업",
@@ -16836,7 +16489,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks410",
+   "id": "ksb409",
    "group": "B",
    "gtag": "창업도약",
    "title": "2026 사회적경제 글로벌진출 성공이음액셀러레이팅",
@@ -16866,7 +16519,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks411",
+   "id": "ksb410",
    "group": "A",
    "gtag": "예비창업",
    "title": "비즈니스 플랜 콘테스트 개최",
@@ -16894,7 +16547,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks412",
+   "id": "ksb411",
    "group": "A",
    "gtag": "예비창업",
    "title": "경북예비창업발굴육성지원",
@@ -16922,7 +16575,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks413",
+   "id": "ksb412",
    "group": "A",
    "gtag": "예비창업",
    "title": "포항시 경북청년 예비창업가 육성사업",
@@ -16950,7 +16603,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks414",
+   "id": "ksb413",
    "group": "A",
    "gtag": "창업",
    "title": "청년스타트업 지원사업 (포항시 청년창업LAB)",
@@ -16979,7 +16632,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks415",
+   "id": "ksb414",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "포항시 창업보육센터 졸업기업육성 사업",
@@ -17008,7 +16661,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks416",
+   "id": "ksb415",
    "group": "B",
    "gtag": "창업도약",
    "title": "안동시 창업 첫걸음 지원사업",
@@ -17037,7 +16690,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks417",
+   "id": "ksb416",
    "group": "C",
    "gtag": "고용·인력",
    "title": "안동시 창업 돋움 지원사업",
@@ -17066,7 +16719,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks418",
+   "id": "ksb417",
    "group": "C",
    "gtag": "고용·인력",
    "title": "안동시 ValueUP(밸류업) 지원사업",
@@ -17095,7 +16748,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks419",
+   "id": "ksb418",
    "group": "C",
    "gtag": "고용·인력",
    "title": "안동시 기업맞춤형 지원사업",
@@ -17124,7 +16777,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks420",
+   "id": "ksb419",
    "group": "B",
    "gtag": "창업도약",
    "title": "구미시 New Venture 창업지원 사업",
@@ -17153,7 +16806,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks421",
+   "id": "ksb420",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "구미형 TipTop 스타트업 육성사업",
@@ -17182,7 +16835,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks422",
+   "id": "ksb421",
    "group": "A",
    "gtag": "예비창업",
    "title": "영양군 청년창업 지원사업",
@@ -17212,7 +16865,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks423",
+   "id": "ksb422",
    "group": "A",
    "gtag": "예비창업",
    "title": "성주군 청년 스타트업 지원 사업",
@@ -17240,7 +16893,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks424",
+   "id": "ksb423",
    "group": "A",
    "gtag": "창업",
    "title": "예천군 청년 창업 키움·돋움사업",
@@ -17269,7 +16922,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks425",
+   "id": "ksb424",
    "group": "A",
    "gtag": "예비창업",
    "title": "경남 자원연계형 로컬창업 활성화 지원",
@@ -17297,7 +16950,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks426",
+   "id": "ksb425",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "C-블루윙 펀드 조성",
@@ -17327,7 +16980,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks427",
+   "id": "ksb426",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "청년기술창업수당 지원",
@@ -17356,7 +17009,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks428",
+   "id": "ksb427",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업기업(예비창업자)지원",
@@ -17384,7 +17037,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks429",
+   "id": "ksb428",
    "group": "A",
    "gtag": "창업",
    "title": "스타트업 마케팅 강화 사업",
@@ -17413,7 +17066,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks430",
+   "id": "ksb429",
    "group": "A",
    "gtag": "예비창업",
    "title": "양산시 로컬크리에이터 육성 사업",
@@ -17441,7 +17094,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks431",
+   "id": "ksb430",
    "group": "A",
    "gtag": "예비창업",
    "title": "거제시 로컬크리에이터 육성 사업",
@@ -17469,7 +17122,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks432",
+   "id": "ksb431",
    "group": "A",
    "gtag": "예비창업",
    "title": "함안청년창업가 지속성장 지원 사업",
@@ -17497,7 +17150,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks433",
+   "id": "ksb432",
    "group": "B",
    "gtag": "창업도약",
    "title": "우리지역 스타기업 만들기 사업",
@@ -17526,7 +17179,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks434",
+   "id": "ksb433",
    "group": "A",
    "gtag": "창업",
    "title": "고성 로컬브랜딩 청년창업 점프업 지원사업",
@@ -17555,7 +17208,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks435",
+   "id": "ksb434",
    "group": "A",
    "gtag": "창업",
    "title": "합천군 청년·여성 창업지원사업",
@@ -17585,7 +17238,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks436",
+   "id": "ksb435",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "선도기업 연계 스타트업 협업 지원사업",
@@ -17615,7 +17268,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks437",
+   "id": "ksb436",
    "group": "A",
    "gtag": "예비창업",
    "title": "김해형 공동기술창업 지원센터",
@@ -17643,7 +17296,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks438",
+   "id": "ksb437",
    "group": "A",
    "gtag": "예비창업",
    "title": "스타트업 액셀러레이팅 지원",
@@ -17672,7 +17325,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks439",
+   "id": "ksb438",
    "group": "A",
    "gtag": "예비창업",
    "title": "대학 특화 청년 창업 활성화 지원",
@@ -17701,7 +17354,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks440",
+   "id": "ksb439",
    "group": "A",
    "gtag": "예비창업",
    "title": "G-스타트업 예비창업지원사업",
@@ -17729,7 +17382,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks441",
+   "id": "ksb440",
    "group": "B",
    "gtag": "창업도약",
    "title": "G-스타트업 초기창업지원사업",
@@ -17758,7 +17411,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks442",
+   "id": "ksb441",
    "group": "B",
    "gtag": "창업도약",
    "title": "G-스타트업 창업도약지원사업",
@@ -17787,7 +17440,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks443",
+   "id": "ksb442",
    "group": "A",
    "gtag": "예비창업",
    "title": "강원 로컬벤처기업 성장단계별 육성사업",
@@ -17815,7 +17468,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks444",
+   "id": "ksb443",
    "group": "A",
    "gtag": "예비창업",
    "title": "반려동물산업 창업 및 영업지원",
@@ -17843,7 +17496,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks445",
+   "id": "ksb444",
    "group": "A",
    "gtag": "창업",
    "title": "청년창업 희망키움 사업",
@@ -17873,7 +17526,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks446",
+   "id": "ksb445",
    "group": "B",
    "gtag": "창업도약",
    "title": "속초시 생애 첫 창업지원금 지원",
@@ -17903,7 +17556,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks447",
+   "id": "ksb446",
    "group": "A",
    "gtag": "예비창업",
    "title": "삼척형 청년 스타트업 창업 지원사업",
@@ -17932,7 +17585,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks448",
+   "id": "ksb447",
    "group": "A",
    "gtag": "예비창업",
    "title": "홍천군 청년창업지원사업",
@@ -17960,7 +17613,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks449",
+   "id": "ksb448",
    "group": "A",
    "gtag": "예비창업",
    "title": "영월군 청년 창업육성 지원사업",
@@ -17990,7 +17643,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks450",
+   "id": "ksb449",
    "group": "A",
    "gtag": "예비창업",
    "title": "희망점포청년 창업지원사업",
@@ -18018,7 +17671,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks451",
+   "id": "ksb450",
    "group": "A",
    "gtag": "창업",
    "title": "인제군 창업지원사업",
@@ -18047,7 +17700,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks452",
+   "id": "ksb451",
    "group": "A",
    "gtag": "예비창업",
    "title": "시군 청년혁신가 예비창업 지원",
@@ -18075,7 +17728,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks453",
+   "id": "ksb452",
    "group": "A",
    "gtag": "창업",
    "title": "전북형 창업패키지 지원",
@@ -18104,7 +17757,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks454",
+   "id": "ksb453",
    "group": "B",
    "gtag": "창업도약",
    "title": "전북형 소셜벤처 육성사업",
@@ -18133,7 +17786,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks455",
+   "id": "ksb454",
    "group": "A",
    "gtag": "예비창업",
    "title": "시제품 제작 지원",
@@ -18162,7 +17815,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks456",
+   "id": "ksb455",
    "group": "B",
    "gtag": "창업도약",
    "title": "성장도약 창업패키지",
@@ -18191,7 +17844,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks457",
+   "id": "ksb456",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업 희망키움 사업",
@@ -18219,7 +17872,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks458",
+   "id": "ksb457",
    "group": "A",
    "gtag": "예비창업",
    "title": "정읍시 청년창업 지원사업",
@@ -18248,7 +17901,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks459",
+   "id": "ksb458",
    "group": "A",
    "gtag": "예비창업",
    "title": "청년창업 더하기지원사업",
@@ -18276,7 +17929,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks460",
+   "id": "ksb459",
    "group": "A",
    "gtag": "예비창업",
    "title": "장수군 청년혁신가예비창업지원",
@@ -18304,7 +17957,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks461",
+   "id": "ksb460",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "금융혁신 벤처창업 지원사업",
@@ -18333,7 +17986,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks462",
+   "id": "ksb461",
    "group": "A",
    "gtag": "예비창업",
    "title": "익산형 위드로컬 청년창업 지원사업",
@@ -18361,7 +18014,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks463",
+   "id": "ksb462",
    "group": "A",
    "gtag": "예비창업",
    "title": "익산형 청년창업 액셀러레이팅 지원사업(TIPS 연계형)",
@@ -18389,7 +18042,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks464",
+   "id": "ksb463",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "소상공인 맞춤형 디지털 전환 패키지 지원",
@@ -18418,7 +18071,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks465",
+   "id": "ksb464",
    "group": "A",
    "gtag": "예비창업",
    "title": "예비창업인(in) 프로젝트 지원사업",
@@ -18446,7 +18099,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks466",
+   "id": "ksb465",
    "group": "B",
    "gtag": "창업도약",
    "title": "혁신창업 성장 맞춤형 지원사업",
@@ -18475,7 +18128,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks467",
+   "id": "ksb466",
    "group": "B",
    "gtag": "창업도약",
    "title": "청년창업 스케일업 지원사업",
@@ -18504,7 +18157,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks468",
+   "id": "ksb467",
    "group": "A",
    "gtag": "창업",
    "title": "벤처기업 육성사업",
@@ -18533,7 +18186,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks469",
+   "id": "ksb468",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "중소기업 R&D과제 상시발굴 지원",
@@ -18563,7 +18216,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks470",
+   "id": "ksb469",
    "group": "A",
    "gtag": "창업",
    "title": "도내 ICT 기업 지원사업",
@@ -18592,7 +18245,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks471",
+   "id": "ksb470",
    "group": "A",
    "gtag": "예비창업",
    "title": "IP활용 창업‧ 성장 지원사업",
@@ -18621,7 +18274,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks472",
+   "id": "ksb471",
    "group": "A",
    "gtag": "예비창업",
    "title": "제주콘텐츠코리아랩 운영(JEMI 디딤돌사업)",
@@ -18649,7 +18302,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks473",
+   "id": "ksb472",
    "group": "B",
    "gtag": "창업도약",
    "title": "제주관광 스타트업 육성사업",
@@ -18678,7 +18331,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks477",
+   "id": "ksb476",
    "group": "A",
    "gtag": "예비창업",
    "title": "수산산업창업 투자지원사업",
@@ -18706,7 +18359,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks479",
+   "id": "ksb478",
    "group": "B",
    "gtag": "창업도약",
    "title": "초격차 스타트업 프로젝트",
@@ -18735,7 +18388,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks480",
+   "id": "ksb479",
    "group": "B",
    "gtag": "창업도약",
    "title": "민관공동창업자발굴육성사업",
@@ -18764,7 +18417,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks481",
+   "id": "ksb480",
    "group": "A",
    "gtag": "예비창업",
    "title": "창업중심대학",
@@ -18792,7 +18445,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks482",
+   "id": "ksb481",
    "group": "A",
    "gtag": "재창업",
    "title": "재도전성공패키지",
@@ -18821,7 +18474,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks483",
+   "id": "ksb482",
    "group": "A",
    "gtag": "창업",
    "title": "창업성공패키지(청년창업사관학교)",
@@ -18850,7 +18503,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks484",
+   "id": "ksb483",
    "group": "B",
    "gtag": "창업도약",
    "title": "제품화 ALL-In-One 팩",
@@ -18879,7 +18532,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks485",
+   "id": "ksb484",
    "group": "B",
    "gtag": "창업도약",
    "title": "첨단제조 스타트업 스케일업 지원사업",
@@ -18909,7 +18562,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks486",
+   "id": "ksb485",
    "group": "A",
    "gtag": "예비창업",
    "title": "에코스타트업 지원사업",
@@ -18937,7 +18590,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks487",
+   "id": "ksb486",
    "group": "A",
    "gtag": "예비창업",
    "title": "농식품 벤처육성지원",
@@ -18965,7 +18618,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks488",
+   "id": "ksb487",
    "group": "A",
    "gtag": "예비창업",
    "title": "농식품 기술창업 액셀러레이터 육성지원",
@@ -18993,7 +18646,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks489",
+   "id": "ksb488",
    "group": "A",
    "gtag": "예비창업",
    "title": "농식품 기술평가 지원",
@@ -19021,7 +18674,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks490",
+   "id": "ksb489",
    "group": "B",
    "gtag": "글로벌·판로",
    "title": "농식품 판로지원",
@@ -19050,7 +18703,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks491",
+   "id": "ksb490",
    "group": "B",
    "gtag": "창업도약",
    "title": "민간투자기반 스케일업 지원",
@@ -19079,7 +18732,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks492",
+   "id": "ksb491",
    "group": "B",
    "gtag": "창업도약",
    "title": "청년식품 창업성장 지원사업",
@@ -19109,7 +18762,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks493",
+   "id": "ksb492",
    "group": "A",
    "gtag": "창업",
    "title": "예술분야 창업기업 지원",
@@ -19139,7 +18792,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks494",
+   "id": "ksb493",
    "group": "A",
    "gtag": "예비창업",
    "title": "스포츠산업 예비초기창업․창업도약 지원",
@@ -19167,7 +18820,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks495",
+   "id": "ksb494",
    "group": "A",
    "gtag": "예비창업",
    "title": "스포츠산업 창업중기(액셀러레이팅) 지원",
@@ -19195,7 +18848,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks496",
+   "id": "ksb495",
    "group": "B",
    "gtag": "창업도약",
    "title": "(콘텐츠) 액셀러레이터 연계 지원",
@@ -19224,7 +18877,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks497",
+   "id": "ksb496",
    "group": "B",
    "gtag": "창업도약",
    "title": "(콘텐츠) 투자 연계 창업도약",
@@ -19253,7 +18906,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks498",
+   "id": "ksb497",
    "group": "B",
    "gtag": "창업도약",
    "title": "선도기업 연계 동반성장 지원",
@@ -19282,7 +18935,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks499",
+   "id": "ksb498",
    "group": "A",
    "gtag": "예비창업",
    "title": "전통문화 청년창업 육성지원 사업",
@@ -19310,7 +18963,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks500",
+   "id": "ksb499",
    "group": "A",
    "gtag": "예비창업",
    "title": "관광벤처사업 공모전",
@@ -19338,7 +18991,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks501",
+   "id": "ksb500",
    "group": "B",
    "gtag": "창업도약",
    "title": "관광 오픈이노베이션 프로그램",
@@ -19367,7 +19020,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks502",
+   "id": "ksb501",
    "group": "A",
    "gtag": "예비창업",
    "title": "경북‧구미 방산혁신클러스터 전주기 방산 창업지원",
@@ -19395,7 +19048,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks503",
+   "id": "ksb502",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "대전 방산혁신클러스터 드론특화 창업 지원사업",
@@ -19425,7 +19078,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks504",
+   "id": "ksb503",
    "group": "D",
    "gtag": "기술·디지털",
    "title": "유망 창업기업 투자유치 지원사업",
@@ -19455,7 +19108,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks506",
+   "id": "ksb505",
    "group": "A",
    "gtag": "예비창업",
    "title": "소규모 신규 창업자 지원사업",
@@ -19483,7 +19136,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks507",
+   "id": "ksb506",
    "group": "A",
    "gtag": "예비창업",
    "title": "해양신산업 인큐베이팅 지원 사업",
@@ -19511,7 +19164,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks508",
+   "id": "ksb507",
    "group": "A",
    "gtag": "창업",
    "title": "청년 산림창업 마중물 지원",
@@ -19540,7 +19193,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks509",
+   "id": "ksb508",
    "group": "B",
    "gtag": "창업도약",
    "title": "초기창업패키지",
@@ -19569,7 +19222,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks510",
+   "id": "ksb509",
    "group": "B",
    "gtag": "창업도약",
    "title": "창업도약패키지",
@@ -19598,7 +19251,7 @@
    "source": "통합공고"
   },
   {
-   "id": "ks511",
+   "id": "ksb510",
    "group": "A",
    "gtag": "예비창업",
    "title": "예비창업패키지",
